@@ -19,25 +19,25 @@ Easily add 42+ themes with support for light and dark modes. Add a complete them
 ### Next.js
 
 ```bash
-npx shadcn@latest add https://your-domain.com/r/nextjs/theme-system.json
+npx shadcn@latest add https://tweakcn-picker.vercel.app/r/nextjs/theme-system.json
 ```
 
 ### Vite (React)
 
 ```bash
-npx shadcn@latest add https://your-domain.com/r/vite/theme-system.json
+npx shadcn@latest add https://tweakcn-picker.vercel.app/r/vite/theme-system.json
 ```
 
 ### Astro
 
 ```bash
-npx shadcn@latest add https://your-domain.com/r/astro/theme-system.json
+npx shadcn@latest add https://tweakcn-picker.vercel.app/r/astro/theme-system.json
 ```
 
 ### Remix
 
 ```bash
-npx shadcn@latest add https://your-domain.com/r/remix/theme-system.json
+npx shadcn@latest add https://tweakcn-picker.vercel.app/r/remix/theme-system.json
 ```
 
 ## Adding Themes
@@ -45,8 +45,8 @@ npx shadcn@latest add https://your-domain.com/r/remix/theme-system.json
 After installing the theme system, add individual themes:
 
 ```bash
-npx shadcn@latest add https://your-domain.com/r/theme-catppuccin.json
-npx shadcn@latest add https://your-domain.com/r/theme-cyberpunk.json
+npx shadcn@latest add https://tweakcn-picker.vercel.app/r/theme-catppuccin.json
+npx shadcn@latest add https://tweakcn-picker.vercel.app/r/theme-cyberpunk.json
 ```
 
 ## Available Themes
