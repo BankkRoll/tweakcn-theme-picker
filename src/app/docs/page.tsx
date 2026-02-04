@@ -1,5 +1,4 @@
 import {
-  AlertCircle,
   ArrowRight,
   CheckCircle2,
   Palette,
@@ -7,11 +6,11 @@ import {
   Terminal,
 } from "lucide-react";
 
+import { FrameworkInstall } from "@/components/docs/framework-install";
+import { InstallCommand } from "@/components/docs/install-command";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { FrameworkInstall } from "@/components/docs/framework-install";
-import { InstallCommand } from "@/components/docs/install-command";
 import Link from "next/link";
 
 export const metadata = {
@@ -42,58 +41,11 @@ export default function DocsPage() {
       <div className="space-y-4">
         <h2 className="text-2xl font-semibold">Quick Start</h2>
         <p className="text-muted-foreground">
-          Install the complete theme system with one command. Includes all 38+
+          Install the complete theme system with one command. Includes all 42+
           themes, the ThemeProvider, and everything you need.
         </p>
 
-        <FrameworkInstall />
-      </div>
-
-      {/* Critical Note */}
-      <div className="space-y-4">
-        <h2 className="text-2xl font-semibold">Critical Setup</h2>
-
-        <Card className="p-4 border-red-500/50 bg-red-500/5">
-          <div className="flex gap-3">
-            <div className="shrink-0">
-              <div className="h-8 w-8 rounded-full bg-red-500/10 flex items-center justify-center">
-                <AlertCircle className="h-4 w-4 text-red-500" />
-              </div>
-            </div>
-            <div className="space-y-2">
-              <h3 className="font-medium">Remove default CSS variables</h3>
-              <p className="text-sm text-muted-foreground">
-                These themes use{" "}
-                <code className="bg-muted px-1 rounded">data-theme</code>{" "}
-                attributes, NOT{" "}
-                <code className="bg-muted px-1 rounded">:root</code> and{" "}
-                <code className="bg-muted px-1 rounded">.dark</code> selectors.
-                If your globals.css has default variables like this,{" "}
-                <strong>remove them</strong>:
-              </p>
-              <div className="bg-zinc-950 rounded-md p-3 text-xs font-mono text-zinc-400 overflow-x-auto">
-                <div className="text-red-400">
-                  /* ❌ DELETE THIS from globals.css */
-                </div>
-                <div className="text-zinc-500">:root {"{"}</div>
-                <div className="text-zinc-500 pl-4">
-                  --background: 0 0% 100%;
-                </div>
-                <div className="text-zinc-500 pl-4">--foreground: ...</div>
-                <div className="text-zinc-500">{"}"}</div>
-                <div className="text-zinc-500">.dark {"{"}</div>
-                <div className="text-zinc-500 pl-4">
-                  --background: 222 84% 4.9%;
-                </div>
-                <div className="text-zinc-500">{"}"}</div>
-              </div>
-              <p className="text-sm text-red-600 dark:text-red-400 font-medium">
-                The theme files provide all CSS variables. Default :root/.dark
-                will override them!
-              </p>
-            </div>
-          </div>
-        </Card>
+        <FrameworkInstall showSetupNotes />
       </div>
 
       {/* What's Included */}
@@ -116,13 +68,14 @@ export default function DocsPage() {
                 "Pre-configured provider component with next-themes integration",
             },
             {
+              title: "ThemeSwitcher Component",
+              description:
+                "Ready-to-use dropdown component for switching themes and modes",
+            },
+            {
               title: "Custom Typography",
               description:
                 "Carefully selected Google Fonts that complement the theme",
-            },
-            {
-              title: "Shadow System",
-              description: "Theme-aware shadow variables for consistent depth",
             },
           ].map((item) => (
             <Card key={item.title} className="p-4">
@@ -162,6 +115,10 @@ export default function DocsPage() {
                   theme provider component
                 </li>
                 <li>
+                  • <strong>ThemeSwitcher</strong> - Adds the theme switcher
+                  component
+                </li>
+                <li>
                   • <strong>styles/themes/</strong> - Adds all theme CSS files
                 </li>
                 <li>
@@ -181,7 +138,7 @@ export default function DocsPage() {
       <div className="space-y-4">
         <h2 className="text-2xl font-semibold">Install Individual Themes</h2>
         <p className="text-muted-foreground">
-          Prefer to install just one theme? You can install any of our 38+
+          Prefer to install just one theme? You can install any of our 42+
           themes individually:
         </p>
 

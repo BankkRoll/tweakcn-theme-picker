@@ -1,13 +1,14 @@
 "use client";
 
 import { Check, Moon, Palette, Sun } from "lucide-react";
+import { sortedThemes, themes } from "@/lib/themes-config";
 import { useEffect, useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { Separator } from "../ui/separator";
 import { cn } from "@/lib/utils";
-import { sortedThemes, themes } from "@/lib/themes-config";
-import { useTheme } from "next-themes";
 import { motion } from "motion/react";
+import { useTheme } from "next-themes";
 
 function parseTheme(theme: string | undefined): {
   colorTheme: string;
@@ -55,9 +56,6 @@ export function ThemeSwitcherPreview({
   const setMode = (newMode: "light" | "dark") => {
     setTheme(`${colorTheme}-${newMode}`);
   };
-
-  // Show first 8 themes in preview
-  const previewThemes = sortedThemes.slice(0, 8);
 
   return (
     <div className="relative inline-block">
@@ -146,10 +144,10 @@ export function ThemeSwitcherPreview({
           initial={{ opacity: 0, x: 10, scale: 0.95 }}
           animate={{ opacity: 1, x: 0, scale: 1 }}
           transition={{ duration: 0.2, delay: 0.1 }}
-          className="absolute top-30 left-50 w-52 rounded-lg border bg-popover p-1 shadow-lg z-20"
+          className="absolute top-30 left-50 w-52 rounded-lg border bg-popover p-1 shadow-lg z-20 overflow-hidden"
         >
-          <div className="max-h-64 overflow-y-auto">
-            {previewThemes.map((t, i) => (
+          <div className="max-h-80 overflow-y-auto scrollbar-thin">
+            {sortedThemes.map((t, i) => (
               <motion.button
                 key={t.name}
                 initial={{ opacity: 0, x: 5 }}
@@ -174,9 +172,18 @@ export function ThemeSwitcherPreview({
               </motion.button>
             ))}
           </div>
-          <div className="my-1 h-px bg-border" />
+          <Separator />
           <div className="px-2 py-1.5 text-xs text-muted-foreground text-center">
-            +{sortedThemes.length - previewThemes.length} more themes
+            Themes by{" "}
+            <a
+              href="https://tweakcn.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-foreground hover:underline"
+              onClick={(e) => e.stopPropagation()}
+            >
+              tweakcn
+            </a>
           </div>
         </motion.div>
       )}

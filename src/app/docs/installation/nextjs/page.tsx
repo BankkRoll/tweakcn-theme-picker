@@ -1,3 +1,4 @@
+import { Step, Steps } from "@/components/docs/steps";
 import {
   Accordion,
   AccordionContent,
@@ -5,14 +6,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { AlertCircle, AlertTriangle, CheckCircle2 } from "lucide-react";
-import { Step, Steps } from "@/components/docs/steps";
+import { AlertTriangle, CheckCircle2, Info } from "lucide-react";
 
-import { Badge } from "@/components/ui/badge";
-import { Card } from "@/components/ui/card";
 import { CodeBlockDoc } from "@/components/docs/code-block-doc";
 import { InstallCommand } from "@/components/docs/install-command";
 import { NextJsIcon } from "@/components/framework-icons";
+import { Badge } from "@/components/ui/badge";
+import { Card } from "@/components/ui/card";
 
 export const metadata = {
   title: "Next.js Installation",
@@ -55,22 +55,34 @@ export default function NextJsInstallationPage() {
         </div>
       </div>
 
-      {/* Critical Note */}
-      <Card className="p-4 border-red-500/50 bg-red-500/5">
+      {/* Note about CSS variables */}
+      <Card className="p-4 border-primary/50 bg-primary/5">
         <div className="flex gap-3">
-          <AlertCircle className="h-5 w-5 text-red-500 shrink-0 mt-0.5" />
+          <Info className="h-5 w-5 text-primary shrink-0 mt-0.5" />
           <div className="space-y-1">
-            <h3 className="font-medium text-red-600 dark:text-red-400">
-              Remove default CSS variables
-            </h3>
+            <h3 className="font-medium">Flash Prevention Setup</h3>
             <p className="text-sm text-muted-foreground">
-              tweakcn/theme-picker themes use{" "}
+              tweakcn/theme-picker uses{" "}
               <code className="bg-muted px-1 rounded">data-theme</code>{" "}
-              attributes. You must <strong>remove</strong> any{" "}
-              <code className="bg-muted px-1 rounded">:root</code> and{" "}
-              <code className="bg-muted px-1 rounded">.dark</code> variable
-              blocks from your globals.css, or themes won&apos;t work.
+              attributes. To prevent flash on load, you need:
             </p>
+            <ul className="text-sm text-muted-foreground list-disc list-inside space-y-1 mt-2">
+              <li>
+                <strong>:root fallback</strong> in CSS with your default theme
+                colors
+              </li>
+              <li>
+                <strong>Inline script</strong> in &lt;head&gt; to set data-theme
+                before render
+              </li>
+              <li>
+                Optional:{" "}
+                <code className="bg-muted px-1 rounded">
+                  @media (prefers-color-scheme)
+                </code>{" "}
+                for system preference support
+              </li>
+            </ul>
           </div>
         </div>
       </Card>
@@ -83,7 +95,7 @@ export default function NextJsInstallationPage() {
           <Step title="Install the theme system">
             <p>
               Run this single command to install the complete theme system. This
-              includes all 38+ themes, the ThemeProvider component, theme CSS,
+              includes all 42+ themes, the ThemeProvider component, theme CSS,
               and configures next-themes automatically.
             </p>
             <InstallCommand url="https://tweakcn-picker.vercel.app/r/nextjs/theme-system.json" />
@@ -98,15 +110,20 @@ export default function NextJsInstallationPage() {
             </Alert>
           </Step>
 
-          <Step title="Wrap your app with ThemeProvider">
+          <Step title="Set up your root layout">
             <p>
-              Add the ThemeProvider to your root layout. This enables theme
-              switching throughout your app.
+              Add the ThemeProvider and flash prevention script to your root
+              layout. The inline script in{" "}
+              <code className="bg-muted px-1 rounded">&lt;head&gt;</code> runs
+              before React hydrates, preventing any flash of unstyled content.
             </p>
             <CodeBlockDoc
               filename="app/layout.tsx"
               language="tsx"
-              highlightLines={[1, 9, 10, 11, 12, 13, 14, 15]}
+              highlightLines={[
+                1, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
+                26, 29, 30, 31, 32, 33, 34, 36,
+              ]}
               code={`import { ThemeProvider } from "@/components/providers/theme-provider"
 
 export default function RootLayout({
@@ -116,7 +133,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        {/* Flash Prevention: Apply theme before render */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: \`
+              (function() {
+                const stored = localStorage.getItem('theme');
+                if (stored) {
+                  document.documentElement.setAttribute('data-theme', stored);
+                } else {
+                  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                  document.documentElement.setAttribute('data-theme', isDark ? 'default-dark' : 'default-light');
+                }
+              })();
+            \`,
+          }}
+        />
+      </head>
       <body>
         <ThemeProvider
           attribute="data-theme"
@@ -131,19 +165,21 @@ export default function RootLayout({
   )
 }`}
             />
-            <Alert className="overflow-hidden">
-              <AlertTriangle className="h-4 w-4" />
-              <AlertTitle>Important</AlertTitle>
+            <Alert className="overflow-hidden mt-4">
+              <Info className="h-4 w-4" />
+              <AlertTitle>Why the inline script?</AlertTitle>
               <AlertDescription className="wrap-anywhere">
-                Add{" "}
+                The script runs synchronously before any CSS or React loads,
+                setting{" "}
+                <code className="bg-muted px-1 rounded text-foreground text-xs">
+                  data-theme
+                </code>{" "}
+                immediately. This prevents flash because CSS variables are
+                applied before the first paint. Add{" "}
                 <code className="bg-muted px-1 rounded text-foreground text-xs">
                   suppressHydrationWarning
                 </code>{" "}
-                to the{" "}
-                <code className="bg-muted px-1 rounded text-foreground text-xs">
-                  &lt;html&gt;
-                </code>{" "}
-                tag to prevent hydration warnings from next-themes.
+                to prevent hydration warnings.
               </AlertDescription>
             </Alert>
           </Step>
@@ -156,6 +192,7 @@ export default function RootLayout({
             <CodeBlockDoc
               filename="app/globals.css"
               language="css"
+              highlightLines={[4]}
               code={`@import "tailwindcss";
 
 /* tweakcn/theme-picker theme imports */
@@ -172,38 +209,32 @@ export default function RootLayout({
             />
           </Step>
 
-          <Step title="Add a theme toggle (optional)">
+          <Step title="Use the included ThemeSwitcher">
             <p>
-              Create a component to let users switch between light and dark
-              modes, or between different themes.
+              The CLI installs a complete ThemeSwitcher component that lets
+              users switch between all 42+ themes and toggle light/dark modes.
+              Import and use it anywhere in your app:
             </p>
             <CodeBlockDoc
-              filename="components/theme-toggle.tsx"
+              filename="Using the ThemeSwitcher"
               language="tsx"
-              code={`"use client"
+              highlightLines={[1, 7]}
+              code={`import { ThemeSwitcher } from "@/components/theme-switcher"
 
-import { Moon, Sun } from "lucide-react"
-import { useTheme } from "next-themes"
-import { Button } from "@/components/ui/button"
-
-export function ThemeToggle() {
-  const { theme, setTheme } = useTheme()
-  const isDark = theme?.endsWith("-dark")
-
-  const toggleMode = () => {
-    const currentTheme = theme?.replace("-light", "").replace("-dark", "")
-    setTheme(\`\${currentTheme}-\${isDark ? "light" : "dark"}\`)
-  }
-
+export function Header() {
   return (
-    <Button variant="ghost" size="icon" onClick={toggleMode}>
-      <Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-      <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-      <span className="sr-only">Toggle theme</span>
-    </Button>
+    <header>
+      <nav>{/* ... */}</nav>
+      <ThemeSwitcher />
+    </header>
   )
 }`}
             />
+            <p className="text-sm text-muted-foreground mt-3">
+              The ThemeSwitcher includes a dropdown menu with all available
+              themes, light/dark mode toggle, and displays the current theme
+              with a color indicator.
+            </p>
           </Step>
         </Steps>
       </div>
@@ -345,21 +376,43 @@ Examples:
           <AccordionItem value="flash-of-unstyled">
             <AccordionTrigger>Flash of unstyled content</AccordionTrigger>
             <AccordionContent>
-              <p className="text-sm text-muted-foreground wrap-anywhere">
-                Add{" "}
-                <code className="bg-muted px-1 rounded text-foreground text-xs">
-                  suppressHydrationWarning
-                </code>{" "}
-                to your{" "}
-                <code className="bg-muted px-1 rounded text-foreground text-xs">
-                  &lt;html&gt;
-                </code>{" "}
-                tag and ensure{" "}
-                <code className="bg-muted px-1 rounded text-foreground text-xs">
-                  disableTransitionOnChange
-                </code>{" "}
-                is set in ThemeProvider.
-              </p>
+              <div className="space-y-3">
+                <p className="text-sm text-muted-foreground wrap-anywhere">
+                  To prevent flash, you need both CSS fallbacks and an inline
+                  script. Add this to your layout&apos;s &lt;head&gt;:
+                </p>
+                <CodeBlockDoc
+                  filename="app/layout.tsx"
+                  language="tsx"
+                  code={`<head>
+  {/* Inline script to set theme before render */}
+  <script
+    dangerouslySetInnerHTML={{
+      __html: \`
+        (function() {
+          const stored = localStorage.getItem('theme');
+          if (stored) {
+            document.documentElement.setAttribute('data-theme', stored);
+          } else {
+            // Respect system preference for first-time visitors
+            const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.setAttribute('data-theme', isDark ? 'default-dark' : 'default-light');
+          }
+        })();
+      \`,
+    }}
+  />
+</head>`}
+                />
+                <p className="text-sm text-muted-foreground">
+                  Also ensure your globals.css has{" "}
+                  <code className="bg-muted px-1 rounded text-foreground text-xs">
+                    :root
+                  </code>{" "}
+                  fallback values that match your default theme, placed{" "}
+                  <strong>before</strong> the theme imports.
+                </p>
+              </div>
             </AccordionContent>
           </AccordionItem>
 

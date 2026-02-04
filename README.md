@@ -1,6 +1,8 @@
 # Theme Picker for shadcn/ui
 
-A collection of pre-built themes for shadcn/ui projects. Easily add multiple themes to your application with support for light and dark modes.
+Easily add 42+ themes with support for light and dark modes. Add a complete theme picker to your shadcn/ui app with a single command. OKLCH colors, custom fonts, light & dark modes for every theme.
+
+<img width="1944" height="1090" alt="image" src="https://github.com/user-attachments/assets/eb4ac43b-db61-43e1-a02a-65e707dbe099" />
 
 > This project is not affiliated with tweakcn. Themes are inspired by and adapted from the tweakcn theme collection.
 
@@ -50,6 +52,7 @@ npx shadcn@latest add https://your-domain.com/r/theme-cyberpunk.json
 ## Available Themes
 
 ### Minimal
+
 - Default
 - Mocha Mousse
 - Mono
@@ -58,6 +61,7 @@ npx shadcn@latest add https://your-domain.com/r/theme-cyberpunk.json
 - Clean Slate
 
 ### Colorful
+
 - Catppuccin
 - Bubblegum
 - Nature
@@ -72,6 +76,7 @@ npx shadcn@latest add https://your-domain.com/r/theme-cyberpunk.json
 - Northern Lights
 
 ### Branded
+
 - Claude
 - Vercel
 - T3 Chat
@@ -80,6 +85,7 @@ npx shadcn@latest add https://your-domain.com/r/theme-cyberpunk.json
 - Supabase
 
 ### Creative
+
 - Cyberpunk
 - Neo Brutalism
 - Doom 64
@@ -91,6 +97,7 @@ npx shadcn@latest add https://your-domain.com/r/theme-cyberpunk.json
 - Vintage Paper
 
 ### Dark
+
 - Cosmic Night
 - Midnight Bloom
 - Graphite
@@ -107,13 +114,15 @@ Wrap your application with the `ThemeProvider` component. This must be placed at
 // app/layout.tsx (Next.js) or main.tsx (Vite)
 import { ThemeProvider } from "@/components/theme-provider";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <ThemeProvider>
-          {children}
-        </ThemeProvider>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
@@ -121,6 +130,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 ```
 
 The `ThemeProvider` is pre-configured with:
+
 - `attribute="data-theme"` - applies theme via data attribute
 - `themes={allThemeValues}` - all available theme values
 - `defaultTheme="default-dark"` - default theme on first load
@@ -145,6 +155,7 @@ export function Header() {
 ```
 
 The switcher provides:
+
 - Light/dark mode toggle
 - Color theme selection with visual previews
 - Current theme indicator
@@ -180,6 +191,7 @@ All themes follow the pattern `{name}-{mode}`:
 ```
 
 Examples:
+
 - `default-dark`
 - `catppuccin-light`
 - `cyberpunk-dark`
@@ -191,11 +203,11 @@ Each theme is defined with the following structure:
 
 ```ts
 interface ThemeConfig {
-  name: string;        // Theme identifier (e.g., "catppuccin")
-  title: string;       // Display name (e.g., "Catppuccin")
+  name: string; // Theme identifier (e.g., "catppuccin")
+  title: string; // Display name (e.g., "Catppuccin")
   primaryLight: string; // Primary color for light mode (oklch)
-  primaryDark: string;  // Primary color for dark mode (oklch)
-  fontSans: string;    // Font family
+  primaryDark: string; // Primary color for dark mode (oklch)
+  fontSans: string; // Font family
 }
 ```
 
@@ -205,11 +217,11 @@ The `themes-config.ts` file exports:
 
 ```ts
 import {
-  themes,           // Array of all ThemeConfig objects
-  sortedThemes,     // Themes sorted alphabetically (default first)
-  themeNames,       // Array of theme names: ["default", "catppuccin", ...]
-  allThemeValues,   // All theme values: ["default-light", "default-dark", ...]
-  DEFAULT_THEME,    // "default-dark"
+  themes, // Array of all ThemeConfig objects
+  sortedThemes, // Themes sorted alphabetically (default first)
+  themeNames, // Array of theme names: ["default", "catppuccin", ...]
+  allThemeValues, // All theme values: ["default-light", "default-dark", ...]
+  DEFAULT_THEME, // "default-dark"
 } from "@/lib/themes-config";
 ```
 
@@ -239,10 +251,7 @@ export function CustomThemeSelector() {
       <button onClick={toggleMode}>
         {isDark ? "Switch to Light" : "Switch to Dark"}
       </button>
-      <select
-        value={currentName}
-        onChange={(e) => selectTheme(e.target.value)}
-      >
+      <select value={currentName} onChange={(e) => selectTheme(e.target.value)}>
         {themes.map((t) => (
           <option key={t.name} value={t.name}>
             {t.title}

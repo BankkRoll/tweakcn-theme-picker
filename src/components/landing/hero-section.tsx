@@ -1,12 +1,12 @@
 "use client";
 
-import { AnimatePresence, motion } from "motion/react";
 import { Check, Sparkles } from "lucide-react";
+import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
 
 import { Badge } from "@/components/ui/badge";
-import { ThemeSwitcherPreview } from "./theme-switcher-preview";
 import { cn } from "@/lib/utils";
+import { ThemeSwitcherPreview } from "./theme-switcher-preview";
 
 const INSTALL_COMMAND =
   "pnpm dlx shadcn@latest add https://tweakcn-picker.vercel.app/r/nextjs/theme-system.json";
@@ -81,7 +81,7 @@ export function HeroSection() {
             One command install for shadcn/ui
           </Badge>
           <h1 className="max-w-4xl text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            38+ themes,{" "}
+            42+ themes,{" "}
             <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
               one install
             </span>
@@ -170,7 +170,7 @@ export function HeroSection() {
               {/* Theme Switcher Preview - shows the actual component with menus */}
               <div
                 className={cn(
-                  "flex items-start justify-start transition-opacity duration-300 min-h-60 sm:min-h-70",
+                  "flex items-start justify-start transition-opacity duration-300 min-h-[420px] sm:min-h-[450px]",
                   showPreview ? "opacity-100" : "opacity-0",
                 )}
               >

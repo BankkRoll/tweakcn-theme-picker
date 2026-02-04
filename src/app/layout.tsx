@@ -1,24 +1,12 @@
 import "./globals.css";
 
-import { Geist, Geist_Mono } from "next/font/google";
-
-import { Analytics } from "@vercel/analytics/next";
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
-import type { Metadata } from "next";
-import type React from "react";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { Analytics } from "@vercel/analytics/next";
+import type { Metadata } from "next";
+import type React from "react";
 
 export const metadata: Metadata = {
   title: {
@@ -26,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | tweakcn/theme-picker",
   },
   description:
-    "38+ professional themes for shadcn/ui. Install like components. OKLCH colors, custom fonts, light/dark variants.",
+    "42+ professional themes for shadcn/ui. Install like components. OKLCH colors, custom fonts, light/dark variants.",
   keywords: [
     "shadcn/ui",
     "themes",
@@ -42,14 +30,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     title: "tweakcn/theme-picker",
     description:
-      "38+ professional themes for shadcn/ui. Install like components.",
+      "42+ professional themes for shadcn/ui. Install like components.",
     siteName: "tweakcn/theme-picker",
   },
   twitter: {
     card: "summary_large_image",
     title: "tweakcn/theme-picker",
     description:
-      "38+ professional themes for shadcn/ui. Install like components.",
+      "42+ professional themes for shadcn/ui. Install like components.",
   },
   icons: {
     icon: [
@@ -74,9 +62,25 @@ export default function RootLayout({
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
+        {/* Inline script to prevent FOUC - runs before CSS/React */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                const stored = localStorage.getItem('theme');
+                if (stored) {
+                  document.documentElement.setAttribute('data-theme', stored);
+                } else {
+                  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                  document.documentElement.setAttribute('data-theme', isDark ? 'default-dark' : 'default-light');
+                }
+              })();
+            `,
+          }}
+        />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`antialiased`}
         style={{ fontFamily: "var(--font-sans)" }}
       >
         <ThemeProvider>
