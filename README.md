@@ -2,13 +2,13 @@
 
 Easily add 42+ themes with support for light and dark modes. Add a complete theme picker to your shadcn/ui app with a single command. OKLCH colors, custom fonts, light & dark modes for every theme.
 
-<img width="1944" height="1090" alt="image" src="https://github.com/user-attachments/assets/eb4ac43b-db61-43e1-a02a-65e707dbe099" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0842244a-f0cb-4110-9c6a-6835c8d11d7e" />
 
 > This project is not affiliated with tweakcn. Themes are inspired by and adapted from the tweakcn theme collection.
 
 ## Features
 
-- 35+ ready-to-use themes
+- 42+ ready-to-use themes
 - Light and dark mode support for each theme
 - Framework adapters for Next.js, Vite, Astro, and Remix
 - Built on CSS variables and Tailwind CSS v4
