@@ -1,0 +1,1319 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "tweakcn-themes",
+  "homepage": "https://tweakcn-picker.vercel.app",
+  "description": "A comprehensive collection of composable themes for shadcn/ui with support for Next.js, Vite, Astro, and Remix.",
+  "items": [
+    {
+      "name": "nextjs/theme-system",
+      "type": "registry:lib",
+      "title": "Theme System (Next.js)",
+      "description": "Complete theme system for Next.js with next-themes provider, switcher, and all themes",
+      "dependencies": ["next-themes"],
+      "registryDependencies": ["dropdown-menu", "scroll-area", "button"],
+      "files": [
+        {
+          "path": "registry/nextjs/lib/themes-config.ts",
+          "type": "registry:lib",
+          "target": "lib/themes-config.ts"
+        },
+        {
+          "path": "registry/nextjs/components/theme-provider.tsx",
+          "type": "registry:component",
+          "target": "components/providers/theme-provider.tsx"
+        },
+        {
+          "path": "registry/nextjs/components/theme-switcher.tsx",
+          "type": "registry:component",
+          "target": "components/theme-switcher.tsx"
+        },
+        {
+          "path": "registry/themes/index.css",
+          "type": "registry:file",
+          "target": "styles/themes/index.css"
+        },
+        {
+          "path": "registry/themes/amber-minimal.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        },
+        {
+          "path": "registry/themes/bold-tech.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        },
+        {
+          "path": "registry/themes/bubblegum.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        },
+        {
+          "path": "registry/themes/caffeine.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        },
+        {
+          "path": "registry/themes/candyland.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        },
+        {
+          "path": "registry/themes/catppuccin.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        },
+        {
+          "path": "registry/themes/claude.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        },
+        {
+          "path": "registry/themes/claymorphism.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        },
+        {
+          "path": "registry/themes/clean-slate.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        },
+        {
+          "path": "registry/themes/cosmic-night.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        },
+        {
+          "path": "registry/themes/cyberpunk.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        },
+        {
+          "path": "registry/themes/doom-64.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        },
+        {
+          "path": "registry/themes/elegant-luxury.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        },
+        {
+          "path": "registry/themes/graphite.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        },
+        {
+          "path": "registry/themes/kodama-grove.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        },
+        {
+          "path": "registry/themes/midnight-bloom.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        },
+        {
+          "path": "registry/themes/mocha-mousse.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        },
+        {
+          "path": "registry/themes/modern-minimal.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        },
+        {
+          "path": "registry/themes/mono.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        },
+        {
+          "path": "registry/themes/nature.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        },
+        {
+          "path": "registry/themes/neo-brutalism.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        },
+        {
+          "path": "registry/themes/northern-lights.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        },
+        {
+          "path": "registry/themes/ocean-breeze.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        },
+        {
+          "path": "registry/themes/pastel-dreams.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        },
+        {
+          "path": "registry/themes/perpetuity.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        },
+        {
+          "path": "registry/themes/quantum-rose.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        },
+        {
+          "path": "registry/themes/retro-arcade.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        },
+        {
+          "path": "registry/themes/solar-dusk.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        },
+        {
+          "path": "registry/themes/starry-night.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        },
+        {
+          "path": "registry/themes/sunset-horizon.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        },
+        {
+          "path": "registry/themes/supabase.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        },
+        {
+          "path": "registry/themes/t3-chat.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        },
+        {
+          "path": "registry/themes/tangerine.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        },
+        {
+          "path": "registry/themes/twitter.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        },
+        {
+          "path": "registry/themes/vercel.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        },
+        {
+          "path": "registry/themes/vintage-paper.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ]
+    },
+    {
+      "name": "vite/theme-system",
+      "type": "registry:lib",
+      "title": "Theme System (Vite)",
+      "description": "Complete theme system for Vite React with custom provider, switcher, and all themes",
+      "registryDependencies": ["dropdown-menu", "scroll-area", "button"],
+      "files": [
+        {
+          "path": "registry/vite/lib/themes-config.ts",
+          "type": "registry:lib",
+          "target": "lib/themes-config.ts"
+        },
+        {
+          "path": "registry/vite/components/theme-provider.tsx",
+          "type": "registry:component",
+          "target": "components/theme-provider.tsx"
+        },
+        {
+          "path": "registry/vite/components/theme-switcher.tsx",
+          "type": "registry:component",
+          "target": "components/theme-switcher.tsx"
+        },
+        {
+          "path": "registry/themes/index.css",
+          "type": "registry:file",
+          "target": "styles/themes/index.css"
+        },
+        {
+          "path": "registry/themes/amber-minimal.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        },
+        {
+          "path": "registry/themes/bold-tech.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        },
+        {
+          "path": "registry/themes/bubblegum.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        },
+        {
+          "path": "registry/themes/caffeine.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        },
+        {
+          "path": "registry/themes/candyland.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        },
+        {
+          "path": "registry/themes/catppuccin.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        },
+        {
+          "path": "registry/themes/claude.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        },
+        {
+          "path": "registry/themes/claymorphism.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        },
+        {
+          "path": "registry/themes/clean-slate.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        },
+        {
+          "path": "registry/themes/cosmic-night.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        },
+        {
+          "path": "registry/themes/cyberpunk.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        },
+        {
+          "path": "registry/themes/doom-64.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        },
+        {
+          "path": "registry/themes/elegant-luxury.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        },
+        {
+          "path": "registry/themes/graphite.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        },
+        {
+          "path": "registry/themes/kodama-grove.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        },
+        {
+          "path": "registry/themes/midnight-bloom.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        },
+        {
+          "path": "registry/themes/mocha-mousse.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        },
+        {
+          "path": "registry/themes/modern-minimal.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        },
+        {
+          "path": "registry/themes/mono.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        },
+        {
+          "path": "registry/themes/nature.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        },
+        {
+          "path": "registry/themes/neo-brutalism.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        },
+        {
+          "path": "registry/themes/northern-lights.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        },
+        {
+          "path": "registry/themes/ocean-breeze.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        },
+        {
+          "path": "registry/themes/pastel-dreams.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        },
+        {
+          "path": "registry/themes/perpetuity.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        },
+        {
+          "path": "registry/themes/quantum-rose.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        },
+        {
+          "path": "registry/themes/retro-arcade.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        },
+        {
+          "path": "registry/themes/solar-dusk.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        },
+        {
+          "path": "registry/themes/starry-night.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        },
+        {
+          "path": "registry/themes/sunset-horizon.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        },
+        {
+          "path": "registry/themes/supabase.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        },
+        {
+          "path": "registry/themes/t3-chat.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        },
+        {
+          "path": "registry/themes/tangerine.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        },
+        {
+          "path": "registry/themes/twitter.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        },
+        {
+          "path": "registry/themes/vercel.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        },
+        {
+          "path": "registry/themes/vintage-paper.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ]
+    },
+    {
+      "name": "astro/theme-system",
+      "type": "registry:lib",
+      "title": "Theme System (Astro)",
+      "description": "Complete theme system for Astro with inline script, React toggle, and all themes",
+      "registryDependencies": ["dropdown-menu", "button"],
+      "files": [
+        {
+          "path": "registry/astro/lib/themes-config.ts",
+          "type": "registry:lib",
+          "target": "lib/themes-config.ts"
+        },
+        {
+          "path": "registry/astro/components/theme-script.astro",
+          "type": "registry:component",
+          "target": "components/theme-script.astro"
+        },
+        {
+          "path": "registry/astro/components/mode-toggle.tsx",
+          "type": "registry:component",
+          "target": "components/mode-toggle.tsx"
+        },
+        {
+          "path": "registry/themes/index.css",
+          "type": "registry:file",
+          "target": "styles/themes/index.css"
+        },
+        {
+          "path": "registry/themes/amber-minimal.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        },
+        {
+          "path": "registry/themes/bold-tech.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        },
+        {
+          "path": "registry/themes/bubblegum.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        },
+        {
+          "path": "registry/themes/caffeine.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        },
+        {
+          "path": "registry/themes/candyland.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        },
+        {
+          "path": "registry/themes/catppuccin.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        },
+        {
+          "path": "registry/themes/claude.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        },
+        {
+          "path": "registry/themes/claymorphism.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        },
+        {
+          "path": "registry/themes/clean-slate.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        },
+        {
+          "path": "registry/themes/cosmic-night.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        },
+        {
+          "path": "registry/themes/cyberpunk.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        },
+        {
+          "path": "registry/themes/doom-64.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        },
+        {
+          "path": "registry/themes/elegant-luxury.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        },
+        {
+          "path": "registry/themes/graphite.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        },
+        {
+          "path": "registry/themes/kodama-grove.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        },
+        {
+          "path": "registry/themes/midnight-bloom.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        },
+        {
+          "path": "registry/themes/mocha-mousse.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        },
+        {
+          "path": "registry/themes/modern-minimal.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        },
+        {
+          "path": "registry/themes/mono.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        },
+        {
+          "path": "registry/themes/nature.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        },
+        {
+          "path": "registry/themes/neo-brutalism.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        },
+        {
+          "path": "registry/themes/northern-lights.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        },
+        {
+          "path": "registry/themes/ocean-breeze.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        },
+        {
+          "path": "registry/themes/pastel-dreams.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        },
+        {
+          "path": "registry/themes/perpetuity.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        },
+        {
+          "path": "registry/themes/quantum-rose.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        },
+        {
+          "path": "registry/themes/retro-arcade.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        },
+        {
+          "path": "registry/themes/solar-dusk.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        },
+        {
+          "path": "registry/themes/starry-night.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        },
+        {
+          "path": "registry/themes/sunset-horizon.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        },
+        {
+          "path": "registry/themes/supabase.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        },
+        {
+          "path": "registry/themes/t3-chat.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        },
+        {
+          "path": "registry/themes/tangerine.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        },
+        {
+          "path": "registry/themes/twitter.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        },
+        {
+          "path": "registry/themes/vercel.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        },
+        {
+          "path": "registry/themes/vintage-paper.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ]
+    },
+    {
+      "name": "remix/theme-system",
+      "type": "registry:lib",
+      "title": "Theme System (Remix)",
+      "description": "Complete theme system for Remix with remix-themes, session storage, and all themes",
+      "dependencies": ["remix-themes"],
+      "registryDependencies": ["dropdown-menu", "button"],
+      "files": [
+        {
+          "path": "registry/remix/lib/themes-config.ts",
+          "type": "registry:lib",
+          "target": "lib/themes-config.ts"
+        },
+        {
+          "path": "registry/remix/lib/sessions.server.ts",
+          "type": "registry:lib",
+          "target": "lib/sessions.server.ts"
+        },
+        {
+          "path": "registry/remix/components/mode-toggle.tsx",
+          "type": "registry:component",
+          "target": "components/mode-toggle.tsx"
+        },
+        {
+          "path": "registry/remix/components/action.set-theme.ts",
+          "type": "registry:file",
+          "target": "app/routes/action.set-theme.ts"
+        },
+        {
+          "path": "registry/themes/index.css",
+          "type": "registry:file",
+          "target": "styles/themes/index.css"
+        },
+        {
+          "path": "registry/themes/amber-minimal.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        },
+        {
+          "path": "registry/themes/bold-tech.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        },
+        {
+          "path": "registry/themes/bubblegum.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        },
+        {
+          "path": "registry/themes/caffeine.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        },
+        {
+          "path": "registry/themes/candyland.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        },
+        {
+          "path": "registry/themes/catppuccin.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        },
+        {
+          "path": "registry/themes/claude.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        },
+        {
+          "path": "registry/themes/claymorphism.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        },
+        {
+          "path": "registry/themes/clean-slate.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        },
+        {
+          "path": "registry/themes/cosmic-night.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        },
+        {
+          "path": "registry/themes/cyberpunk.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        },
+        {
+          "path": "registry/themes/doom-64.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        },
+        {
+          "path": "registry/themes/elegant-luxury.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        },
+        {
+          "path": "registry/themes/graphite.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        },
+        {
+          "path": "registry/themes/kodama-grove.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        },
+        {
+          "path": "registry/themes/midnight-bloom.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        },
+        {
+          "path": "registry/themes/mocha-mousse.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        },
+        {
+          "path": "registry/themes/modern-minimal.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        },
+        {
+          "path": "registry/themes/mono.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        },
+        {
+          "path": "registry/themes/nature.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        },
+        {
+          "path": "registry/themes/neo-brutalism.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        },
+        {
+          "path": "registry/themes/northern-lights.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        },
+        {
+          "path": "registry/themes/ocean-breeze.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        },
+        {
+          "path": "registry/themes/pastel-dreams.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        },
+        {
+          "path": "registry/themes/perpetuity.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        },
+        {
+          "path": "registry/themes/quantum-rose.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        },
+        {
+          "path": "registry/themes/retro-arcade.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        },
+        {
+          "path": "registry/themes/solar-dusk.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        },
+        {
+          "path": "registry/themes/starry-night.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        },
+        {
+          "path": "registry/themes/sunset-horizon.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        },
+        {
+          "path": "registry/themes/supabase.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        },
+        {
+          "path": "registry/themes/t3-chat.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        },
+        {
+          "path": "registry/themes/tangerine.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        },
+        {
+          "path": "registry/themes/twitter.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        },
+        {
+          "path": "registry/themes/vercel.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        },
+        {
+          "path": "registry/themes/vintage-paper.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-amber-minimal",
+      "type": "registry:theme",
+      "title": "Amber Minimal",
+      "description": "Warm amber tones with clean minimal aesthetic",
+      "files": [
+        {
+          "path": "registry/themes/amber-minimal.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-bold-tech",
+      "type": "registry:theme",
+      "title": "Bold Tech",
+      "description": "Bold purple tech-inspired theme",
+      "files": [
+        {
+          "path": "registry/themes/bold-tech.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-bubblegum",
+      "type": "registry:theme",
+      "title": "Bubblegum",
+      "description": "Playful pink bubblegum aesthetic",
+      "files": [
+        {
+          "path": "registry/themes/bubblegum.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-caffeine",
+      "type": "registry:theme",
+      "title": "Caffeine",
+      "description": "Coffee-inspired warm brown tones",
+      "files": [
+        {
+          "path": "registry/themes/caffeine.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-candyland",
+      "type": "registry:theme",
+      "title": "Candyland",
+      "description": "Sweet candy-inspired pastel colors",
+      "files": [
+        {
+          "path": "registry/themes/candyland.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-catppuccin",
+      "type": "registry:theme",
+      "title": "Catppuccin",
+      "description": "Soothing pastel theme for coders",
+      "files": [
+        {
+          "path": "registry/themes/catppuccin.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-claude",
+      "type": "registry:theme",
+      "title": "Claude",
+      "description": "Anthropic Claude-inspired warm tones",
+      "files": [
+        {
+          "path": "registry/themes/claude.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-claymorphism",
+      "type": "registry:theme",
+      "title": "Claymorphism",
+      "description": "Soft clay-like 3D aesthetic",
+      "files": [
+        {
+          "path": "registry/themes/claymorphism.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-clean-slate",
+      "type": "registry:theme",
+      "title": "Clean Slate",
+      "description": "Fresh clean minimal design",
+      "files": [
+        {
+          "path": "registry/themes/clean-slate.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-cosmic-night",
+      "type": "registry:theme",
+      "title": "Cosmic Night",
+      "description": "Deep space purple cosmic theme",
+      "files": [
+        {
+          "path": "registry/themes/cosmic-night.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-cyberpunk",
+      "type": "registry:theme",
+      "title": "Cyberpunk",
+      "description": "Neon cyberpunk aesthetic",
+      "files": [
+        {
+          "path": "registry/themes/cyberpunk.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-doom-64",
+      "type": "registry:theme",
+      "title": "Doom 64",
+      "description": "Retro gaming doom-inspired dark theme",
+      "files": [
+        {
+          "path": "registry/themes/doom-64.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-elegant-luxury",
+      "type": "registry:theme",
+      "title": "Elegant Luxury",
+      "description": "Sophisticated luxury aesthetic",
+      "files": [
+        {
+          "path": "registry/themes/elegant-luxury.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-graphite",
+      "type": "registry:theme",
+      "title": "Graphite",
+      "description": "Neutral graphite monochrome theme",
+      "files": [
+        {
+          "path": "registry/themes/graphite.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-kodama-grove",
+      "type": "registry:theme",
+      "title": "Kodama Grove",
+      "description": "Studio Ghibli forest spirit inspired",
+      "files": [
+        {
+          "path": "registry/themes/kodama-grove.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-midnight-bloom",
+      "type": "registry:theme",
+      "title": "Midnight Bloom",
+      "description": "Deep purple midnight floral theme",
+      "files": [
+        {
+          "path": "registry/themes/midnight-bloom.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-mocha-mousse",
+      "type": "registry:theme",
+      "title": "Mocha Mousse",
+      "description": "Rich mocha chocolate tones",
+      "files": [
+        {
+          "path": "registry/themes/mocha-mousse.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-modern-minimal",
+      "type": "registry:theme",
+      "title": "Modern Minimal",
+      "description": "Modern minimal purple accent theme",
+      "files": [
+        {
+          "path": "registry/themes/modern-minimal.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-mono",
+      "type": "registry:theme",
+      "title": "Mono",
+      "description": "Monochrome monospace developer theme",
+      "files": [
+        {
+          "path": "registry/themes/mono.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-nature",
+      "type": "registry:theme",
+      "title": "Nature",
+      "description": "Natural green earthy tones",
+      "files": [
+        {
+          "path": "registry/themes/nature.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-neo-brutalism",
+      "type": "registry:theme",
+      "title": "Neo Brutalism",
+      "description": "Bold neo-brutalist design aesthetic",
+      "files": [
+        {
+          "path": "registry/themes/neo-brutalism.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-northern-lights",
+      "type": "registry:theme",
+      "title": "Northern Lights",
+      "description": "Aurora borealis inspired greens",
+      "files": [
+        {
+          "path": "registry/themes/northern-lights.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-ocean-breeze",
+      "type": "registry:theme",
+      "title": "Ocean Breeze",
+      "description": "Cool ocean teal aqua tones",
+      "files": [
+        {
+          "path": "registry/themes/ocean-breeze.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-pastel-dreams",
+      "type": "registry:theme",
+      "title": "Pastel Dreams",
+      "description": "Soft pastel purple dreamy theme",
+      "files": [
+        {
+          "path": "registry/themes/pastel-dreams.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-perpetuity",
+      "type": "registry:theme",
+      "title": "Perpetuity",
+      "description": "Timeless teal monospace theme",
+      "files": [
+        {
+          "path": "registry/themes/perpetuity.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-quantum-rose",
+      "type": "registry:theme",
+      "title": "Quantum Rose",
+      "description": "Vibrant quantum pink rose theme",
+      "files": [
+        {
+          "path": "registry/themes/quantum-rose.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-retro-arcade",
+      "type": "registry:theme",
+      "title": "Retro Arcade",
+      "description": "Retro arcade gaming aesthetic",
+      "files": [
+        {
+          "path": "registry/themes/retro-arcade.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-solar-dusk",
+      "type": "registry:theme",
+      "title": "Solar Dusk",
+      "description": "Warm solar sunset orange tones",
+      "files": [
+        {
+          "path": "registry/themes/solar-dusk.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-starry-night",
+      "type": "registry:theme",
+      "title": "Starry Night",
+      "description": "Van Gogh starry night inspired",
+      "files": [
+        {
+          "path": "registry/themes/starry-night.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-sunset-horizon",
+      "type": "registry:theme",
+      "title": "Sunset Horizon",
+      "description": "Warm sunset orange horizon theme",
+      "files": [
+        {
+          "path": "registry/themes/sunset-horizon.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-supabase",
+      "type": "registry:theme",
+      "title": "Supabase",
+      "description": "Supabase green brand theme",
+      "files": [
+        {
+          "path": "registry/themes/supabase.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-t3-chat",
+      "type": "registry:theme",
+      "title": "T3 Chat",
+      "description": "T3 stack inspired chat theme",
+      "files": [
+        {
+          "path": "registry/themes/t3-chat.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-tangerine",
+      "type": "registry:theme",
+      "title": "Tangerine",
+      "description": "Fresh tangerine orange citrus theme",
+      "files": [
+        {
+          "path": "registry/themes/tangerine.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-twitter",
+      "type": "registry:theme",
+      "title": "Twitter",
+      "description": "Twitter/X blue brand theme",
+      "files": [
+        {
+          "path": "registry/themes/twitter.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-vercel",
+      "type": "registry:theme",
+      "title": "Vercel",
+      "description": "Vercel black and white brand theme",
+      "files": [
+        {
+          "path": "registry/themes/vercel.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-vintage-paper",
+      "type": "registry:theme",
+      "title": "Vintage Paper",
+      "description": "Aged vintage paper sepia tones",
+      "files": [
+        {
+          "path": "registry/themes/vintage-paper.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ]
+    }
+  ]
+}
