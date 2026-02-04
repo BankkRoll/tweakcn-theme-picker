@@ -5,8 +5,8 @@ import {
   ViteIcon,
 } from "@/components/framework-icons";
 
-import { Badge } from "@/components/ui/badge";
 import { LinkedCard } from "@/components/docs/linked-card";
+import { Badge } from "@/components/ui/badge";
 
 export const metadata = {
   title: "Installation",
@@ -68,7 +68,7 @@ export default function InstallationPage() {
         <h2 className="text-2xl font-semibold">Registry URLs</h2>
         <p className="text-muted-foreground">
           Each framework has a dedicated registry URL. Use the URL that matches
-          your framework to install all 38+ themes at once.
+          your framework to install all 42+ themes at once.
         </p>
 
         <div className="overflow-x-auto">

@@ -1,3 +1,4 @@
+import { Step, Steps } from "@/components/docs/steps";
 import {
   Accordion,
   AccordionContent,
@@ -5,14 +6,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { AlertCircle, CheckCircle2, Info } from "lucide-react";
-import { Step, Steps } from "@/components/docs/steps";
+import { CheckCircle2, Info } from "lucide-react";
 
+import { CodeBlockDoc } from "@/components/docs/code-block-doc";
+import { InstallCommand } from "@/components/docs/install-command";
 import { AstroIcon } from "@/components/framework-icons";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { CodeBlockDoc } from "@/components/docs/code-block-doc";
-import { InstallCommand } from "@/components/docs/install-command";
 
 export const metadata = {
   title: "Astro Installation",
@@ -56,21 +56,20 @@ export default function AstroInstallationPage() {
         </div>
       </div>
 
-      {/* Critical Note */}
-      <Card className="p-4 border-red-500/50 bg-red-500/5">
+      {/* Note about CSS variables */}
+      <Card className="p-4 border-primary/50 bg-primary/5">
         <div className="flex gap-3">
-          <AlertCircle className="h-5 w-5 text-red-500 shrink-0 mt-0.5" />
+          <Info className="h-5 w-5 text-primary shrink-0 mt-0.5" />
           <div className="space-y-1">
-            <h3 className="font-medium text-red-600 dark:text-red-400">
-              Remove default CSS variables
-            </h3>
+            <h3 className="font-medium">Keep :root and .dark as fallbacks</h3>
             <p className="text-sm text-muted-foreground">
               tweakcn/theme-picker themes use{" "}
               <code className="bg-muted px-1 rounded">data-theme</code>{" "}
-              attributes. You must <strong>remove</strong> any{" "}
+              attributes. Keep your{" "}
               <code className="bg-muted px-1 rounded">:root</code> and{" "}
               <code className="bg-muted px-1 rounded">.dark</code> variable
-              blocks from your globals.css, or themes won&apos;t work.
+              blocks as fallbacks to prevent flash of unstyled content before
+              the theme loads.
             </p>
           </div>
         </div>
@@ -95,7 +94,7 @@ export default function AstroInstallationPage() {
           <Step title="Install the theme system">
             <p>
               Run this single command to install the complete theme system for
-              Astro. This includes all 38+ themes, the theme scripts, and all
+              Astro. This includes all 42+ themes, the theme scripts, and all
               theme CSS.
             </p>
             <InstallCommand url="https://tweakcn-picker.vercel.app/r/astro/theme-system.json" />
@@ -109,32 +108,12 @@ export default function AstroInstallationPage() {
             <CodeBlockDoc
               filename="src/layouts/Layout.astro"
               language="astro"
+              highlightLines={[
+                11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
+              ]}
               code={`---
 import '../styles/globals.css'
 ---
-
-<script is:inline>
-  const getThemePreference = () => {
-    if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
-      return localStorage.getItem('theme');
-    }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-  };
-
-  const isDark = getThemePreference() === 'dark';
-  document.documentElement.classList[isDark ? 'add' : 'remove']('dark');
-
-  if (typeof localStorage !== 'undefined') {
-    const observer = new MutationObserver(() => {
-      const isDark = document.documentElement.classList.contains('dark');
-      localStorage.setItem('theme', isDark ? 'dark' : 'light');
-    });
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ['class']
-    });
-  }
-</script>
 
 <html lang="en">
   <head>
@@ -142,6 +121,19 @@ import '../styles/globals.css'
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>My Astro Site</title>
+    <!-- Flash Prevention: Apply theme before render -->
+    <script is:inline>
+      (function() {
+        var stored = localStorage.getItem("tweakcn-theme");
+        if (stored) {
+          document.documentElement.setAttribute("data-theme", stored);
+        } else {
+          // Respect system preference for first-time visitors
+          var isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.setAttribute("data-theme", isDark ? "default-dark" : "default-light");
+        }
+      })();
+    </script>
   </head>
   <body>
     <slot />
@@ -150,86 +142,32 @@ import '../styles/globals.css'
             />
           </Step>
 
-          <Step title="Create a mode toggle component">
+          <Step title="Use the included ThemeSwitcher">
             <p>
-              Create a React component for the theme toggle. Note the{" "}
-              <code>client:load</code> directive:
-            </p>
-            <CodeBlockDoc
-              filename="src/components/ModeToggle.tsx"
-              language="tsx"
-              code={`import * as React from "react"
-import { Moon, Sun } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-
-export function ModeToggle() {
-  const [theme, setThemeState] = React.useState<"light" | "dark" | "system">("light")
-
-  React.useEffect(() => {
-    const isDarkMode = document.documentElement.classList.contains("dark")
-    setThemeState(isDarkMode ? "dark" : "light")
-  }, [])
-
-  React.useEffect(() => {
-    const isDark =
-      theme === "dark" ||
-      (theme === "system" &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    document.documentElement.classList[isDark ? "add" : "remove"]("dark")
-  }, [theme])
-
-  return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="icon">
-          <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-          <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-          <span className="sr-only">Toggle theme</span>
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setThemeState("light")}>
-          Light
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setThemeState("dark")}>
-          Dark
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setThemeState("system")}>
-          System
-        </DropdownMenuItem>
-      </DropdownMenuContent>
-    </DropdownMenu>
-  )
-}`}
-            />
-          </Step>
-
-          <Step title="Use the toggle in your pages">
-            <p>
-              Import and use the ModeToggle with the <code>client:load</code>{" "}
-              directive:
+              The CLI installs a complete ThemeSwitcher component. Use it with
+              the <code>client:load</code> directive:
             </p>
             <CodeBlockDoc
               filename="src/pages/index.astro"
               language="astro"
+              highlightLines={[3, 9]}
               code={`---
 import Layout from '../layouts/Layout.astro';
-import { ModeToggle } from '@/components/ModeToggle';
+import { ThemeSwitcher } from '@/components/theme-switcher';
 ---
 
 <Layout>
   <main>
     <h1>Welcome to Astro</h1>
-    <ModeToggle client:load />
+    <ThemeSwitcher client:load />
   </main>
 </Layout>`}
             />
+            <p className="text-sm text-muted-foreground mt-3">
+              The ThemeSwitcher includes a dropdown menu with all available
+              themes, light/dark mode toggle, and displays the current theme
+              with a color indicator.
+            </p>
           </Step>
         </Steps>
       </div>
@@ -275,8 +213,8 @@ import { ModeToggle } from '@/components/ModeToggle';
                 <code className="bg-muted px-1 rounded text-foreground text-xs">
                   client:load
                 </code>{" "}
-                on the ModeToggle component. Astro components don&apos;t hydrate
-                by default.
+                on the ThemeSwitcher component. Astro components don&apos;t
+                hydrate by default.
               </p>
             </AccordionContent>
           </AccordionItem>

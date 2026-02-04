@@ -13,6 +13,7 @@ interface CodeBlockDocProps {
   showLineNumbers?: boolean;
   highlightLines?: number[];
   className?: string;
+  maxHeight?: string;
 }
 
 export function CodeBlockDoc({
@@ -22,6 +23,7 @@ export function CodeBlockDoc({
   showLineNumbers = true,
   highlightLines = [],
   className,
+  maxHeight,
 }: CodeBlockDocProps) {
   const [copied, setCopied] = useState(false);
 
@@ -36,18 +38,19 @@ export function CodeBlockDoc({
   return (
     <div
       className={cn(
-        "group relative overflow-hidden rounded-lg border bg-zinc-950",
+        "group relative flex flex-col overflow-hidden rounded-lg border bg-card",
         className,
       )}
+      style={maxHeight ? { maxHeight } : undefined}
     >
-      {/* Header */}
+      {/* Header - Sticky */}
       {filename && (
-        <div className="flex items-center justify-between border-b border-zinc-800 bg-zinc-900/50 px-4 py-2">
-          <div className="flex items-center gap-2 text-zinc-400">
+        <div className="sticky top-0 z-10 flex items-center justify-between border-b bg-muted/50 px-4 py-2">
+          <div className="flex items-center gap-2 text-muted-foreground">
             <File className="h-4 w-4" />
             <span className="text-sm font-medium">{filename}</span>
             {language && (
-              <span className="rounded bg-zinc-800 px-1.5 py-0.5 text-xs text-zinc-500">
+              <span className="rounded bg-accent px-1.5 py-0.5 text-xs text-muted-foreground">
                 {language}
               </span>
             )}
@@ -56,11 +59,11 @@ export function CodeBlockDoc({
             variant="ghost"
             size="sm"
             onClick={handleCopy}
-            className="h-7 px-2 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800"
+            className="h-7 px-2 text-muted-foreground hover:text-foreground hover:bg-accent"
           >
             {copied ? (
               <>
-                <Check className="mr-1.5 h-3.5 w-3.5 text-green-400" />
+                <Check className="mr-1.5 h-3.5 w-3.5 text-primary" />
                 <span className="text-xs">Copied</span>
               </>
             ) : (
@@ -73,8 +76,8 @@ export function CodeBlockDoc({
         </div>
       )}
 
-      {/* Code Content */}
-      <div className="relative overflow-x-auto">
+      {/* Code Content - Scrollable */}
+      <div className="relative flex-1 overflow-auto">
         <pre className="p-4 text-sm leading-relaxed">
           <code className="block font-mono">
             {lines.map((line, i) => {
@@ -92,7 +95,7 @@ export function CodeBlockDoc({
                   {showLineNumbers && (
                     <span
                       className={cn(
-                        "mr-4 inline-block w-8 select-none text-right text-zinc-600",
+                        "mr-4 inline-block w-8 select-none text-right text-muted-foreground",
                         isHighlighted && "text-primary",
                       )}
                     >
@@ -116,12 +119,12 @@ export function CodeBlockDoc({
             onClick={handleCopy}
             className={cn(
               "absolute right-2 top-2 h-8 w-8 p-0",
-              "text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800",
+              "text-muted-foreground hover:text-foreground hover:bg-accent",
               "opacity-0 group-hover:opacity-100 transition-opacity",
             )}
           >
             {copied ? (
-              <Check className="h-4 w-4 text-green-400" />
+              <Check className="h-4 w-4 text-primary" />
             ) : (
               <Copy className="h-4 w-4" />
             )}
@@ -178,7 +181,7 @@ function highlightSyntax(line: string, language: string): JSX.Element[] {
   // Check for comments first
   if (remaining.trim().startsWith("//") || remaining.trim().startsWith("{/*")) {
     return [
-      <span key={0} className="text-zinc-500">
+      <span key={0} className="text-muted-foreground">
         {remaining}
       </span>,
     ];
@@ -190,14 +193,14 @@ function highlightSyntax(line: string, language: string): JSX.Element[] {
     remaining.trim().startsWith("export")
   ) {
     return [
-      <span key={0} className="text-zinc-200">
+      <span key={0} className="text-foreground">
         {highlightImportExport(remaining)}
       </span>,
     ];
   }
 
   return [
-    <span key={0} className="text-zinc-200">
+    <span key={0} className="text-foreground">
       {remaining}
     </span>,
   ];
@@ -216,33 +219,36 @@ function highlightImportExport(line: string): JSX.Element {
   while ((match = regex.exec(line)) !== null) {
     if (match.index > lastIndex) {
       parts.push(
-        <span key={key++} className="text-zinc-200">
+        <span key={key++} className="text-foreground">
           {line.slice(lastIndex, match.index)}
         </span>,
       );
     }
 
     if (match[1]) {
+      // Keywords
       parts.push(
-        <span key={key++} className="text-fuchsia-400">
+        <span key={key++} className="text-primary">
           {match[1]}
         </span>,
       );
     } else if (match[2]) {
+      // Strings
       parts.push(
-        <span key={key++} className="text-amber-300">
+        <span key={key++} className="text-chart-1">
           {match[2]}
         </span>,
       );
     } else if (match[3]) {
+      // Braces/destructuring
       parts.push(
-        <span key={key++} className="text-cyan-400">
+        <span key={key++} className="text-chart-2">
           {match[3]}
         </span>,
       );
     } else if (match[4]) {
       parts.push(
-        <span key={key++} className="text-zinc-200">
+        <span key={key++} className="text-foreground">
           {match[4]}
         </span>,
       );
@@ -253,7 +259,7 @@ function highlightImportExport(line: string): JSX.Element {
 
   if (lastIndex < line.length) {
     parts.push(
-      <span key={key++} className="text-zinc-200">
+      <span key={key++} className="text-foreground">
         {line.slice(lastIndex)}
       </span>,
     );

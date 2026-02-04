@@ -1,3 +1,4 @@
+import { Step, Steps } from "@/components/docs/steps";
 import {
   Accordion,
   AccordionContent,
@@ -5,14 +6,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { AlertCircle, CheckCircle2, Info } from "lucide-react";
-import { Step, Steps } from "@/components/docs/steps";
+import { CheckCircle2, Info } from "lucide-react";
 
-import { Badge } from "@/components/ui/badge";
-import { Card } from "@/components/ui/card";
 import { CodeBlockDoc } from "@/components/docs/code-block-doc";
 import { InstallCommand } from "@/components/docs/install-command";
 import { RemixIcon } from "@/components/framework-icons";
+import { Badge } from "@/components/ui/badge";
+import { Card } from "@/components/ui/card";
 
 export const metadata = {
   title: "Remix Installation",
@@ -55,21 +55,20 @@ export default function RemixInstallationPage() {
         </div>
       </div>
 
-      {/* Critical Note */}
-      <Card className="p-4 border-red-500/50 bg-red-500/5">
+      {/* Note about CSS variables */}
+      <Card className="p-4 border-primary/50 bg-primary/5">
         <div className="flex gap-3">
-          <AlertCircle className="h-5 w-5 text-red-500 shrink-0 mt-0.5" />
+          <Info className="h-5 w-5 text-primary shrink-0 mt-0.5" />
           <div className="space-y-1">
-            <h3 className="font-medium text-red-600 dark:text-red-400">
-              Remove default CSS variables
-            </h3>
+            <h3 className="font-medium">Keep :root and .dark as fallbacks</h3>
             <p className="text-sm text-muted-foreground">
               tweakcn/theme-picker themes use{" "}
               <code className="bg-muted px-1 rounded">data-theme</code>{" "}
-              attributes. You must <strong>remove</strong> any{" "}
+              attributes. Keep your{" "}
               <code className="bg-muted px-1 rounded">:root</code> and{" "}
               <code className="bg-muted px-1 rounded">.dark</code> variable
-              blocks from your tailwind.css, or themes won&apos;t work.
+              blocks as fallbacks to prevent flash of unstyled content before
+              the theme loads.
             </p>
           </div>
         </div>
@@ -97,7 +96,7 @@ export default function RemixInstallationPage() {
           <Step title="Install the theme system">
             <p>
               Run this single command to install the complete theme system for
-              Remix. This includes all 38+ themes, the theme CSS, and everything
+              Remix. This includes all 42+ themes, the theme CSS, and everything
               you need.
             </p>
             <InstallCommand url="https://tweakcn-picker.vercel.app/r/remix/theme-system.json" />
@@ -133,6 +132,7 @@ export default function RemixInstallationPage() {
             <CodeBlockDoc
               filename="app/sessions.server.tsx"
               language="tsx"
+              highlightLines={[1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 16]}
               code={`import { createCookieSessionStorage } from "@remix-run/node"
 import { createThemeSessionResolver } from "remix-themes"
 
@@ -160,6 +160,10 @@ export const themeSessionResolver = createThemeSessionResolver(sessionStorage)`}
             <CodeBlockDoc
               filename="app/root.tsx"
               language="tsx"
+              highlightLines={[
+                1, 2, 3, 4, 5, 6, 14, 15, 16, 17, 18, 19, 22, 23, 24, 25, 26,
+                27, 28, 29, 30, 36, 43, 44,
+              ]}
               code={`import clsx from "clsx"
 import {
   PreventFlashOnWrongTheme,
@@ -228,6 +232,7 @@ function App() {
             <CodeBlockDoc
               filename="app/routes/action.set-theme.ts"
               language="tsx"
+              highlightLines={[1, 2, 4]}
               code={`import { createThemeAction } from "remix-themes"
 import { themeSessionResolver } from "../sessions.server"
 
@@ -235,45 +240,31 @@ export const action = createThemeAction(themeSessionResolver)`}
             />
           </Step>
 
-          <Step title="Add a mode toggle">
-            <p>Create a component to switch themes:</p>
+          <Step title="Use the included ThemeSwitcher">
+            <p>
+              The CLI installs a complete ThemeSwitcher component. Import and
+              use it anywhere in your app:
+            </p>
             <CodeBlockDoc
-              filename="app/components/mode-toggle.tsx"
+              filename="Using the ThemeSwitcher"
               language="tsx"
-              code={`import { Moon, Sun } from "lucide-react"
-import { Theme, useTheme } from "remix-themes"
-import { Button } from "./ui/button"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "./ui/dropdown-menu"
+              highlightLines={[1, 7]}
+              code={`import { ThemeSwitcher } from "@/components/theme-switcher"
 
-export function ModeToggle() {
-  const [, setTheme] = useTheme()
-
+export function Header() {
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon">
-          <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-          <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-          <span className="sr-only">Toggle theme</span>
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setTheme(Theme.LIGHT)}>
-          Light
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme(Theme.DARK)}>
-          Dark
-        </DropdownMenuItem>
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <header>
+      <nav>{/* ... */}</nav>
+      <ThemeSwitcher />
+    </header>
   )
 }`}
             />
+            <p className="text-sm text-muted-foreground mt-3">
+              The ThemeSwitcher includes a dropdown menu with all available
+              themes, light/dark mode toggle, and displays the current theme
+              with a color indicator.
+            </p>
           </Step>
         </Steps>
       </div>

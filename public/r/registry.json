@@ -211,6 +211,31 @@
           "path": "registry/themes/vintage-paper.css",
           "type": "registry:file",
           "target": "styles/themes/vintage-paper.css"
+        },
+        {
+          "path": "registry/themes/twitch.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        },
+        {
+          "path": "registry/themes/kick.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        },
+        {
+          "path": "registry/themes/spotify.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        },
+        {
+          "path": "registry/themes/stripe.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        },
+        {
+          "path": "registry/themes/github.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
         }
       ]
     },
@@ -420,6 +445,31 @@
           "path": "registry/themes/vintage-paper.css",
           "type": "registry:file",
           "target": "styles/themes/vintage-paper.css"
+        },
+        {
+          "path": "registry/themes/twitch.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        },
+        {
+          "path": "registry/themes/kick.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        },
+        {
+          "path": "registry/themes/spotify.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        },
+        {
+          "path": "registry/themes/stripe.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        },
+        {
+          "path": "registry/themes/github.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
         }
       ]
     },
@@ -629,6 +679,31 @@
           "path": "registry/themes/vintage-paper.css",
           "type": "registry:file",
           "target": "styles/themes/vintage-paper.css"
+        },
+        {
+          "path": "registry/themes/twitch.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        },
+        {
+          "path": "registry/themes/kick.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        },
+        {
+          "path": "registry/themes/spotify.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        },
+        {
+          "path": "registry/themes/stripe.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        },
+        {
+          "path": "registry/themes/github.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
         }
       ]
     },
@@ -844,6 +919,44 @@
           "path": "registry/themes/vintage-paper.css",
           "type": "registry:file",
           "target": "styles/themes/vintage-paper.css"
+        },
+        {
+          "path": "registry/themes/twitch.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        },
+        {
+          "path": "registry/themes/kick.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        },
+        {
+          "path": "registry/themes/spotify.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        },
+        {
+          "path": "registry/themes/stripe.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        },
+        {
+          "path": "registry/themes/github.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-default",
+      "type": "registry:theme",
+      "title": "Default",
+      "description": "Clean neutral grayscale with system fonts",
+      "files": [
+        {
+          "path": "registry/themes/default.css",
+          "type": "registry:file",
+          "target": "styles/themes/default.css"
         }
       ]
     },
@@ -1312,6 +1425,71 @@
           "path": "registry/themes/vintage-paper.css",
           "type": "registry:file",
           "target": "styles/themes/vintage-paper.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-twitch",
+      "type": "registry:theme",
+      "title": "Twitch",
+      "description": "Official Twitch purple brand theme for streaming platforms",
+      "files": [
+        {
+          "path": "registry/themes/twitch.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-kick",
+      "type": "registry:theme",
+      "title": "Kick",
+      "description": "Official Kick green brand theme for streaming platforms",
+      "files": [
+        {
+          "path": "registry/themes/kick.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-spotify",
+      "type": "registry:theme",
+      "title": "Spotify",
+      "description": "Official Spotify green brand theme for music apps",
+      "files": [
+        {
+          "path": "registry/themes/spotify.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-stripe",
+      "type": "registry:theme",
+      "title": "Stripe",
+      "description": "Official Stripe indigo brand theme for payment and fintech apps",
+      "files": [
+        {
+          "path": "registry/themes/stripe.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-github",
+      "type": "registry:theme",
+      "title": "GitHub",
+      "description": "Official GitHub brand theme for developer tools",
+      "files": [
+        {
+          "path": "registry/themes/github.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
         }
       ]
     }

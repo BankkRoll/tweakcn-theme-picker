@@ -1,3 +1,4 @@
+import { Step, Steps } from "@/components/docs/steps";
 import {
   Accordion,
   AccordionContent,
@@ -5,14 +6,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { AlertCircle, CheckCircle2, Info } from "lucide-react";
-import { Step, Steps } from "@/components/docs/steps";
+import { CheckCircle2, Info } from "lucide-react";
 
-import { Badge } from "@/components/ui/badge";
-import { Card } from "@/components/ui/card";
 import { CodeBlockDoc } from "@/components/docs/code-block-doc";
 import { InstallCommand } from "@/components/docs/install-command";
 import { ViteIcon } from "@/components/framework-icons";
+import { Badge } from "@/components/ui/badge";
+import { Card } from "@/components/ui/card";
 
 export const metadata = {
   title: "Vite Installation",
@@ -56,22 +56,34 @@ export default function ViteInstallationPage() {
         </div>
       </div>
 
-      {/* Critical Note */}
-      <Card className="p-4 border-red-500/50 bg-red-500/5">
+      {/* Note about CSS variables */}
+      <Card className="p-4 border-primary/50 bg-primary/5">
         <div className="flex gap-3">
-          <AlertCircle className="h-5 w-5 text-red-500 shrink-0 mt-0.5" />
+          <Info className="h-5 w-5 text-primary shrink-0 mt-0.5" />
           <div className="space-y-1">
-            <h3 className="font-medium text-red-600 dark:text-red-400">
-              Remove default CSS variables
-            </h3>
+            <h3 className="font-medium">Flash Prevention Setup</h3>
             <p className="text-sm text-muted-foreground">
-              tweakcn/theme-picker themes use{" "}
+              tweakcn/theme-picker uses{" "}
               <code className="bg-muted px-1 rounded">data-theme</code>{" "}
-              attributes. You must <strong>remove</strong> any{" "}
-              <code className="bg-muted px-1 rounded">:root</code> and{" "}
-              <code className="bg-muted px-1 rounded">.dark</code> variable
-              blocks from your index.css, or themes won&apos;t work.
+              attributes. To prevent flash on load, you need:
             </p>
+            <ul className="text-sm text-muted-foreground list-disc list-inside space-y-1 mt-2">
+              <li>
+                <strong>:root fallback</strong> in CSS with your default theme
+                colors
+              </li>
+              <li>
+                <strong>Inline script</strong> in index.html to set data-theme
+                before render
+              </li>
+              <li>
+                Optional:{" "}
+                <code className="bg-muted px-1 rounded">
+                  @media (prefers-color-scheme)
+                </code>{" "}
+                for system preference support
+              </li>
+            </ul>
           </div>
         </div>
       </Card>
@@ -84,10 +96,61 @@ export default function ViteInstallationPage() {
           <Step title="Install the theme system">
             <p>
               Run this single command to install the complete theme system for
-              Vite. This includes all 38+ themes, a custom ThemeProvider, and
+              Vite. This includes all 42+ themes, a custom ThemeProvider, and
               all theme CSS.
             </p>
             <InstallCommand url="https://tweakcn-picker.vercel.app/r/vite/theme-system.json" />
+          </Step>
+
+          <Step title="Add flash prevention script to index.html">
+            <p>
+              Add this inline script to your{" "}
+              <code className="bg-muted px-1 rounded">index.html</code>{" "}
+              <strong>before</strong> any other scripts. This applies the theme
+              before React hydrates, preventing any flash.
+            </p>
+            <CodeBlockDoc
+              filename="index.html"
+              language="html"
+              highlightLines={[7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]}
+              code={`<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My App</title>
+    <!-- Flash Prevention: Apply theme before render -->
+    <script>
+      (function() {
+        var stored = localStorage.getItem("tweakcn-theme");
+        if (stored) {
+          document.documentElement.setAttribute("data-theme", stored);
+        } else {
+          var isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.setAttribute("data-theme", isDark ? "default-dark" : "default-light");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>`}
+            />
+            <Alert className="mt-4">
+              <Info className="h-4 w-4" />
+              <AlertTitle>Why the inline script?</AlertTitle>
+              <AlertDescription>
+                The script runs synchronously before any CSS or React loads,
+                setting{" "}
+                <code className="bg-muted px-1 rounded text-foreground text-xs">
+                  data-theme
+                </code>{" "}
+                immediately. This prevents flash because CSS variables are
+                applied before the first paint.
+              </AlertDescription>
+            </Alert>
           </Step>
 
           <Step title="The ThemeProvider is included">
@@ -177,6 +240,7 @@ export default App`}
             <CodeBlockDoc
               filename="index.css"
               language="css"
+              highlightLines={[6]}
               code={`@tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -194,42 +258,37 @@ export default App`}
 }`}
             />
             <p className="text-sm text-muted-foreground mt-2">
-              <strong>Important:</strong> Remove any <code>:root</code> or{" "}
-              <code>.dark</code> variable blocks - the theme files provide all
-              variables.
+              <strong>Note:</strong> Keep your <code>:root</code> and{" "}
+              <code>.dark</code> variable blocks as fallbacks to prevent flash
+              of unstyled content.
             </p>
           </Step>
 
-          <Step title="Use the ThemeSwitcher">
+          <Step title="Use the included ThemeSwitcher">
             <p>
-              The CLI includes a ThemeSwitcher component. Use it to let users
-              change themes:
+              The CLI installs a complete ThemeSwitcher component. Import and
+              use it anywhere in your app:
             </p>
             <CodeBlockDoc
-              filename="components/theme-switcher.tsx"
+              filename="Using the ThemeSwitcher"
               language="tsx"
-              code={`import { useTheme } from "@/components/theme-provider"
-import { allThemeValues } from "@/lib/themes-config"
+              highlightLines={[7]}
+              code={`import { ThemeSwitcher } from "@/components/theme-switcher"
 
-export function ThemeSwitcher() {
-  const { theme, setTheme } = useTheme()
-
-  // Toggle light/dark for current theme
-  const toggleMode = () => {
-    const base = theme.replace("-light", "").replace("-dark", "")
-    const isDark = theme.endsWith("-dark")
-    setTheme(\`\${base}-\${isDark ? "light" : "dark"}\`)
-  }
-
+export function Header() {
   return (
-    <select value={theme} onChange={(e) => setTheme(e.target.value)}>
-      {allThemeValues.map((t) => (
-        <option key={t} value={t}>{t}</option>
-      ))}
-    </select>
+    <header>
+      <nav>{/* ... */}</nav>
+      <ThemeSwitcher />
+    </header>
   )
 }`}
             />
+            <p className="text-sm text-muted-foreground mt-3">
+              The ThemeSwitcher includes a dropdown menu with all available
+              themes, light/dark mode toggle, and displays the current theme
+              with a color indicator.
+            </p>
           </Step>
         </Steps>
       </div>
@@ -285,14 +344,50 @@ export function ThemeSwitcher() {
           <AccordionItem value="theme-flash">
             <AccordionTrigger>Theme flash on page load</AccordionTrigger>
             <AccordionContent>
-              <p className="text-sm text-muted-foreground">
-                Add an inline script to your{" "}
-                <code className="bg-muted px-1 rounded text-foreground text-xs">
-                  index.html
-                </code>{" "}
-                that reads the theme from localStorage before React hydrates.
-                This prevents the flash of wrong theme.
-              </p>
+              <div className="space-y-3">
+                <p className="text-sm text-muted-foreground">
+                  Add an inline script to your{" "}
+                  <code className="bg-muted px-1 rounded text-foreground text-xs">
+                    index.html
+                  </code>{" "}
+                  <strong>before</strong> any other scripts. This applies the
+                  theme before React hydrates and respects system preference:
+                </p>
+                <CodeBlockDoc
+                  filename="index.html"
+                  language="html"
+                  code={`<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My App</title>
+    <!-- Flash Prevention: Apply theme before render -->
+    <script>
+      (function() {
+        var stored = localStorage.getItem("tweakcn-theme");
+        if (stored) {
+          document.documentElement.setAttribute("data-theme", stored);
+        } else {
+          // Respect system preference for first-time visitors
+          var isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.setAttribute("data-theme", isDark ? "default-dark" : "default-light");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>`}
+                />
+                <p className="text-sm text-muted-foreground">
+                  This runs synchronously before the page renders, preventing
+                  any flash. It also respects system preference for first-time
+                  visitors.
+                </p>
+              </div>
             </AccordionContent>
           </AccordionItem>
         </Accordion>

@@ -145,7 +145,7 @@ export function ThemeSwitcher() {
               <div className="px-2 py-1.5 text-xs text-muted-foreground text-center">
                 Themes by{" "}
                 <a
-                  href="https://tweakcn-picker.vercel.app"
+                  href="https://tweakcn.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-medium text-foreground hover:underline"

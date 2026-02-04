@@ -250,51 +250,258 @@ body {
       </div>
 
       {/* Switching Themes */}
-      <div className="space-y-4">
+      <div className="space-y-6">
         <h2 className="text-2xl font-semibold">
           Switching Themes Programmatically
         </h2>
         <p className="text-muted-foreground">
-          Use the theme hooks to change themes in your components:
+          Use the{" "}
+          <code className="bg-muted px-1.5 py-0.5 rounded text-foreground">
+            useTheme
+          </code>{" "}
+          hook from{" "}
+          <code className="bg-muted px-1.5 py-0.5 rounded text-foreground">
+            next-themes
+          </code>{" "}
+          to control themes programmatically in your components.
         </p>
 
-        <CodeBlockDoc
-          filename="Example: Theme Switcher"
-          language="tsx"
-          code={`import { useTheme } from "next-themes"
+        {/* useTheme Hook API */}
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold">The useTheme Hook</h3>
+          <CodeBlockDoc
+            filename="Importing the hook"
+            language="tsx"
+            code={`import { useTheme } from "next-themes"`}
+          />
 
-function ThemeSwitcher() {
-  const { theme, setTheme } = useTheme()
+          <Card className="p-4">
+            <h4 className="font-semibold mb-3">Return Values</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b">
+                    <th className="text-left py-2 px-3 font-medium">
+                      Property
+                    </th>
+                    <th className="text-left py-2 px-3 font-medium">Type</th>
+                    <th className="text-left py-2 px-3 font-medium">
+                      Description
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y">
+                  <tr>
+                    <td className="py-2 px-3 font-mono text-xs">theme</td>
+                    <td className="py-2 px-3 text-muted-foreground">string</td>
+                    <td className="py-2 px-3">
+                      Current active theme (e.g., "catppuccin-dark")
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 font-mono text-xs">setTheme</td>
+                    <td className="py-2 px-3 text-muted-foreground">
+                      (theme: string) =&gt; void
+                    </td>
+                    <td className="py-2 px-3">
+                      Function to change the current theme
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 font-mono text-xs">themes</td>
+                    <td className="py-2 px-3 text-muted-foreground">
+                      string[]
+                    </td>
+                    <td className="py-2 px-3">List of all available themes</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 font-mono text-xs">
+                      resolvedTheme
+                    </td>
+                    <td className="py-2 px-3 text-muted-foreground">string</td>
+                    <td className="py-2 px-3">
+                      Actual theme applied (useful when theme is "system")
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 font-mono text-xs">systemTheme</td>
+                    <td className="py-2 px-3 text-muted-foreground">
+                      "light" | "dark"
+                    </td>
+                    <td className="py-2 px-3">
+                      System preference (light or dark)
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </Card>
+        </div>
 
-  // Get current color theme and mode
+        {/* Basic Usage */}
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold">Basic Usage</h3>
+          <CodeBlockDoc
+            filename="Getting the current theme"
+            language="tsx"
+            code={`const { theme, setTheme } = useTheme()
+
+// theme = "catppuccin-dark"
+console.log(theme)`}
+          />
+        </div>
+
+        {/* Parsing Theme Values */}
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold">Parsing Theme Values</h3>
+          <p className="text-muted-foreground">
+            Since themes follow the{" "}
+            <code className="bg-muted px-1.5 py-0.5 rounded text-foreground">
+              [name]-[mode]
+            </code>{" "}
+            pattern, you can parse them to get the color theme and mode
+            separately:
+          </p>
+          <CodeBlockDoc
+            filename="Parsing theme name and mode"
+            language="tsx"
+            code={`const { theme } = useTheme()
+
+// Extract the color theme name
+const colorTheme = theme?.replace("-light", "").replace("-dark", "")
+// colorTheme = "catppuccin"
+
+// Check if dark mode
+const isDark = theme?.endsWith("-dark")
+// isDark = true`}
+          />
+        </div>
+
+        {/* Setting Themes */}
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold">Setting Themes</h3>
+          <CodeBlockDoc
+            filename="Changing themes"
+            language="tsx"
+            code={`const { setTheme } = useTheme()
+
+// Set a specific theme with mode
+setTheme("claude-dark")
+setTheme("vercel-light")
+setTheme("catppuccin-dark")
+
+// Set theme dynamically
+const themeName = "cyberpunk"
+const mode = "dark"
+setTheme(\`\${themeName}-\${mode}\`)`}
+          />
+        </div>
+
+        {/* Toggle Mode */}
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold">Toggling Light/Dark Mode</h3>
+          <p className="text-muted-foreground">
+            To toggle between light and dark while keeping the same color theme:
+          </p>
+          <CodeBlockDoc
+            filename="Toggle mode function"
+            language="tsx"
+            code={`const { theme, setTheme } = useTheme()
+
+const toggleMode = () => {
+  // Get current color theme (without -light/-dark suffix)
   const colorTheme = theme?.replace("-light", "").replace("-dark", "")
+
+  // Check current mode
   const isDark = theme?.endsWith("-dark")
 
-  // Switch to a different theme
-  const switchTheme = (newTheme: string) => {
-    setTheme(\`\${newTheme}-\${isDark ? "dark" : "light"}\`)
-  }
+  // Toggle to opposite mode
+  setTheme(\`\${colorTheme}-\${isDark ? "light" : "dark"}\`)
+}
 
-  // Toggle light/dark mode
-  const toggleMode = () => {
-    setTheme(\`\${colorTheme}-\${isDark ? "light" : "dark"}\`)
-  }
+// If theme is "catppuccin-dark", calling toggleMode()
+// will change it to "catppuccin-light"`}
+          />
+        </div>
 
-  return (
-    <div>
-      <button onClick={() => switchTheme("catppuccin")}>
-        Catppuccin
-      </button>
-      <button onClick={() => switchTheme("claude")}>
-        Claude
-      </button>
-      <button onClick={toggleMode}>
-        {isDark ? "Light Mode" : "Dark Mode"}
-      </button>
-    </div>
-  )
-}`}
-        />
+        {/* Switch Color Theme */}
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold">Switching Color Themes</h3>
+          <p className="text-muted-foreground">
+            To switch to a different color theme while preserving the current
+            mode:
+          </p>
+          <CodeBlockDoc
+            filename="Switch color theme function"
+            language="tsx"
+            code={`const { theme, setTheme } = useTheme()
+
+const switchColorTheme = (newTheme: string) => {
+  // Keep the current mode (light/dark)
+  const isDark = theme?.endsWith("-dark")
+
+  // Apply new theme with same mode
+  setTheme(\`\${newTheme}-\${isDark ? "dark" : "light"}\`)
+}
+
+// Usage
+switchColorTheme("claude")     // Switches to claude-[current-mode]
+switchColorTheme("vercel")     // Switches to vercel-[current-mode]
+switchColorTheme("cyberpunk")  // Switches to cyberpunk-[current-mode]`}
+          />
+        </div>
+
+        {/* Available Themes */}
+        <div className="space-y-4">
+          <h3 className="text-xl font-semibold">Getting Available Themes</h3>
+          <p className="text-muted-foreground">
+            You can also import the theme configuration directly:
+          </p>
+          <CodeBlockDoc
+            filename="Using themes config"
+            language="tsx"
+            code={`import { themes, sortedThemes, allThemeValues } from "@/lib/themes-config"
+
+// themes - Array of theme objects with metadata
+themes.forEach(t => {
+  console.log(t.name)        // "catppuccin"
+  console.log(t.title)       // "Catppuccin"
+  console.log(t.description) // "Soothing pastel theme..."
+  console.log(t.category)    // "colorful"
+})
+
+// sortedThemes - Alphabetically sorted (default first)
+// allThemeValues - All theme strings: ["default-light", "default-dark", ...]`}
+          />
+        </div>
+
+        {/* Hydration Warning */}
+        <Card className="p-4 border-amber-500/50 bg-amber-500/5">
+          <h4 className="font-semibold mb-2 flex items-center gap-2">
+            <span className="text-amber-500">⚠</span> Hydration Warning
+          </h4>
+          <p className="text-sm text-muted-foreground mb-3">
+            The theme is stored in localStorage and isn&apos;t available during
+            SSR. Always check if the component is mounted before rendering
+            theme-dependent UI:
+          </p>
+          <CodeBlockDoc
+            language="tsx"
+            showLineNumbers={false}
+            code={`const [mounted, setMounted] = useState(false)
+const { theme } = useTheme()
+
+useEffect(() => {
+  setMounted(true)
+}, [])
+
+// Avoid hydration mismatch
+if (!mounted) return null
+
+// Safe to use theme now
+return <div>Current: {theme}</div>`}
+          />
+        </Card>
       </div>
     </div>
   );

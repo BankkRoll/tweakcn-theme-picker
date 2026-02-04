@@ -1,6 +1,6 @@
 # Theme Picker for shadcn/ui
 
-Easily add 38+ themes with support for light and dark modes. Add a complete theme picker to your shadcn/ui app with a single command. OKLCH colors, custom fonts, light & dark modes for every theme.
+Easily add 42+ themes with support for light and dark modes. Add a complete theme picker to your shadcn/ui app with a single command. OKLCH colors, custom fonts, light & dark modes for every theme.
 
 <img width="1944" height="1090" alt="image" src="https://github.com/user-attachments/assets/eb4ac43b-db61-43e1-a02a-65e707dbe099" />
 

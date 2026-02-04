@@ -35,7 +35,10 @@ export function ModeToggle() {
 
     window.addEventListener("theme-change", handleThemeChange as EventListener);
     return () => {
-      window.removeEventListener("theme-change", handleThemeChange as EventListener);
+      window.removeEventListener(
+        "theme-change",
+        handleThemeChange as EventListener,
+      );
     };
   }, []);
 

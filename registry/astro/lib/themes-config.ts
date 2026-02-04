@@ -270,6 +270,41 @@ export const themes: ThemeConfig[] = [
     primaryDark: "oklch(0.73 0.06 66.7)",
     fontSans: "Libre Baskerville, serif",
   },
+  {
+    name: "twitch",
+    title: "Twitch",
+    primaryLight: "oklch(0.54 0.24 292)",
+    primaryDark: "oklch(0.60 0.22 292)",
+    fontSans: "Inter, sans-serif",
+  },
+  {
+    name: "kick",
+    title: "Kick",
+    primaryLight: "oklch(0.75 0.26 135)",
+    primaryDark: "oklch(0.83 0.28 135)",
+    fontSans: "Inter, sans-serif",
+  },
+  {
+    name: "spotify",
+    title: "Spotify",
+    primaryLight: "oklch(0.64 0.20 155)",
+    primaryDark: "oklch(0.68 0.20 155)",
+    fontSans: "Montserrat, sans-serif",
+  },
+  {
+    name: "stripe",
+    title: "Stripe",
+    primaryLight: "oklch(0.55 0.24 280)",
+    primaryDark: "oklch(0.65 0.22 280)",
+    fontSans: "system-ui, sans-serif",
+  },
+  {
+    name: "github",
+    title: "GitHub",
+    primaryLight: "oklch(0.52 0.16 145)",
+    primaryDark: "oklch(0.62 0.16 145)",
+    fontSans: "system-ui, sans-serif",
+  },
 ];
 
 // Sort themes alphabetically by title, but keep default first
