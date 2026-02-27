@@ -305,6 +305,13 @@ export const themes: ThemeConfig[] = [
     primaryDark: "oklch(0.62 0.16 145)",
     fontSans: "system-ui, sans-serif",
   },
+  {
+    name: "windows98",
+    title: "Windows 98",
+    primaryLight: "oklch(0.2711 0.1879 264.0520)",
+    primaryDark: "oklch(0.2711 0.1879 264.0520)",
+    fontSans: "Pixelify Sans, sans-serif",
+  },
 ];
 
 // Sort themes alphabetically by title, but keep default first

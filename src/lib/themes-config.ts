@@ -391,6 +391,15 @@ export const themes: ThemeConfig[] = [
     description: "Official GitHub theme for developer tools",
     category: "branded",
   },
+  {
+    name: "windows98",
+    title: "Windows 98",
+    primaryLight: "oklch(0.2711 0.1879 264.0520)",
+    primaryDark: "oklch(0.2711 0.1879 264.0520)",
+    fontSans: "Pixelify Sans, sans-serif",
+    description: "Classic Windows 98 retro computing aesthetic",
+    category: "creative",
+  },
 ];
 
 // Sort themes alphabetically by title, but keep default first

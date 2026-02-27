@@ -1,6 +1,6 @@
 # Theme Picker for shadcn/ui
 
-Easily add 42+ themes with support for light and dark modes. Add a complete theme picker to your shadcn/ui app with a single command. OKLCH colors, custom fonts, light & dark modes for every theme.
+Easily add 43+ themes with support for light and dark modes. Add a complete theme picker to your shadcn/ui app with a single command. OKLCH colors, custom fonts, light & dark modes for every theme.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0842244a-f0cb-4110-9c6a-6835c8d11d7e" />
 
@@ -8,7 +8,7 @@ Easily add 42+ themes with support for light and dark modes. Add a complete them
 
 ## Features
 
-- 42+ ready-to-use themes
+- 43+ ready-to-use themes
 - Light and dark mode support for each theme
 - Framework adapters for Next.js, Vite, Astro, and Remix
 - Built on CSS variables and Tailwind CSS v4
@@ -83,6 +83,11 @@ npx shadcn@latest add https://tweakcn-picker.vercel.app/r/theme-cyberpunk.json
 - Twitter
 - Bold Tech
 - Supabase
+- Twitch
+- Kick
+- Spotify
+- Stripe
+- GitHub
 
 ### Creative
 
@@ -95,6 +100,7 @@ npx shadcn@latest add https://tweakcn-picker.vercel.app/r/theme-cyberpunk.json
 - Claymorphism
 - Retro Arcade
 - Vintage Paper
+- Windows 98
 
 ### Dark
 

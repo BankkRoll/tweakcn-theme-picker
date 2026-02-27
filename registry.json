@@ -236,6 +236,11 @@
           "path": "registry/themes/github.css",
           "type": "registry:file",
           "target": "styles/themes/github.css"
+        },
+        {
+          "path": "registry/themes/windows98.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
         }
       ]
     },
@@ -470,6 +475,11 @@
           "path": "registry/themes/github.css",
           "type": "registry:file",
           "target": "styles/themes/github.css"
+        },
+        {
+          "path": "registry/themes/windows98.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
         }
       ]
     },
@@ -704,6 +714,11 @@
           "path": "registry/themes/github.css",
           "type": "registry:file",
           "target": "styles/themes/github.css"
+        },
+        {
+          "path": "registry/themes/windows98.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
         }
       ]
     },
@@ -944,6 +959,11 @@
           "path": "registry/themes/github.css",
           "type": "registry:file",
           "target": "styles/themes/github.css"
+        },
+        {
+          "path": "registry/themes/windows98.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
         }
       ]
     },
@@ -1490,6 +1510,19 @@
           "path": "registry/themes/github.css",
           "type": "registry:file",
           "target": "styles/themes/github.css"
+        }
+      ]
+    },
+    {
+      "name": "theme-windows98",
+      "type": "registry:theme",
+      "title": "Windows 98",
+      "description": "Classic Windows 98 retro computing aesthetic with pixel fonts",
+      "files": [
+        {
+          "path": "registry/themes/windows98.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
         }
       ]
     }
