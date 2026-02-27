@@ -1,22 +1,37 @@
 "use client";
 
-import { Check, Sparkles } from "lucide-react";
+import { Check, ChevronDown, Copy, Sparkles } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
 
 import { Badge } from "@/components/ui/badge";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/utils";
 import { ThemeSwitcherPreview } from "./theme-switcher-preview";
 
-const INSTALL_COMMAND =
-  "pnpm dlx shadcn@latest add https://tweakcn-picker.vercel.app/r/nextjs/theme-system.json";
+const REGISTRY_URL =
+  "https://tweakcn-picker.vercel.app/r/nextjs/theme-system.json";
+
+const PACKAGE_MANAGERS = [
+  { id: "pnpm", label: "pnpm", command: "pnpm dlx shadcn@latest add" },
+  { id: "npx", label: "npm", command: "npx shadcn@latest add" },
+  { id: "bun", label: "bun", command: "bunx --bun shadcn@latest add" },
+  { id: "yarn", label: "yarn", command: "npx shadcn@latest add" },
+] as const;
+
+const INSTALL_COMMAND = `${PACKAGE_MANAGERS[0].command} ${REGISTRY_URL}`;
 
 const TERMINAL_LINES = [
   { text: "Fetching registry...", delay: 600 },
-  { text: "Found 38 themes", delay: 400 },
+  { text: "Found 43 themes", delay: 400 },
   { text: "Installing next-themes...", delay: 300 },
   { text: "Creating theme files...", delay: 400 },
-  { text: "  + 38 theme CSS files", delay: 200 },
+  { text: "  + 43 theme CSS files", delay: 200 },
   { text: "  + components/theme-provider.tsx", delay: 150 },
 ];
 
@@ -31,6 +46,17 @@ export function HeroSection() {
   const [showMainMenu, setShowMainMenu] = useState(false);
   const [showSubMenu, setShowSubMenu] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [copied, setCopied] = useState<string | null>(null);
+
+  const copyCommand = (pmId: string) => {
+    const pm = PACKAGE_MANAGERS.find((p) => p.id === pmId);
+    if (!pm) return;
+    const command = `${pm.command} ${REGISTRY_URL}`;
+    navigator.clipboard.writeText(command).then(() => {
+      setCopied(pmId);
+      setTimeout(() => setCopied(null), 2000);
+    });
+  };
 
   useEffect(() => {
     setMounted(true);
@@ -73,7 +99,7 @@ export function HeroSection() {
 
   return (
     <section className="relative overflow-hidden border-b bg-gradient-to-b from-muted/50 to-background">
-      <div className="absolute inset-0 bg-grid-pattern opacity-[0.02]" />
+      <div className="absolute inset-0 bg-grid-pattern opacity-[0.02] pointer-events-none" />
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
         <div className="flex flex-col items-center text-center mb-12">
           <Badge variant="outline" className="mb-6 px-4 py-1.5 text-sm">
@@ -81,7 +107,7 @@ export function HeroSection() {
             One command install for shadcn/ui
           </Badge>
           <h1 className="max-w-4xl text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            42+ themes,{" "}
+            43+ themes,{" "}
             <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
               one install
             </span>
@@ -103,15 +129,52 @@ export function HeroSection() {
                 transition={{ duration: 0.5 }}
                 className="rounded-xl border-2 bg-zinc-950 overflow-hidden shadow-2xl"
               >
-                <div className="flex items-center gap-2 px-3 sm:px-4 py-2 sm:py-2.5 bg-zinc-900 border-b border-zinc-800">
-                  <div className="flex gap-1.5">
-                    <div className="w-2.5 h-2.5 rounded-full bg-red-500/80" />
-                    <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/80" />
-                    <div className="w-2.5 h-2.5 rounded-full bg-green-500/80" />
+                <div className="flex items-center justify-between px-3 sm:px-4 py-2 sm:py-2.5 bg-zinc-900 border-b border-zinc-800">
+                  <div className="flex items-center gap-2">
+                    <div className="flex gap-1.5">
+                      <div className="w-2.5 h-2.5 rounded-full bg-red-500/80" />
+                      <div className="w-2.5 h-2.5 rounded-full bg-yellow-500/80" />
+                      <div className="w-2.5 h-2.5 rounded-full bg-green-500/80" />
+                    </div>
+                    <span className="text-xs text-zinc-500 ml-2 font-mono">
+                      Terminal
+                    </span>
                   </div>
-                  <span className="text-xs text-zinc-500 ml-2 font-mono">
-                    Terminal
-                  </span>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <button
+                        type="button"
+                        className="flex items-center gap-1.5 px-2 py-1 text-xs text-zinc-400 hover:text-zinc-200 transition-colors rounded hover:bg-zinc-800"
+                      >
+                        {copied ? (
+                          <>
+                            <Check className="h-3.5 w-3.5 text-emerald-400" />
+                            <span className="text-emerald-400">Copied!</span>
+                          </>
+                        ) : (
+                          <>
+                            <Copy className="h-3.5 w-3.5" />
+                            <span>Copy</span>
+                            <ChevronDown className="h-3 w-3" />
+                          </>
+                        )}
+                      </button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end" className="min-w-25">
+                      {PACKAGE_MANAGERS.map((pm) => (
+                        <DropdownMenuItem
+                          key={pm.id}
+                          onClick={() => copyCommand(pm.id)}
+                          className="flex items-center justify-between gap-2"
+                        >
+                          <span>{pm.label}</span>
+                          {copied === pm.id && (
+                            <Check className="h-3.5 w-3.5 text-emerald-500" />
+                          )}
+                        </DropdownMenuItem>
+                      ))}
+                    </DropdownMenuContent>
+                  </DropdownMenu>
                 </div>
 
                 <div className="p-3 sm:p-4 font-mono text-[11px] sm:text-xs md:text-sm h-56 sm:h-60 overflow-hidden">
