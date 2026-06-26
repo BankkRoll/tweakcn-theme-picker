@@ -1,0 +1,134 @@
+/* Bold Tech Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="bold-tech-light"] {
+  --background: #ffffff;
+  --foreground: #312d84;
+  --card: #ffffff;
+  --card-foreground: #312d84;
+  --popover: #ffffff;
+  --popover-foreground: #312d84;
+  --primary: #8c5df8;
+  --primary-foreground: #ffffff;
+  --secondary: #f2effe;
+  --secondary-foreground: #443bc9;
+  --muted: #f5f3ff;
+  --muted-foreground: #7c38ee;
+  --accent: #dbe9fc;
+  --accent-foreground: #1d3fad;
+  --destructive: #f14444;
+  --destructive-foreground: #ffffff;
+  --border: #e1e7fd;
+  --input: #e1e7fd;
+  --ring: #8c5df8;
+  --chart-1: #8c5df8;
+  --chart-2: #7c38ee;
+  --chart-3: #6d29d8;
+  --chart-4: #5a20b5;
+  --chart-5: #4c1c96;
+  --radius: 0.625rem;
+  --sidebar: #f5f3ff;
+  --sidebar-foreground: #312d84;
+  --sidebar-primary: #8c5df8;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #dbe9fc;
+  --sidebar-accent-foreground: #1d3fad;
+  --sidebar-border: #e1e7fd;
+  --sidebar-ring: #8c5df8;
+  --font-sans: Roboto, sans-serif;
+  --font-serif: Playfair Display, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: #835ef3;
+  --shadow-opacity: 0.2;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+  --shadow-xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+  --shadow-sm:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+  --shadow:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+  --shadow-md:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 2px 4px -1px hsl(255 86% 66% / 0.2);
+  --shadow-lg:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 4px 6px -1px hsl(255 86% 66% / 0.2);
+  --shadow-xl:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 8px 10px -1px hsl(255 86% 66% / 0.2);
+  --shadow-2xl: 2px 2px 4px 0px hsl(255 86% 66% / 0.5);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="bold-tech-dark"] {
+  --background: #0f182b;
+  --foreground: #e1e7fd;
+  --card: #1f1b4e;
+  --card-foreground: #e1e7fd;
+  --popover: #1f1b4e;
+  --popover-foreground: #e1e7fd;
+  --primary: #8c5df8;
+  --primary-foreground: #ffffff;
+  --secondary: #1f1b4e;
+  --secondary-foreground: #e1e7fd;
+  --muted: #1f1b4e;
+  --muted-foreground: #c4b5fc;
+  --accent: #443bc9;
+  --accent-foreground: #e1e7fd;
+  --destructive: #f14444;
+  --destructive-foreground: #ffffff;
+  --border: #2e0c66;
+  --input: #2e0c66;
+  --ring: #8c5df8;
+  --chart-1: #a78bfb;
+  --chart-2: #8c5df8;
+  --chart-3: #7c38ee;
+  --chart-4: #6d29d8;
+  --chart-5: #5a20b5;
+  --radius: 0.625rem;
+  --sidebar: #0f182b;
+  --sidebar-foreground: #e1e7fd;
+  --sidebar-primary: #8c5df8;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #443bc9;
+  --sidebar-accent-foreground: #e1e7fd;
+  --sidebar-border: #2e0c66;
+  --sidebar-ring: #8c5df8;
+  --font-sans: Roboto, sans-serif;
+  --font-serif: Playfair Display, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: #835ef3;
+  --shadow-opacity: 0.2;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+  --shadow-xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+  --shadow-sm:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+  --shadow:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+  --shadow-md:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 2px 4px -1px hsl(255 86% 66% / 0.2);
+  --shadow-lg:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 4px 6px -1px hsl(255 86% 66% / 0.2);
+  --shadow-xl:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 8px 10px -1px hsl(255 86% 66% / 0.2);
+  --shadow-2xl: 2px 2px 4px 0px hsl(255 86% 66% / 0.5);
+}

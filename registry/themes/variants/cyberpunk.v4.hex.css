@@ -1,0 +1,124 @@
+/* Cyberpunk Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="cyberpunk-light"] {
+  --background: #f8f8f8;
+  --foreground: #0b0a1e;
+  --card: #ffffff;
+  --card-foreground: #0b0a1e;
+  --popover: #ffffff;
+  --popover-foreground: #0b0a1e;
+  --primary: #fe00c7;
+  --primary-foreground: #ffffff;
+  --secondary: #f0f0ff;
+  --secondary-foreground: #0b0a1e;
+  --muted: #f0f0ff;
+  --muted-foreground: #0b0a1e;
+  --accent: #20fecc;
+  --accent-foreground: #0b0a1e;
+  --destructive: #fc3f09;
+  --destructive-foreground: #ffffff;
+  --border: #dee6ea;
+  --input: #dee6ea;
+  --ring: #fe00c7;
+  --chart-1: #fe00c7;
+  --chart-2: #900dfd;
+  --chart-3: #00e4fd;
+  --chart-4: #20fecc;
+  --chart-5: #ffe729;
+  --radius: 0.5rem;
+  --sidebar: #f0f0ff;
+  --sidebar-foreground: #0b0a1e;
+  --sidebar-primary: #fe00c7;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #20fecc;
+  --sidebar-accent-foreground: #0b0a1e;
+  --sidebar-border: #dee6ea;
+  --sidebar-ring: #fe00c7;
+  --font-sans: Outfit, sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.1;
+  --shadow-blur: 8px;
+  --shadow-spread: -2px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 4px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 4px 8px -2px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0px 4px 8px -2px hsl(0 0% 0% / 0.05);
+  --shadow-sm:
+    0px 4px 8px -2px hsl(0 0% 0% / 0.1), 0px 1px 2px -3px hsl(0 0% 0% / 0.1);
+  --shadow:
+    0px 4px 8px -2px hsl(0 0% 0% / 0.1), 0px 1px 2px -3px hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0px 4px 8px -2px hsl(0 0% 0% / 0.1), 0px 2px 4px -3px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0px 4px 8px -2px hsl(0 0% 0% / 0.1), 0px 4px 6px -3px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0px 4px 8px -2px hsl(0 0% 0% / 0.1), 0px 8px 10px -3px hsl(0 0% 0% / 0.1);
+  --shadow-2xl: 0px 4px 8px -2px hsl(0 0% 0% / 0.25);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="cyberpunk-dark"] {
+  --background: #0b0a1e;
+  --foreground: #ebeff5;
+  --card: #1d1d3d;
+  --card-foreground: #ebeff5;
+  --popover: #1d1d3d;
+  --popover-foreground: #ebeff5;
+  --primary: #fe00c7;
+  --primary-foreground: #ffffff;
+  --secondary: #1d1d3d;
+  --secondary-foreground: #ebeff5;
+  --muted: #1d1d3d;
+  --muted-foreground: #7f84a5;
+  --accent: #20fecc;
+  --accent-foreground: #0b0a1e;
+  --destructive: #fc3f09;
+  --destructive-foreground: #ffffff;
+  --border: #2f2f5d;
+  --input: #2f2f5d;
+  --ring: #fe00c7;
+  --chart-1: #fe00c7;
+  --chart-2: #900dfd;
+  --chart-3: #00e4fd;
+  --chart-4: #20fecc;
+  --chart-5: #ffe729;
+  --radius: 0.5rem;
+  --sidebar: #0b0a1e;
+  --sidebar-foreground: #ebeff5;
+  --sidebar-primary: #fe00c7;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #20fecc;
+  --sidebar-accent-foreground: #0b0a1e;
+  --sidebar-border: #2f2f5d;
+  --sidebar-ring: #fe00c7;
+  --font-sans: Outfit, sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.1;
+  --shadow-blur: 8px;
+  --shadow-spread: -2px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 4px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 4px 8px -2px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0px 4px 8px -2px hsl(0 0% 0% / 0.05);
+  --shadow-sm:
+    0px 4px 8px -2px hsl(0 0% 0% / 0.1), 0px 1px 2px -3px hsl(0 0% 0% / 0.1);
+  --shadow:
+    0px 4px 8px -2px hsl(0 0% 0% / 0.1), 0px 1px 2px -3px hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0px 4px 8px -2px hsl(0 0% 0% / 0.1), 0px 2px 4px -3px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0px 4px 8px -2px hsl(0 0% 0% / 0.1), 0px 4px 6px -3px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0px 4px 8px -2px hsl(0 0% 0% / 0.1), 0px 8px 10px -3px hsl(0 0% 0% / 0.1);
+  --shadow-2xl: 0px 4px 8px -2px hsl(0 0% 0% / 0.25);
+}

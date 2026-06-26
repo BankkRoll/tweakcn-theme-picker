@@ -1,0 +1,140 @@
+/* Kodama Grove Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Kodama Grove Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 45.01 46.65% 79.59%;
+    --foreground: 25.98 18.63% 30.6%;
+    --card: 42 44.66% 82.22%;
+    --card-foreground: 25.98 18.63% 30.6%;
+    --popover: 43.65 55.22% 89.4%;
+    --popover-foreground: 25.98 18.63% 30.6%;
+    --primary: 72.1 35.19% 46.03%;
+    --primary-foreground: 42.84 90.24% 97.8%;
+    --secondary: 44.52 45.76% 74.83%;
+    --secondary-foreground: 25.98 18.63% 30.6%;
+    --muted: 44.52 45.76% 74.83%;
+    --muted-foreground: 26.72 13% 47.18%;
+    --accent: 43.94 49.82% 72.6%;
+    --accent-foreground: 25.98 18.63% 30.6%;
+    --destructive: 8.54 54.74% 66.85%;
+    --destructive-foreground: 44.99 53.59% 96.43%;
+    --border: 26.2 21.33% 59.91%;
+    --input: 43.94 49.82% 72.6%;
+    --ring: 92.33 19.93% 61.26%;
+    --chart-1: 92.33 19.93% 61.26%;
+    --chart-2: 94.93 16.83% 55.49%;
+    --chart-3: 102.87 14.93% 75.08%;
+    --chart-4: 104.41 12.31% 46.31%;
+    --chart-5: 103.63 11.38% 38.95%;
+    --radius: 0.425rem;
+    --sidebar: 44.06 48.77% 76.16%;
+    --sidebar-foreground: 25.98 18.63% 30.6%;
+    --sidebar-primary: 92.33 19.93% 61.26%;
+    --sidebar-primary-foreground: 42.84 90.24% 97.8%;
+    --sidebar-accent: 42.34 32.39% 87.84%;
+    --sidebar-accent-foreground: 25.98 18.63% 30.6%;
+    --sidebar-border: 42.34 29.22% 86.55%;
+    --sidebar-ring: 92.33 19.93% 61.26%;
+    --font-sans: Merriweather, serif;
+    --font-serif: Source Serif 4, serif;
+    --font-mono: JetBrains Mono, monospace;
+    --shadow-color: 88 22% 35%;
+    --shadow-opacity: 0.15;
+    --shadow-blur: 2px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 3px;
+    --shadow-offset-y: 3px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 3px 3px 2px 0px hsl(88 22% 35% / 0.07);
+    --shadow-xs: 3px 3px 2px 0px hsl(88 22% 35% / 0.07);
+    --shadow-sm:
+      3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+      3px 1px 2px -1px hsl(88 22% 35% / 0.15);
+    --shadow:
+      3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+      3px 1px 2px -1px hsl(88 22% 35% / 0.15);
+    --shadow-md:
+      3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+      3px 2px 4px -1px hsl(88 22% 35% / 0.15);
+    --shadow-lg:
+      3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+      3px 4px 6px -1px hsl(88 22% 35% / 0.15);
+    --shadow-xl:
+      3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+      3px 8px 10px -1px hsl(88 22% 35% / 0.15);
+    --shadow-2xl: 3px 3px 2px 0px hsl(88 22% 35% / 0.38);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 42.35 15.97% 19.48%;
+    --foreground: 38.4 34.98% 88.09%;
+    --card: 38.6 14.7% 22.69%;
+    --card-foreground: 38.4 34.98% 88.09%;
+    --popover: 38.6 14.7% 22.69%;
+    --popover-foreground: 38.4 34.98% 88.09%;
+    --primary: 94.93 16.83% 55.49%;
+    --primary-foreground: 26.65 11.37% 14.85%;
+    --secondary: 39.98 11.07% 30.95%;
+    --secondary-foreground: 38.4 34.98% 88.09%;
+    --muted: 38.83 13.15% 25.75%;
+    --muted-foreground: 33.36 10.96% 62.24%;
+    --accent: 44.33 26.38% 49.41%;
+    --accent-foreground: 26.65 11.37% 14.85%;
+    --destructive: 9.63 32.91% 56.39%;
+    --destructive-foreground: 40 43.43% 90.56%;
+    --border: 39.98 11.07% 30.95%;
+    --input: 39.98 11.07% 30.95%;
+    --ring: 94.93 16.83% 55.49%;
+    --chart-1: 94.93 16.83% 55.49%;
+    --chart-2: 92.33 19.93% 61.26%;
+    --chart-3: 104.41 12.31% 46.31%;
+    --chart-4: 44.33 26.38% 49.41%;
+    --chart-5: 103.63 11.38% 38.95%;
+    --radius: 0.425rem;
+    --sidebar: 42.35 15.97% 19.48%;
+    --sidebar-foreground: 38.4 34.98% 88.09%;
+    --sidebar-primary: 94.93 16.83% 55.49%;
+    --sidebar-primary-foreground: 26.65 11.37% 14.85%;
+    --sidebar-accent: 44.33 26.38% 49.41%;
+    --sidebar-accent-foreground: 26.65 11.37% 14.85%;
+    --sidebar-border: 39.98 11.07% 30.95%;
+    --sidebar-ring: 94.93 16.83% 55.49%;
+    --font-sans: Merriweather, serif;
+    --font-serif: Source Serif 4, serif;
+    --font-mono: JetBrains Mono, monospace;
+    --shadow-color: 88 22% 35%;
+    --shadow-opacity: 0.15;
+    --shadow-blur: 2px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 3px;
+    --shadow-offset-y: 3px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 3px 3px 2px 0px hsl(88 22% 35% / 0.07);
+    --shadow-xs: 3px 3px 2px 0px hsl(88 22% 35% / 0.07);
+    --shadow-sm:
+      3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+      3px 1px 2px -1px hsl(88 22% 35% / 0.15);
+    --shadow:
+      3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+      3px 1px 2px -1px hsl(88 22% 35% / 0.15);
+    --shadow-md:
+      3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+      3px 2px 4px -1px hsl(88 22% 35% / 0.15);
+    --shadow-lg:
+      3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+      3px 4px 6px -1px hsl(88 22% 35% / 0.15);
+    --shadow-xl:
+      3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+      3px 8px 10px -1px hsl(88 22% 35% / 0.15);
+    --shadow-2xl: 3px 3px 2px 0px hsl(88 22% 35% / 0.38);
+  }
+
+}

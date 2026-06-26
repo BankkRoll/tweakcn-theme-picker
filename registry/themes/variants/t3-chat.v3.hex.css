@@ -1,0 +1,138 @@
+/* T3 Chat Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* T3 Chat Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 252 246 252;
+    --foreground: 82 24 86;
+    --card: 252 246 252;
+    --card-foreground: 82 24 86;
+    --popover: 255 255 255;
+    --popover-foreground: 82 24 86;
+    --primary: 167 67 112;
+    --primary-foreground: 255 255 255;
+    --secondary: 242 196 231;
+    --secondary-foreground: 117 52 121;
+    --muted: 248 228 244;
+    --muted-foreground: 129 70 134;
+    --accent: 242 196 231;
+    --accent-foreground: 117 52 121;
+    --destructive: 171 64 69;
+    --destructive-foreground: 255 255 255;
+    --border: 239 191 235;
+    --input: 232 191 220;
+    --ring: 219 36 118;
+    --chart-1: 217 32 161;
+    --chart-2: 107 7 186;
+    --chart-3: 42 71 83;
+    --chart-4: 231 195 101;
+    --chart-5: 244 162 93;
+    --radius: 0.5rem;
+    --sidebar: 245 229 248;
+    --sidebar-foreground: 170 20 103;
+    --sidebar-primary: 70 70 88;
+    --sidebar-primary-foreground: 250 243 247;
+    --sidebar-accent: 248 248 248;
+    --sidebar-accent-foreground: 70 70 88;
+    --sidebar-border: 235 235 235;
+    --sidebar-ring: 219 36 118;
+    --font-sans:
+      ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono:
+      ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 3px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 1px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 34 29 39;
+    --foreground: 210 196 223;
+    --card: 43 38 49;
+    --card-foreground: 220 198 211;
+    --popover: 14 10 13;
+    --popover-foreground: 247 239 244;
+    --primary: 163 0 76;
+    --primary-foreground: 239 194 217;
+    --secondary: 53 44 60;
+    --secondary-foreground: 213 199 226;
+    --muted: 39 33 43;
+    --muted-foreground: 193 180 207;
+    --accent: 69 54 81;
+    --accent-foreground: 247 239 244;
+    --destructive: 48 18 22;
+    --destructive-foreground: 255 255 255;
+    --border: 61 49 56;
+    --input: 62 52 60;
+    --ring: 219 36 118;
+    --chart-1: 167 67 112;
+    --chart-2: 146 76 201;
+    --chart-3: 231 139 47;
+    --chart-4: 175 88 218;
+    --chart-5: 226 53 111;
+    --radius: 0.5rem;
+    --sidebar: 25 17 24;
+    --sidebar-foreground: 224 202 214;
+    --sidebar-primary: 29 78 218;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 38 23 34;
+    --sidebar-accent-foreground: 245 245 245;
+    --sidebar-border: 0 0 0;
+    --sidebar-ring: 219 36 118;
+    --font-sans:
+      ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono:
+      ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 3px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 1px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+  }
+
+}

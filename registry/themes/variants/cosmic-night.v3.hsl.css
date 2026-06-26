@@ -1,0 +1,140 @@
+/* Cosmic Night Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Cosmic Night Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 239.92 53.82% 97.25%;
+    --foreground: 240.33 28.88% 22.79%;
+    --card: 300 50% 100%;
+    --card-foreground: 240.33 28.88% 22.79%;
+    --popover: 300 50% 100%;
+    --popover-foreground: 240.33 28.88% 22.79%;
+    --primary: 252 55.87% 57.29%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 249.27 91.82% 93.71%;
+    --secondary-foreground: 249.15 32.57% 36.92%;
+    --muted: 239.92 36.34% 95.94%;
+    --muted-foreground: 240.18 13.08% 48.26%;
+    --accent: 218.46 99.9% 92.14%;
+    --accent-foreground: 240.33 28.88% 22.79%;
+    --destructive: 350.5 99.99% 67.13%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 239.95 30.87% 90.6%;
+    --input: 239.95 30.87% 90.6%;
+    --ring: 252 55.87% 57.29%;
+    --chart-1: 252 55.87% 57.29%;
+    --chart-2: 249.68 92.46% 76.3%;
+    --chart-3: 239.02 82% 65.23%;
+    --chart-4: 242.95 93.32% 72.38%;
+    --chart-5: 244.11 48.56% 47.74%;
+    --radius: 0.5rem;
+    --sidebar: 239.92 36.34% 95.94%;
+    --sidebar-foreground: 240.33 28.88% 22.79%;
+    --sidebar-primary: 252 55.87% 57.29%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 218.46 99.9% 92.14%;
+    --sidebar-accent-foreground: 240.33 28.88% 22.79%;
+    --sidebar-border: 239.95 30.87% 90.6%;
+    --sidebar-ring: 252 55.87% 57.29%;
+    --font-sans: Inter, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: JetBrains Mono, monospace;
+    --shadow-color: 240 30% 25%;
+    --shadow-opacity: 0.12;
+    --shadow-blur: 10px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+    --shadow-xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+    --shadow-sm:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow-md:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+    --shadow-lg:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+    --shadow-xl:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+    --shadow-2xl: 0px 4px 10px 0px hsl(240 30% 25% / 0.3);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 239.64 25.45% 7.47%;
+    --foreground: 240.11 62.55% 93.04%;
+    --card: 240.17 28.47% 14.37%;
+    --card-foreground: 240.11 62.55% 93.04%;
+    --popover: 240.17 28.47% 14.37%;
+    --popover-foreground: 240.11 62.55% 93.04%;
+    --primary: 251.12 99.96% 78.36%;
+    --primary-foreground: 239.64 25.45% 7.47%;
+    --secondary: 242.56 31.88% 24.44%;
+    --secondary-foreground: 241.79 93.88% 87.98%;
+    --muted: 239.77 32.7% 19.73%;
+    --muted-foreground: 240.12 22.5% 69.82%;
+    --accent: 239.59 32.16% 28.48%;
+    --accent-foreground: 240.11 62.55% 93.04%;
+    --destructive: 350.5 99.99% 67.13%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 239.96 25.95% 25.92%;
+    --input: 239.96 25.95% 25.92%;
+    --ring: 251.12 99.96% 78.36%;
+    --chart-1: 251.12 99.96% 78.36%;
+    --chart-2: 230.32 42.04% 63.36%;
+    --chart-3: 206.81 87.22% 68.22%;
+    --chart-4: 174.4 42.78% 49.89%;
+    --chart-5: 325.59 95.94% 73.13%;
+    --radius: 0.5rem;
+    --sidebar: 240.17 28.47% 14.37%;
+    --sidebar-foreground: 240.11 62.55% 93.04%;
+    --sidebar-primary: 251.12 99.96% 78.36%;
+    --sidebar-primary-foreground: 239.64 25.45% 7.47%;
+    --sidebar-accent: 239.59 32.16% 28.48%;
+    --sidebar-accent-foreground: 240.11 62.55% 93.04%;
+    --sidebar-border: 239.96 25.95% 25.92%;
+    --sidebar-ring: 251.12 99.96% 78.36%;
+    --font-sans: Inter, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: JetBrains Mono, monospace;
+    --shadow-color: 240 30% 25%;
+    --shadow-opacity: 0.12;
+    --shadow-blur: 10px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+    --shadow-xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+    --shadow-sm:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow-md:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+    --shadow-lg:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+    --shadow-xl:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+    --shadow-2xl: 0px 4px 10px 0px hsl(240 30% 25% / 0.3);
+  }
+
+}

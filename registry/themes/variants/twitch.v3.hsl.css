@@ -1,0 +1,134 @@
+/* Twitch Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Twitch Theme - Official Twitch brand colors */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 345.07 9.29% 96.21%;
+    --foreground: 239.1 11.56% 3.9%;
+    --card: 300 50% 100%;
+    --card-foreground: 239.1 11.56% 3.9%;
+    --popover: 300 50% 100%;
+    --popover-foreground: 239.1 11.56% 3.9%;
+    --primary: 261.2 96.63% 58.61%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 245.07 35.5% 93.82%;
+    --secondary-foreground: 239.4 10.62% 9.39%;
+    --muted: 344.99 14.15% 93.83%;
+    --muted-foreground: 238.68 3.2% 39.85%;
+    --accent: 264.08 82.6% 48.32%;
+    --accent-foreground: 300 50% 100%;
+    --destructive: 351.89 92.21% 43.24%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 344.98 6.81% 87.36%;
+    --input: 344.98 8.6% 89.94%;
+    --ring: 261.2 96.63% 58.61%;
+    --chart-1: 261.2 96.63% 58.61%;
+    --chart-2: 264.08 82.6% 48.32%;
+    --chart-3: 182.38 99.77% 33.3%;
+    --chart-4: 136.82 43.05% 50.95%;
+    --chart-5: 315.81 55.24% 52.13%;
+    --radius: 0.5rem;
+    --sidebar: 345.07 14.25% 97.53%;
+    --sidebar-foreground: 239.1 11.56% 3.9%;
+    --sidebar-primary: 261.2 96.63% 58.61%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 245.07 35.5% 93.82%;
+    --sidebar-accent-foreground: 239.4 10.62% 9.39%;
+    --sidebar-border: 344.98 6.81% 87.36%;
+    --sidebar-ring: 261.2 96.63% 58.61%;
+    --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 263 100% 10%;
+    --shadow-opacity: 0.08;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(263 100% 10% / 0.04);
+    --shadow-xs: 0 1px 3px 0px hsl(263 100% 10% / 0.06);
+    --shadow-sm:
+      0 2px 4px 0px hsl(263 100% 10% / 0.08),
+      0 1px 2px -1px hsl(263 100% 10% / 0.08);
+    --shadow:
+      0 2px 4px 0px hsl(263 100% 10% / 0.08),
+      0 1px 2px -1px hsl(263 100% 10% / 0.08);
+    --shadow-md:
+      0 4px 6px 0px hsl(263 100% 10% / 0.1),
+      0 2px 4px -1px hsl(263 100% 10% / 0.1);
+    --shadow-lg:
+      0 8px 10px 0px hsl(263 100% 10% / 0.1),
+      0 4px 6px -1px hsl(263 100% 10% / 0.1);
+    --shadow-xl:
+      0 16px 20px 0px hsl(263 100% 10% / 0.12),
+      0 8px 10px -1px hsl(263 100% 10% / 0.12);
+    --shadow-2xl: 0 24px 48px 0px hsl(263 100% 10% / 0.2);
+    --tracking-normal: -0.01em;
+  }
+
+  /* Dark mode - #0E0E10 is Twitch's signature dark background */
+  .dark {
+    --background: 239.1 11.56% 3.9%;
+    --foreground: 345.04 8.3% 93.68%;
+    --card: 239.26 10.42% 7.48%;
+    --card-foreground: 345.04 8.3% 93.68%;
+    --popover: 239.15 8.69% 9.24%;
+    --popover-foreground: 345.04 8.3% 93.68%;
+    --primary: 261.2 96.63% 58.61%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 239.07 7.46% 11.04%;
+    --secondary-foreground: 345.04 4.05% 87.21%;
+    --muted: 238.91 6.66% 9.08%;
+    --muted-foreground: 238.58 3.19% 57.13%;
+    --accent: 250.6 99.96% 78.42%;
+    --accent-foreground: 239.1 11.56% 3.9%;
+    --destructive: 359.22 71.52% 55.23%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 239.05 6.49% 16.84%;
+    --input: 239.07 7.46% 11.04%;
+    --ring: 261.2 96.63% 58.61%;
+    --chart-1: 261.2 96.63% 58.61%;
+    --chart-2: 250.6 99.96% 78.42%;
+    --chart-3: 182.36 99.82% 36.79%;
+    --chart-4: 134.98 46.28% 58.72%;
+    --chart-5: 317.12 57.92% 59.32%;
+    --radius: 0.5rem;
+    --sidebar: 239.26 13.51% 2.5%;
+    --sidebar-foreground: 345.04 8.3% 93.68%;
+    --sidebar-primary: 261.2 96.63% 58.61%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 239.07 7.46% 11.04%;
+    --sidebar-accent-foreground: 345.04 4.05% 87.21%;
+    --sidebar-border: 239.05 6.49% 16.84%;
+    --sidebar-ring: 261.2 96.63% 58.61%;
+    --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 0.4;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(0 0% 0% / 0.2);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.3);
+    --shadow-sm:
+      0 2px 4px 0px hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+    --shadow: 0 2px 4px 0px hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+    --shadow-md:
+      0 4px 6px 0px hsl(0 0% 0% / 0.4), 0 2px 4px -1px hsl(0 0% 0% / 0.4);
+    --shadow-lg:
+      0 8px 10px 0px hsl(0 0% 0% / 0.4), 0 4px 6px -1px hsl(0 0% 0% / 0.4);
+    --shadow-xl:
+      0 16px 20px 0px hsl(0 0% 0% / 0.4), 0 8px 10px -1px hsl(0 0% 0% / 0.4);
+    --shadow-2xl: 0 24px 48px 0px hsl(0 0% 0% / 0.5);
+  }
+
+}

@@ -1,0 +1,134 @@
+/* Kodama Grove Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="kodama-grove-light"] {
+  --background: #e3d7b3;
+  --foreground: #5d4c40;
+  --card: #e6dabd;
+  --card-foreground: #5d4c40;
+  --popover: #f3ebd5;
+  --popover-foreground: #5d4c40;
+  --primary: #8e9f4c;
+  --primary-foreground: #fefcf4;
+  --secondary: #dccda1;
+  --secondary-foreground: #5d4c40;
+  --muted: #dccda1;
+  --muted-foreground: #887769;
+  --accent: #dcc996;
+  --accent-foreground: #5d4c40;
+  --destructive: #d9897c;
+  --destructive-foreground: #fbf8f1;
+  --border: #af9683;
+  --input: #dcc996;
+  --ring: #9bb089;
+  --chart-1: #9bb089;
+  --chart-2: #8aa17a;
+  --chart-3: #bbc9b6;
+  --chart-4: #6f8568;
+  --chart-5: #5e6f58;
+  --radius: 0.425rem;
+  --sidebar: #e0d0a5;
+  --sidebar-foreground: #5d4c40;
+  --sidebar-primary: #9bb089;
+  --sidebar-primary-foreground: #fefcf4;
+  --sidebar-accent: #eae4d6;
+  --sidebar-accent-foreground: #5d4c40;
+  --sidebar-border: #e7e1d3;
+  --sidebar-ring: #9bb089;
+  --font-sans: Merriweather, serif;
+  --font-serif: Source Serif 4, serif;
+  --font-mono: JetBrains Mono, monospace;
+  --shadow-color: #5b6d46;
+  --shadow-opacity: 0.15;
+  --shadow-blur: 2px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 3px;
+  --shadow-offset-y: 3px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 3px 3px 2px 0px hsl(88 22% 35% / 0.07);
+  --shadow-xs: 3px 3px 2px 0px hsl(88 22% 35% / 0.07);
+  --shadow-sm:
+    3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+    3px 1px 2px -1px hsl(88 22% 35% / 0.15);
+  --shadow:
+    3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+    3px 1px 2px -1px hsl(88 22% 35% / 0.15);
+  --shadow-md:
+    3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+    3px 2px 4px -1px hsl(88 22% 35% / 0.15);
+  --shadow-lg:
+    3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+    3px 4px 6px -1px hsl(88 22% 35% / 0.15);
+  --shadow-xl:
+    3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+    3px 8px 10px -1px hsl(88 22% 35% / 0.15);
+  --shadow-2xl: 3px 3px 2px 0px hsl(88 22% 35% / 0.38);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="kodama-grove-dark"] {
+  --background: #3a352a;
+  --foreground: #ebe4d6;
+  --card: #423c31;
+  --card-foreground: #ebe4d6;
+  --popover: #423c31;
+  --popover-foreground: #ebe4d6;
+  --primary: #8aa17a;
+  --primary-foreground: #2a2522;
+  --secondary: #585246;
+  --secondary-foreground: #ebe4d6;
+  --muted: #4a4439;
+  --muted-foreground: #a9a094;
+  --accent: #9f8e5d;
+  --accent-foreground: #2a2522;
+  --destructive: #b4776b;
+  --destructive-foreground: #f1eadc;
+  --border: #585246;
+  --input: #585246;
+  --ring: #8aa17a;
+  --chart-1: #8aa17a;
+  --chart-2: #9bb089;
+  --chart-3: #6f8568;
+  --chart-4: #9f8e5d;
+  --chart-5: #5e6f58;
+  --radius: 0.425rem;
+  --sidebar: #3a352a;
+  --sidebar-foreground: #ebe4d6;
+  --sidebar-primary: #8aa17a;
+  --sidebar-primary-foreground: #2a2522;
+  --sidebar-accent: #9f8e5d;
+  --sidebar-accent-foreground: #2a2522;
+  --sidebar-border: #585246;
+  --sidebar-ring: #8aa17a;
+  --font-sans: Merriweather, serif;
+  --font-serif: Source Serif 4, serif;
+  --font-mono: JetBrains Mono, monospace;
+  --shadow-color: #5b6d46;
+  --shadow-opacity: 0.15;
+  --shadow-blur: 2px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 3px;
+  --shadow-offset-y: 3px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 3px 3px 2px 0px hsl(88 22% 35% / 0.07);
+  --shadow-xs: 3px 3px 2px 0px hsl(88 22% 35% / 0.07);
+  --shadow-sm:
+    3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+    3px 1px 2px -1px hsl(88 22% 35% / 0.15);
+  --shadow:
+    3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+    3px 1px 2px -1px hsl(88 22% 35% / 0.15);
+  --shadow-md:
+    3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+    3px 2px 4px -1px hsl(88 22% 35% / 0.15);
+  --shadow-lg:
+    3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+    3px 4px 6px -1px hsl(88 22% 35% / 0.15);
+  --shadow-xl:
+    3px 3px 2px 0px hsl(88 22% 35% / 0.15),
+    3px 8px 10px -1px hsl(88 22% 35% / 0.15);
+  --shadow-2xl: 3px 3px 2px 0px hsl(88 22% 35% / 0.38);
+}

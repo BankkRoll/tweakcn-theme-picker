@@ -1,0 +1,124 @@
+/* Sunset Horizon Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="sunset-horizon-light"] {
+  --background: hsl(23.98 99.77% 98.64%);
+  --foreground: hsl(346.91 5.99% 22.46%);
+  --card: hsl(300 50% 100%);
+  --card-foreground: hsl(346.91 5.99% 22.46%);
+  --popover: hsl(300 50% 100%);
+  --popover-foreground: hsl(346.91 5.99% 22.46%);
+  --primary: hsl(11.65 99.63% 69.26%);
+  --primary-foreground: hsl(300 50% 100%);
+  --secondary: hsl(8.57 99.92% 95.93%);
+  --secondary-foreground: hsl(9.91 47.44% 47.79%);
+  --muted: hsl(14.99 99.99% 96.58%);
+  --muted-foreground: hsl(24.98 4.57% 44.34%);
+  --accent: hsl(26.04 97.51% 74.4%);
+  --accent-foreground: hsl(346.91 5.99% 22.46%);
+  --destructive: hsl(355.21 77.73% 55.8%);
+  --destructive-foreground: hsl(300 50% 100%);
+  --border: hsl(14.64 99.94% 92.01%);
+  --input: hsl(14.64 99.94% 92.01%);
+  --ring: hsl(11.65 99.63% 69.26%);
+  --chart-1: hsl(11.65 99.63% 69.26%);
+  --chart-2: hsl(26.04 97.51% 74.4%);
+  --chart-3: hsl(23.84 99.96% 83.16%);
+  --chart-4: hsl(16.07 99.98% 78.04%);
+  --chart-5: hsl(9.6 55.17% 57.85%);
+  --radius: 0.625rem;
+  --sidebar: hsl(14.99 99.99% 96.58%);
+  --sidebar-foreground: hsl(346.91 5.99% 22.46%);
+  --sidebar-primary: hsl(11.65 99.63% 69.26%);
+  --sidebar-primary-foreground: hsl(300 50% 100%);
+  --sidebar-accent: hsl(26.04 97.51% 74.4%);
+  --sidebar-accent-foreground: hsl(346.91 5.99% 22.46%);
+  --sidebar-border: hsl(14.64 99.94% 92.01%);
+  --sidebar-ring: hsl(11.65 99.63% 69.26%);
+  --font-sans: Montserrat, sans-serif;
+  --font-serif: Merriweather, serif;
+  --font-mono: Ubuntu Mono, monospace;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-opacity: 0.09;
+  --shadow-blur: 12px;
+  --shadow-spread: -3px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 6px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+  --shadow-xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+  --shadow-sm:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+  --shadow:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+  --shadow-md:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 2px 4px -4px hsl(0 0% 0% / 0.09);
+  --shadow-lg:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 4px 6px -4px hsl(0 0% 0% / 0.09);
+  --shadow-xl:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 8px 10px -4px hsl(0 0% 0% / 0.09);
+  --shadow-2xl: 0px 6px 12px -3px hsl(0 0% 0% / 0.22);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="sunset-horizon-dark"] {
+  --background: hsl(335.7 15.57% 14.91%);
+  --foreground: hsl(21.42 29.59% 92.19%);
+  --card: hsl(323.82 10.77% 20.63%);
+  --card-foreground: hsl(21.42 29.59% 92.19%);
+  --popover: hsl(323.82 10.77% 20.63%);
+  --popover-foreground: hsl(21.42 29.59% 92.19%);
+  --primary: hsl(11.65 99.63% 69.26%);
+  --primary-foreground: hsl(300 50% 100%);
+  --secondary: hsl(325.01 9.37% 24.71%);
+  --secondary-foreground: hsl(21.42 29.59% 92.19%);
+  --muted: hsl(323.82 10.77% 20.63%);
+  --muted-foreground: hsl(22.19 21.68% 79.32%);
+  --accent: hsl(26.04 97.51% 74.4%);
+  --accent-foreground: hsl(335.7 15.57% 14.91%);
+  --destructive: hsl(355.21 77.73% 55.8%);
+  --destructive-foreground: hsl(300 50% 100%);
+  --border: hsl(325.01 9.37% 24.71%);
+  --input: hsl(325.01 9.37% 24.71%);
+  --ring: hsl(11.65 99.63% 69.26%);
+  --chart-1: hsl(11.65 99.63% 69.26%);
+  --chart-2: hsl(26.04 97.51% 74.4%);
+  --chart-3: hsl(23.84 99.96% 83.16%);
+  --chart-4: hsl(16.07 99.98% 78.04%);
+  --chart-5: hsl(9.6 55.17% 57.85%);
+  --radius: 0.625rem;
+  --sidebar: hsl(335.7 15.57% 14.91%);
+  --sidebar-foreground: hsl(21.42 29.59% 92.19%);
+  --sidebar-primary: hsl(11.65 99.63% 69.26%);
+  --sidebar-primary-foreground: hsl(300 50% 100%);
+  --sidebar-accent: hsl(26.04 97.51% 74.4%);
+  --sidebar-accent-foreground: hsl(335.7 15.57% 14.91%);
+  --sidebar-border: hsl(325.01 9.37% 24.71%);
+  --sidebar-ring: hsl(11.65 99.63% 69.26%);
+  --font-sans: Montserrat, sans-serif;
+  --font-serif: Merriweather, serif;
+  --font-mono: Ubuntu Mono, monospace;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-opacity: 0.09;
+  --shadow-blur: 12px;
+  --shadow-spread: -3px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 6px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+  --shadow-xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+  --shadow-sm:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+  --shadow:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+  --shadow-md:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 2px 4px -4px hsl(0 0% 0% / 0.09);
+  --shadow-lg:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 4px 6px -4px hsl(0 0% 0% / 0.09);
+  --shadow-xl:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 8px 10px -4px hsl(0 0% 0% / 0.09);
+  --shadow-2xl: 0px 6px 12px -3px hsl(0 0% 0% / 0.22);
+}

@@ -1,0 +1,134 @@
+/* Twitch Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Twitch Theme - Official Twitch brand colors */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 246 244 245;
+    --foreground: 9 9 11;
+    --card: 255 255 255;
+    --card-foreground: 9 9 11;
+    --popover: 255 255 255;
+    --popover-foreground: 9 9 11;
+    --primary: 120 47 251;
+    --primary-foreground: 255 255 255;
+    --secondary: 235 234 245;
+    --secondary-foreground: 21 21 26;
+    --muted: 241 237 238;
+    --muted-foreground: 98 99 105;
+    --accent: 103 21 225;
+    --accent-foreground: 255 255 255;
+    --destructive: 212 9 36;
+    --destructive-foreground: 255 255 255;
+    --border: 225 221 222;
+    --input: 232 227 228;
+    --ring: 120 47 251;
+    --chart-1: 120 47 251;
+    --chart-2: 103 21 225;
+    --chart-3: 0 163 170;
+    --chart-4: 76 184 106;
+    --chart-5: 200 65 165;
+    --radius: 0.5rem;
+    --sidebar: 250 248 248;
+    --sidebar-foreground: 9 9 11;
+    --sidebar-primary: 120 47 251;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 235 234 245;
+    --sidebar-accent-foreground: 21 21 26;
+    --sidebar-border: 225 221 222;
+    --sidebar-ring: 120 47 251;
+    --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 20 0 51;
+    --shadow-opacity: 0.08;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(263 100% 10% / 0.04);
+    --shadow-xs: 0 1px 3px 0px hsl(263 100% 10% / 0.06);
+    --shadow-sm:
+      0 2px 4px 0px hsl(263 100% 10% / 0.08),
+      0 1px 2px -1px hsl(263 100% 10% / 0.08);
+    --shadow:
+      0 2px 4px 0px hsl(263 100% 10% / 0.08),
+      0 1px 2px -1px hsl(263 100% 10% / 0.08);
+    --shadow-md:
+      0 4px 6px 0px hsl(263 100% 10% / 0.1),
+      0 2px 4px -1px hsl(263 100% 10% / 0.1);
+    --shadow-lg:
+      0 8px 10px 0px hsl(263 100% 10% / 0.1),
+      0 4px 6px -1px hsl(263 100% 10% / 0.1);
+    --shadow-xl:
+      0 16px 20px 0px hsl(263 100% 10% / 0.12),
+      0 8px 10px -1px hsl(263 100% 10% / 0.12);
+    --shadow-2xl: 0 24px 48px 0px hsl(263 100% 10% / 0.2);
+    --tracking-normal: -0.01em;
+  }
+
+  /* Dark mode - #0E0E10 is Twitch's signature dark background */
+  .dark {
+    --background: 9 9 11;
+    --foreground: 240 238 238;
+    --card: 17 17 21;
+    --card-foreground: 240 238 238;
+    --popover: 22 22 26;
+    --popover-foreground: 240 238 238;
+    --primary: 120 47 251;
+    --primary-foreground: 255 255 255;
+    --secondary: 26 26 30;
+    --secondary-foreground: 224 221 222;
+    --muted: 22 22 25;
+    --muted-foreground: 142 142 149;
+    --accent: 164 145 255;
+    --accent-foreground: 9 9 11;
+    --destructive: 222 59 61;
+    --destructive-foreground: 255 255 255;
+    --border: 40 40 46;
+    --input: 26 26 30;
+    --ring: 120 47 251;
+    --chart-1: 120 47 251;
+    --chart-2: 164 145 255;
+    --chart-3: 0 180 187;
+    --chart-4: 101 198 125;
+    --chart-5: 211 91 177;
+    --radius: 0.5rem;
+    --sidebar: 6 6 7;
+    --sidebar-foreground: 240 238 238;
+    --sidebar-primary: 120 47 251;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 26 26 30;
+    --sidebar-accent-foreground: 224 221 222;
+    --sidebar-border: 40 40 46;
+    --sidebar-ring: 120 47 251;
+    --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.4;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(0 0% 0% / 0.2);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.3);
+    --shadow-sm:
+      0 2px 4px 0px hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+    --shadow: 0 2px 4px 0px hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+    --shadow-md:
+      0 4px 6px 0px hsl(0 0% 0% / 0.4), 0 2px 4px -1px hsl(0 0% 0% / 0.4);
+    --shadow-lg:
+      0 8px 10px 0px hsl(0 0% 0% / 0.4), 0 4px 6px -1px hsl(0 0% 0% / 0.4);
+    --shadow-xl:
+      0 16px 20px 0px hsl(0 0% 0% / 0.4), 0 8px 10px -1px hsl(0 0% 0% / 0.4);
+    --shadow-2xl: 0 24px 48px 0px hsl(0 0% 0% / 0.5);
+  }
+
+}

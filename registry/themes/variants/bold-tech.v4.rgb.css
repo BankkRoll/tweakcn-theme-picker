@@ -1,0 +1,134 @@
+/* Bold Tech Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="bold-tech-light"] {
+  --background: rgb(255, 255, 255);
+  --foreground: rgb(49, 45, 132);
+  --card: rgb(255, 255, 255);
+  --card-foreground: rgb(49, 45, 132);
+  --popover: rgb(255, 255, 255);
+  --popover-foreground: rgb(49, 45, 132);
+  --primary: rgb(140, 93, 248);
+  --primary-foreground: rgb(255, 255, 255);
+  --secondary: rgb(242, 239, 254);
+  --secondary-foreground: rgb(68, 59, 201);
+  --muted: rgb(245, 243, 255);
+  --muted-foreground: rgb(124, 56, 238);
+  --accent: rgb(219, 233, 252);
+  --accent-foreground: rgb(29, 63, 173);
+  --destructive: rgb(241, 68, 68);
+  --destructive-foreground: rgb(255, 255, 255);
+  --border: rgb(225, 231, 253);
+  --input: rgb(225, 231, 253);
+  --ring: rgb(140, 93, 248);
+  --chart-1: rgb(140, 93, 248);
+  --chart-2: rgb(124, 56, 238);
+  --chart-3: rgb(109, 41, 216);
+  --chart-4: rgb(90, 32, 181);
+  --chart-5: rgb(76, 28, 150);
+  --radius: 0.625rem;
+  --sidebar: rgb(245, 243, 255);
+  --sidebar-foreground: rgb(49, 45, 132);
+  --sidebar-primary: rgb(140, 93, 248);
+  --sidebar-primary-foreground: rgb(255, 255, 255);
+  --sidebar-accent: rgb(219, 233, 252);
+  --sidebar-accent-foreground: rgb(29, 63, 173);
+  --sidebar-border: rgb(225, 231, 253);
+  --sidebar-ring: rgb(140, 93, 248);
+  --font-sans: Roboto, sans-serif;
+  --font-serif: Playfair Display, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: rgb(131, 94, 243);
+  --shadow-opacity: 0.2;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+  --shadow-xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+  --shadow-sm:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+  --shadow:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+  --shadow-md:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 2px 4px -1px hsl(255 86% 66% / 0.2);
+  --shadow-lg:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 4px 6px -1px hsl(255 86% 66% / 0.2);
+  --shadow-xl:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 8px 10px -1px hsl(255 86% 66% / 0.2);
+  --shadow-2xl: 2px 2px 4px 0px hsl(255 86% 66% / 0.5);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="bold-tech-dark"] {
+  --background: rgb(15, 24, 43);
+  --foreground: rgb(225, 231, 253);
+  --card: rgb(31, 27, 78);
+  --card-foreground: rgb(225, 231, 253);
+  --popover: rgb(31, 27, 78);
+  --popover-foreground: rgb(225, 231, 253);
+  --primary: rgb(140, 93, 248);
+  --primary-foreground: rgb(255, 255, 255);
+  --secondary: rgb(31, 27, 78);
+  --secondary-foreground: rgb(225, 231, 253);
+  --muted: rgb(31, 27, 78);
+  --muted-foreground: rgb(196, 181, 252);
+  --accent: rgb(68, 59, 201);
+  --accent-foreground: rgb(225, 231, 253);
+  --destructive: rgb(241, 68, 68);
+  --destructive-foreground: rgb(255, 255, 255);
+  --border: rgb(46, 12, 102);
+  --input: rgb(46, 12, 102);
+  --ring: rgb(140, 93, 248);
+  --chart-1: rgb(167, 139, 251);
+  --chart-2: rgb(140, 93, 248);
+  --chart-3: rgb(124, 56, 238);
+  --chart-4: rgb(109, 41, 216);
+  --chart-5: rgb(90, 32, 181);
+  --radius: 0.625rem;
+  --sidebar: rgb(15, 24, 43);
+  --sidebar-foreground: rgb(225, 231, 253);
+  --sidebar-primary: rgb(140, 93, 248);
+  --sidebar-primary-foreground: rgb(255, 255, 255);
+  --sidebar-accent: rgb(68, 59, 201);
+  --sidebar-accent-foreground: rgb(225, 231, 253);
+  --sidebar-border: rgb(46, 12, 102);
+  --sidebar-ring: rgb(140, 93, 248);
+  --font-sans: Roboto, sans-serif;
+  --font-serif: Playfair Display, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: rgb(131, 94, 243);
+  --shadow-opacity: 0.2;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+  --shadow-xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+  --shadow-sm:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+  --shadow:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+  --shadow-md:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 2px 4px -1px hsl(255 86% 66% / 0.2);
+  --shadow-lg:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 4px 6px -1px hsl(255 86% 66% / 0.2);
+  --shadow-xl:
+    2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+    2px 8px 10px -1px hsl(255 86% 66% / 0.2);
+  --shadow-2xl: 2px 2px 4px 0px hsl(255 86% 66% / 0.5);
+}

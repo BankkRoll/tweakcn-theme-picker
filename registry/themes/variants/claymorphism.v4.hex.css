@@ -1,0 +1,129 @@
+/* Claymorphism Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="claymorphism-light"] {
+  --background: #e4e4e4;
+  --foreground: #1d293d;
+  --card: #f5f5f5;
+  --card-foreground: #1d293d;
+  --popover: #f5f5f5;
+  --popover-foreground: #1d293d;
+  --primary: #6468f0;
+  --primary-foreground: #ffffff;
+  --secondary: #d4d4d4;
+  --secondary-foreground: #4b5666;
+  --muted: #e4e4e4;
+  --muted-foreground: #6c727e;
+  --accent: #f5e5f7;
+  --accent-foreground: #364050;
+  --destructive: #f14444;
+  --destructive-foreground: #ffffff;
+  --border: #d4d4d4;
+  --input: #d4d4d4;
+  --ring: #6468f0;
+  --chart-1: #6468f0;
+  --chart-2: #4f46e5;
+  --chart-3: #443bc9;
+  --chart-4: #3730a5;
+  --chart-5: #312d84;
+  --radius: 1.25rem;
+  --sidebar: #d4d4d4;
+  --sidebar-foreground: #1d293d;
+  --sidebar-primary: #6468f0;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f5e5f7;
+  --sidebar-accent-foreground: #364050;
+  --sidebar-border: #d4d4d4;
+  --sidebar-ring: #6468f0;
+  --font-sans: Plus Jakarta Sans, sans-serif;
+  --font-serif: Lora, serif;
+  --font-mono: Roboto Mono, monospace;
+  --shadow-color: #95959d;
+  --shadow-opacity: 0.18;
+  --shadow-blur: 10px;
+  --shadow-spread: 4px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 10px 4px hsl(240 4% 60% / 0.09);
+  --shadow-xs: 2px 2px 10px 4px hsl(240 4% 60% / 0.09);
+  --shadow-sm:
+    2px 2px 10px 4px hsl(240 4% 60% / 0.18),
+    2px 1px 2px 3px hsl(240 4% 60% / 0.18);
+  --shadow:
+    2px 2px 10px 4px hsl(240 4% 60% / 0.18),
+    2px 1px 2px 3px hsl(240 4% 60% / 0.18);
+  --shadow-md:
+    2px 2px 10px 4px hsl(240 4% 60% / 0.18),
+    2px 2px 4px 3px hsl(240 4% 60% / 0.18);
+  --shadow-lg:
+    2px 2px 10px 4px hsl(240 4% 60% / 0.18),
+    2px 4px 6px 3px hsl(240 4% 60% / 0.18);
+  --shadow-xl:
+    2px 2px 10px 4px hsl(240 4% 60% / 0.18),
+    2px 8px 10px 3px hsl(240 4% 60% / 0.18);
+  --shadow-2xl: 2px 2px 10px 4px hsl(240 4% 60% / 0.45);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="claymorphism-dark"] {
+  --background: #1e1a16;
+  --foreground: #e4e8ef;
+  --card: #2d2824;
+  --card-foreground: #e4e8ef;
+  --popover: #2d2824;
+  --popover-foreground: #e4e8ef;
+  --primary: #818cf9;
+  --primary-foreground: #1e1a16;
+  --secondary: #3c3733;
+  --secondary-foreground: #d0d4db;
+  --muted: #2d2824;
+  --muted-foreground: #9ba2ae;
+  --accent: #494440;
+  --accent-foreground: #d0d4db;
+  --destructive: #f14444;
+  --destructive-foreground: #1e1a16;
+  --border: #3c3733;
+  --input: #3c3733;
+  --ring: #818cf9;
+  --chart-1: #818cf9;
+  --chart-2: #6468f0;
+  --chart-3: #4f46e5;
+  --chart-4: #443bc9;
+  --chart-5: #3730a5;
+  --radius: 1.25rem;
+  --sidebar: #3c3733;
+  --sidebar-foreground: #e4e8ef;
+  --sidebar-primary: #818cf9;
+  --sidebar-primary-foreground: #1e1a16;
+  --sidebar-accent: #494440;
+  --sidebar-accent-foreground: #d0d4db;
+  --sidebar-border: #3c3733;
+  --sidebar-ring: #818cf9;
+  --font-sans: Plus Jakarta Sans, sans-serif;
+  --font-serif: Lora, serif;
+  --font-mono: Roboto Mono, monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.18;
+  --shadow-blur: 10px;
+  --shadow-spread: 4px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 10px 4px hsl(0 0% 0% / 0.09);
+  --shadow-xs: 2px 2px 10px 4px hsl(0 0% 0% / 0.09);
+  --shadow-sm:
+    2px 2px 10px 4px hsl(0 0% 0% / 0.18), 2px 1px 2px 3px hsl(0 0% 0% / 0.18);
+  --shadow:
+    2px 2px 10px 4px hsl(0 0% 0% / 0.18), 2px 1px 2px 3px hsl(0 0% 0% / 0.18);
+  --shadow-md:
+    2px 2px 10px 4px hsl(0 0% 0% / 0.18), 2px 2px 4px 3px hsl(0 0% 0% / 0.18);
+  --shadow-lg:
+    2px 2px 10px 4px hsl(0 0% 0% / 0.18), 2px 4px 6px 3px hsl(0 0% 0% / 0.18);
+  --shadow-xl:
+    2px 2px 10px 4px hsl(0 0% 0% / 0.18), 2px 8px 10px 3px hsl(0 0% 0% / 0.18);
+  --shadow-2xl: 2px 2px 10px 4px hsl(0 0% 0% / 0.45);
+}

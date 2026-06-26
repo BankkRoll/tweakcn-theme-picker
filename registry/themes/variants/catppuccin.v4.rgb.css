@@ -1,0 +1,134 @@
+/* Catppuccin Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="catppuccin-light"] {
+  --background: rgb(238, 242, 249);
+  --foreground: rgb(78, 80, 105);
+  --card: rgb(255, 255, 255);
+  --card-foreground: rgb(78, 80, 105);
+  --popover: rgb(206, 209, 216);
+  --popover-foreground: rgb(78, 80, 105);
+  --primary: rgb(135, 55, 237);
+  --primary-foreground: rgb(255, 255, 255);
+  --secondary: rgb(206, 209, 216);
+  --secondary-foreground: rgb(78, 80, 105);
+  --muted: rgb(222, 225, 232);
+  --muted-foreground: rgb(109, 112, 131);
+  --accent: rgb(25, 164, 226);
+  --accent-foreground: rgb(255, 255, 255);
+  --destructive: rgb(211, 2, 55);
+  --destructive-foreground: rgb(255, 255, 255);
+  --border: rgb(188, 193, 206);
+  --input: rgb(206, 209, 216);
+  --ring: rgb(135, 55, 237);
+  --chart-1: rgb(135, 55, 237);
+  --chart-2: rgb(25, 164, 226);
+  --chart-3: rgb(64, 162, 42);
+  --chart-4: rgb(252, 101, 20);
+  --chart-5: rgb(216, 138, 121);
+  --radius: 0.35rem;
+  --sidebar: rgb(228, 232, 239);
+  --sidebar-foreground: rgb(78, 80, 105);
+  --sidebar-primary: rgb(135, 55, 237);
+  --sidebar-primary-foreground: rgb(255, 255, 255);
+  --sidebar-accent: rgb(25, 164, 226);
+  --sidebar-accent-foreground: rgb(255, 255, 255);
+  --sidebar-border: rgb(188, 193, 206);
+  --sidebar-ring: rgb(135, 55, 237);
+  --font-sans: Montserrat, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: rgb(45, 45, 83);
+  --shadow-opacity: 0.12;
+  --shadow-blur: 6px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 4px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 4px 6px 0px hsl(240 30% 25% / 0.06);
+  --shadow-xs: 0px 4px 6px 0px hsl(240 30% 25% / 0.06);
+  --shadow-sm:
+    0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow:
+    0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow-md:
+    0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+    0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+  --shadow-lg:
+    0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+    0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+  --shadow-xl:
+    0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+    0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+  --shadow-2xl: 0px 4px 6px 0px hsl(240 30% 25% / 0.3);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="catppuccin-dark"] {
+  --background: rgb(25, 25, 40);
+  --foreground: rgb(206, 215, 243);
+  --card: rgb(29, 29, 45);
+  --card-foreground: rgb(206, 215, 243);
+  --popover: rgb(68, 70, 88);
+  --popover-foreground: rgb(206, 215, 243);
+  --primary: rgb(204, 167, 249);
+  --primary-foreground: rgb(29, 29, 45);
+  --secondary: rgb(89, 92, 111);
+  --secondary-foreground: rgb(206, 215, 243);
+  --muted: rgb(42, 45, 61);
+  --muted-foreground: rgb(166, 173, 200);
+  --accent: rgb(141, 221, 235);
+  --accent-foreground: rgb(29, 29, 45);
+  --destructive: rgb(245, 140, 169);
+  --destructive-foreground: rgb(29, 29, 45);
+  --border: rgb(48, 49, 66);
+  --input: rgb(48, 49, 66);
+  --ring: rgb(204, 167, 249);
+  --chart-1: rgb(204, 167, 249);
+  --chart-2: rgb(141, 221, 235);
+  --chart-3: rgb(166, 228, 161);
+  --chart-4: rgb(248, 178, 135);
+  --chart-5: rgb(242, 224, 221);
+  --radius: 0.35rem;
+  --sidebar: rgb(16, 16, 26);
+  --sidebar-foreground: rgb(206, 215, 243);
+  --sidebar-primary: rgb(204, 167, 249);
+  --sidebar-primary-foreground: rgb(29, 29, 45);
+  --sidebar-accent: rgb(141, 221, 235);
+  --sidebar-accent-foreground: rgb(29, 29, 45);
+  --sidebar-border: rgb(68, 70, 88);
+  --sidebar-ring: rgb(204, 167, 249);
+  --font-sans: Montserrat, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: rgb(45, 45, 83);
+  --shadow-opacity: 0.12;
+  --shadow-blur: 6px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 4px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 4px 6px 0px hsl(240 30% 25% / 0.06);
+  --shadow-xs: 0px 4px 6px 0px hsl(240 30% 25% / 0.06);
+  --shadow-sm:
+    0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow:
+    0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow-md:
+    0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+    0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+  --shadow-lg:
+    0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+    0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+  --shadow-xl:
+    0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+    0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+  --shadow-2xl: 0px 4px 6px 0px hsl(240 30% 25% / 0.3);
+}

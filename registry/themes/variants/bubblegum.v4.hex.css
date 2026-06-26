@@ -1,0 +1,134 @@
+/* Bubblegum Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="bubblegum-light"] {
+  --background: #f6e6ee;
+  --foreground: #5b5b5b;
+  --card: #fdedc9;
+  --card-foreground: #5b5b5b;
+  --popover: #ffffff;
+  --popover-foreground: #5b5b5b;
+  --primary: #d04f99;
+  --primary-foreground: #ffffff;
+  --secondary: #8acfd1;
+  --secondary-foreground: #333333;
+  --muted: #b2e1eb;
+  --muted-foreground: #7a7a7a;
+  --accent: #fbe2a7;
+  --accent-foreground: #333333;
+  --destructive: #f96f70;
+  --destructive-foreground: #ffffff;
+  --border: #d04f99;
+  --input: #e4e4e4;
+  --ring: #e670ab;
+  --chart-1: #e670ab;
+  --chart-2: #84d2e2;
+  --chart-3: #fbe2a7;
+  --chart-4: #f3a0ca;
+  --chart-5: #d7488e;
+  --radius: 0.4rem;
+  --sidebar: #f5d7e8;
+  --sidebar-foreground: #333333;
+  --sidebar-primary: #ed4b9a;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f8a7d3;
+  --sidebar-accent-foreground: #333333;
+  --sidebar-border: #f4eaff;
+  --sidebar-ring: #ed4b9a;
+  --font-sans: Poppins, sans-serif;
+  --font-serif: Lora, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: #d1519a;
+  --shadow-opacity: 1;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 3px;
+  --shadow-offset-y: 3px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 0.5);
+  --shadow-xs: 3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 0.5);
+  --shadow-sm:
+    3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 1),
+    3px 1px 2px -1px hsl(325.78 58.18% 56.86% / 1);
+  --shadow:
+    3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 1),
+    3px 1px 2px -1px hsl(325.78 58.18% 56.86% / 1);
+  --shadow-md:
+    3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 1),
+    3px 2px 4px -1px hsl(325.78 58.18% 56.86% / 1);
+  --shadow-lg:
+    3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 1),
+    3px 4px 6px -1px hsl(325.78 58.18% 56.86% / 1);
+  --shadow-xl:
+    3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 1),
+    3px 8px 10px -1px hsl(325.78 58.18% 56.86% / 1);
+  --shadow-2xl: 3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 2.5);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="bubblegum-dark"] {
+  --background: #12242e;
+  --foreground: #f3e3ea;
+  --card: #1c2e38;
+  --card-foreground: #f3e3ea;
+  --popover: #1c2e38;
+  --popover-foreground: #f3e3ea;
+  --primary: #fbe2a7;
+  --primary-foreground: #12242e;
+  --secondary: #e4a2b1;
+  --secondary-foreground: #12242e;
+  --muted: #23272b;
+  --muted-foreground: #e4a2b1;
+  --accent: #c77b96;
+  --accent-foreground: #f3e3ea;
+  --destructive: #e35ea4;
+  --destructive-foreground: #12242e;
+  --border: #324859;
+  --input: #20333d;
+  --ring: #50afb6;
+  --chart-1: #50afb6;
+  --chart-2: #e4a2b1;
+  --chart-3: #c77b96;
+  --chart-4: #175c6c;
+  --chart-5: #23272b;
+  --radius: 0.4rem;
+  --sidebar: #0e1f29;
+  --sidebar-foreground: #f5f5f5;
+  --sidebar-primary: #ed4b9a;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f8a7d3;
+  --sidebar-accent-foreground: #1f2938;
+  --sidebar-border: #364050;
+  --sidebar-ring: #ed4b9a;
+  --font-sans: Poppins, sans-serif;
+  --font-serif: Lora, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: #324859;
+  --shadow-opacity: 1;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 3px;
+  --shadow-offset-y: 3px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 0.5);
+  --shadow-xs: 3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 0.5);
+  --shadow-sm:
+    3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 1),
+    3px 1px 2px -1px hsl(206.15 28.06% 27.25% / 1);
+  --shadow:
+    3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 1),
+    3px 1px 2px -1px hsl(206.15 28.06% 27.25% / 1);
+  --shadow-md:
+    3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 1),
+    3px 2px 4px -1px hsl(206.15 28.06% 27.25% / 1);
+  --shadow-lg:
+    3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 1),
+    3px 4px 6px -1px hsl(206.15 28.06% 27.25% / 1);
+  --shadow-xl:
+    3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 1),
+    3px 8px 10px -1px hsl(206.15 28.06% 27.25% / 1);
+  --shadow-2xl: 3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 2.5);
+}

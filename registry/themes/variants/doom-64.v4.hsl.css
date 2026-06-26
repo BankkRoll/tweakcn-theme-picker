@@ -1,0 +1,124 @@
+/* Doom 64 Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="doom-64-light"] {
+  --background: hsl(340 0% 80.6%);
+  --foreground: hsl(330 0% 12.22%);
+  --card: hsl(300 0% 69.36%);
+  --card-foreground: hsl(330 0% 12.22%);
+  --popover: hsl(300 0% 69.36%);
+  --popover-foreground: hsl(330 0% 12.22%);
+  --primary: hsl(359.65 75.39% 40.9%);
+  --primary-foreground: hsl(300 50% 100%);
+  --secondary: hsl(82.04 38.59% 30.65%);
+  --secondary-foreground: hsl(300 50% 100%);
+  --muted: hsl(300 0% 71.83%);
+  --muted-foreground: hsl(330 0% 29.11%);
+  --accent: hsl(207.26 44.15% 49.24%);
+  --accent-foreground: hsl(300 50% 100%);
+  --destructive: hsl(24.94 99.99% 52.22%);
+  --destructive-foreground: hsl(0 0% 0%);
+  --border: hsl(330 0% 31.24%);
+  --input: hsl(330 0% 31.24%);
+  --ring: hsl(359.65 75.39% 40.9%);
+  --chart-1: hsl(359.65 75.39% 40.9%);
+  --chart-2: hsl(82.04 38.59% 30.65%);
+  --chart-3: hsl(207.26 44.15% 49.24%);
+  --chart-4: hsl(24.94 99.99% 52.22%);
+  --chart-5: hsl(15.7 16.15% 47.54%);
+  --radius: 0px;
+  --sidebar: hsl(300 0% 69.36%);
+  --sidebar-foreground: hsl(330 0% 12.22%);
+  --sidebar-primary: hsl(359.65 75.39% 40.9%);
+  --sidebar-primary-foreground: hsl(300 50% 100%);
+  --sidebar-accent: hsl(207.26 44.15% 49.24%);
+  --sidebar-accent-foreground: hsl(300 50% 100%);
+  --sidebar-border: hsl(330 0% 31.24%);
+  --sidebar-ring: hsl(359.65 75.39% 40.9%);
+  --font-sans: "Oxanium", sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "Source Code Pro", monospace;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-opacity: 0.4;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 2px 4px 0px hsl(0 0% 0% / 0.2);
+  --shadow-xs: 0px 2px 4px 0px hsl(0 0% 0% / 0.2);
+  --shadow-sm:
+    0px 2px 4px 0px hsl(0 0% 0% / 0.4), 0px 1px 2px -1px hsl(0 0% 0% / 0.4);
+  --shadow:
+    0px 2px 4px 0px hsl(0 0% 0% / 0.4), 0px 1px 2px -1px hsl(0 0% 0% / 0.4);
+  --shadow-md:
+    0px 2px 4px 0px hsl(0 0% 0% / 0.4), 0px 2px 4px -1px hsl(0 0% 0% / 0.4);
+  --shadow-lg:
+    0px 2px 4px 0px hsl(0 0% 0% / 0.4), 0px 4px 6px -1px hsl(0 0% 0% / 0.4);
+  --shadow-xl:
+    0px 2px 4px 0px hsl(0 0% 0% / 0.4), 0px 8px 10px -1px hsl(0 0% 0% / 0.4);
+  --shadow-2xl: 0px 2px 4px 0px hsl(0 0% 0% / 1);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="doom-64-dark"] {
+  --background: hsl(300 0% 10.4%);
+  --foreground: hsl(0 0% 88.27%);
+  --card: hsl(300 0% 16.95%);
+  --card-foreground: hsl(0 0% 88.27%);
+  --popover: hsl(300 0% 16.95%);
+  --popover-foreground: hsl(0 0% 88.27%);
+  --primary: hsl(1.33 77.99% 55.5%);
+  --primary-foreground: hsl(300 50% 100%);
+  --secondary: hsl(91.69 50.54% 41.32%);
+  --secondary-foreground: hsl(0 0% 0%);
+  --muted: hsl(300 0% 14.09%);
+  --muted-foreground: hsl(0 0% 63.26%);
+  --accent: hsl(206.81 87.22% 68.22%);
+  --accent-foreground: hsl(0 0% 0%);
+  --destructive: hsl(37.13 98.34% 50.93%);
+  --destructive-foreground: hsl(0 0% 0%);
+  --border: hsl(330 0% 29.11%);
+  --input: hsl(330 0% 29.11%);
+  --ring: hsl(1.33 77.99% 55.5%);
+  --chart-1: hsl(1.33 77.99% 55.5%);
+  --chart-2: hsl(91.69 50.54% 41.32%);
+  --chart-3: hsl(206.81 87.22% 68.22%);
+  --chart-4: hsl(37.13 98.34% 50.93%);
+  --chart-5: hsl(15.87 13.91% 56.76%);
+  --radius: 0px;
+  --sidebar: hsl(330 0% 7.73%);
+  --sidebar-foreground: hsl(0 0% 88.27%);
+  --sidebar-primary: hsl(1.33 77.99% 55.5%);
+  --sidebar-primary-foreground: hsl(300 50% 100%);
+  --sidebar-accent: hsl(206.81 87.22% 68.22%);
+  --sidebar-accent-foreground: hsl(0 0% 0%);
+  --sidebar-border: hsl(330 0% 29.11%);
+  --sidebar-ring: hsl(1.33 77.99% 55.5%);
+  --font-sans: "Oxanium", sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "Source Code Pro", monospace;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-opacity: 0.6;
+  --shadow-blur: 5px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 2px 5px 0px hsl(0 0% 0% / 0.3);
+  --shadow-xs: 0px 2px 5px 0px hsl(0 0% 0% / 0.3);
+  --shadow-sm:
+    0px 2px 5px 0px hsl(0 0% 0% / 0.6), 0px 1px 2px -1px hsl(0 0% 0% / 0.6);
+  --shadow:
+    0px 2px 5px 0px hsl(0 0% 0% / 0.6), 0px 1px 2px -1px hsl(0 0% 0% / 0.6);
+  --shadow-md:
+    0px 2px 5px 0px hsl(0 0% 0% / 0.6), 0px 2px 4px -1px hsl(0 0% 0% / 0.6);
+  --shadow-lg:
+    0px 2px 5px 0px hsl(0 0% 0% / 0.6), 0px 4px 6px -1px hsl(0 0% 0% / 0.6);
+  --shadow-xl:
+    0px 2px 5px 0px hsl(0 0% 0% / 0.6), 0px 8px 10px -1px hsl(0 0% 0% / 0.6);
+  --shadow-2xl: 0px 2px 5px 0px hsl(0 0% 0% / 1.5);
+}

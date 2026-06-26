@@ -1,0 +1,129 @@
+/* Windows 98 Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Windows 98 Theme */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 180 99.95% 25.1%;
+    --foreground: 0 0% 0%;
+    --card: 300 0% 75.29%;
+    --card-foreground: 0 0% 0%;
+    --popover: 300 0% 75.29%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 230.01 100% 22.43%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 300 0% 50.2%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 300 0% 50.2%;
+    --muted-foreground: 0 0% 0%;
+    --accent: 230.01 100% 22.43%;
+    --accent-foreground: 300 50% 100%;
+    --destructive: 0.03 100% 50.03%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 300 0% 50.2%;
+    --input: 300 50% 100%;
+    --ring: 230.01 100% 22.43%;
+    --chart-1: 230.01 100% 22.43%;
+    --chart-2: 120 99.95% 25.11%;
+    --chart-3: 300 99.91% 25.11%;
+    --chart-4: 0.03 100% 50.03%;
+    --chart-5: 60 99.92% 25.11%;
+    --radius: 0px;
+    --sidebar: 300 0% 75.29%;
+    --sidebar-foreground: 0 0% 0%;
+    --sidebar-primary: 230.01 100% 22.43%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 230.01 100% 22.43%;
+    --sidebar-accent-foreground: 300 50% 100%;
+    --sidebar-border: 300 0% 50.2%;
+    --sidebar-ring: 230.01 100% 22.43%;
+    --font-sans: "Pixelify Sans", sans-serif;
+    --font-serif: "Pixelify Sans", serif;
+    --font-mono: "Pixelify Sans", monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 1;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 2px;
+    --shadow-offset-y: 2px;
+    --letter-spacing: 0.025rem;
+    --spacing: 0.25rem;
+    --shadow-2xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+    --shadow-xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+    --shadow-sm:
+      2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+    --shadow: 2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+    --shadow-md:
+      2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 2px 4px -1px hsl(0 0% 0% / 1);
+    --shadow-lg:
+      2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 4px 6px -1px hsl(0 0% 0% / 1);
+    --shadow-xl:
+      2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 8px 10px -1px hsl(0 0% 0% / 1);
+    --shadow-2xl: 2px 2px 0px 0px hsl(0 0% 0% / 2.5);
+    --tracking-normal: 0.025rem;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 180 99.95% 25.1%;
+    --foreground: 0 0% 0%;
+    --card: 300 0% 75.29%;
+    --card-foreground: 0 0% 0%;
+    --popover: 300 0% 75.29%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 230.01 100% 22.43%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 300 0% 50.2%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 300 0% 50.2%;
+    --muted-foreground: 300 50% 100%;
+    --accent: 230.01 100% 22.43%;
+    --accent-foreground: 300 50% 100%;
+    --destructive: 0.03 100% 50.03%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 300 0% 50.2%;
+    --input: 300 50% 100%;
+    --ring: 230.01 100% 22.43%;
+    --chart-1: 230.01 100% 22.43%;
+    --chart-2: 180 99.95% 25.1%;
+    --chart-3: 300 99.91% 25.11%;
+    --chart-4: 0.03 100% 50.03%;
+    --chart-5: 119.99 99.99% 50.01%;
+    --radius: 0px;
+    --sidebar: 300 0% 75.29%;
+    --sidebar-foreground: 0 0% 0%;
+    --sidebar-primary: 230.01 100% 22.43%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 230.01 100% 22.43%;
+    --sidebar-accent-foreground: 300 50% 100%;
+    --sidebar-border: 300 0% 50.2%;
+    --sidebar-ring: 230.01 100% 22.43%;
+    --font-sans: "Pixelify Sans", sans-serif;
+    --font-serif: "Pixelify Sans", serif;
+    --font-mono: "Pixelify Sans", monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 1;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 2px;
+    --shadow-offset-y: 2px;
+    --letter-spacing: 0.025rem;
+    --spacing: 0.25rem;
+    --shadow-2xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+    --shadow-xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+    --shadow-sm:
+      2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+    --shadow: 2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+    --shadow-md:
+      2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 2px 4px -1px hsl(0 0% 0% / 1);
+    --shadow-lg:
+      2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 4px 6px -1px hsl(0 0% 0% / 1);
+    --shadow-xl:
+      2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 8px 10px -1px hsl(0 0% 0% / 1);
+    --shadow-2xl: 2px 2px 0px 0px hsl(0 0% 0% / 2.5);
+    --tracking-normal: 0.025rem;
+  }
+
+}

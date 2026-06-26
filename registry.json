@@ -9,8 +9,14 @@
       "type": "registry:lib",
       "title": "Theme System (Next.js)",
       "description": "Complete theme system for Next.js with next-themes provider, switcher, and all themes",
-      "dependencies": ["next-themes"],
-      "registryDependencies": ["dropdown-menu", "scroll-area", "button"],
+      "dependencies": [
+        "next-themes"
+      ],
+      "registryDependencies": [
+        "dropdown-menu",
+        "scroll-area",
+        "button"
+      ],
       "files": [
         {
           "path": "registry/nextjs/lib/themes-config.ts",
@@ -249,7 +255,11 @@
       "type": "registry:lib",
       "title": "Theme System (Vite)",
       "description": "Complete theme system for Vite React with custom provider, switcher, and all themes",
-      "registryDependencies": ["dropdown-menu", "scroll-area", "button"],
+      "registryDependencies": [
+        "dropdown-menu",
+        "scroll-area",
+        "button"
+      ],
       "files": [
         {
           "path": "registry/vite/lib/themes-config.ts",
@@ -488,7 +498,10 @@
       "type": "registry:lib",
       "title": "Theme System (Astro)",
       "description": "Complete theme system for Astro with inline script, React toggle, and all themes",
-      "registryDependencies": ["dropdown-menu", "button"],
+      "registryDependencies": [
+        "dropdown-menu",
+        "button"
+      ],
       "files": [
         {
           "path": "registry/astro/lib/themes-config.ts",
@@ -727,8 +740,13 @@
       "type": "registry:lib",
       "title": "Theme System (Remix)",
       "description": "Complete theme system for Remix with remix-themes, session storage, and all themes",
-      "dependencies": ["remix-themes"],
-      "registryDependencies": ["dropdown-menu", "button"],
+      "dependencies": [
+        "remix-themes"
+      ],
+      "registryDependencies": [
+        "dropdown-menu",
+        "button"
+      ],
       "files": [
         {
           "path": "registry/remix/lib/themes-config.ts",
@@ -1525,6 +1543,4134 @@
           "target": "styles/themes/windows98.css"
         }
       ]
+    },
+    {
+      "name": "theme-amber-minimal-v4-hsl",
+      "type": "registry:theme",
+      "title": "Amber Minimal (Tailwind v4, HSL)",
+      "description": "Warm amber tones with clean minimal aesthetic — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/amber-minimal.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-amber-minimal-v4-hex",
+      "type": "registry:theme",
+      "title": "Amber Minimal (Tailwind v4, HEX)",
+      "description": "Warm amber tones with clean minimal aesthetic — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/amber-minimal.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-amber-minimal-v4-rgb",
+      "type": "registry:theme",
+      "title": "Amber Minimal (Tailwind v4, RGB)",
+      "description": "Warm amber tones with clean minimal aesthetic — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/amber-minimal.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-amber-minimal-v3-hsl",
+      "type": "registry:theme",
+      "title": "Amber Minimal (Tailwind v3, HSL)",
+      "description": "Warm amber tones with clean minimal aesthetic — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/amber-minimal.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-amber-minimal-v3-hex",
+      "type": "registry:theme",
+      "title": "Amber Minimal (Tailwind v3, HEX)",
+      "description": "Warm amber tones with clean minimal aesthetic — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/amber-minimal.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-amber-minimal-v3-rgb",
+      "type": "registry:theme",
+      "title": "Amber Minimal (Tailwind v3, RGB)",
+      "description": "Warm amber tones with clean minimal aesthetic — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/amber-minimal.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/amber-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bold-tech-v4-hsl",
+      "type": "registry:theme",
+      "title": "Bold Tech (Tailwind v4, HSL)",
+      "description": "Bold purple tech-inspired theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bold-tech.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bold-tech-v4-hex",
+      "type": "registry:theme",
+      "title": "Bold Tech (Tailwind v4, HEX)",
+      "description": "Bold purple tech-inspired theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bold-tech.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bold-tech-v4-rgb",
+      "type": "registry:theme",
+      "title": "Bold Tech (Tailwind v4, RGB)",
+      "description": "Bold purple tech-inspired theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bold-tech.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bold-tech-v3-hsl",
+      "type": "registry:theme",
+      "title": "Bold Tech (Tailwind v3, HSL)",
+      "description": "Bold purple tech-inspired theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bold-tech.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bold-tech-v3-hex",
+      "type": "registry:theme",
+      "title": "Bold Tech (Tailwind v3, HEX)",
+      "description": "Bold purple tech-inspired theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bold-tech.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bold-tech-v3-rgb",
+      "type": "registry:theme",
+      "title": "Bold Tech (Tailwind v3, RGB)",
+      "description": "Bold purple tech-inspired theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bold-tech.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/bold-tech.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bubblegum-v4-hsl",
+      "type": "registry:theme",
+      "title": "Bubblegum (Tailwind v4, HSL)",
+      "description": "Playful pink bubblegum aesthetic — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bubblegum.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bubblegum-v4-hex",
+      "type": "registry:theme",
+      "title": "Bubblegum (Tailwind v4, HEX)",
+      "description": "Playful pink bubblegum aesthetic — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bubblegum.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bubblegum-v4-rgb",
+      "type": "registry:theme",
+      "title": "Bubblegum (Tailwind v4, RGB)",
+      "description": "Playful pink bubblegum aesthetic — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bubblegum.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bubblegum-v3-hsl",
+      "type": "registry:theme",
+      "title": "Bubblegum (Tailwind v3, HSL)",
+      "description": "Playful pink bubblegum aesthetic — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bubblegum.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bubblegum-v3-hex",
+      "type": "registry:theme",
+      "title": "Bubblegum (Tailwind v3, HEX)",
+      "description": "Playful pink bubblegum aesthetic — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bubblegum.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-bubblegum-v3-rgb",
+      "type": "registry:theme",
+      "title": "Bubblegum (Tailwind v3, RGB)",
+      "description": "Playful pink bubblegum aesthetic — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/bubblegum.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/bubblegum.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-caffeine-v4-hsl",
+      "type": "registry:theme",
+      "title": "Caffeine (Tailwind v4, HSL)",
+      "description": "Coffee-inspired warm brown tones — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/caffeine.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-caffeine-v4-hex",
+      "type": "registry:theme",
+      "title": "Caffeine (Tailwind v4, HEX)",
+      "description": "Coffee-inspired warm brown tones — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/caffeine.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-caffeine-v4-rgb",
+      "type": "registry:theme",
+      "title": "Caffeine (Tailwind v4, RGB)",
+      "description": "Coffee-inspired warm brown tones — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/caffeine.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-caffeine-v3-hsl",
+      "type": "registry:theme",
+      "title": "Caffeine (Tailwind v3, HSL)",
+      "description": "Coffee-inspired warm brown tones — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/caffeine.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-caffeine-v3-hex",
+      "type": "registry:theme",
+      "title": "Caffeine (Tailwind v3, HEX)",
+      "description": "Coffee-inspired warm brown tones — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/caffeine.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-caffeine-v3-rgb",
+      "type": "registry:theme",
+      "title": "Caffeine (Tailwind v3, RGB)",
+      "description": "Coffee-inspired warm brown tones — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/caffeine.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/caffeine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-candyland-v4-hsl",
+      "type": "registry:theme",
+      "title": "Candyland (Tailwind v4, HSL)",
+      "description": "Sweet candy-inspired pastel colors — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/candyland.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-candyland-v4-hex",
+      "type": "registry:theme",
+      "title": "Candyland (Tailwind v4, HEX)",
+      "description": "Sweet candy-inspired pastel colors — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/candyland.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-candyland-v4-rgb",
+      "type": "registry:theme",
+      "title": "Candyland (Tailwind v4, RGB)",
+      "description": "Sweet candy-inspired pastel colors — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/candyland.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-candyland-v3-hsl",
+      "type": "registry:theme",
+      "title": "Candyland (Tailwind v3, HSL)",
+      "description": "Sweet candy-inspired pastel colors — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/candyland.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-candyland-v3-hex",
+      "type": "registry:theme",
+      "title": "Candyland (Tailwind v3, HEX)",
+      "description": "Sweet candy-inspired pastel colors — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/candyland.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-candyland-v3-rgb",
+      "type": "registry:theme",
+      "title": "Candyland (Tailwind v3, RGB)",
+      "description": "Sweet candy-inspired pastel colors — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/candyland.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/candyland.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-catppuccin-v4-hsl",
+      "type": "registry:theme",
+      "title": "Catppuccin (Tailwind v4, HSL)",
+      "description": "Soothing pastel theme for coders — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/catppuccin.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-catppuccin-v4-hex",
+      "type": "registry:theme",
+      "title": "Catppuccin (Tailwind v4, HEX)",
+      "description": "Soothing pastel theme for coders — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/catppuccin.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-catppuccin-v4-rgb",
+      "type": "registry:theme",
+      "title": "Catppuccin (Tailwind v4, RGB)",
+      "description": "Soothing pastel theme for coders — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/catppuccin.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-catppuccin-v3-hsl",
+      "type": "registry:theme",
+      "title": "Catppuccin (Tailwind v3, HSL)",
+      "description": "Soothing pastel theme for coders — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/catppuccin.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-catppuccin-v3-hex",
+      "type": "registry:theme",
+      "title": "Catppuccin (Tailwind v3, HEX)",
+      "description": "Soothing pastel theme for coders — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/catppuccin.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-catppuccin-v3-rgb",
+      "type": "registry:theme",
+      "title": "Catppuccin (Tailwind v3, RGB)",
+      "description": "Soothing pastel theme for coders — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/catppuccin.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/catppuccin.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claude-v4-hsl",
+      "type": "registry:theme",
+      "title": "Claude (Tailwind v4, HSL)",
+      "description": "Anthropic Claude-inspired warm tones — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claude.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claude-v4-hex",
+      "type": "registry:theme",
+      "title": "Claude (Tailwind v4, HEX)",
+      "description": "Anthropic Claude-inspired warm tones — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claude.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claude-v4-rgb",
+      "type": "registry:theme",
+      "title": "Claude (Tailwind v4, RGB)",
+      "description": "Anthropic Claude-inspired warm tones — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claude.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claude-v3-hsl",
+      "type": "registry:theme",
+      "title": "Claude (Tailwind v3, HSL)",
+      "description": "Anthropic Claude-inspired warm tones — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claude.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claude-v3-hex",
+      "type": "registry:theme",
+      "title": "Claude (Tailwind v3, HEX)",
+      "description": "Anthropic Claude-inspired warm tones — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claude.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claude-v3-rgb",
+      "type": "registry:theme",
+      "title": "Claude (Tailwind v3, RGB)",
+      "description": "Anthropic Claude-inspired warm tones — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claude.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/claude.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claymorphism-v4-hsl",
+      "type": "registry:theme",
+      "title": "Claymorphism (Tailwind v4, HSL)",
+      "description": "Soft clay-like 3D aesthetic — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claymorphism.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claymorphism-v4-hex",
+      "type": "registry:theme",
+      "title": "Claymorphism (Tailwind v4, HEX)",
+      "description": "Soft clay-like 3D aesthetic — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claymorphism.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claymorphism-v4-rgb",
+      "type": "registry:theme",
+      "title": "Claymorphism (Tailwind v4, RGB)",
+      "description": "Soft clay-like 3D aesthetic — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claymorphism.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claymorphism-v3-hsl",
+      "type": "registry:theme",
+      "title": "Claymorphism (Tailwind v3, HSL)",
+      "description": "Soft clay-like 3D aesthetic — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claymorphism.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claymorphism-v3-hex",
+      "type": "registry:theme",
+      "title": "Claymorphism (Tailwind v3, HEX)",
+      "description": "Soft clay-like 3D aesthetic — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claymorphism.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-claymorphism-v3-rgb",
+      "type": "registry:theme",
+      "title": "Claymorphism (Tailwind v3, RGB)",
+      "description": "Soft clay-like 3D aesthetic — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/claymorphism.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/claymorphism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-clean-slate-v4-hsl",
+      "type": "registry:theme",
+      "title": "Clean Slate (Tailwind v4, HSL)",
+      "description": "Fresh clean minimal design — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/clean-slate.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-clean-slate-v4-hex",
+      "type": "registry:theme",
+      "title": "Clean Slate (Tailwind v4, HEX)",
+      "description": "Fresh clean minimal design — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/clean-slate.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-clean-slate-v4-rgb",
+      "type": "registry:theme",
+      "title": "Clean Slate (Tailwind v4, RGB)",
+      "description": "Fresh clean minimal design — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/clean-slate.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-clean-slate-v3-hsl",
+      "type": "registry:theme",
+      "title": "Clean Slate (Tailwind v3, HSL)",
+      "description": "Fresh clean minimal design — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/clean-slate.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-clean-slate-v3-hex",
+      "type": "registry:theme",
+      "title": "Clean Slate (Tailwind v3, HEX)",
+      "description": "Fresh clean minimal design — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/clean-slate.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-clean-slate-v3-rgb",
+      "type": "registry:theme",
+      "title": "Clean Slate (Tailwind v3, RGB)",
+      "description": "Fresh clean minimal design — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/clean-slate.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/clean-slate.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cosmic-night-v4-hsl",
+      "type": "registry:theme",
+      "title": "Cosmic Night (Tailwind v4, HSL)",
+      "description": "Deep space purple cosmic theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cosmic-night.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cosmic-night-v4-hex",
+      "type": "registry:theme",
+      "title": "Cosmic Night (Tailwind v4, HEX)",
+      "description": "Deep space purple cosmic theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cosmic-night.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cosmic-night-v4-rgb",
+      "type": "registry:theme",
+      "title": "Cosmic Night (Tailwind v4, RGB)",
+      "description": "Deep space purple cosmic theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cosmic-night.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cosmic-night-v3-hsl",
+      "type": "registry:theme",
+      "title": "Cosmic Night (Tailwind v3, HSL)",
+      "description": "Deep space purple cosmic theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cosmic-night.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cosmic-night-v3-hex",
+      "type": "registry:theme",
+      "title": "Cosmic Night (Tailwind v3, HEX)",
+      "description": "Deep space purple cosmic theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cosmic-night.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cosmic-night-v3-rgb",
+      "type": "registry:theme",
+      "title": "Cosmic Night (Tailwind v3, RGB)",
+      "description": "Deep space purple cosmic theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cosmic-night.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/cosmic-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cyberpunk-v4-hsl",
+      "type": "registry:theme",
+      "title": "Cyberpunk (Tailwind v4, HSL)",
+      "description": "Neon cyberpunk aesthetic — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cyberpunk.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cyberpunk-v4-hex",
+      "type": "registry:theme",
+      "title": "Cyberpunk (Tailwind v4, HEX)",
+      "description": "Neon cyberpunk aesthetic — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cyberpunk.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cyberpunk-v4-rgb",
+      "type": "registry:theme",
+      "title": "Cyberpunk (Tailwind v4, RGB)",
+      "description": "Neon cyberpunk aesthetic — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cyberpunk.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cyberpunk-v3-hsl",
+      "type": "registry:theme",
+      "title": "Cyberpunk (Tailwind v3, HSL)",
+      "description": "Neon cyberpunk aesthetic — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cyberpunk.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cyberpunk-v3-hex",
+      "type": "registry:theme",
+      "title": "Cyberpunk (Tailwind v3, HEX)",
+      "description": "Neon cyberpunk aesthetic — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cyberpunk.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-cyberpunk-v3-rgb",
+      "type": "registry:theme",
+      "title": "Cyberpunk (Tailwind v3, RGB)",
+      "description": "Neon cyberpunk aesthetic — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/cyberpunk.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/cyberpunk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-default-v4-hsl",
+      "type": "registry:theme",
+      "title": "Default (Tailwind v4, HSL)",
+      "description": "Clean neutral grayscale with system fonts — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/default.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/default.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-default-v4-hex",
+      "type": "registry:theme",
+      "title": "Default (Tailwind v4, HEX)",
+      "description": "Clean neutral grayscale with system fonts — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/default.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/default.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-default-v4-rgb",
+      "type": "registry:theme",
+      "title": "Default (Tailwind v4, RGB)",
+      "description": "Clean neutral grayscale with system fonts — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/default.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/default.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-default-v3-hsl",
+      "type": "registry:theme",
+      "title": "Default (Tailwind v3, HSL)",
+      "description": "Clean neutral grayscale with system fonts — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/default.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/default.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-default-v3-hex",
+      "type": "registry:theme",
+      "title": "Default (Tailwind v3, HEX)",
+      "description": "Clean neutral grayscale with system fonts — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/default.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/default.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-default-v3-rgb",
+      "type": "registry:theme",
+      "title": "Default (Tailwind v3, RGB)",
+      "description": "Clean neutral grayscale with system fonts — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/default.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/default.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-doom-64-v4-hsl",
+      "type": "registry:theme",
+      "title": "Doom 64 (Tailwind v4, HSL)",
+      "description": "Retro gaming doom-inspired dark theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/doom-64.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-doom-64-v4-hex",
+      "type": "registry:theme",
+      "title": "Doom 64 (Tailwind v4, HEX)",
+      "description": "Retro gaming doom-inspired dark theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/doom-64.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-doom-64-v4-rgb",
+      "type": "registry:theme",
+      "title": "Doom 64 (Tailwind v4, RGB)",
+      "description": "Retro gaming doom-inspired dark theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/doom-64.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-doom-64-v3-hsl",
+      "type": "registry:theme",
+      "title": "Doom 64 (Tailwind v3, HSL)",
+      "description": "Retro gaming doom-inspired dark theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/doom-64.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-doom-64-v3-hex",
+      "type": "registry:theme",
+      "title": "Doom 64 (Tailwind v3, HEX)",
+      "description": "Retro gaming doom-inspired dark theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/doom-64.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-doom-64-v3-rgb",
+      "type": "registry:theme",
+      "title": "Doom 64 (Tailwind v3, RGB)",
+      "description": "Retro gaming doom-inspired dark theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/doom-64.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/doom-64.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-elegant-luxury-v4-hsl",
+      "type": "registry:theme",
+      "title": "Elegant Luxury (Tailwind v4, HSL)",
+      "description": "Sophisticated luxury aesthetic — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/elegant-luxury.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-elegant-luxury-v4-hex",
+      "type": "registry:theme",
+      "title": "Elegant Luxury (Tailwind v4, HEX)",
+      "description": "Sophisticated luxury aesthetic — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/elegant-luxury.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-elegant-luxury-v4-rgb",
+      "type": "registry:theme",
+      "title": "Elegant Luxury (Tailwind v4, RGB)",
+      "description": "Sophisticated luxury aesthetic — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/elegant-luxury.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-elegant-luxury-v3-hsl",
+      "type": "registry:theme",
+      "title": "Elegant Luxury (Tailwind v3, HSL)",
+      "description": "Sophisticated luxury aesthetic — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/elegant-luxury.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-elegant-luxury-v3-hex",
+      "type": "registry:theme",
+      "title": "Elegant Luxury (Tailwind v3, HEX)",
+      "description": "Sophisticated luxury aesthetic — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/elegant-luxury.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-elegant-luxury-v3-rgb",
+      "type": "registry:theme",
+      "title": "Elegant Luxury (Tailwind v3, RGB)",
+      "description": "Sophisticated luxury aesthetic — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/elegant-luxury.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/elegant-luxury.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-github-v4-hsl",
+      "type": "registry:theme",
+      "title": "GitHub (Tailwind v4, HSL)",
+      "description": "Official GitHub brand theme for developer tools — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/github.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-github-v4-hex",
+      "type": "registry:theme",
+      "title": "GitHub (Tailwind v4, HEX)",
+      "description": "Official GitHub brand theme for developer tools — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/github.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-github-v4-rgb",
+      "type": "registry:theme",
+      "title": "GitHub (Tailwind v4, RGB)",
+      "description": "Official GitHub brand theme for developer tools — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/github.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-github-v3-hsl",
+      "type": "registry:theme",
+      "title": "GitHub (Tailwind v3, HSL)",
+      "description": "Official GitHub brand theme for developer tools — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/github.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-github-v3-hex",
+      "type": "registry:theme",
+      "title": "GitHub (Tailwind v3, HEX)",
+      "description": "Official GitHub brand theme for developer tools — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/github.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-github-v3-rgb",
+      "type": "registry:theme",
+      "title": "GitHub (Tailwind v3, RGB)",
+      "description": "Official GitHub brand theme for developer tools — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/github.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/github.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-graphite-v4-hsl",
+      "type": "registry:theme",
+      "title": "Graphite (Tailwind v4, HSL)",
+      "description": "Neutral graphite monochrome theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/graphite.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-graphite-v4-hex",
+      "type": "registry:theme",
+      "title": "Graphite (Tailwind v4, HEX)",
+      "description": "Neutral graphite monochrome theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/graphite.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-graphite-v4-rgb",
+      "type": "registry:theme",
+      "title": "Graphite (Tailwind v4, RGB)",
+      "description": "Neutral graphite monochrome theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/graphite.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-graphite-v3-hsl",
+      "type": "registry:theme",
+      "title": "Graphite (Tailwind v3, HSL)",
+      "description": "Neutral graphite monochrome theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/graphite.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-graphite-v3-hex",
+      "type": "registry:theme",
+      "title": "Graphite (Tailwind v3, HEX)",
+      "description": "Neutral graphite monochrome theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/graphite.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-graphite-v3-rgb",
+      "type": "registry:theme",
+      "title": "Graphite (Tailwind v3, RGB)",
+      "description": "Neutral graphite monochrome theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/graphite.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/graphite.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kick-v4-hsl",
+      "type": "registry:theme",
+      "title": "Kick (Tailwind v4, HSL)",
+      "description": "Official Kick green brand theme for streaming platforms — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kick.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kick-v4-hex",
+      "type": "registry:theme",
+      "title": "Kick (Tailwind v4, HEX)",
+      "description": "Official Kick green brand theme for streaming platforms — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kick.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kick-v4-rgb",
+      "type": "registry:theme",
+      "title": "Kick (Tailwind v4, RGB)",
+      "description": "Official Kick green brand theme for streaming platforms — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kick.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kick-v3-hsl",
+      "type": "registry:theme",
+      "title": "Kick (Tailwind v3, HSL)",
+      "description": "Official Kick green brand theme for streaming platforms — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kick.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kick-v3-hex",
+      "type": "registry:theme",
+      "title": "Kick (Tailwind v3, HEX)",
+      "description": "Official Kick green brand theme for streaming platforms — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kick.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kick-v3-rgb",
+      "type": "registry:theme",
+      "title": "Kick (Tailwind v3, RGB)",
+      "description": "Official Kick green brand theme for streaming platforms — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kick.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/kick.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kodama-grove-v4-hsl",
+      "type": "registry:theme",
+      "title": "Kodama Grove (Tailwind v4, HSL)",
+      "description": "Studio Ghibli forest spirit inspired — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kodama-grove.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kodama-grove-v4-hex",
+      "type": "registry:theme",
+      "title": "Kodama Grove (Tailwind v4, HEX)",
+      "description": "Studio Ghibli forest spirit inspired — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kodama-grove.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kodama-grove-v4-rgb",
+      "type": "registry:theme",
+      "title": "Kodama Grove (Tailwind v4, RGB)",
+      "description": "Studio Ghibli forest spirit inspired — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kodama-grove.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kodama-grove-v3-hsl",
+      "type": "registry:theme",
+      "title": "Kodama Grove (Tailwind v3, HSL)",
+      "description": "Studio Ghibli forest spirit inspired — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kodama-grove.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kodama-grove-v3-hex",
+      "type": "registry:theme",
+      "title": "Kodama Grove (Tailwind v3, HEX)",
+      "description": "Studio Ghibli forest spirit inspired — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kodama-grove.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-kodama-grove-v3-rgb",
+      "type": "registry:theme",
+      "title": "Kodama Grove (Tailwind v3, RGB)",
+      "description": "Studio Ghibli forest spirit inspired — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/kodama-grove.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/kodama-grove.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-midnight-bloom-v4-hsl",
+      "type": "registry:theme",
+      "title": "Midnight Bloom (Tailwind v4, HSL)",
+      "description": "Deep purple midnight floral theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/midnight-bloom.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-midnight-bloom-v4-hex",
+      "type": "registry:theme",
+      "title": "Midnight Bloom (Tailwind v4, HEX)",
+      "description": "Deep purple midnight floral theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/midnight-bloom.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-midnight-bloom-v4-rgb",
+      "type": "registry:theme",
+      "title": "Midnight Bloom (Tailwind v4, RGB)",
+      "description": "Deep purple midnight floral theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/midnight-bloom.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-midnight-bloom-v3-hsl",
+      "type": "registry:theme",
+      "title": "Midnight Bloom (Tailwind v3, HSL)",
+      "description": "Deep purple midnight floral theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/midnight-bloom.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-midnight-bloom-v3-hex",
+      "type": "registry:theme",
+      "title": "Midnight Bloom (Tailwind v3, HEX)",
+      "description": "Deep purple midnight floral theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/midnight-bloom.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-midnight-bloom-v3-rgb",
+      "type": "registry:theme",
+      "title": "Midnight Bloom (Tailwind v3, RGB)",
+      "description": "Deep purple midnight floral theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/midnight-bloom.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/midnight-bloom.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mocha-mousse-v4-hsl",
+      "type": "registry:theme",
+      "title": "Mocha Mousse (Tailwind v4, HSL)",
+      "description": "Rich mocha chocolate tones — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mocha-mousse.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mocha-mousse-v4-hex",
+      "type": "registry:theme",
+      "title": "Mocha Mousse (Tailwind v4, HEX)",
+      "description": "Rich mocha chocolate tones — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mocha-mousse.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mocha-mousse-v4-rgb",
+      "type": "registry:theme",
+      "title": "Mocha Mousse (Tailwind v4, RGB)",
+      "description": "Rich mocha chocolate tones — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mocha-mousse.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mocha-mousse-v3-hsl",
+      "type": "registry:theme",
+      "title": "Mocha Mousse (Tailwind v3, HSL)",
+      "description": "Rich mocha chocolate tones — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mocha-mousse.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mocha-mousse-v3-hex",
+      "type": "registry:theme",
+      "title": "Mocha Mousse (Tailwind v3, HEX)",
+      "description": "Rich mocha chocolate tones — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mocha-mousse.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mocha-mousse-v3-rgb",
+      "type": "registry:theme",
+      "title": "Mocha Mousse (Tailwind v3, RGB)",
+      "description": "Rich mocha chocolate tones — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mocha-mousse.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/mocha-mousse.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-modern-minimal-v4-hsl",
+      "type": "registry:theme",
+      "title": "Modern Minimal (Tailwind v4, HSL)",
+      "description": "Modern minimal purple accent theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/modern-minimal.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-modern-minimal-v4-hex",
+      "type": "registry:theme",
+      "title": "Modern Minimal (Tailwind v4, HEX)",
+      "description": "Modern minimal purple accent theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/modern-minimal.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-modern-minimal-v4-rgb",
+      "type": "registry:theme",
+      "title": "Modern Minimal (Tailwind v4, RGB)",
+      "description": "Modern minimal purple accent theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/modern-minimal.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-modern-minimal-v3-hsl",
+      "type": "registry:theme",
+      "title": "Modern Minimal (Tailwind v3, HSL)",
+      "description": "Modern minimal purple accent theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/modern-minimal.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-modern-minimal-v3-hex",
+      "type": "registry:theme",
+      "title": "Modern Minimal (Tailwind v3, HEX)",
+      "description": "Modern minimal purple accent theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/modern-minimal.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-modern-minimal-v3-rgb",
+      "type": "registry:theme",
+      "title": "Modern Minimal (Tailwind v3, RGB)",
+      "description": "Modern minimal purple accent theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/modern-minimal.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/modern-minimal.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mono-v4-hsl",
+      "type": "registry:theme",
+      "title": "Mono (Tailwind v4, HSL)",
+      "description": "Monochrome monospace developer theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mono.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mono-v4-hex",
+      "type": "registry:theme",
+      "title": "Mono (Tailwind v4, HEX)",
+      "description": "Monochrome monospace developer theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mono.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mono-v4-rgb",
+      "type": "registry:theme",
+      "title": "Mono (Tailwind v4, RGB)",
+      "description": "Monochrome monospace developer theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mono.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mono-v3-hsl",
+      "type": "registry:theme",
+      "title": "Mono (Tailwind v3, HSL)",
+      "description": "Monochrome monospace developer theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mono.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mono-v3-hex",
+      "type": "registry:theme",
+      "title": "Mono (Tailwind v3, HEX)",
+      "description": "Monochrome monospace developer theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mono.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-mono-v3-rgb",
+      "type": "registry:theme",
+      "title": "Mono (Tailwind v3, RGB)",
+      "description": "Monochrome monospace developer theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/mono.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/mono.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-nature-v4-hsl",
+      "type": "registry:theme",
+      "title": "Nature (Tailwind v4, HSL)",
+      "description": "Natural green earthy tones — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/nature.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-nature-v4-hex",
+      "type": "registry:theme",
+      "title": "Nature (Tailwind v4, HEX)",
+      "description": "Natural green earthy tones — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/nature.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-nature-v4-rgb",
+      "type": "registry:theme",
+      "title": "Nature (Tailwind v4, RGB)",
+      "description": "Natural green earthy tones — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/nature.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-nature-v3-hsl",
+      "type": "registry:theme",
+      "title": "Nature (Tailwind v3, HSL)",
+      "description": "Natural green earthy tones — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/nature.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-nature-v3-hex",
+      "type": "registry:theme",
+      "title": "Nature (Tailwind v3, HEX)",
+      "description": "Natural green earthy tones — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/nature.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-nature-v3-rgb",
+      "type": "registry:theme",
+      "title": "Nature (Tailwind v3, RGB)",
+      "description": "Natural green earthy tones — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/nature.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/nature.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-neo-brutalism-v4-hsl",
+      "type": "registry:theme",
+      "title": "Neo Brutalism (Tailwind v4, HSL)",
+      "description": "Bold neo-brutalist design aesthetic — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/neo-brutalism.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-neo-brutalism-v4-hex",
+      "type": "registry:theme",
+      "title": "Neo Brutalism (Tailwind v4, HEX)",
+      "description": "Bold neo-brutalist design aesthetic — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/neo-brutalism.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-neo-brutalism-v4-rgb",
+      "type": "registry:theme",
+      "title": "Neo Brutalism (Tailwind v4, RGB)",
+      "description": "Bold neo-brutalist design aesthetic — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/neo-brutalism.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-neo-brutalism-v3-hsl",
+      "type": "registry:theme",
+      "title": "Neo Brutalism (Tailwind v3, HSL)",
+      "description": "Bold neo-brutalist design aesthetic — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/neo-brutalism.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-neo-brutalism-v3-hex",
+      "type": "registry:theme",
+      "title": "Neo Brutalism (Tailwind v3, HEX)",
+      "description": "Bold neo-brutalist design aesthetic — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/neo-brutalism.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-neo-brutalism-v3-rgb",
+      "type": "registry:theme",
+      "title": "Neo Brutalism (Tailwind v3, RGB)",
+      "description": "Bold neo-brutalist design aesthetic — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/neo-brutalism.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/neo-brutalism.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-northern-lights-v4-hsl",
+      "type": "registry:theme",
+      "title": "Northern Lights (Tailwind v4, HSL)",
+      "description": "Aurora borealis inspired greens — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/northern-lights.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-northern-lights-v4-hex",
+      "type": "registry:theme",
+      "title": "Northern Lights (Tailwind v4, HEX)",
+      "description": "Aurora borealis inspired greens — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/northern-lights.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-northern-lights-v4-rgb",
+      "type": "registry:theme",
+      "title": "Northern Lights (Tailwind v4, RGB)",
+      "description": "Aurora borealis inspired greens — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/northern-lights.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-northern-lights-v3-hsl",
+      "type": "registry:theme",
+      "title": "Northern Lights (Tailwind v3, HSL)",
+      "description": "Aurora borealis inspired greens — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/northern-lights.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-northern-lights-v3-hex",
+      "type": "registry:theme",
+      "title": "Northern Lights (Tailwind v3, HEX)",
+      "description": "Aurora borealis inspired greens — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/northern-lights.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-northern-lights-v3-rgb",
+      "type": "registry:theme",
+      "title": "Northern Lights (Tailwind v3, RGB)",
+      "description": "Aurora borealis inspired greens — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/northern-lights.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/northern-lights.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-ocean-breeze-v4-hsl",
+      "type": "registry:theme",
+      "title": "Ocean Breeze (Tailwind v4, HSL)",
+      "description": "Cool ocean teal aqua tones — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/ocean-breeze.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-ocean-breeze-v4-hex",
+      "type": "registry:theme",
+      "title": "Ocean Breeze (Tailwind v4, HEX)",
+      "description": "Cool ocean teal aqua tones — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/ocean-breeze.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-ocean-breeze-v4-rgb",
+      "type": "registry:theme",
+      "title": "Ocean Breeze (Tailwind v4, RGB)",
+      "description": "Cool ocean teal aqua tones — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/ocean-breeze.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-ocean-breeze-v3-hsl",
+      "type": "registry:theme",
+      "title": "Ocean Breeze (Tailwind v3, HSL)",
+      "description": "Cool ocean teal aqua tones — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/ocean-breeze.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-ocean-breeze-v3-hex",
+      "type": "registry:theme",
+      "title": "Ocean Breeze (Tailwind v3, HEX)",
+      "description": "Cool ocean teal aqua tones — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/ocean-breeze.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-ocean-breeze-v3-rgb",
+      "type": "registry:theme",
+      "title": "Ocean Breeze (Tailwind v3, RGB)",
+      "description": "Cool ocean teal aqua tones — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/ocean-breeze.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/ocean-breeze.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-pastel-dreams-v4-hsl",
+      "type": "registry:theme",
+      "title": "Pastel Dreams (Tailwind v4, HSL)",
+      "description": "Soft pastel purple dreamy theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/pastel-dreams.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-pastel-dreams-v4-hex",
+      "type": "registry:theme",
+      "title": "Pastel Dreams (Tailwind v4, HEX)",
+      "description": "Soft pastel purple dreamy theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/pastel-dreams.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-pastel-dreams-v4-rgb",
+      "type": "registry:theme",
+      "title": "Pastel Dreams (Tailwind v4, RGB)",
+      "description": "Soft pastel purple dreamy theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/pastel-dreams.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-pastel-dreams-v3-hsl",
+      "type": "registry:theme",
+      "title": "Pastel Dreams (Tailwind v3, HSL)",
+      "description": "Soft pastel purple dreamy theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/pastel-dreams.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-pastel-dreams-v3-hex",
+      "type": "registry:theme",
+      "title": "Pastel Dreams (Tailwind v3, HEX)",
+      "description": "Soft pastel purple dreamy theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/pastel-dreams.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-pastel-dreams-v3-rgb",
+      "type": "registry:theme",
+      "title": "Pastel Dreams (Tailwind v3, RGB)",
+      "description": "Soft pastel purple dreamy theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/pastel-dreams.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/pastel-dreams.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-perpetuity-v4-hsl",
+      "type": "registry:theme",
+      "title": "Perpetuity (Tailwind v4, HSL)",
+      "description": "Timeless teal monospace theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/perpetuity.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-perpetuity-v4-hex",
+      "type": "registry:theme",
+      "title": "Perpetuity (Tailwind v4, HEX)",
+      "description": "Timeless teal monospace theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/perpetuity.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-perpetuity-v4-rgb",
+      "type": "registry:theme",
+      "title": "Perpetuity (Tailwind v4, RGB)",
+      "description": "Timeless teal monospace theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/perpetuity.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-perpetuity-v3-hsl",
+      "type": "registry:theme",
+      "title": "Perpetuity (Tailwind v3, HSL)",
+      "description": "Timeless teal monospace theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/perpetuity.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-perpetuity-v3-hex",
+      "type": "registry:theme",
+      "title": "Perpetuity (Tailwind v3, HEX)",
+      "description": "Timeless teal monospace theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/perpetuity.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-perpetuity-v3-rgb",
+      "type": "registry:theme",
+      "title": "Perpetuity (Tailwind v3, RGB)",
+      "description": "Timeless teal monospace theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/perpetuity.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/perpetuity.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-quantum-rose-v4-hsl",
+      "type": "registry:theme",
+      "title": "Quantum Rose (Tailwind v4, HSL)",
+      "description": "Vibrant quantum pink rose theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/quantum-rose.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-quantum-rose-v4-hex",
+      "type": "registry:theme",
+      "title": "Quantum Rose (Tailwind v4, HEX)",
+      "description": "Vibrant quantum pink rose theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/quantum-rose.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-quantum-rose-v4-rgb",
+      "type": "registry:theme",
+      "title": "Quantum Rose (Tailwind v4, RGB)",
+      "description": "Vibrant quantum pink rose theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/quantum-rose.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-quantum-rose-v3-hsl",
+      "type": "registry:theme",
+      "title": "Quantum Rose (Tailwind v3, HSL)",
+      "description": "Vibrant quantum pink rose theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/quantum-rose.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-quantum-rose-v3-hex",
+      "type": "registry:theme",
+      "title": "Quantum Rose (Tailwind v3, HEX)",
+      "description": "Vibrant quantum pink rose theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/quantum-rose.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-quantum-rose-v3-rgb",
+      "type": "registry:theme",
+      "title": "Quantum Rose (Tailwind v3, RGB)",
+      "description": "Vibrant quantum pink rose theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/quantum-rose.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/quantum-rose.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-retro-arcade-v4-hsl",
+      "type": "registry:theme",
+      "title": "Retro Arcade (Tailwind v4, HSL)",
+      "description": "Retro arcade gaming aesthetic — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/retro-arcade.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-retro-arcade-v4-hex",
+      "type": "registry:theme",
+      "title": "Retro Arcade (Tailwind v4, HEX)",
+      "description": "Retro arcade gaming aesthetic — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/retro-arcade.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-retro-arcade-v4-rgb",
+      "type": "registry:theme",
+      "title": "Retro Arcade (Tailwind v4, RGB)",
+      "description": "Retro arcade gaming aesthetic — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/retro-arcade.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-retro-arcade-v3-hsl",
+      "type": "registry:theme",
+      "title": "Retro Arcade (Tailwind v3, HSL)",
+      "description": "Retro arcade gaming aesthetic — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/retro-arcade.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-retro-arcade-v3-hex",
+      "type": "registry:theme",
+      "title": "Retro Arcade (Tailwind v3, HEX)",
+      "description": "Retro arcade gaming aesthetic — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/retro-arcade.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-retro-arcade-v3-rgb",
+      "type": "registry:theme",
+      "title": "Retro Arcade (Tailwind v3, RGB)",
+      "description": "Retro arcade gaming aesthetic — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/retro-arcade.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/retro-arcade.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-solar-dusk-v4-hsl",
+      "type": "registry:theme",
+      "title": "Solar Dusk (Tailwind v4, HSL)",
+      "description": "Warm solar sunset orange tones — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/solar-dusk.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-solar-dusk-v4-hex",
+      "type": "registry:theme",
+      "title": "Solar Dusk (Tailwind v4, HEX)",
+      "description": "Warm solar sunset orange tones — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/solar-dusk.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-solar-dusk-v4-rgb",
+      "type": "registry:theme",
+      "title": "Solar Dusk (Tailwind v4, RGB)",
+      "description": "Warm solar sunset orange tones — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/solar-dusk.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-solar-dusk-v3-hsl",
+      "type": "registry:theme",
+      "title": "Solar Dusk (Tailwind v3, HSL)",
+      "description": "Warm solar sunset orange tones — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/solar-dusk.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-solar-dusk-v3-hex",
+      "type": "registry:theme",
+      "title": "Solar Dusk (Tailwind v3, HEX)",
+      "description": "Warm solar sunset orange tones — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/solar-dusk.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-solar-dusk-v3-rgb",
+      "type": "registry:theme",
+      "title": "Solar Dusk (Tailwind v3, RGB)",
+      "description": "Warm solar sunset orange tones — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/solar-dusk.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/solar-dusk.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-spotify-v4-hsl",
+      "type": "registry:theme",
+      "title": "Spotify (Tailwind v4, HSL)",
+      "description": "Official Spotify green brand theme for music apps — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/spotify.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-spotify-v4-hex",
+      "type": "registry:theme",
+      "title": "Spotify (Tailwind v4, HEX)",
+      "description": "Official Spotify green brand theme for music apps — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/spotify.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-spotify-v4-rgb",
+      "type": "registry:theme",
+      "title": "Spotify (Tailwind v4, RGB)",
+      "description": "Official Spotify green brand theme for music apps — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/spotify.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-spotify-v3-hsl",
+      "type": "registry:theme",
+      "title": "Spotify (Tailwind v3, HSL)",
+      "description": "Official Spotify green brand theme for music apps — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/spotify.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-spotify-v3-hex",
+      "type": "registry:theme",
+      "title": "Spotify (Tailwind v3, HEX)",
+      "description": "Official Spotify green brand theme for music apps — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/spotify.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-spotify-v3-rgb",
+      "type": "registry:theme",
+      "title": "Spotify (Tailwind v3, RGB)",
+      "description": "Official Spotify green brand theme for music apps — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/spotify.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/spotify.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-starry-night-v4-hsl",
+      "type": "registry:theme",
+      "title": "Starry Night (Tailwind v4, HSL)",
+      "description": "Van Gogh starry night inspired — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/starry-night.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-starry-night-v4-hex",
+      "type": "registry:theme",
+      "title": "Starry Night (Tailwind v4, HEX)",
+      "description": "Van Gogh starry night inspired — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/starry-night.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-starry-night-v4-rgb",
+      "type": "registry:theme",
+      "title": "Starry Night (Tailwind v4, RGB)",
+      "description": "Van Gogh starry night inspired — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/starry-night.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-starry-night-v3-hsl",
+      "type": "registry:theme",
+      "title": "Starry Night (Tailwind v3, HSL)",
+      "description": "Van Gogh starry night inspired — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/starry-night.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-starry-night-v3-hex",
+      "type": "registry:theme",
+      "title": "Starry Night (Tailwind v3, HEX)",
+      "description": "Van Gogh starry night inspired — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/starry-night.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-starry-night-v3-rgb",
+      "type": "registry:theme",
+      "title": "Starry Night (Tailwind v3, RGB)",
+      "description": "Van Gogh starry night inspired — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/starry-night.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/starry-night.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-stripe-v4-hsl",
+      "type": "registry:theme",
+      "title": "Stripe (Tailwind v4, HSL)",
+      "description": "Official Stripe indigo brand theme for payment and fintech apps — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/stripe.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-stripe-v4-hex",
+      "type": "registry:theme",
+      "title": "Stripe (Tailwind v4, HEX)",
+      "description": "Official Stripe indigo brand theme for payment and fintech apps — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/stripe.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-stripe-v4-rgb",
+      "type": "registry:theme",
+      "title": "Stripe (Tailwind v4, RGB)",
+      "description": "Official Stripe indigo brand theme for payment and fintech apps — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/stripe.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-stripe-v3-hsl",
+      "type": "registry:theme",
+      "title": "Stripe (Tailwind v3, HSL)",
+      "description": "Official Stripe indigo brand theme for payment and fintech apps — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/stripe.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-stripe-v3-hex",
+      "type": "registry:theme",
+      "title": "Stripe (Tailwind v3, HEX)",
+      "description": "Official Stripe indigo brand theme for payment and fintech apps — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/stripe.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-stripe-v3-rgb",
+      "type": "registry:theme",
+      "title": "Stripe (Tailwind v3, RGB)",
+      "description": "Official Stripe indigo brand theme for payment and fintech apps — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/stripe.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/stripe.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-sunset-horizon-v4-hsl",
+      "type": "registry:theme",
+      "title": "Sunset Horizon (Tailwind v4, HSL)",
+      "description": "Warm sunset orange horizon theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/sunset-horizon.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-sunset-horizon-v4-hex",
+      "type": "registry:theme",
+      "title": "Sunset Horizon (Tailwind v4, HEX)",
+      "description": "Warm sunset orange horizon theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/sunset-horizon.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-sunset-horizon-v4-rgb",
+      "type": "registry:theme",
+      "title": "Sunset Horizon (Tailwind v4, RGB)",
+      "description": "Warm sunset orange horizon theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/sunset-horizon.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-sunset-horizon-v3-hsl",
+      "type": "registry:theme",
+      "title": "Sunset Horizon (Tailwind v3, HSL)",
+      "description": "Warm sunset orange horizon theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/sunset-horizon.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-sunset-horizon-v3-hex",
+      "type": "registry:theme",
+      "title": "Sunset Horizon (Tailwind v3, HEX)",
+      "description": "Warm sunset orange horizon theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/sunset-horizon.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-sunset-horizon-v3-rgb",
+      "type": "registry:theme",
+      "title": "Sunset Horizon (Tailwind v3, RGB)",
+      "description": "Warm sunset orange horizon theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/sunset-horizon.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/sunset-horizon.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-supabase-v4-hsl",
+      "type": "registry:theme",
+      "title": "Supabase (Tailwind v4, HSL)",
+      "description": "Supabase green brand theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/supabase.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-supabase-v4-hex",
+      "type": "registry:theme",
+      "title": "Supabase (Tailwind v4, HEX)",
+      "description": "Supabase green brand theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/supabase.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-supabase-v4-rgb",
+      "type": "registry:theme",
+      "title": "Supabase (Tailwind v4, RGB)",
+      "description": "Supabase green brand theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/supabase.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-supabase-v3-hsl",
+      "type": "registry:theme",
+      "title": "Supabase (Tailwind v3, HSL)",
+      "description": "Supabase green brand theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/supabase.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-supabase-v3-hex",
+      "type": "registry:theme",
+      "title": "Supabase (Tailwind v3, HEX)",
+      "description": "Supabase green brand theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/supabase.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-supabase-v3-rgb",
+      "type": "registry:theme",
+      "title": "Supabase (Tailwind v3, RGB)",
+      "description": "Supabase green brand theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/supabase.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/supabase.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-t3-chat-v4-hsl",
+      "type": "registry:theme",
+      "title": "T3 Chat (Tailwind v4, HSL)",
+      "description": "T3 stack inspired chat theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/t3-chat.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-t3-chat-v4-hex",
+      "type": "registry:theme",
+      "title": "T3 Chat (Tailwind v4, HEX)",
+      "description": "T3 stack inspired chat theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/t3-chat.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-t3-chat-v4-rgb",
+      "type": "registry:theme",
+      "title": "T3 Chat (Tailwind v4, RGB)",
+      "description": "T3 stack inspired chat theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/t3-chat.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-t3-chat-v3-hsl",
+      "type": "registry:theme",
+      "title": "T3 Chat (Tailwind v3, HSL)",
+      "description": "T3 stack inspired chat theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/t3-chat.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-t3-chat-v3-hex",
+      "type": "registry:theme",
+      "title": "T3 Chat (Tailwind v3, HEX)",
+      "description": "T3 stack inspired chat theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/t3-chat.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-t3-chat-v3-rgb",
+      "type": "registry:theme",
+      "title": "T3 Chat (Tailwind v3, RGB)",
+      "description": "T3 stack inspired chat theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/t3-chat.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/t3-chat.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-tangerine-v4-hsl",
+      "type": "registry:theme",
+      "title": "Tangerine (Tailwind v4, HSL)",
+      "description": "Fresh tangerine orange citrus theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/tangerine.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-tangerine-v4-hex",
+      "type": "registry:theme",
+      "title": "Tangerine (Tailwind v4, HEX)",
+      "description": "Fresh tangerine orange citrus theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/tangerine.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-tangerine-v4-rgb",
+      "type": "registry:theme",
+      "title": "Tangerine (Tailwind v4, RGB)",
+      "description": "Fresh tangerine orange citrus theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/tangerine.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-tangerine-v3-hsl",
+      "type": "registry:theme",
+      "title": "Tangerine (Tailwind v3, HSL)",
+      "description": "Fresh tangerine orange citrus theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/tangerine.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-tangerine-v3-hex",
+      "type": "registry:theme",
+      "title": "Tangerine (Tailwind v3, HEX)",
+      "description": "Fresh tangerine orange citrus theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/tangerine.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-tangerine-v3-rgb",
+      "type": "registry:theme",
+      "title": "Tangerine (Tailwind v3, RGB)",
+      "description": "Fresh tangerine orange citrus theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/tangerine.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/tangerine.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitch-v4-hsl",
+      "type": "registry:theme",
+      "title": "Twitch (Tailwind v4, HSL)",
+      "description": "Official Twitch purple brand theme for streaming platforms — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitch.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitch-v4-hex",
+      "type": "registry:theme",
+      "title": "Twitch (Tailwind v4, HEX)",
+      "description": "Official Twitch purple brand theme for streaming platforms — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitch.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitch-v4-rgb",
+      "type": "registry:theme",
+      "title": "Twitch (Tailwind v4, RGB)",
+      "description": "Official Twitch purple brand theme for streaming platforms — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitch.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitch-v3-hsl",
+      "type": "registry:theme",
+      "title": "Twitch (Tailwind v3, HSL)",
+      "description": "Official Twitch purple brand theme for streaming platforms — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitch.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitch-v3-hex",
+      "type": "registry:theme",
+      "title": "Twitch (Tailwind v3, HEX)",
+      "description": "Official Twitch purple brand theme for streaming platforms — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitch.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitch-v3-rgb",
+      "type": "registry:theme",
+      "title": "Twitch (Tailwind v3, RGB)",
+      "description": "Official Twitch purple brand theme for streaming platforms — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitch.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitch.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitter-v4-hsl",
+      "type": "registry:theme",
+      "title": "Twitter (Tailwind v4, HSL)",
+      "description": "Twitter/X blue brand theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitter.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitter-v4-hex",
+      "type": "registry:theme",
+      "title": "Twitter (Tailwind v4, HEX)",
+      "description": "Twitter/X blue brand theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitter.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitter-v4-rgb",
+      "type": "registry:theme",
+      "title": "Twitter (Tailwind v4, RGB)",
+      "description": "Twitter/X blue brand theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitter.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitter-v3-hsl",
+      "type": "registry:theme",
+      "title": "Twitter (Tailwind v3, HSL)",
+      "description": "Twitter/X blue brand theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitter.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitter-v3-hex",
+      "type": "registry:theme",
+      "title": "Twitter (Tailwind v3, HEX)",
+      "description": "Twitter/X blue brand theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitter.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-twitter-v3-rgb",
+      "type": "registry:theme",
+      "title": "Twitter (Tailwind v3, RGB)",
+      "description": "Twitter/X blue brand theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/twitter.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/twitter.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vercel-v4-hsl",
+      "type": "registry:theme",
+      "title": "Vercel (Tailwind v4, HSL)",
+      "description": "Vercel black and white brand theme — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vercel.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vercel-v4-hex",
+      "type": "registry:theme",
+      "title": "Vercel (Tailwind v4, HEX)",
+      "description": "Vercel black and white brand theme — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vercel.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vercel-v4-rgb",
+      "type": "registry:theme",
+      "title": "Vercel (Tailwind v4, RGB)",
+      "description": "Vercel black and white brand theme — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vercel.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vercel-v3-hsl",
+      "type": "registry:theme",
+      "title": "Vercel (Tailwind v3, HSL)",
+      "description": "Vercel black and white brand theme — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vercel.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vercel-v3-hex",
+      "type": "registry:theme",
+      "title": "Vercel (Tailwind v3, HEX)",
+      "description": "Vercel black and white brand theme — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vercel.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vercel-v3-rgb",
+      "type": "registry:theme",
+      "title": "Vercel (Tailwind v3, RGB)",
+      "description": "Vercel black and white brand theme — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vercel.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/vercel.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vintage-paper-v4-hsl",
+      "type": "registry:theme",
+      "title": "Vintage Paper (Tailwind v4, HSL)",
+      "description": "Aged vintage paper sepia tones — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vintage-paper.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vintage-paper-v4-hex",
+      "type": "registry:theme",
+      "title": "Vintage Paper (Tailwind v4, HEX)",
+      "description": "Aged vintage paper sepia tones — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vintage-paper.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vintage-paper-v4-rgb",
+      "type": "registry:theme",
+      "title": "Vintage Paper (Tailwind v4, RGB)",
+      "description": "Aged vintage paper sepia tones — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vintage-paper.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vintage-paper-v3-hsl",
+      "type": "registry:theme",
+      "title": "Vintage Paper (Tailwind v3, HSL)",
+      "description": "Aged vintage paper sepia tones — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vintage-paper.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vintage-paper-v3-hex",
+      "type": "registry:theme",
+      "title": "Vintage Paper (Tailwind v3, HEX)",
+      "description": "Aged vintage paper sepia tones — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vintage-paper.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-vintage-paper-v3-rgb",
+      "type": "registry:theme",
+      "title": "Vintage Paper (Tailwind v3, RGB)",
+      "description": "Aged vintage paper sepia tones — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/vintage-paper.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/vintage-paper.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-windows98-v4-hsl",
+      "type": "registry:theme",
+      "title": "Windows 98 (Tailwind v4, HSL)",
+      "description": "Classic Windows 98 retro computing aesthetic with pixel fonts — Tailwind v4 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/windows98.v4.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-windows98-v4-hex",
+      "type": "registry:theme",
+      "title": "Windows 98 (Tailwind v4, HEX)",
+      "description": "Classic Windows 98 retro computing aesthetic with pixel fonts — Tailwind v4 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/windows98.v4.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-windows98-v4-rgb",
+      "type": "registry:theme",
+      "title": "Windows 98 (Tailwind v4, RGB)",
+      "description": "Classic Windows 98 retro computing aesthetic with pixel fonts — Tailwind v4 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/windows98.v4.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-windows98-v3-hsl",
+      "type": "registry:theme",
+      "title": "Windows 98 (Tailwind v3, HSL)",
+      "description": "Classic Windows 98 retro computing aesthetic with pixel fonts — Tailwind v3 / HSL variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/windows98.v3.hsl.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-windows98-v3-hex",
+      "type": "registry:theme",
+      "title": "Windows 98 (Tailwind v3, HEX)",
+      "description": "Classic Windows 98 retro computing aesthetic with pixel fonts — Tailwind v3 / HEX variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/windows98.v3.hex.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
+    },
+    {
+      "name": "theme-windows98-v3-rgb",
+      "type": "registry:theme",
+      "title": "Windows 98 (Tailwind v3, RGB)",
+      "description": "Classic Windows 98 retro computing aesthetic with pixel fonts — Tailwind v3 / RGB variant.",
+      "files": [
+        {
+          "path": "registry/themes/variants/windows98.v3.rgb.css",
+          "type": "registry:file",
+          "target": "styles/themes/windows98.css"
+        }
+      ],
+      "meta": {
+        "generatedVariant": true
+      }
     }
   ]
 }

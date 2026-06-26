@@ -1,0 +1,130 @@
+/* Ocean Breeze Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Ocean Breeze Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 243 249 255;
+    --foreground: 54 64 80;
+    --card: 255 255 255;
+    --card-foreground: 54 64 80;
+    --popover: 255 255 255;
+    --popover-foreground: 54 64 80;
+    --primary: 36 196 94;
+    --primary-foreground: 255 255 255;
+    --secondary: 222 242 255;
+    --secondary-foreground: 75 86 102;
+    --muted: 245 245 245;
+    --muted-foreground: 108 114 126;
+    --accent: 209 250 229;
+    --accent-foreground: 54 64 80;
+    --destructive: 241 68 68;
+    --destructive-foreground: 255 255 255;
+    --border: 228 232 239;
+    --input: 228 232 239;
+    --ring: 36 196 94;
+    --chart-1: 36 196 94;
+    --chart-2: 16 186 130;
+    --chart-3: 0 152 106;
+    --chart-4: 21 120 88;
+    --chart-5: 0 95 69;
+    --radius: 0.5rem;
+    --sidebar: 222 242 255;
+    --sidebar-foreground: 54 64 80;
+    --sidebar-primary: 36 196 94;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 209 250 229;
+    --sidebar-accent-foreground: 54 64 80;
+    --sidebar-border: 228 232 239;
+    --sidebar-ring: 36 196 94;
+    --font-sans: DM Sans, sans-serif;
+    --font-serif: Lora, serif;
+    --font-mono: IBM Plex Mono, monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 8px;
+    --shadow-spread: -1px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 4px 6px -2px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 8px 10px -2px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.25);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 15 24 43;
+    --foreground: 208 212 219;
+    --card: 29 41 61;
+    --card-foreground: 208 212 219;
+    --popover: 29 41 61;
+    --popover-foreground: 208 212 219;
+    --primary: 57 209 153;
+    --primary-foreground: 15 24 43;
+    --secondary: 47 56 72;
+    --secondary-foreground: 161 161 168;
+    --muted: 29 41 61;
+    --muted-foreground: 108 114 126;
+    --accent: 54 64 80;
+    --accent-foreground: 161 161 168;
+    --destructive: 241 68 68;
+    --destructive-foreground: 15 24 43;
+    --border: 75 86 102;
+    --input: 75 86 102;
+    --ring: 57 209 153;
+    --chart-1: 57 209 153;
+    --chart-2: 50 210 189;
+    --chart-3: 36 196 94;
+    --chart-4: 16 186 130;
+    --chart-5: 0 152 106;
+    --radius: 0.5rem;
+    --sidebar: 29 41 61;
+    --sidebar-foreground: 208 212 219;
+    --sidebar-primary: 57 209 153;
+    --sidebar-primary-foreground: 15 24 43;
+    --sidebar-accent: 54 64 80;
+    --sidebar-accent-foreground: 161 161 168;
+    --sidebar-border: 75 86 102;
+    --sidebar-ring: 57 209 153;
+    --font-sans: DM Sans, sans-serif;
+    --font-serif: Lora, serif;
+    --font-mono: IBM Plex Mono, monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 8px;
+    --shadow-spread: -1px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 4px 6px -2px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 8px 10px -2px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.25);
+  }
+
+}

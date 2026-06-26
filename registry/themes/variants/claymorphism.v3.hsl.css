@@ -1,0 +1,135 @@
+/* Claymorphism Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Claymorphism Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 0 0% 89.56%;
+    --foreground: 217.27 35.09% 17.61%;
+    --card: 300 0% 96.06%;
+    --card-foreground: 217.27 35.09% 17.61%;
+    --popover: 300 0% 96.06%;
+    --popover-foreground: 217.27 35.09% 17.61%;
+    --primary: 238.34 82.68% 66.83%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 340 0% 83.14%;
+    --secondary-foreground: 214.99 15.5% 34.68%;
+    --muted: 0 0% 89.56%;
+    --muted-foreground: 219.97 7.71% 45.75%;
+    --accent: 292.48 54.97% 93.41%;
+    --accent-foreground: 216.92 18.93% 26.34%;
+    --destructive: 359.91 86.11% 60.55%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 340 0% 83.14%;
+    --input: 340 0% 83.14%;
+    --ring: 238.34 82.68% 66.83%;
+    --chart-1: 238.34 82.68% 66.83%;
+    --chart-2: 243.42 75.19% 58.54%;
+    --chart-3: 243.79 56.66% 50.88%;
+    --chart-4: 243.92 55.13% 41.68%;
+    --chart-5: 242.69 48.79% 34.69%;
+    --radius: 1.25rem;
+    --sidebar: 340 0% 83.14%;
+    --sidebar-foreground: 217.27 35.09% 17.61%;
+    --sidebar-primary: 238.34 82.68% 66.83%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 292.48 54.97% 93.41%;
+    --sidebar-accent-foreground: 216.92 18.93% 26.34%;
+    --sidebar-border: 340 0% 83.14%;
+    --sidebar-ring: 238.34 82.68% 66.83%;
+    --font-sans: Plus Jakarta Sans, sans-serif;
+    --font-serif: Lora, serif;
+    --font-mono: Roboto Mono, monospace;
+    --shadow-color: 240 4% 60%;
+    --shadow-opacity: 0.18;
+    --shadow-blur: 10px;
+    --shadow-spread: 4px;
+    --shadow-offset-x: 2px;
+    --shadow-offset-y: 2px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 2px 2px 10px 4px hsl(240 4% 60% / 0.09);
+    --shadow-xs: 2px 2px 10px 4px hsl(240 4% 60% / 0.09);
+    --shadow-sm:
+      2px 2px 10px 4px hsl(240 4% 60% / 0.18),
+      2px 1px 2px 3px hsl(240 4% 60% / 0.18);
+    --shadow:
+      2px 2px 10px 4px hsl(240 4% 60% / 0.18),
+      2px 1px 2px 3px hsl(240 4% 60% / 0.18);
+    --shadow-md:
+      2px 2px 10px 4px hsl(240 4% 60% / 0.18),
+      2px 2px 4px 3px hsl(240 4% 60% / 0.18);
+    --shadow-lg:
+      2px 2px 10px 4px hsl(240 4% 60% / 0.18),
+      2px 4px 6px 3px hsl(240 4% 60% / 0.18);
+    --shadow-xl:
+      2px 2px 10px 4px hsl(240 4% 60% / 0.18),
+      2px 8px 10px 3px hsl(240 4% 60% / 0.18);
+    --shadow-2xl: 2px 2px 10px 4px hsl(240 4% 60% / 0.45);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 30.09 15.71% 10.1%;
+    --foreground: 214.29 25.3% 91.39%;
+    --card: 25.77 10.77% 15.84%;
+    --card-foreground: 214.29 25.3% 91.39%;
+    --popover: 25.77 10.77% 15.84%;
+    --popover-foreground: 214.29 25.3% 91.39%;
+    --primary: 234.52 90.85% 74.06%;
+    --primary-foreground: 30.09 15.71% 10.1%;
+    --secondary: 25.76 8.24% 21.74%;
+    --secondary-foreground: 216 12.91% 83.75%;
+    --muted: 25.77 10.77% 15.84%;
+    --muted-foreground: 217.89 10.93% 64.51%;
+    --accent: 25.76 6.91% 26.86%;
+    --accent-foreground: 216 12.91% 83.75%;
+    --destructive: 359.91 86.11% 60.55%;
+    --destructive-foreground: 30.09 15.71% 10.1%;
+    --border: 25.76 8.24% 21.74%;
+    --input: 25.76 8.24% 21.74%;
+    --ring: 234.52 90.85% 74.06%;
+    --chart-1: 234.52 90.85% 74.06%;
+    --chart-2: 238.34 82.68% 66.83%;
+    --chart-3: 243.42 75.19% 58.54%;
+    --chart-4: 243.79 56.66% 50.88%;
+    --chart-5: 243.92 55.13% 41.68%;
+    --radius: 1.25rem;
+    --sidebar: 25.76 8.24% 21.74%;
+    --sidebar-foreground: 214.29 25.3% 91.39%;
+    --sidebar-primary: 234.52 90.85% 74.06%;
+    --sidebar-primary-foreground: 30.09 15.71% 10.1%;
+    --sidebar-accent: 25.76 6.91% 26.86%;
+    --sidebar-accent-foreground: 216 12.91% 83.75%;
+    --sidebar-border: 25.76 8.24% 21.74%;
+    --sidebar-ring: 234.52 90.85% 74.06%;
+    --font-sans: Plus Jakarta Sans, sans-serif;
+    --font-serif: Lora, serif;
+    --font-mono: Roboto Mono, monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 0.18;
+    --shadow-blur: 10px;
+    --shadow-spread: 4px;
+    --shadow-offset-x: 2px;
+    --shadow-offset-y: 2px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 2px 2px 10px 4px hsl(0 0% 0% / 0.09);
+    --shadow-xs: 2px 2px 10px 4px hsl(0 0% 0% / 0.09);
+    --shadow-sm:
+      2px 2px 10px 4px hsl(0 0% 0% / 0.18), 2px 1px 2px 3px hsl(0 0% 0% / 0.18);
+    --shadow:
+      2px 2px 10px 4px hsl(0 0% 0% / 0.18), 2px 1px 2px 3px hsl(0 0% 0% / 0.18);
+    --shadow-md:
+      2px 2px 10px 4px hsl(0 0% 0% / 0.18), 2px 2px 4px 3px hsl(0 0% 0% / 0.18);
+    --shadow-lg:
+      2px 2px 10px 4px hsl(0 0% 0% / 0.18), 2px 4px 6px 3px hsl(0 0% 0% / 0.18);
+    --shadow-xl:
+      2px 2px 10px 4px hsl(0 0% 0% / 0.18), 2px 8px 10px 3px hsl(0 0% 0% / 0.18);
+    --shadow-2xl: 2px 2px 10px 4px hsl(0 0% 0% / 0.45);
+  }
+
+}

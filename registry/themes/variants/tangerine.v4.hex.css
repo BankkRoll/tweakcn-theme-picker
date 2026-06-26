@@ -1,0 +1,124 @@
+/* Tangerine Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="tangerine-light"] {
+  --background: #ebebeb;
+  --foreground: #333333;
+  --card: #ffffff;
+  --card-foreground: #333333;
+  --popover: #ffffff;
+  --popover-foreground: #333333;
+  --primary: #df5e3a;
+  --primary-foreground: #ffffff;
+  --secondary: #f5f5f5;
+  --secondary-foreground: #4b5666;
+  --muted: #f8f8f8;
+  --muted-foreground: #6c727e;
+  --accent: #d7e3ee;
+  --accent-foreground: #1e3a8b;
+  --destructive: #f14444;
+  --destructive-foreground: #ffffff;
+  --border: #d9dfe4;
+  --input: #f5f5f5;
+  --ring: #df5e3a;
+  --chart-1: #88a8c9;
+  --chart-2: #eea693;
+  --chart-3: #597da9;
+  --chart-4: #476491;
+  --chart-5: #304a83;
+  --radius: 0.75rem;
+  --sidebar: #dedede;
+  --sidebar-foreground: #333333;
+  --sidebar-primary: #df5e3a;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #d7e3ee;
+  --sidebar-accent-foreground: #1e3a8b;
+  --sidebar-border: #e4e8ef;
+  --sidebar-ring: #df5e3a;
+  --font-sans: Inter, sans-serif;
+  --font-serif: Source Serif 4, serif;
+  --font-mono: JetBrains Mono, monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.1;
+  --shadow-blur: 3px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-sm:
+    0px 1px 3px 0px hsl(0 0% 0% / 0.1), 0px 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow:
+    0px 1px 3px 0px hsl(0 0% 0% / 0.1), 0px 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0px 1px 3px 0px hsl(0 0% 0% / 0.1), 0px 2px 4px -1px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0px 1px 3px 0px hsl(0 0% 0% / 0.1), 0px 4px 6px -1px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0px 1px 3px 0px hsl(0 0% 0% / 0.1), 0px 8px 10px -1px hsl(0 0% 0% / 0.1);
+  --shadow-2xl: 0px 1px 3px 0px hsl(0 0% 0% / 0.25);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="tangerine-dark"] {
+  --background: #1c2433;
+  --foreground: #e4e4e4;
+  --card: #2a3040;
+  --card-foreground: #e4e4e4;
+  --popover: #272b36;
+  --popover-foreground: #e4e4e4;
+  --primary: #df5e3a;
+  --primary-foreground: #ffffff;
+  --secondary: #293040;
+  --secondary-foreground: #e4e4e4;
+  --muted: #293040;
+  --muted-foreground: #a4a4a4;
+  --accent: #2a3657;
+  --accent-foreground: #bddaff;
+  --destructive: #f14444;
+  --destructive-foreground: #ffffff;
+  --border: #3c4253;
+  --input: #3c4253;
+  --ring: #df5e3a;
+  --chart-1: #88a8c9;
+  --chart-2: #e7a08e;
+  --chart-3: #597da9;
+  --chart-4: #476491;
+  --chart-5: #304a83;
+  --radius: 0.75rem;
+  --sidebar: #2a3040;
+  --sidebar-foreground: #e4e4e4;
+  --sidebar-primary: #df5e3a;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #2a3657;
+  --sidebar-accent-foreground: #bddaff;
+  --sidebar-border: #3c4253;
+  --sidebar-ring: #df5e3a;
+  --font-sans: Inter, sans-serif;
+  --font-serif: Source Serif 4, serif;
+  --font-mono: JetBrains Mono, monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.1;
+  --shadow-blur: 3px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-sm:
+    0px 1px 3px 0px hsl(0 0% 0% / 0.1), 0px 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow:
+    0px 1px 3px 0px hsl(0 0% 0% / 0.1), 0px 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0px 1px 3px 0px hsl(0 0% 0% / 0.1), 0px 2px 4px -1px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0px 1px 3px 0px hsl(0 0% 0% / 0.1), 0px 4px 6px -1px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0px 1px 3px 0px hsl(0 0% 0% / 0.1), 0px 8px 10px -1px hsl(0 0% 0% / 0.1);
+  --shadow-2xl: 0px 1px 3px 0px hsl(0 0% 0% / 0.25);
+}

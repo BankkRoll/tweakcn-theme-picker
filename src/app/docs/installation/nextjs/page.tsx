@@ -256,6 +256,23 @@ export function Header() {
           </code>
           , etc.
         </p>
+        <p className="text-sm text-muted-foreground mt-2">
+          The default URL above is <strong>Tailwind v4 + OKLCH</strong>. For other
+          formats or Tailwind v3, append the variant suffix —{" "}
+          <code className="bg-muted px-1.5 py-0.5 rounded">
+            theme-catppuccin-v4-hsl
+          </code>
+          ,{" "}
+          <code className="bg-muted px-1.5 py-0.5 rounded">
+            theme-catppuccin-v3-hsl
+          </code>
+          ,{" "}
+          <code className="bg-muted px-1.5 py-0.5 rounded">
+            theme-catppuccin-v3-rgb
+          </code>
+          , etc. — or just use the <strong>Tailwind</strong> /{" "}
+          <strong>Color format</strong> toggles in the theme&apos;s Code dialog.
+        </p>
         <Alert className="overflow-hidden">
           <AlertTriangle className="h-4 w-4" />
           <AlertTitle>Still need the provider</AlertTitle>

@@ -186,6 +186,15 @@ import { ThemeSwitcher } from '@/components/theme-switcher';
           <code className="bg-muted px-1.5 py-0.5 rounded">theme-vercel</code>,
           etc.
         </p>
+        <p className="text-sm text-muted-foreground mt-2">
+          The default URL is <strong>Tailwind v4 + OKLCH</strong>. For other
+          formats or Tailwind v3, append a variant suffix —{" "}
+          <code className="bg-muted px-1.5 py-0.5 rounded">
+            theme-catppuccin-v3-hsl
+          </code>{" "}
+          — or use the <strong>Tailwind</strong> / <strong>Color format</strong>{" "}
+          toggles in the theme&apos;s Code dialog.
+        </p>
         <Alert>
           <Info className="h-4 w-4" />
           <AlertTitle>Still need the scripts</AlertTitle>

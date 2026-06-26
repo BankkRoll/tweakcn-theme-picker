@@ -1,0 +1,124 @@
+/* Graphite Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="graphite-light"] {
+  --background: #f2f2f2;
+  --foreground: #333333;
+  --card: #f5f5f5;
+  --card-foreground: #333333;
+  --popover: #f5f5f5;
+  --popover-foreground: #333333;
+  --primary: #606060;
+  --primary-foreground: #ffffff;
+  --secondary: #e1e1e1;
+  --secondary-foreground: #333333;
+  --muted: #dbdbdb;
+  --muted-foreground: #666666;
+  --accent: #c1c1c1;
+  --accent-foreground: #333333;
+  --destructive: #cc3333;
+  --destructive-foreground: #ffffff;
+  --border: #d1d1d1;
+  --input: #e1e1e1;
+  --ring: #606060;
+  --chart-1: #606060;
+  --chart-2: #456868;
+  --chart-3: #8f8f8f;
+  --chart-4: #a8a8a8;
+  --chart-5: #c1c1c1;
+  --radius: 0.35rem;
+  --sidebar: #ebebeb;
+  --sidebar-foreground: #333333;
+  --sidebar-primary: #606060;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #c1c1c1;
+  --sidebar-accent-foreground: #333333;
+  --sidebar-border: #d1d1d1;
+  --sidebar-ring: #606060;
+  --font-sans: Montserrat, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: #333333;
+  --shadow-opacity: 0.15;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 2px 0px 0px hsl(0 0% 20% / 0.07);
+  --shadow-xs: 0px 2px 0px 0px hsl(0 0% 20% / 0.07);
+  --shadow-sm:
+    0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 1px 2px -1px hsl(0 0% 20% / 0.15);
+  --shadow:
+    0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 1px 2px -1px hsl(0 0% 20% / 0.15);
+  --shadow-md:
+    0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 2px 4px -1px hsl(0 0% 20% / 0.15);
+  --shadow-lg:
+    0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 4px 6px -1px hsl(0 0% 20% / 0.15);
+  --shadow-xl:
+    0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 8px 10px -1px hsl(0 0% 20% / 0.15);
+  --shadow-2xl: 0px 2px 0px 0px hsl(0 0% 20% / 0.38);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="graphite-dark"] {
+  --background: #1b1b1b;
+  --foreground: #dbdbdb;
+  --card: #1f1f1f;
+  --card-foreground: #dbdbdb;
+  --popover: #1f1f1f;
+  --popover-foreground: #dbdbdb;
+  --primary: #a1a1a1;
+  --primary-foreground: #1b1b1b;
+  --secondary: #303030;
+  --secondary-foreground: #dbdbdb;
+  --muted: #2b2b2b;
+  --muted-foreground: #808080;
+  --accent: #404040;
+  --accent-foreground: #dbdbdb;
+  --destructive: #df6867;
+  --destructive-foreground: #ffffff;
+  --border: #353535;
+  --input: #303030;
+  --ring: #a1a1a1;
+  --chart-1: #a1a1a1;
+  --chart-2: #819b9e;
+  --chart-3: #717171;
+  --chart-4: #585858;
+  --chart-5: #404040;
+  --radius: 0.35rem;
+  --sidebar: #1f1f1f;
+  --sidebar-foreground: #dbdbdb;
+  --sidebar-primary: #a1a1a1;
+  --sidebar-primary-foreground: #1b1b1b;
+  --sidebar-accent: #404040;
+  --sidebar-accent-foreground: #dbdbdb;
+  --sidebar-border: #353535;
+  --sidebar-ring: #a1a1a1;
+  --font-sans: Inter, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Fira Code, monospace;
+  --shadow-color: #333333;
+  --shadow-opacity: 0.15;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 2px 0px 0px hsl(0 0% 20% / 0.07);
+  --shadow-xs: 0px 2px 0px 0px hsl(0 0% 20% / 0.07);
+  --shadow-sm:
+    0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 1px 2px -1px hsl(0 0% 20% / 0.15);
+  --shadow:
+    0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 1px 2px -1px hsl(0 0% 20% / 0.15);
+  --shadow-md:
+    0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 2px 4px -1px hsl(0 0% 20% / 0.15);
+  --shadow-lg:
+    0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 4px 6px -1px hsl(0 0% 20% / 0.15);
+  --shadow-xl:
+    0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 8px 10px -1px hsl(0 0% 20% / 0.15);
+  --shadow-2xl: 0px 2px 0px 0px hsl(0 0% 20% / 0.38);
+}

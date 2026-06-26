@@ -1,0 +1,134 @@
+/* Elegant Luxury Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="elegant-luxury-light"] {
+  --background: #f8f8f8;
+  --foreground: #1b1b1b;
+  --card: #f8f8f8;
+  --card-foreground: #1b1b1b;
+  --popover: #f8f8f8;
+  --popover-foreground: #1b1b1b;
+  --primary: #9e2c2c;
+  --primary-foreground: #ffffff;
+  --secondary: #fdf1d4;
+  --secondary-foreground: #7e5403;
+  --muted: #f1e9e5;
+  --muted-foreground: #56524d;
+  --accent: #fef2c5;
+  --accent-foreground: #7f201f;
+  --destructive: #971b1b;
+  --destructive-foreground: #ffffff;
+  --border: #f6ead5;
+  --input: #f6ead5;
+  --ring: #9e2c2c;
+  --chart-1: #ba1f1e;
+  --chart-2: #9e2c2c;
+  --chart-3: #7f201f;
+  --chart-4: #b75301;
+  --chart-5: #8f4113;
+  --radius: 0.375rem;
+  --sidebar: #f1e9e5;
+  --sidebar-foreground: #1b1b1b;
+  --sidebar-primary: #9e2c2c;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #fef2c5;
+  --sidebar-accent-foreground: #7f201f;
+  --sidebar-border: #f6ead5;
+  --sidebar-ring: #9e2c2c;
+  --font-sans: Poppins, sans-serif;
+  --font-serif: Libre Baskerville, serif;
+  --font-mono: IBM Plex Mono, monospace;
+  --shadow-color: #4b1111;
+  --shadow-opacity: 0.12;
+  --shadow-blur: 16px;
+  --shadow-spread: -2px;
+  --shadow-offset-x: 1px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 1px 1px 16px -2px hsl(0 63% 18% / 0.06);
+  --shadow-xs: 1px 1px 16px -2px hsl(0 63% 18% / 0.06);
+  --shadow-sm:
+    1px 1px 16px -2px hsl(0 63% 18% / 0.12),
+    1px 1px 2px -3px hsl(0 63% 18% / 0.12);
+  --shadow:
+    1px 1px 16px -2px hsl(0 63% 18% / 0.12),
+    1px 1px 2px -3px hsl(0 63% 18% / 0.12);
+  --shadow-md:
+    1px 1px 16px -2px hsl(0 63% 18% / 0.12),
+    1px 2px 4px -3px hsl(0 63% 18% / 0.12);
+  --shadow-lg:
+    1px 1px 16px -2px hsl(0 63% 18% / 0.12),
+    1px 4px 6px -3px hsl(0 63% 18% / 0.12);
+  --shadow-xl:
+    1px 1px 16px -2px hsl(0 63% 18% / 0.12),
+    1px 8px 10px -3px hsl(0 63% 18% / 0.12);
+  --shadow-2xl: 1px 1px 16px -2px hsl(0 63% 18% / 0.3);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="elegant-luxury-dark"] {
+  --background: #1e1916;
+  --foreground: #f5f5f5;
+  --card: #2b2523;
+  --card-foreground: #f5f5f5;
+  --popover: #2b2523;
+  --popover-foreground: #f5f5f5;
+  --primary: #ba1f1e;
+  --primary-foreground: #f8f8f8;
+  --secondary: #8f4113;
+  --secondary-foreground: #fef2c5;
+  --muted: #2b2523;
+  --muted-foreground: #d4d4d4;
+  --accent: #b75301;
+  --accent-foreground: #fef2c5;
+  --destructive: #f14444;
+  --destructive-foreground: #ffffff;
+  --border: #433f3a;
+  --input: #433f3a;
+  --ring: #ba1f1e;
+  --chart-1: #f96f70;
+  --chart-2: #f14444;
+  --chart-3: #df2224;
+  --chart-4: #fbc031;
+  --chart-5: #f49f1e;
+  --radius: 0.375rem;
+  --sidebar: #1e1916;
+  --sidebar-foreground: #f5f5f5;
+  --sidebar-primary: #ba1f1e;
+  --sidebar-primary-foreground: #f8f8f8;
+  --sidebar-accent: #b75301;
+  --sidebar-accent-foreground: #fef2c5;
+  --sidebar-border: #433f3a;
+  --sidebar-ring: #ba1f1e;
+  --font-sans: Poppins, sans-serif;
+  --font-serif: Libre Baskerville, serif;
+  --font-mono: IBM Plex Mono, monospace;
+  --shadow-color: #4b1111;
+  --shadow-opacity: 0.12;
+  --shadow-blur: 16px;
+  --shadow-spread: -2px;
+  --shadow-offset-x: 1px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 1px 1px 16px -2px hsl(0 63% 18% / 0.06);
+  --shadow-xs: 1px 1px 16px -2px hsl(0 63% 18% / 0.06);
+  --shadow-sm:
+    1px 1px 16px -2px hsl(0 63% 18% / 0.12),
+    1px 1px 2px -3px hsl(0 63% 18% / 0.12);
+  --shadow:
+    1px 1px 16px -2px hsl(0 63% 18% / 0.12),
+    1px 1px 2px -3px hsl(0 63% 18% / 0.12);
+  --shadow-md:
+    1px 1px 16px -2px hsl(0 63% 18% / 0.12),
+    1px 2px 4px -3px hsl(0 63% 18% / 0.12);
+  --shadow-lg:
+    1px 1px 16px -2px hsl(0 63% 18% / 0.12),
+    1px 4px 6px -3px hsl(0 63% 18% / 0.12);
+  --shadow-xl:
+    1px 1px 16px -2px hsl(0 63% 18% / 0.12),
+    1px 8px 10px -3px hsl(0 63% 18% / 0.12);
+  --shadow-2xl: 1px 1px 16px -2px hsl(0 63% 18% / 0.3);
+}

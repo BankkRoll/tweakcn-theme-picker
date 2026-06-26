@@ -1,0 +1,122 @@
+/* Mono Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="mono-light"] {
+  --background: hsl(300 50% 100%);
+  --foreground: hsl(300 0% 3.55%);
+  --card: hsl(300 50% 100%);
+  --card-foreground: hsl(300 0% 3.55%);
+  --popover: hsl(300 50% 100%);
+  --popover-foreground: hsl(300 0% 3.55%);
+  --primary: hsl(0 0% 45.61%);
+  --primary-foreground: hsl(300 0% 98.68%);
+  --secondary: hsl(300 0% 96.06%);
+  --secondary-foreground: hsl(0 0% 8.61%);
+  --muted: hsl(300 0% 96.06%);
+  --muted-foreground: hsl(0 0% 44.47%);
+  --accent: hsl(300 0% 96.06%);
+  --accent-foreground: hsl(0 0% 8.61%);
+  --destructive: hsl(357.18 100% 44.98%);
+  --destructive-foreground: hsl(300 0% 96.06%);
+  --border: hsl(0 0% 89.56%);
+  --input: hsl(0 0% 89.56%);
+  --ring: hsl(0 0% 63.26%);
+  --chart-1: hsl(0 0% 45.61%);
+  --chart-2: hsl(0 0% 45.61%);
+  --chart-3: hsl(0 0% 45.61%);
+  --chart-4: hsl(0 0% 45.61%);
+  --chart-5: hsl(0 0% 45.61%);
+  --radius: 0rem;
+  --sidebar: hsl(300 0% 98.68%);
+  --sidebar-foreground: hsl(300 0% 3.55%);
+  --sidebar-primary: hsl(0 0% 8.61%);
+  --sidebar-primary-foreground: hsl(300 0% 98.68%);
+  --sidebar-accent: hsl(300 0% 96.06%);
+  --sidebar-accent-foreground: hsl(0 0% 8.61%);
+  --sidebar-border: hsl(0 0% 89.56%);
+  --sidebar-ring: hsl(0 0% 63.26%);
+  --font-sans: Geist Mono, monospace;
+  --font-serif: Geist Mono, monospace;
+  --font-mono: Geist Mono, monospace;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-opacity: 0;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  --shadow-xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  --shadow-sm:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+  --shadow: 0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+  --shadow-md:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 2px 4px -1px hsl(0 0% 0% / 0);
+  --shadow-lg:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 4px 6px -1px hsl(0 0% 0% / 0);
+  --shadow-xl:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 8px 10px -1px hsl(0 0% 0% / 0);
+  --shadow-2xl: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="mono-dark"] {
+  --background: hsl(300 0% 3.55%);
+  --foreground: hsl(300 0% 98.68%);
+  --card: hsl(300 0% 9.5%);
+  --card-foreground: hsl(300 0% 98.68%);
+  --popover: hsl(300 0% 15.03%);
+  --popover-foreground: hsl(300 0% 98.68%);
+  --primary: hsl(0 0% 45.61%);
+  --primary-foreground: hsl(300 0% 98.68%);
+  --secondary: hsl(300 0% 15.03%);
+  --secondary-foreground: hsl(300 0% 98.68%);
+  --muted: hsl(300 0% 15.03%);
+  --muted-foreground: hsl(0 0% 63.26%);
+  --accent: hsl(0 0% 24.94%);
+  --accent-foreground: hsl(300 0% 98.68%);
+  --destructive: hsl(358.77 99.41% 69.3%);
+  --destructive-foreground: hsl(300 0% 15.03%);
+  --border: hsl(0 0% 21.89%);
+  --input: hsl(330 0% 32.31%);
+  --ring: hsl(0 0% 45.61%);
+  --chart-1: hsl(0 0% 45.61%);
+  --chart-2: hsl(0 0% 45.61%);
+  --chart-3: hsl(0 0% 45.61%);
+  --chart-4: hsl(0 0% 45.61%);
+  --chart-5: hsl(0 0% 45.61%);
+  --radius: 0rem;
+  --sidebar: hsl(0 0% 8.61%);
+  --sidebar-foreground: hsl(300 0% 98.68%);
+  --sidebar-primary: hsl(300 0% 98.68%);
+  --sidebar-primary-foreground: hsl(0 0% 8.61%);
+  --sidebar-accent: hsl(300 0% 15.03%);
+  --sidebar-accent-foreground: hsl(300 0% 98.68%);
+  --sidebar-border: hsl(300 50% 100%);
+  --sidebar-ring: hsl(330 0% 32.31%);
+  --font-sans: Geist Mono, monospace;
+  --font-serif: Geist Mono, monospace;
+  --font-mono: Geist Mono, monospace;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-opacity: 0;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  --shadow-xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  --shadow-sm:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+  --shadow: 0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+  --shadow-md:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 2px 4px -1px hsl(0 0% 0% / 0);
+  --shadow-lg:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 4px 6px -1px hsl(0 0% 0% / 0);
+  --shadow-xl:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 8px 10px -1px hsl(0 0% 0% / 0);
+  --shadow-2xl: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+}

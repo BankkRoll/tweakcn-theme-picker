@@ -1,0 +1,134 @@
+/* Twitter Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="twitter-light"] {
+  --background: #ffffff;
+  --foreground: #101418;
+  --card: #f8f8f8;
+  --card-foreground: #101418;
+  --popover: #ffffff;
+  --popover-foreground: #101418;
+  --primary: #1e9cf0;
+  --primary-foreground: #ffffff;
+  --secondary: #101418;
+  --secondary-foreground: #ffffff;
+  --muted: #e4e4e4;
+  --muted-foreground: #101418;
+  --accent: #e2ecf9;
+  --accent-foreground: #1e9cf0;
+  --destructive: #f51e2d;
+  --destructive-foreground: #ffffff;
+  --border: #e2e9ed;
+  --input: #f8f8f8;
+  --ring: #18a0f2;
+  --chart-1: #1e9cf0;
+  --chart-2: #00b87a;
+  --chart-3: #f7b927;
+  --chart-4: #20c065;
+  --chart-5: #e0215d;
+  --radius: 1.3rem;
+  --sidebar: #f8f8f8;
+  --sidebar-foreground: #101418;
+  --sidebar-primary: #1e9cf0;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e2ecf9;
+  --sidebar-accent-foreground: #1e9cf0;
+  --sidebar-border: #e2e9ee;
+  --sidebar-ring: #18a0f2;
+  --font-sans: Open Sans, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --shadow-color: #1da1f2;
+  --shadow-opacity: 0;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-xs: 0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-sm:
+    0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0),
+    0px 1px 2px -1px hsl(202.82 89.12% 53.14% / 0);
+  --shadow:
+    0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0),
+    0px 1px 2px -1px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-md:
+    0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0),
+    0px 2px 4px -1px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-lg:
+    0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0),
+    0px 4px 6px -1px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-xl:
+    0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0),
+    0px 8px 10px -1px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-2xl: 0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="twitter-dark"] {
+  --background: #000000;
+  --foreground: #e8e8e8;
+  --card: #17181d;
+  --card-foreground: #dbdbdb;
+  --popover: #000000;
+  --popover-foreground: #e8e8e8;
+  --primary: #1e9cf0;
+  --primary-foreground: #ffffff;
+  --secondary: #f2f2f2;
+  --secondary-foreground: #101418;
+  --muted: #181818;
+  --muted-foreground: #70757a;
+  --accent: #071520;
+  --accent-foreground: #1e9cf0;
+  --destructive: #f51e2d;
+  --destructive-foreground: #ffffff;
+  --border: #262626;
+  --input: #21303c;
+  --ring: #18a0f2;
+  --chart-1: #1e9cf0;
+  --chart-2: #00b87a;
+  --chart-3: #f7b927;
+  --chart-4: #20c065;
+  --chart-5: #e0215d;
+  --radius: 1.3rem;
+  --sidebar: #17181d;
+  --sidebar-foreground: #dbdbdb;
+  --sidebar-primary: #18a0f2;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #071520;
+  --sidebar-accent-foreground: #1e9cf0;
+  --sidebar-border: #39444c;
+  --sidebar-ring: #18a0f2;
+  --font-sans: Open Sans, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --shadow-color: #1da1f2;
+  --shadow-opacity: 0;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-xs: 0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-sm:
+    0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0),
+    0px 1px 2px -1px hsl(202.82 89.12% 53.14% / 0);
+  --shadow:
+    0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0),
+    0px 1px 2px -1px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-md:
+    0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0),
+    0px 2px 4px -1px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-lg:
+    0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0),
+    0px 4px 6px -1px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-xl:
+    0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0),
+    0px 8px 10px -1px hsl(202.82 89.12% 53.14% / 0);
+  --shadow-2xl: 0px 2px 0px 0px hsl(202.82 89.12% 53.14% / 0);
+}

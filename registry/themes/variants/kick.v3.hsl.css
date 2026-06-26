@@ -1,0 +1,132 @@
+/* Kick Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Kick Theme - Official Kick brand colors */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 300 50% 100%;
+    --foreground: 330 0% 2.23%;
+    --card: 300 0% 97.37%;
+    --card-foreground: 330 0% 2.23%;
+    --popover: 300 50% 100%;
+    --popover-foreground: 330 0% 2.23%;
+    --primary: 77.87 99.89% 38.35%;
+    --primary-foreground: 330 0% 2.23%;
+    --secondary: 345.04 8.3% 93.68%;
+    --secondary-foreground: 0 0% 8.61%;
+    --muted: 300 0% 94.75%;
+    --muted-foreground: 330 0% 38.86%;
+    --accent: 77.77 99.91% 41.8%;
+    --accent-foreground: 330 0% 2.23%;
+    --destructive: 351.89 92.21% 43.24%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 300 0% 86.98%;
+    --input: 0 0% 89.56%;
+    --ring: 77.87 99.89% 38.35%;
+    --chart-1: 77.87 99.89% 38.35%;
+    --chart-2: 172.68 99.92% 32.58%;
+    --chart-3: 190.42 99.94% 41.74%;
+    --chart-4: 238.82 56.1% 64.21%;
+    --chart-5: 315.01 58.74% 45.25%;
+    --radius: 0.625rem;
+    --sidebar: 300 0% 97.37%;
+    --sidebar-foreground: 330 0% 2.23%;
+    --sidebar-primary: 77.87 99.89% 38.35%;
+    --sidebar-primary-foreground: 330 0% 2.23%;
+    --sidebar-accent: 345.04 8.3% 93.68%;
+    --sidebar-accent-foreground: 0 0% 8.61%;
+    --sidebar-border: 300 0% 86.98%;
+    --sidebar-ring: 77.87 99.89% 38.35%;
+    --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 130 80% 15%;
+    --shadow-opacity: 0.08;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(130 80% 15% / 0.04);
+    --shadow-xs: 0 1px 3px 0px hsl(130 80% 15% / 0.06);
+    --shadow-sm:
+      0 2px 4px 0px hsl(130 80% 15% / 0.08),
+      0 1px 2px -1px hsl(130 80% 15% / 0.08);
+    --shadow:
+      0 2px 4px 0px hsl(130 80% 15% / 0.08),
+      0 1px 2px -1px hsl(130 80% 15% / 0.08);
+    --shadow-md:
+      0 4px 6px 0px hsl(130 80% 15% / 0.1), 0 2px 4px -1px hsl(130 80% 15% / 0.1);
+    --shadow-lg:
+      0 8px 10px 0px hsl(130 80% 15% / 0.1), 0 4px 6px -1px hsl(130 80% 15% / 0.1);
+    --shadow-xl:
+      0 16px 20px 0px hsl(130 80% 15% / 0.12),
+      0 8px 10px -1px hsl(130 80% 15% / 0.12);
+    --shadow-2xl: 0 24px 48px 0px hsl(130 80% 15% / 0.2);
+    --tracking-normal: -0.01em;
+  }
+
+  /* Dark mode - #0D0D0D is Kick's signature black background */
+  .dark {
+    --background: 330 0% 2.23%;
+    --foreground: 300 50% 100%;
+    --card: 211.07 9.66% 4.42%;
+    --card-foreground: 300 50% 100%;
+    --popover: 211.05 11.96% 6.14%;
+    --popover-foreground: 300 50% 100%;
+    --primary: 77.68 99.98% 45.29%;
+    --primary-foreground: 330 0% 2.23%;
+    --secondary: 211.12 5.28% 8.69%;
+    --secondary-foreground: 300 0% 86.98%;
+    --muted: 211.11 6.43% 6.95%;
+    --muted-foreground: 0 0% 50.21%;
+    --accent: 77.68 99.98% 45.29%;
+    --accent-foreground: 330 0% 2.23%;
+    --destructive: 359.22 71.52% 55.23%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 211.1 5.74% 14.23%;
+    --input: 211.12 5.28% 8.69%;
+    --ring: 77.68 99.98% 45.29%;
+    --chart-1: 77.68 99.98% 45.29%;
+    --chart-2: 172.72 99.61% 36.07%;
+    --chart-3: 190.37 99.77% 45.78%;
+    --chart-4: 237.68 63.15% 69.36%;
+    --chart-5: 316.6 49.47% 52.84%;
+    --radius: 0.625rem;
+    --sidebar: 336 0% 1.29%;
+    --sidebar-foreground: 300 50% 100%;
+    --sidebar-primary: 77.68 99.98% 45.29%;
+    --sidebar-primary-foreground: 330 0% 2.23%;
+    --sidebar-accent: 211.12 5.28% 8.69%;
+    --sidebar-accent-foreground: 300 0% 86.98%;
+    --sidebar-border: 211.1 5.74% 14.23%;
+    --sidebar-ring: 77.68 99.98% 45.29%;
+    --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 0.5;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(0 0% 0% / 0.25);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.35);
+    --shadow-sm:
+      0 2px 4px 0px hsl(0 0% 0% / 0.5), 0 1px 2px -1px hsl(0 0% 0% / 0.5);
+    --shadow: 0 2px 4px 0px hsl(0 0% 0% / 0.5), 0 1px 2px -1px hsl(0 0% 0% / 0.5);
+    --shadow-md:
+      0 4px 6px 0px hsl(0 0% 0% / 0.5), 0 2px 4px -1px hsl(0 0% 0% / 0.5);
+    --shadow-lg:
+      0 8px 10px 0px hsl(0 0% 0% / 0.5), 0 4px 6px -1px hsl(0 0% 0% / 0.5);
+    --shadow-xl:
+      0 16px 20px 0px hsl(0 0% 0% / 0.5), 0 8px 10px -1px hsl(0 0% 0% / 0.5);
+    --shadow-2xl: 0 24px 48px 0px hsl(0 0% 0% / 0.6);
+  }
+
+}

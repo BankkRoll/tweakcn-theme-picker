@@ -1,0 +1,132 @@
+/* Kick Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Kick Theme - Official Kick brand colors */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 255 255 255;
+    --foreground: 6 6 6;
+    --card: 248 248 248;
+    --card-foreground: 6 6 6;
+    --popover: 255 255 255;
+    --popover-foreground: 6 6 6;
+    --primary: 137 195 0;
+    --primary-foreground: 6 6 6;
+    --secondary: 240 238 238;
+    --secondary-foreground: 22 22 22;
+    --muted: 242 242 242;
+    --muted-foreground: 99 99 99;
+    --accent: 150 213 0;
+    --accent-foreground: 6 6 6;
+    --destructive: 212 9 36;
+    --destructive-foreground: 255 255 255;
+    --border: 222 222 222;
+    --input: 228 228 228;
+    --ring: 137 195 0;
+    --chart-1: 137 195 0;
+    --chart-2: 0 166 146;
+    --chart-3: 0 176 213;
+    --chart-4: 113 115 215;
+    --chart-5: 183 48 149;
+    --radius: 0.625rem;
+    --sidebar: 248 248 248;
+    --sidebar-foreground: 6 6 6;
+    --sidebar-primary: 137 195 0;
+    --sidebar-primary-foreground: 6 6 6;
+    --sidebar-accent: 240 238 238;
+    --sidebar-accent-foreground: 22 22 22;
+    --sidebar-border: 222 222 222;
+    --sidebar-ring: 137 195 0;
+    --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 8 69 18;
+    --shadow-opacity: 0.08;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(130 80% 15% / 0.04);
+    --shadow-xs: 0 1px 3px 0px hsl(130 80% 15% / 0.06);
+    --shadow-sm:
+      0 2px 4px 0px hsl(130 80% 15% / 0.08),
+      0 1px 2px -1px hsl(130 80% 15% / 0.08);
+    --shadow:
+      0 2px 4px 0px hsl(130 80% 15% / 0.08),
+      0 1px 2px -1px hsl(130 80% 15% / 0.08);
+    --shadow-md:
+      0 4px 6px 0px hsl(130 80% 15% / 0.1), 0 2px 4px -1px hsl(130 80% 15% / 0.1);
+    --shadow-lg:
+      0 8px 10px 0px hsl(130 80% 15% / 0.1), 0 4px 6px -1px hsl(130 80% 15% / 0.1);
+    --shadow-xl:
+      0 16px 20px 0px hsl(130 80% 15% / 0.12),
+      0 8px 10px -1px hsl(130 80% 15% / 0.12);
+    --shadow-2xl: 0 24px 48px 0px hsl(130 80% 15% / 0.2);
+    --tracking-normal: -0.01em;
+  }
+
+  /* Dark mode - #0D0D0D is Kick's signature black background */
+  .dark {
+    --background: 6 6 6;
+    --foreground: 255 255 255;
+    --card: 10 11 12;
+    --card-foreground: 255 255 255;
+    --popover: 14 16 18;
+    --popover-foreground: 255 255 255;
+    --primary: 163 231 0;
+    --primary-foreground: 6 6 6;
+    --secondary: 21 22 23;
+    --secondary-foreground: 222 222 222;
+    --muted: 17 18 19;
+    --muted-foreground: 128 128 128;
+    --accent: 163 231 0;
+    --accent-foreground: 6 6 6;
+    --destructive: 222 59 61;
+    --destructive-foreground: 255 255 255;
+    --border: 34 36 38;
+    --input: 21 22 23;
+    --ring: 163 231 0;
+    --chart-1: 163 231 0;
+    --chart-2: 0 184 161;
+    --chart-3: 0 193 233;
+    --chart-4: 128 131 226;
+    --chart-5: 194 75 161;
+    --radius: 0.625rem;
+    --sidebar: 3 3 3;
+    --sidebar-foreground: 255 255 255;
+    --sidebar-primary: 163 231 0;
+    --sidebar-primary-foreground: 6 6 6;
+    --sidebar-accent: 21 22 23;
+    --sidebar-accent-foreground: 222 222 222;
+    --sidebar-border: 34 36 38;
+    --sidebar-ring: 163 231 0;
+    --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.5;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(0 0% 0% / 0.25);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.35);
+    --shadow-sm:
+      0 2px 4px 0px hsl(0 0% 0% / 0.5), 0 1px 2px -1px hsl(0 0% 0% / 0.5);
+    --shadow: 0 2px 4px 0px hsl(0 0% 0% / 0.5), 0 1px 2px -1px hsl(0 0% 0% / 0.5);
+    --shadow-md:
+      0 4px 6px 0px hsl(0 0% 0% / 0.5), 0 2px 4px -1px hsl(0 0% 0% / 0.5);
+    --shadow-lg:
+      0 8px 10px 0px hsl(0 0% 0% / 0.5), 0 4px 6px -1px hsl(0 0% 0% / 0.5);
+    --shadow-xl:
+      0 16px 20px 0px hsl(0 0% 0% / 0.5), 0 8px 10px -1px hsl(0 0% 0% / 0.5);
+    --shadow-2xl: 0 24px 48px 0px hsl(0 0% 0% / 0.6);
+  }
+
+}

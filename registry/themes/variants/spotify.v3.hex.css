@@ -1,0 +1,120 @@
+/* Spotify Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Spotify Theme - Official Spotify brand colors */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 255 255 255;
+    --foreground: 17 12 12;
+    --card: 250 248 248;
+    --card-foreground: 17 12 12;
+    --popover: 255 255 255;
+    --popover-foreground: 17 12 12;
+    --primary: 0 168 85;
+    --primary-foreground: 255 255 255;
+    --secondary: 235 240 236;
+    --secondary-foreground: 26 20 20;
+    --muted: 244 241 242;
+    --muted-foreground: 104 97 99;
+    --accent: 0 197 91;
+    --accent-foreground: 17 12 12;
+    --destructive: 212 9 36;
+    --destructive-foreground: 255 255 255;
+    --border: 224 221 222;
+    --input: 230 228 228;
+    --ring: 0 168 85;
+    --chart-1: 0 168 85;
+    --chart-2: 0 197 91;
+    --chart-3: 0 146 152;
+    --chart-4: 144 149 232;
+    --chart-5: 211 91 177;
+    --radius: 0.5rem;
+    --sidebar: 17 12 12;
+    --sidebar-foreground: 240 238 238;
+    --sidebar-primary: 0 168 85;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 38 32 31;
+    --sidebar-accent-foreground: 240 238 238;
+    --sidebar-border: 46 39 38;
+    --sidebar-ring: 0 168 85;
+    --font-sans: Montserrat, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, monospace;
+    --shadow-color: 10 41 26;
+    --shadow-opacity: 0.08;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(150 60% 10% / 0.04);
+    --shadow-xs: 0 1px 3px 0px hsl(150 60% 10% / 0.06);
+    --shadow-sm: 0 2px 4px 0px hsl(150 60% 10% / 0.08), 0 1px 2px -1px hsl(150 60% 10% / 0.08);
+    --shadow: 0 2px 4px 0px hsl(150 60% 10% / 0.08), 0 1px 2px -1px hsl(150 60% 10% / 0.08);
+    --shadow-md: 0 4px 6px 0px hsl(150 60% 10% / 0.1), 0 2px 4px -1px hsl(150 60% 10% / 0.1);
+    --shadow-lg: 0 8px 10px 0px hsl(150 60% 10% / 0.1), 0 4px 6px -1px hsl(150 60% 10% / 0.1);
+    --shadow-xl: 0 16px 20px 0px hsl(150 60% 10% / 0.12), 0 8px 10px -1px hsl(150 60% 10% / 0.12);
+    --shadow-2xl: 0 24px 48px 0px hsl(150 60% 10% / 0.2);
+    --tracking-normal: -0.01em;
+  }
+
+  /* Dark mode - #121212 is Spotify's signature dark background */
+  .dark {
+    --background: 10 10 10;
+    --foreground: 255 255 255;
+    --card: 18 18 18;
+    --card-foreground: 255 255 255;
+    --popover: 22 22 22;
+    --popover-foreground: 255 255 255;
+    --primary: 0 168 85;
+    --primary-foreground: 10 10 10;
+    --secondary: 27 27 27;
+    --secondary-foreground: 222 222 222;
+    --muted: 22 22 22;
+    --muted-foreground: 143 143 143;
+    --accent: 0 197 91;
+    --accent-foreground: 10 10 10;
+    --destructive: 222 59 61;
+    --destructive-foreground: 255 255 255;
+    --border: 41 41 41;
+    --input: 27 27 27;
+    --ring: 0 168 85;
+    --chart-1: 0 168 85;
+    --chart-2: 0 197 91;
+    --chart-3: 0 163 170;
+    --chart-4: 159 165 249;
+    --chart-5: 222 115 189;
+    --radius: 0.5rem;
+    --sidebar: 6 6 6;
+    --sidebar-foreground: 255 255 255;
+    --sidebar-primary: 0 168 85;
+    --sidebar-primary-foreground: 10 10 10;
+    --sidebar-accent: 27 27 27;
+    --sidebar-accent-foreground: 222 222 222;
+    --sidebar-border: 41 41 41;
+    --sidebar-ring: 0 168 85;
+    --font-sans: Montserrat, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.5;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(0 0% 0% / 0.25);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.35);
+    --shadow-sm: 0 2px 4px 0px hsl(0 0% 0% / 0.5), 0 1px 2px -1px hsl(0 0% 0% / 0.5);
+    --shadow: 0 2px 4px 0px hsl(0 0% 0% / 0.5), 0 1px 2px -1px hsl(0 0% 0% / 0.5);
+    --shadow-md: 0 4px 6px 0px hsl(0 0% 0% / 0.5), 0 2px 4px -1px hsl(0 0% 0% / 0.5);
+    --shadow-lg: 0 8px 10px 0px hsl(0 0% 0% / 0.5), 0 4px 6px -1px hsl(0 0% 0% / 0.5);
+    --shadow-xl: 0 16px 20px 0px hsl(0 0% 0% / 0.5), 0 8px 10px -1px hsl(0 0% 0% / 0.5);
+    --shadow-2xl: 0 24px 48px 0px hsl(0 0% 0% / 0.6);
+  }
+
+}

@@ -1,0 +1,140 @@
+/* Bold Tech Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Bold Tech Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 255 255 255;
+    --foreground: 49 45 132;
+    --card: 255 255 255;
+    --card-foreground: 49 45 132;
+    --popover: 255 255 255;
+    --popover-foreground: 49 45 132;
+    --primary: 140 93 248;
+    --primary-foreground: 255 255 255;
+    --secondary: 242 239 254;
+    --secondary-foreground: 68 59 201;
+    --muted: 245 243 255;
+    --muted-foreground: 124 56 238;
+    --accent: 219 233 252;
+    --accent-foreground: 29 63 173;
+    --destructive: 241 68 68;
+    --destructive-foreground: 255 255 255;
+    --border: 225 231 253;
+    --input: 225 231 253;
+    --ring: 140 93 248;
+    --chart-1: 140 93 248;
+    --chart-2: 124 56 238;
+    --chart-3: 109 41 216;
+    --chart-4: 90 32 181;
+    --chart-5: 76 28 150;
+    --radius: 0.625rem;
+    --sidebar: 245 243 255;
+    --sidebar-foreground: 49 45 132;
+    --sidebar-primary: 140 93 248;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 219 233 252;
+    --sidebar-accent-foreground: 29 63 173;
+    --sidebar-border: 225 231 253;
+    --sidebar-ring: 140 93 248;
+    --font-sans: Roboto, sans-serif;
+    --font-serif: Playfair Display, serif;
+    --font-mono: Fira Code, monospace;
+    --shadow-color: 131 94 243;
+    --shadow-opacity: 0.2;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 2px;
+    --shadow-offset-y: 2px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+    --shadow-xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+    --shadow-sm:
+      2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+      2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+    --shadow:
+      2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+      2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+    --shadow-md:
+      2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+      2px 2px 4px -1px hsl(255 86% 66% / 0.2);
+    --shadow-lg:
+      2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+      2px 4px 6px -1px hsl(255 86% 66% / 0.2);
+    --shadow-xl:
+      2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+      2px 8px 10px -1px hsl(255 86% 66% / 0.2);
+    --shadow-2xl: 2px 2px 4px 0px hsl(255 86% 66% / 0.5);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 15 24 43;
+    --foreground: 225 231 253;
+    --card: 31 27 78;
+    --card-foreground: 225 231 253;
+    --popover: 31 27 78;
+    --popover-foreground: 225 231 253;
+    --primary: 140 93 248;
+    --primary-foreground: 255 255 255;
+    --secondary: 31 27 78;
+    --secondary-foreground: 225 231 253;
+    --muted: 31 27 78;
+    --muted-foreground: 196 181 252;
+    --accent: 68 59 201;
+    --accent-foreground: 225 231 253;
+    --destructive: 241 68 68;
+    --destructive-foreground: 255 255 255;
+    --border: 46 12 102;
+    --input: 46 12 102;
+    --ring: 140 93 248;
+    --chart-1: 167 139 251;
+    --chart-2: 140 93 248;
+    --chart-3: 124 56 238;
+    --chart-4: 109 41 216;
+    --chart-5: 90 32 181;
+    --radius: 0.625rem;
+    --sidebar: 15 24 43;
+    --sidebar-foreground: 225 231 253;
+    --sidebar-primary: 140 93 248;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 68 59 201;
+    --sidebar-accent-foreground: 225 231 253;
+    --sidebar-border: 46 12 102;
+    --sidebar-ring: 140 93 248;
+    --font-sans: Roboto, sans-serif;
+    --font-serif: Playfair Display, serif;
+    --font-mono: Fira Code, monospace;
+    --shadow-color: 131 94 243;
+    --shadow-opacity: 0.2;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 2px;
+    --shadow-offset-y: 2px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+    --shadow-xs: 2px 2px 4px 0px hsl(255 86% 66% / 0.1);
+    --shadow-sm:
+      2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+      2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+    --shadow:
+      2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+      2px 1px 2px -1px hsl(255 86% 66% / 0.2);
+    --shadow-md:
+      2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+      2px 2px 4px -1px hsl(255 86% 66% / 0.2);
+    --shadow-lg:
+      2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+      2px 4px 6px -1px hsl(255 86% 66% / 0.2);
+    --shadow-xl:
+      2px 2px 4px 0px hsl(255 86% 66% / 0.2),
+      2px 8px 10px -1px hsl(255 86% 66% / 0.2);
+    --shadow-2xl: 2px 2px 4px 0px hsl(255 86% 66% / 0.5);
+  }
+
+}

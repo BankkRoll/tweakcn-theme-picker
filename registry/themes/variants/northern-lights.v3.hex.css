@@ -1,0 +1,128 @@
+/* Northern Lights Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Northern Lights Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 248 248 248;
+    --foreground: 51 51 51;
+    --card: 255 255 255;
+    --card-foreground: 51 51 51;
+    --popover: 255 255 255;
+    --popover-foreground: 51 51 51;
+    --primary: 57 168 92;
+    --primary-foreground: 255 255 255;
+    --secondary: 99 148 235;
+    --secondary-foreground: 255 255 255;
+    --muted: 220 216 194;
+    --muted-foreground: 111 111 111;
+    --accent: 100 218 241;
+    --accent-foreground: 51 51 51;
+    --destructive: 241 68 68;
+    --destructive-foreground: 255 255 255;
+    --border: 212 212 212;
+    --input: 212 212 212;
+    --ring: 57 168 92;
+    --chart-1: 57 168 92;
+    --chart-2: 99 148 235;
+    --chart-3: 100 218 241;
+    --chart-4: 70 131 181;
+    --chart-5: 27 150 65;
+    --radius: 0.5rem;
+    --sidebar: 248 248 248;
+    --sidebar-foreground: 51 51 51;
+    --sidebar-primary: 57 168 92;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 100 218 241;
+    --sidebar-accent-foreground: 51 51 51;
+    --sidebar-border: 212 212 212;
+    --sidebar-ring: 57 168 92;
+    --font-sans: Plus Jakarta Sans, sans-serif;
+    --font-serif: Source Serif 4, serif;
+    --font-mono: JetBrains Mono, monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 3px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 1px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 27 29 34;
+    --foreground: 228 228 228;
+    --card: 46 52 55;
+    --card-foreground: 228 228 228;
+    --popover: 46 52 55;
+    --popover-foreground: 228 228 228;
+    --primary: 57 168 92;
+    --primary-foreground: 255 255 255;
+    --secondary: 70 131 181;
+    --secondary-foreground: 228 228 228;
+    --muted: 69 69 69;
+    --muted-foreground: 164 164 164;
+    --accent: 99 148 235;
+    --accent-foreground: 228 228 228;
+    --destructive: 241 68 68;
+    --destructive-foreground: 255 255 255;
+    --border: 69 69 69;
+    --input: 69 69 69;
+    --ring: 57 168 92;
+    --chart-1: 57 168 92;
+    --chart-2: 70 131 181;
+    --chart-3: 99 148 235;
+    --chart-4: 100 218 241;
+    --chart-5: 27 150 65;
+    --radius: 0.5rem;
+    --sidebar: 27 29 34;
+    --sidebar-foreground: 228 228 228;
+    --sidebar-primary: 57 168 92;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 99 148 235;
+    --sidebar-accent-foreground: 228 228 228;
+    --sidebar-border: 69 69 69;
+    --sidebar-ring: 57 168 92;
+    --font-sans: Plus Jakarta Sans, sans-serif;
+    --font-serif: Source Serif 4, serif;
+    --font-mono: JetBrains Mono, monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 3px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 1px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+  }
+
+}

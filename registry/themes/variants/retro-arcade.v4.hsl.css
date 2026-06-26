@@ -1,0 +1,134 @@
+/* Retro Arcade Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="retro-arcade-light"] {
+  --background: hsl(43.83 87.48% 93.28%);
+  --foreground: hsl(192.51 73.3% 14.85%);
+  --card: hsl(45.57 47.02% 87.96%);
+  --card-foreground: hsl(192.51 73.3% 14.85%);
+  --popover: hsl(45.57 47.02% 87.96%);
+  --popover-foreground: hsl(192.51 73.3% 14.85%);
+  --primary: hsl(331.09 62.83% 51.79%);
+  --primary-foreground: hsl(300 50% 100%);
+  --secondary: hsl(175.38 56.36% 40.01%);
+  --secondary-foreground: hsl(300 50% 100%);
+  --muted: hsl(180.07 8.76% 60.26%);
+  --muted-foreground: hsl(192.51 73.3% 14.85%);
+  --accent: hsl(17.2 77.25% 44.57%);
+  --accent-foreground: hsl(300 50% 100%);
+  --destructive: hsl(0.83 73.23% 52.74%);
+  --destructive-foreground: hsl(300 50% 100%);
+  --border: hsl(186.32 8.32% 54.64%);
+  --input: hsl(186.32 8.32% 54.64%);
+  --ring: hsl(331.09 62.83% 51.79%);
+  --chart-1: hsl(204.59 71.34% 47.77%);
+  --chart-2: hsl(175.38 56.36% 40.01%);
+  --chart-3: hsl(331.09 62.83% 51.79%);
+  --chart-4: hsl(17.2 77.25% 44.57%);
+  --chart-5: hsl(0.83 73.23% 52.74%);
+  --radius: 0.25rem;
+  --sidebar: hsl(43.83 87.48% 93.28%);
+  --sidebar-foreground: hsl(192.51 73.3% 14.85%);
+  --sidebar-primary: hsl(331.09 62.83% 51.79%);
+  --sidebar-primary-foreground: hsl(300 50% 100%);
+  --sidebar-accent: hsl(175.38 56.36% 40.01%);
+  --sidebar-accent-foreground: hsl(300 50% 100%);
+  --sidebar-border: hsl(186.32 8.32% 54.64%);
+  --sidebar-ring: hsl(331.09 62.83% 51.79%);
+  --font-sans: Outfit, sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: Space Mono, monospace;
+  --shadow-color: hsl(196 83% 10%);
+  --shadow-opacity: 0.15;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-sm:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow-md:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 2px 4px -1px hsl(196 83% 10% / 0.15);
+  --shadow-lg:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 4px 6px -1px hsl(196 83% 10% / 0.15);
+  --shadow-xl:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 8px 10px -1px hsl(196 83% 10% / 0.15);
+  --shadow-2xl: 2px 2px 4px 0px hsl(196 83% 10% / 0.38);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="retro-arcade-dark"] {
+  --background: hsl(192.18 100% 10.75%);
+  --foreground: hsl(180.07 8.76% 60.26%);
+  --card: hsl(192.51 73.3% 14.85%);
+  --card-foreground: hsl(180.07 8.76% 60.26%);
+  --popover: hsl(192.51 73.3% 14.85%);
+  --popover-foreground: hsl(180.07 8.76% 60.26%);
+  --primary: hsl(331.09 62.83% 51.79%);
+  --primary-foreground: hsl(300 50% 100%);
+  --secondary: hsl(175.38 56.36% 40.01%);
+  --secondary-foreground: hsl(300 50% 100%);
+  --muted: hsl(194.45 15.19% 39.76%);
+  --muted-foreground: hsl(180.07 8.76% 60.26%);
+  --accent: hsl(17.2 77.25% 44.57%);
+  --accent-foreground: hsl(300 50% 100%);
+  --destructive: hsl(0.83 73.23% 52.74%);
+  --destructive-foreground: hsl(300 50% 100%);
+  --border: hsl(194.45 15.19% 39.76%);
+  --input: hsl(194.45 15.19% 39.76%);
+  --ring: hsl(331.09 62.83% 51.79%);
+  --chart-1: hsl(204.59 71.34% 47.77%);
+  --chart-2: hsl(175.38 56.36% 40.01%);
+  --chart-3: hsl(331.09 62.83% 51.79%);
+  --chart-4: hsl(17.2 77.25% 44.57%);
+  --chart-5: hsl(0.83 73.23% 52.74%);
+  --radius: 0.25rem;
+  --sidebar: hsl(192.18 100% 10.75%);
+  --sidebar-foreground: hsl(180.07 8.76% 60.26%);
+  --sidebar-primary: hsl(331.09 62.83% 51.79%);
+  --sidebar-primary-foreground: hsl(300 50% 100%);
+  --sidebar-accent: hsl(175.38 56.36% 40.01%);
+  --sidebar-accent-foreground: hsl(300 50% 100%);
+  --sidebar-border: hsl(194.45 15.19% 39.76%);
+  --sidebar-ring: hsl(331.09 62.83% 51.79%);
+  --font-sans: Outfit, sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: Space Mono, monospace;
+  --shadow-color: hsl(196 83% 10%);
+  --shadow-opacity: 0.15;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-sm:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow-md:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 2px 4px -1px hsl(196 83% 10% / 0.15);
+  --shadow-lg:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 4px 6px -1px hsl(196 83% 10% / 0.15);
+  --shadow-xl:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 8px 10px -1px hsl(196 83% 10% / 0.15);
+  --shadow-2xl: 2px 2px 4px 0px hsl(196 83% 10% / 0.38);
+}

@@ -1,0 +1,140 @@
+/* Catppuccin Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Catppuccin Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 220.01 45.46% 95.52%;
+    --foreground: 233.63 14.88% 35.73%;
+    --card: 300 50% 100%;
+    --card-foreground: 233.63 14.88% 35.73%;
+    --popover: 222.83 10.99% 82.7%;
+    --popover-foreground: 233.63 14.88% 35.73%;
+    --primary: 266.18 83.62% 57.35%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 222.83 10.99% 82.7%;
+    --secondary-foreground: 233.63 14.88% 35.73%;
+    --muted: 220 18.32% 89.02%;
+    --muted-foreground: 232.64 9.12% 47.2%;
+    --accent: 198.41 80.25% 49.14%;
+    --accent-foreground: 300 50% 100%;
+    --destructive: 344.77 97.82% 41.92%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 225.03 15.88% 77.3%;
+    --input: 222.83 10.99% 82.7%;
+    --ring: 266.18 83.62% 57.35%;
+    --chart-1: 266.18 83.62% 57.35%;
+    --chart-2: 198.41 80.25% 49.14%;
+    --chart-3: 109.12 58.68% 40.01%;
+    --chart-4: 20.98 97.16% 53.3%;
+    --chart-5: 10.84 55.33% 66.1%;
+    --radius: 0.35rem;
+    --sidebar: 220 24.1% 91.61%;
+    --sidebar-foreground: 233.63 14.88% 35.73%;
+    --sidebar-primary: 266.18 83.62% 57.35%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 198.41 80.25% 49.14%;
+    --sidebar-accent-foreground: 300 50% 100%;
+    --sidebar-border: 225.03 15.88% 77.3%;
+    --sidebar-ring: 266.18 83.62% 57.35%;
+    --font-sans: Montserrat, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: Fira Code, monospace;
+    --shadow-color: 240 30% 25%;
+    --shadow-opacity: 0.12;
+    --shadow-blur: 6px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 6px 0px hsl(240 30% 25% / 0.06);
+    --shadow-xs: 0px 4px 6px 0px hsl(240 30% 25% / 0.06);
+    --shadow-sm:
+      0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow:
+      0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow-md:
+      0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+      0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+    --shadow-lg:
+      0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+      0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+    --shadow-xl:
+      0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+      0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+    --shadow-2xl: 0px 4px 6px 0px hsl(240 30% 25% / 0.3);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 240.53 23.84% 12.7%;
+    --foreground: 226.12 59.94% 87.99%;
+    --card: 240 21.17% 14.6%;
+    --card-foreground: 226.12 59.94% 87.99%;
+    --popover: 234.2 12.62% 30.62%;
+    --popover-foreground: 226.12 59.94% 87.99%;
+    --primary: 267.43 86.56% 81.43%;
+    --primary-foreground: 240 21.17% 14.6%;
+    --secondary: 232.33 10.64% 39.26%;
+    --secondary-foreground: 226.12 59.94% 87.99%;
+    --muted: 230.54 18.95% 20.11%;
+    --muted-foreground: 227.65 23.79% 71.68%;
+    --accent: 189.22 69.9% 73.79%;
+    --accent-foreground: 240 21.17% 14.6%;
+    --destructive: 343.28 83.47% 75.48%;
+    --destructive-foreground: 240 21.17% 14.6%;
+    --border: 236.73 15.65% 22.38%;
+    --input: 236.73 15.65% 22.38%;
+    --ring: 267.43 86.56% 81.43%;
+    --chart-1: 267.43 86.56% 81.43%;
+    --chart-2: 189.22 69.9% 73.79%;
+    --chart-3: 115.47 55.09% 76.32%;
+    --chart-4: 22.94 89.06% 75.08%;
+    --chart-5: 9.61 44.09% 90.65%;
+    --radius: 0.35rem;
+    --sidebar: 239.98 22.96% 8.35%;
+    --sidebar-foreground: 226.12 59.94% 87.99%;
+    --sidebar-primary: 267.43 86.56% 81.43%;
+    --sidebar-primary-foreground: 240 21.17% 14.6%;
+    --sidebar-accent: 189.22 69.9% 73.79%;
+    --sidebar-accent-foreground: 240 21.17% 14.6%;
+    --sidebar-border: 234.2 12.62% 30.62%;
+    --sidebar-ring: 267.43 86.56% 81.43%;
+    --font-sans: Montserrat, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: Fira Code, monospace;
+    --shadow-color: 240 30% 25%;
+    --shadow-opacity: 0.12;
+    --shadow-blur: 6px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 6px 0px hsl(240 30% 25% / 0.06);
+    --shadow-xs: 0px 4px 6px 0px hsl(240 30% 25% / 0.06);
+    --shadow-sm:
+      0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow:
+      0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow-md:
+      0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+      0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+    --shadow-lg:
+      0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+      0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+    --shadow-xl:
+      0px 4px 6px 0px hsl(240 30% 25% / 0.12),
+      0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+    --shadow-2xl: 0px 4px 6px 0px hsl(240 30% 25% / 0.3);
+  }
+
+}

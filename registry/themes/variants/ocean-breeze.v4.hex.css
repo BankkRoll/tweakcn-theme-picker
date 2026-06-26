@@ -1,0 +1,124 @@
+/* Ocean Breeze Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="ocean-breeze-light"] {
+  --background: #f3f9ff;
+  --foreground: #364050;
+  --card: #ffffff;
+  --card-foreground: #364050;
+  --popover: #ffffff;
+  --popover-foreground: #364050;
+  --primary: #24c45e;
+  --primary-foreground: #ffffff;
+  --secondary: #def2ff;
+  --secondary-foreground: #4b5666;
+  --muted: #f5f5f5;
+  --muted-foreground: #6c727e;
+  --accent: #d1fae5;
+  --accent-foreground: #364050;
+  --destructive: #f14444;
+  --destructive-foreground: #ffffff;
+  --border: #e4e8ef;
+  --input: #e4e8ef;
+  --ring: #24c45e;
+  --chart-1: #24c45e;
+  --chart-2: #10ba82;
+  --chart-3: #00986a;
+  --chart-4: #157858;
+  --chart-5: #005f45;
+  --radius: 0.5rem;
+  --sidebar: #def2ff;
+  --sidebar-foreground: #364050;
+  --sidebar-primary: #24c45e;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #d1fae5;
+  --sidebar-accent-foreground: #364050;
+  --sidebar-border: #e4e8ef;
+  --sidebar-ring: #24c45e;
+  --font-sans: DM Sans, sans-serif;
+  --font-serif: Lora, serif;
+  --font-mono: IBM Plex Mono, monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.1;
+  --shadow-blur: 8px;
+  --shadow-spread: -1px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 4px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+  --shadow-sm:
+    0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+  --shadow:
+    0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 2px 4px -2px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 4px 6px -2px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 8px 10px -2px hsl(0 0% 0% / 0.1);
+  --shadow-2xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.25);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="ocean-breeze-dark"] {
+  --background: #0f182b;
+  --foreground: #d0d4db;
+  --card: #1d293d;
+  --card-foreground: #d0d4db;
+  --popover: #1d293d;
+  --popover-foreground: #d0d4db;
+  --primary: #39d199;
+  --primary-foreground: #0f182b;
+  --secondary: #2f3848;
+  --secondary-foreground: #a1a1a8;
+  --muted: #1d293d;
+  --muted-foreground: #6c727e;
+  --accent: #364050;
+  --accent-foreground: #a1a1a8;
+  --destructive: #f14444;
+  --destructive-foreground: #0f182b;
+  --border: #4b5666;
+  --input: #4b5666;
+  --ring: #39d199;
+  --chart-1: #39d199;
+  --chart-2: #32d2bd;
+  --chart-3: #24c45e;
+  --chart-4: #10ba82;
+  --chart-5: #00986a;
+  --radius: 0.5rem;
+  --sidebar: #1d293d;
+  --sidebar-foreground: #d0d4db;
+  --sidebar-primary: #39d199;
+  --sidebar-primary-foreground: #0f182b;
+  --sidebar-accent: #364050;
+  --sidebar-accent-foreground: #a1a1a8;
+  --sidebar-border: #4b5666;
+  --sidebar-ring: #39d199;
+  --font-sans: DM Sans, sans-serif;
+  --font-serif: Lora, serif;
+  --font-mono: IBM Plex Mono, monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.1;
+  --shadow-blur: 8px;
+  --shadow-spread: -1px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 4px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+  --shadow-sm:
+    0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+  --shadow:
+    0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 2px 4px -2px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 4px 6px -2px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 8px 10px -2px hsl(0 0% 0% / 0.1);
+  --shadow-2xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.25);
+}

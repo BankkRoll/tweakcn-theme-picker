@@ -84,11 +84,29 @@ export default function ThemeStructurePage() {
                 theme-[name]
               </Badge>
               <span className="text-muted-foreground">
-                Individual theme CSS (38 themes available)
+                Individual theme CSS (43 themes available)
+              </span>
+            </div>
+            <div className="flex items-center gap-3">
+              <Badge variant="outline" className="font-mono text-xs">
+                theme-[name]-[v4|v3]-[hsl|hex|rgb]
+              </Badge>
+              <span className="text-muted-foreground">
+                Format / Tailwind-version variants of each theme
               </span>
             </div>
           </div>
         </Card>
+
+        <p className="text-muted-foreground">
+          The canonical theme CSS (Tailwind v4, OKLCH) is the single source of
+          truth. A generator (<code>pnpm themes:generate</code>) parses it
+          losslessly and emits every other variant, the <code>src/styles</code>{" "}
+          mirror, <code>index.css</code>, and the variant entries in{" "}
+          <code>registry.json</code> — guaranteeing the v4-OKLCH output stays
+          byte-identical to the originals. <code>pnpm registry:build</code> runs
+          the generator before <code>shadcn build</code>.
+        </p>
       </div>
 
       {/* Files Created */}

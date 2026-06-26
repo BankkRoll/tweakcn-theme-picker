@@ -1,0 +1,130 @@
+/* Supabase Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Supabase Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 252 252 252;
+    --foreground: 22 22 22;
+    --card: 252 252 252;
+    --card-foreground: 22 22 22;
+    --popover: 252 252 252;
+    --popover-foreground: 82 82 82;
+    --primary: 113 225 172;
+    --primary-foreground: 32 38 35;
+    --secondary: 252 252 252;
+    --secondary-foreground: 22 22 22;
+    --muted: 238 238 238;
+    --muted-foreground: 31 31 31;
+    --accent: 238 238 238;
+    --accent-foreground: 31 31 31;
+    --destructive: 200 51 22;
+    --destructive-foreground: 252 252 252;
+    --border: 222 222 222;
+    --input: 245 245 245;
+    --ring: 113 225 172;
+    --chart-1: 113 225 172;
+    --chart-2: 57 129 246;
+    --chart-3: 140 93 248;
+    --chart-4: 244 159 30;
+    --chart-5: 16 186 130;
+    --radius: 0.5rem;
+    --sidebar: 252 252 252;
+    --sidebar-foreground: 113 113 113;
+    --sidebar-primary: 113 225 172;
+    --sidebar-primary-foreground: 32 38 35;
+    --sidebar-accent: 238 238 238;
+    --sidebar-accent-foreground: 31 31 31;
+    --sidebar-border: 222 222 222;
+    --sidebar-ring: 113 225 172;
+    --font-sans: Outfit, sans-serif;
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono: monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.17;
+    --shadow-blur: 3px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 1px;
+    --letter-spacing: 0.025em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.09);
+    --shadow-xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.09);
+    --shadow-sm:
+      0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 1px 2px -1px hsl(0 0% 0% / 0.17);
+    --shadow:
+      0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 1px 2px -1px hsl(0 0% 0% / 0.17);
+    --shadow-md:
+      0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 2px 4px -1px hsl(0 0% 0% / 0.17);
+    --shadow-lg:
+      0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 4px 6px -1px hsl(0 0% 0% / 0.17);
+    --shadow-xl:
+      0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 8px 10px -1px hsl(0 0% 0% / 0.17);
+    --shadow-2xl: 0px 1px 3px 0px hsl(0 0% 0% / 0.43);
+    --tracking-normal: 0.025em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 18 18 18;
+    --foreground: 228 232 239;
+    --card: 22 22 22;
+    --card-foreground: 228 232 239;
+    --popover: 36 36 36;
+    --popover-foreground: 168 168 168;
+    --primary: 13 98 59;
+    --primary-foreground: 223 231 227;
+    --secondary: 36 36 36;
+    --secondary-foreground: 252 252 252;
+    --muted: 31 31 31;
+    --muted-foreground: 161 161 161;
+    --accent: 48 48 48;
+    --accent-foreground: 252 252 252;
+    --destructive: 85 25 18;
+    --destructive-foreground: 235 235 235;
+    --border: 41 41 41;
+    --input: 36 36 36;
+    --ring: 76 222 129;
+    --chart-1: 76 222 129;
+    --chart-2: 97 164 247;
+    --chart-3: 167 139 251;
+    --chart-4: 251 192 49;
+    --chart-5: 50 210 189;
+    --radius: 0.5rem;
+    --sidebar: 18 18 18;
+    --sidebar-foreground: 137 137 137;
+    --sidebar-primary: 13 98 59;
+    --sidebar-primary-foreground: 223 231 227;
+    --sidebar-accent: 48 48 48;
+    --sidebar-accent-foreground: 252 252 252;
+    --sidebar-border: 41 41 41;
+    --sidebar-ring: 76 222 129;
+    --font-sans: Outfit, sans-serif;
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono: monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.17;
+    --shadow-blur: 3px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 1px;
+    --letter-spacing: 0.025em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.09);
+    --shadow-xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.09);
+    --shadow-sm:
+      0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 1px 2px -1px hsl(0 0% 0% / 0.17);
+    --shadow:
+      0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 1px 2px -1px hsl(0 0% 0% / 0.17);
+    --shadow-md:
+      0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 2px 4px -1px hsl(0 0% 0% / 0.17);
+    --shadow-lg:
+      0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 4px 6px -1px hsl(0 0% 0% / 0.17);
+    --shadow-xl:
+      0px 1px 3px 0px hsl(0 0% 0% / 0.17), 0px 8px 10px -1px hsl(0 0% 0% / 0.17);
+    --shadow-2xl: 0px 1px 3px 0px hsl(0 0% 0% / 0.43);
+  }
+
+}

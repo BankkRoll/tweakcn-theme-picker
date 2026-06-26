@@ -1,0 +1,134 @@
+/* Quantum Rose Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="quantum-rose-light"] {
+  --background: #fff0f8;
+  --foreground: #92125b;
+  --card: #fdf6fb;
+  --card-foreground: #92125b;
+  --popover: #fdf6fb;
+  --popover-foreground: #92125b;
+  --primary: #e50a7a;
+  --primary-foreground: #ffffff;
+  --secondary: #fed5fe;
+  --secondary-foreground: #92125b;
+  --muted: #ffe2f1;
+  --muted-foreground: #be4282;
+  --accent: #ffc3e4;
+  --accent-foreground: #92125b;
+  --destructive: #cf3868;
+  --destructive-foreground: #ffffff;
+  --border: #fdc9e6;
+  --input: #fed5fe;
+  --ring: #e50a7a;
+  --chart-1: #e50a7a;
+  --chart-2: #c34e97;
+  --chart-3: #986ab4;
+  --chart-4: #726fbf;
+  --chart-5: #5f85ff;
+  --radius: 0.5rem;
+  --sidebar: #fdedf5;
+  --sidebar-foreground: #92125b;
+  --sidebar-primary: #e50a7a;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ffc3e4;
+  --sidebar-accent-foreground: #92125b;
+  --sidebar-border: #fcdeef;
+  --sidebar-ring: #e50a7a;
+  --font-sans: Poppins, sans-serif;
+  --font-serif: Playfair Display, serif;
+  --font-mono: Space Mono, monospace;
+  --shadow-color: #82174d;
+  --shadow-opacity: 0.18;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 3px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 3px 0px 0px hsl(330 70% 30% / 0.09);
+  --shadow-xs: 0px 3px 0px 0px hsl(330 70% 30% / 0.09);
+  --shadow-sm:
+    0px 3px 0px 0px hsl(330 70% 30% / 0.18),
+    0px 1px 2px -1px hsl(330 70% 30% / 0.18);
+  --shadow:
+    0px 3px 0px 0px hsl(330 70% 30% / 0.18),
+    0px 1px 2px -1px hsl(330 70% 30% / 0.18);
+  --shadow-md:
+    0px 3px 0px 0px hsl(330 70% 30% / 0.18),
+    0px 2px 4px -1px hsl(330 70% 30% / 0.18);
+  --shadow-lg:
+    0px 3px 0px 0px hsl(330 70% 30% / 0.18),
+    0px 4px 6px -1px hsl(330 70% 30% / 0.18);
+  --shadow-xl:
+    0px 3px 0px 0px hsl(330 70% 30% / 0.18),
+    0px 8px 10px -1px hsl(330 70% 30% / 0.18);
+  --shadow-2xl: 0px 3px 0px 0px hsl(330 70% 30% / 0.45);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="quantum-rose-dark"] {
+  --background: #190a21;
+  --foreground: #feb2fe;
+  --card: #2b1336;
+  --card-foreground: #feb2fe;
+  --popover: #2b1336;
+  --popover-foreground: #feb2fe;
+  --primary: #fd6aed;
+  --primary-foreground: #180518;
+  --secondary: #46214f;
+  --secondary-foreground: #feb2fe;
+  --muted: #331842;
+  --muted-foreground: #d57ad5;
+  --accent: #5b205e;
+  --accent-foreground: #feb2fe;
+  --destructive: #fc2b75;
+  --destructive-foreground: #f8f8f8;
+  --border: #4b1c60;
+  --input: #46214f;
+  --ring: #fd6aed;
+  --chart-1: #fd6aed;
+  --chart-2: #c457e4;
+  --chart-3: #8f60fc;
+  --chart-4: #7075e0;
+  --chart-5: #5379fd;
+  --radius: 0.5rem;
+  --sidebar: #1b0c24;
+  --sidebar-foreground: #feb2fe;
+  --sidebar-primary: #fd6aed;
+  --sidebar-primary-foreground: #180518;
+  --sidebar-accent: #5b205e;
+  --sidebar-accent-foreground: #feb2fe;
+  --sidebar-border: #4b1c60;
+  --sidebar-ring: #fd6aed;
+  --font-sans: Quicksand, sans-serif;
+  --font-serif: Playfair Display, serif;
+  --font-mono: Space Mono, monospace;
+  --shadow-color: #e51ae6;
+  --shadow-opacity: 0.18;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 3px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 3px 0px 0px hsl(300 80% 50% / 0.09);
+  --shadow-xs: 0px 3px 0px 0px hsl(300 80% 50% / 0.09);
+  --shadow-sm:
+    0px 3px 0px 0px hsl(300 80% 50% / 0.18),
+    0px 1px 2px -1px hsl(300 80% 50% / 0.18);
+  --shadow:
+    0px 3px 0px 0px hsl(300 80% 50% / 0.18),
+    0px 1px 2px -1px hsl(300 80% 50% / 0.18);
+  --shadow-md:
+    0px 3px 0px 0px hsl(300 80% 50% / 0.18),
+    0px 2px 4px -1px hsl(300 80% 50% / 0.18);
+  --shadow-lg:
+    0px 3px 0px 0px hsl(300 80% 50% / 0.18),
+    0px 4px 6px -1px hsl(300 80% 50% / 0.18);
+  --shadow-xl:
+    0px 3px 0px 0px hsl(300 80% 50% / 0.18),
+    0px 8px 10px -1px hsl(300 80% 50% / 0.18);
+  --shadow-2xl: 0px 3px 0px 0px hsl(300 80% 50% / 0.45);
+}

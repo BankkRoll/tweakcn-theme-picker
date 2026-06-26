@@ -1,0 +1,130 @@
+/* Sunset Horizon Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Sunset Horizon Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 255 251 248;
+    --foreground: 61 54 55;
+    --card: 255 255 255;
+    --card-foreground: 61 54 55;
+    --popover: 255 255 255;
+    --popover-foreground: 61 54 55;
+    --primary: 255 129 99;
+    --primary-foreground: 255 255 255;
+    --secondary: 255 237 234;
+    --secondary-foreground: 180 83 64;
+    --muted: 255 242 238;
+    --muted-foreground: 118 112 108;
+    --accent: 253 181 126;
+    --accent-foreground: 61 54 55;
+    --destructive: 230 55 69;
+    --destructive-foreground: 255 255 255;
+    --border: 255 224 214;
+    --input: 255 224 214;
+    --ring: 255 129 99;
+    --chart-1: 255 129 99;
+    --chart-2: 253 181 126;
+    --chart-3: 255 203 169;
+    --chart-4: 255 173 143;
+    --chart-5: 207 107 88;
+    --radius: 0.625rem;
+    --sidebar: 255 242 238;
+    --sidebar-foreground: 61 54 55;
+    --sidebar-primary: 255 129 99;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 253 181 126;
+    --sidebar-accent-foreground: 61 54 55;
+    --sidebar-border: 255 224 214;
+    --sidebar-ring: 255 129 99;
+    --font-sans: Montserrat, sans-serif;
+    --font-serif: Merriweather, serif;
+    --font-mono: Ubuntu Mono, monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.09;
+    --shadow-blur: 12px;
+    --shadow-spread: -3px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 6px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+    --shadow-xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+    --shadow-sm:
+      0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+    --shadow:
+      0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+    --shadow-md:
+      0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 2px 4px -4px hsl(0 0% 0% / 0.09);
+    --shadow-lg:
+      0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 4px 6px -4px hsl(0 0% 0% / 0.09);
+    --shadow-xl:
+      0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 8px 10px -4px hsl(0 0% 0% / 0.09);
+    --shadow-2xl: 0px 6px 12px -3px hsl(0 0% 0% / 0.22);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 44 32 37;
+    --foreground: 241 233 229;
+    --card: 58 47 54;
+    --card-foreground: 241 233 229;
+    --popover: 58 47 54;
+    --popover-foreground: 241 233 229;
+    --primary: 255 129 99;
+    --primary-foreground: 255 255 255;
+    --secondary: 69 57 64;
+    --secondary-foreground: 241 233 229;
+    --muted: 58 47 54;
+    --muted-foreground: 214 199 191;
+    --accent: 253 181 126;
+    --accent-foreground: 44 32 37;
+    --destructive: 230 55 69;
+    --destructive-foreground: 255 255 255;
+    --border: 69 57 64;
+    --input: 69 57 64;
+    --ring: 255 129 99;
+    --chart-1: 255 129 99;
+    --chart-2: 253 181 126;
+    --chart-3: 255 203 169;
+    --chart-4: 255 173 143;
+    --chart-5: 207 107 88;
+    --radius: 0.625rem;
+    --sidebar: 44 32 37;
+    --sidebar-foreground: 241 233 229;
+    --sidebar-primary: 255 129 99;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 253 181 126;
+    --sidebar-accent-foreground: 44 32 37;
+    --sidebar-border: 69 57 64;
+    --sidebar-ring: 255 129 99;
+    --font-sans: Montserrat, sans-serif;
+    --font-serif: Merriweather, serif;
+    --font-mono: Ubuntu Mono, monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.09;
+    --shadow-blur: 12px;
+    --shadow-spread: -3px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 6px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+    --shadow-xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+    --shadow-sm:
+      0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+    --shadow:
+      0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+    --shadow-md:
+      0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 2px 4px -4px hsl(0 0% 0% / 0.09);
+    --shadow-lg:
+      0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 4px 6px -4px hsl(0 0% 0% / 0.09);
+    --shadow-xl:
+      0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 8px 10px -4px hsl(0 0% 0% / 0.09);
+    --shadow-2xl: 0px 6px 12px -3px hsl(0 0% 0% / 0.22);
+  }
+
+}

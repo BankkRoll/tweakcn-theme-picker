@@ -1,0 +1,120 @@
+/* Spotify Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Spotify Theme - Official Spotify brand colors */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 300 50% 100%;
+    --foreground: 5.65 17.99% 5.5%;
+    --card: 345.04 22.05% 97.6%;
+    --card-foreground: 5.65 17.99% 5.5%;
+    --popover: 300 50% 100%;
+    --popover-foreground: 5.65 17.99% 5.5%;
+    --primary: 150.48 99.92% 32.9%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 132.2 15.14% 93.08%;
+    --secondary-foreground: 5.65 14.46% 9.04%;
+    --muted: 345.04 10.48% 94.98%;
+    --muted-foreground: 344.61 3.73% 39.48%;
+    --accent: 147.81 99.89% 38.67%;
+    --accent-foreground: 5.65 17.99% 5.5%;
+    --destructive: 351.89 92.21% 43.24%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 345.04 4.05% 87.21%;
+    --input: 345.04 5.09% 89.79%;
+    --ring: 150.48 99.92% 32.9%;
+    --chart-1: 150.48 99.92% 32.9%;
+    --chart-2: 147.81 99.89% 38.67%;
+    --chart-3: 182.4 99.88% 29.85%;
+    --chart-4: 236.37 65.1% 73.64%;
+    --chart-5: 317.12 57.92% 59.32%;
+    --radius: 0.5rem;
+    --sidebar: 5.65 17.99% 5.5%;
+    --sidebar-foreground: 345.04 8.3% 93.68%;
+    --sidebar-primary: 150.48 99.92% 32.9%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 5.73 10.22% 13.61%;
+    --sidebar-accent-foreground: 345.04 8.3% 93.68%;
+    --sidebar-border: 5.77 8.72% 16.47%;
+    --sidebar-ring: 150.48 99.92% 32.9%;
+    --font-sans: Montserrat, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, monospace;
+    --shadow-color: 150 60% 10%;
+    --shadow-opacity: 0.08;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(150 60% 10% / 0.04);
+    --shadow-xs: 0 1px 3px 0px hsl(150 60% 10% / 0.06);
+    --shadow-sm: 0 2px 4px 0px hsl(150 60% 10% / 0.08), 0 1px 2px -1px hsl(150 60% 10% / 0.08);
+    --shadow: 0 2px 4px 0px hsl(150 60% 10% / 0.08), 0 1px 2px -1px hsl(150 60% 10% / 0.08);
+    --shadow-md: 0 4px 6px 0px hsl(150 60% 10% / 0.1), 0 2px 4px -1px hsl(150 60% 10% / 0.1);
+    --shadow-lg: 0 8px 10px 0px hsl(150 60% 10% / 0.1), 0 4px 6px -1px hsl(150 60% 10% / 0.1);
+    --shadow-xl: 0 16px 20px 0px hsl(150 60% 10% / 0.12), 0 8px 10px -1px hsl(150 60% 10% / 0.12);
+    --shadow-2xl: 0 24px 48px 0px hsl(150 60% 10% / 0.2);
+    --tracking-normal: -0.01em;
+  }
+
+  /* Dark mode - #121212 is Spotify's signature dark background */
+  .dark {
+    --background: 300 0% 3.94%;
+    --foreground: 300 50% 100%;
+    --card: 0 0% 6.87%;
+    --card-foreground: 300 50% 100%;
+    --popover: 0 0% 8.61%;
+    --popover-foreground: 300 50% 100%;
+    --primary: 150.48 99.92% 32.9%;
+    --primary-foreground: 300 0% 3.94%;
+    --secondary: 300 0% 10.4%;
+    --secondary-foreground: 300 0% 86.98%;
+    --muted: 0 0% 8.61%;
+    --muted-foreground: 330 0% 56.07%;
+    --accent: 147.81 99.89% 38.67%;
+    --accent-foreground: 300 0% 3.94%;
+    --destructive: 359.22 71.52% 55.23%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 0 0% 15.99%;
+    --input: 300 0% 10.4%;
+    --ring: 150.48 99.92% 32.9%;
+    --chart-1: 150.48 99.92% 32.9%;
+    --chart-2: 147.81 99.89% 38.67%;
+    --chart-3: 182.38 99.99% 33.26%;
+    --chart-4: 236.06 87.35% 79.93%;
+    --chart-5: 318.18 61.84% 65.96%;
+    --radius: 0.5rem;
+    --sidebar: 330 0% 2.23%;
+    --sidebar-foreground: 300 50% 100%;
+    --sidebar-primary: 150.48 99.92% 32.9%;
+    --sidebar-primary-foreground: 300 0% 3.94%;
+    --sidebar-accent: 300 0% 10.4%;
+    --sidebar-accent-foreground: 300 0% 86.98%;
+    --sidebar-border: 0 0% 15.99%;
+    --sidebar-ring: 150.48 99.92% 32.9%;
+    --font-sans: Montserrat, ui-sans-serif, system-ui, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 0.5;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(0 0% 0% / 0.25);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.35);
+    --shadow-sm: 0 2px 4px 0px hsl(0 0% 0% / 0.5), 0 1px 2px -1px hsl(0 0% 0% / 0.5);
+    --shadow: 0 2px 4px 0px hsl(0 0% 0% / 0.5), 0 1px 2px -1px hsl(0 0% 0% / 0.5);
+    --shadow-md: 0 4px 6px 0px hsl(0 0% 0% / 0.5), 0 2px 4px -1px hsl(0 0% 0% / 0.5);
+    --shadow-lg: 0 8px 10px 0px hsl(0 0% 0% / 0.5), 0 4px 6px -1px hsl(0 0% 0% / 0.5);
+    --shadow-xl: 0 16px 20px 0px hsl(0 0% 0% / 0.5), 0 8px 10px -1px hsl(0 0% 0% / 0.5);
+    --shadow-2xl: 0 24px 48px 0px hsl(0 0% 0% / 0.6);
+  }
+
+}

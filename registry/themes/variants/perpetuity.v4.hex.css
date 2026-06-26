@@ -1,0 +1,134 @@
+/* Perpetuity Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="perpetuity-light"] {
+  --background: #e7f1f1;
+  --foreground: #0f4b55;
+  --card: #eef7f7;
+  --card-foreground: #0f4b55;
+  --popover: #eef7f7;
+  --popover-foreground: #0f4b55;
+  --primary: #18848c;
+  --primary-foreground: #ffffff;
+  --secondary: #d6e9e9;
+  --secondary-foreground: #0f4b55;
+  --muted: #e1eaea;
+  --muted-foreground: #41797d;
+  --accent: #c8e4e6;
+  --accent-foreground: #0f4b55;
+  --destructive: #d03737;
+  --destructive-foreground: #ffffff;
+  --border: #ccdfe1;
+  --input: #d6e9e9;
+  --ring: #18848c;
+  --chart-1: #18848c;
+  --chart-2: #279ea6;
+  --chart-3: #30b6be;
+  --chart-4: #5ac7cf;
+  --chart-5: #86d7dd;
+  --radius: 0.125rem;
+  --sidebar: #d9ecee;
+  --sidebar-foreground: #0f4b55;
+  --sidebar-primary: #18848c;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #c8e4e6;
+  --sidebar-accent-foreground: #0f4b55;
+  --sidebar-border: #ccdfe1;
+  --sidebar-ring: #18848c;
+  --font-sans: Courier New, monospace;
+  --font-serif: Courier New, monospace;
+  --font-mono: Courier New, monospace;
+  --shadow-color: #177982;
+  --shadow-opacity: 0.15;
+  --shadow-blur: 2px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 1px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 1px 1px 2px 0px hsl(185 70% 30% / 0.07);
+  --shadow-xs: 1px 1px 2px 0px hsl(185 70% 30% / 0.07);
+  --shadow-sm:
+    1px 1px 2px 0px hsl(185 70% 30% / 0.15),
+    1px 1px 2px -1px hsl(185 70% 30% / 0.15);
+  --shadow:
+    1px 1px 2px 0px hsl(185 70% 30% / 0.15),
+    1px 1px 2px -1px hsl(185 70% 30% / 0.15);
+  --shadow-md:
+    1px 1px 2px 0px hsl(185 70% 30% / 0.15),
+    1px 2px 4px -1px hsl(185 70% 30% / 0.15);
+  --shadow-lg:
+    1px 1px 2px 0px hsl(185 70% 30% / 0.15),
+    1px 4px 6px -1px hsl(185 70% 30% / 0.15);
+  --shadow-xl:
+    1px 1px 2px 0px hsl(185 70% 30% / 0.15),
+    1px 8px 10px -1px hsl(185 70% 30% / 0.15);
+  --shadow-2xl: 1px 1px 2px 0px hsl(185 70% 30% / 0.38);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="perpetuity-dark"] {
+  --background: #0e1a1f;
+  --foreground: #45e8e8;
+  --card: #0a2026;
+  --card-foreground: #45e8e8;
+  --popover: #0a2026;
+  --popover-foreground: #45e8e8;
+  --primary: #45e8e8;
+  --primary-foreground: #0e1a1f;
+  --secondary: #114a57;
+  --secondary-foreground: #45e8e8;
+  --muted: #103039;
+  --muted-foreground: #31a5a5;
+  --accent: #114a57;
+  --accent-foreground: #45e8e8;
+  --destructive: #ea3c3c;
+  --destructive-foreground: #f2f2f2;
+  --border: #114a57;
+  --input: #114a57;
+  --ring: #45e8e8;
+  --chart-1: #45e8e8;
+  --chart-2: #31a5a5;
+  --chart-3: #358989;
+  --chart-4: #1f595e;
+  --chart-5: #05373c;
+  --radius: 0.125rem;
+  --sidebar: #0e1a1f;
+  --sidebar-foreground: #45e8e8;
+  --sidebar-primary: #45e8e8;
+  --sidebar-primary-foreground: #0e1a1f;
+  --sidebar-accent: #114a57;
+  --sidebar-accent-foreground: #45e8e8;
+  --sidebar-border: #114a57;
+  --sidebar-ring: #45e8e8;
+  --font-sans: Source Code Pro, monospace;
+  --font-serif: Source Code Pro, monospace;
+  --font-mono: Source Code Pro, monospace;
+  --shadow-color: #52e0e0;
+  --shadow-opacity: 0.2;
+  --shadow-blur: 2px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 1px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 1px 1px 2px 0px hsl(180 70% 60% / 0.1);
+  --shadow-xs: 1px 1px 2px 0px hsl(180 70% 60% / 0.1);
+  --shadow-sm:
+    1px 1px 2px 0px hsl(180 70% 60% / 0.2),
+    1px 1px 2px -1px hsl(180 70% 60% / 0.2);
+  --shadow:
+    1px 1px 2px 0px hsl(180 70% 60% / 0.2),
+    1px 1px 2px -1px hsl(180 70% 60% / 0.2);
+  --shadow-md:
+    1px 1px 2px 0px hsl(180 70% 60% / 0.2),
+    1px 2px 4px -1px hsl(180 70% 60% / 0.2);
+  --shadow-lg:
+    1px 1px 2px 0px hsl(180 70% 60% / 0.2),
+    1px 4px 6px -1px hsl(180 70% 60% / 0.2);
+  --shadow-xl:
+    1px 1px 2px 0px hsl(180 70% 60% / 0.2),
+    1px 8px 10px -1px hsl(180 70% 60% / 0.2);
+  --shadow-2xl: 1px 1px 2px 0px hsl(180 70% 60% / 0.5);
+}

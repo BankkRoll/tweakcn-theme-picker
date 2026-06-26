@@ -1,0 +1,130 @@
+/* Ocean Breeze Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Ocean Breeze Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 208.02 98.16% 97.63%;
+    --foreground: 216.92 18.93% 26.34%;
+    --card: 300 50% 100%;
+    --card-foreground: 216.92 18.93% 26.34%;
+    --popover: 300 50% 100%;
+    --popover-foreground: 216.92 18.93% 26.34%;
+    --primary: 141.69 68.59% 45.55%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 203.98 99.97% 93.54%;
+    --secondary-foreground: 214.99 15.5% 34.68%;
+    --muted: 300 0% 96.06%;
+    --muted-foreground: 219.97 7.71% 45.75%;
+    --accent: 149.24 79.16% 90%;
+    --accent-foreground: 216.92 18.93% 26.34%;
+    --destructive: 359.91 86.11% 60.55%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 220.01 24.1% 91.61%;
+    --input: 220.01 24.1% 91.61%;
+    --ring: 141.69 68.59% 45.55%;
+    --chart-1: 141.69 68.59% 45.55%;
+    --chart-2: 160.14 84.19% 39.7%;
+    --chart-3: 161.9 99.92% 29.73%;
+    --chart-4: 160.82 70.07% 27.62%;
+    --chart-5: 163.88 99.86% 18.59%;
+    --radius: 0.5rem;
+    --sidebar: 203.98 99.97% 93.54%;
+    --sidebar-foreground: 216.92 18.93% 26.34%;
+    --sidebar-primary: 141.69 68.59% 45.55%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 149.24 79.16% 90%;
+    --sidebar-accent-foreground: 216.92 18.93% 26.34%;
+    --sidebar-border: 220.01 24.1% 91.61%;
+    --sidebar-ring: 141.69 68.59% 45.55%;
+    --font-sans: DM Sans, sans-serif;
+    --font-serif: Lora, serif;
+    --font-mono: IBM Plex Mono, monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 8px;
+    --shadow-spread: -1px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 4px 6px -2px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 8px 10px -2px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.25);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 222.2 46.79% 11.4%;
+    --foreground: 216 12.91% 83.75%;
+    --card: 217.27 35.09% 17.61%;
+    --card-foreground: 216 12.91% 83.75%;
+    --popover: 217.27 35.09% 17.61%;
+    --popover-foreground: 216 12.91% 83.75%;
+    --primary: 157.62 62.51% 52.34%;
+    --primary-foreground: 222.2 46.79% 11.4%;
+    --secondary: 217.75 20.69% 23.31%;
+    --secondary-foreground: 239.91 3.83% 64.36%;
+    --muted: 217.27 35.09% 17.61%;
+    --muted-foreground: 219.97 7.71% 45.75%;
+    --accent: 216.92 18.93% 26.34%;
+    --accent-foreground: 239.91 3.83% 64.36%;
+    --destructive: 359.91 86.11% 60.55%;
+    --destructive-foreground: 222.2 46.79% 11.4%;
+    --border: 214.99 15.5% 34.68%;
+    --input: 214.99 15.5% 34.68%;
+    --ring: 157.62 62.51% 52.34%;
+    --chart-1: 157.62 62.51% 52.34%;
+    --chart-2: 172.29 64.08% 50.92%;
+    --chart-3: 141.69 68.59% 45.55%;
+    --chart-4: 160.14 84.19% 39.7%;
+    --chart-5: 161.9 99.92% 29.73%;
+    --radius: 0.5rem;
+    --sidebar: 217.27 35.09% 17.61%;
+    --sidebar-foreground: 216 12.91% 83.75%;
+    --sidebar-primary: 157.62 62.51% 52.34%;
+    --sidebar-primary-foreground: 222.2 46.79% 11.4%;
+    --sidebar-accent: 216.92 18.93% 26.34%;
+    --sidebar-accent-foreground: 239.91 3.83% 64.36%;
+    --sidebar-border: 214.99 15.5% 34.68%;
+    --sidebar-ring: 157.62 62.51% 52.34%;
+    --font-sans: DM Sans, sans-serif;
+    --font-serif: Lora, serif;
+    --font-mono: IBM Plex Mono, monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 8px;
+    --shadow-spread: -1px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 4px 6px -2px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 8px 10px -2px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.25);
+  }
+
+}

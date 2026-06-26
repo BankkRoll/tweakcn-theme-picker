@@ -1,0 +1,134 @@
+/* Stripe Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Stripe Theme - Official Stripe brand colors */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 205.81 55.46% 97.46%;
+    --foreground: 209.49 78.74% 10.68%;
+    --card: 300 50% 100%;
+    --card-foreground: 209.49 78.74% 10.68%;
+    --popover: 300 50% 100%;
+    --popover-foreground: 209.49 78.74% 10.68%;
+    --primary: 253.5 93.86% 62.28%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 205.79 28.96% 93.57%;
+    --secondary-foreground: 210.45 37.1% 18.66%;
+    --muted: 205.81 27.16% 94.84%;
+    --muted-foreground: 210.87 16.49% 34.22%;
+    --accent: 182.33 99.79% 45.44%;
+    --accent-foreground: 183.12 99.88% 6.55%;
+    --destructive: 351.89 92.21% 43.24%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 205.79 14.25% 87.1%;
+    --input: 205.79 17.9% 89.68%;
+    --ring: 253.5 93.86% 62.28%;
+    --chart-1: 253.5 93.86% 62.28%;
+    --chart-2: 182.33 99.79% 45.44%;
+    --chart-3: 288.97 54.91% 60.87%;
+    --chart-4: 136.82 43.05% 50.95%;
+    --chart-5: 5.74 73.07% 52.34%;
+    --radius: 0.5rem;
+    --sidebar: 209.49 78.74% 10.68%;
+    --sidebar-foreground: 205.81 21.62% 93.54%;
+    --sidebar-primary: 249.67 94.91% 68.07%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 210.12 47.16% 18.64%;
+    --sidebar-accent-foreground: 205.81 21.62% 93.54%;
+    --sidebar-border: 210.37 37.93% 23.8%;
+    --sidebar-ring: 249.67 94.91% 68.07%;
+    --font-sans:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 220 60% 20%;
+    --shadow-opacity: 0.08;
+    --shadow-blur: 6px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(220 60% 20% / 0.04);
+    --shadow-xs: 0 1px 3px 0px hsl(220 60% 20% / 0.06);
+    --shadow-sm:
+      0 2px 4px 0px hsl(220 60% 20% / 0.08),
+      0 1px 2px -1px hsl(220 60% 20% / 0.08);
+    --shadow:
+      0 2px 4px 0px hsl(220 60% 20% / 0.08),
+      0 1px 2px -1px hsl(220 60% 20% / 0.08);
+    --shadow-md:
+      0 4px 8px 0px hsl(220 60% 20% / 0.1), 0 2px 4px -1px hsl(220 60% 20% / 0.1);
+    --shadow-lg:
+      0 8px 16px 0px hsl(220 60% 20% / 0.1), 0 4px 8px -1px hsl(220 60% 20% / 0.1);
+    --shadow-xl:
+      0 16px 24px 0px hsl(220 60% 20% / 0.12),
+      0 8px 12px -1px hsl(220 60% 20% / 0.12);
+    --shadow-2xl: 0 24px 48px 0px hsl(220 60% 20% / 0.2);
+    --tracking-normal: -0.01em;
+  }
+
+  /* Dark mode - #0A2540 is Stripe's signature navy background */
+  .dark {
+    --background: 209.49 78.74% 10.68%;
+    --foreground: 205.81 21.62% 93.54%;
+    --card: 209.77 59.09% 14.59%;
+    --card-foreground: 205.81 21.62% 93.54%;
+    --popover: 209.97 52.39% 16.61%;
+    --popover-foreground: 205.81 21.62% 93.54%;
+    --primary: 250.19 99.99% 68.45%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 210.12 47.16% 18.64%;
+    --secondary-foreground: 205.8 10.66% 87.07%;
+    --muted: 210.37 40.98% 16.67%;
+    --muted-foreground: 205.62 9.74% 56.28%;
+    --accent: 182.33 99.79% 45.44%;
+    --accent-foreground: 183.12 99.88% 6.55%;
+    --destructive: 359.22 71.52% 55.23%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 210.37 37.93% 23.8%;
+    --input: 210.12 47.16% 18.64%;
+    --ring: 250.19 99.99% 68.45%;
+    --chart-1: 250.19 99.99% 68.45%;
+    --chart-2: 182.33 99.79% 45.44%;
+    --chart-3: 288.88 57.76% 66.99%;
+    --chart-4: 134.98 46.28% 58.72%;
+    --chart-5: 6.81 77.8% 59.56%;
+    --radius: 0.5rem;
+    --sidebar: 211.92 98.52% 7.6%;
+    --sidebar-foreground: 205.81 21.62% 93.54%;
+    --sidebar-primary: 250.19 99.99% 68.45%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 210.12 47.16% 18.64%;
+    --sidebar-accent-foreground: 205.8 10.66% 87.07%;
+    --sidebar-border: 210.37 37.93% 23.8%;
+    --sidebar-ring: 250.19 99.99% 68.45%;
+    --font-sans:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 0.4;
+    --shadow-blur: 6px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(0 0% 0% / 0.2);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.3);
+    --shadow-sm:
+      0 2px 4px 0px hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+    --shadow: 0 2px 4px 0px hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+    --shadow-md:
+      0 4px 8px 0px hsl(0 0% 0% / 0.4), 0 2px 4px -1px hsl(0 0% 0% / 0.4);
+    --shadow-lg:
+      0 8px 16px 0px hsl(0 0% 0% / 0.4), 0 4px 8px -1px hsl(0 0% 0% / 0.4);
+    --shadow-xl:
+      0 16px 24px 0px hsl(0 0% 0% / 0.4), 0 8px 12px -1px hsl(0 0% 0% / 0.4);
+    --shadow-2xl: 0 24px 48px 0px hsl(0 0% 0% / 0.5);
+  }
+
+}

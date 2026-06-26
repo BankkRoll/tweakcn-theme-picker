@@ -1,0 +1,128 @@
+/* Mono Theme — Tailwind v3 (rgb) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Mono Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 255 255 255;
+    --foreground: 9 9 9;
+    --card: 255 255 255;
+    --card-foreground: 9 9 9;
+    --popover: 255 255 255;
+    --popover-foreground: 9 9 9;
+    --primary: 116 116 116;
+    --primary-foreground: 252 252 252;
+    --secondary: 245 245 245;
+    --secondary-foreground: 22 22 22;
+    --muted: 245 245 245;
+    --muted-foreground: 113 113 113;
+    --accent: 245 245 245;
+    --accent-foreground: 22 22 22;
+    --destructive: 229 0 11;
+    --destructive-foreground: 245 245 245;
+    --border: 228 228 228;
+    --input: 228 228 228;
+    --ring: 161 161 161;
+    --chart-1: 116 116 116;
+    --chart-2: 116 116 116;
+    --chart-3: 116 116 116;
+    --chart-4: 116 116 116;
+    --chart-5: 116 116 116;
+    --radius: 0rem;
+    --sidebar: 252 252 252;
+    --sidebar-foreground: 9 9 9;
+    --sidebar-primary: 22 22 22;
+    --sidebar-primary-foreground: 252 252 252;
+    --sidebar-accent: 245 245 245;
+    --sidebar-accent-foreground: 22 22 22;
+    --sidebar-border: 228 228 228;
+    --sidebar-ring: 161 161 161;
+    --font-sans: Geist Mono, monospace;
+    --font-serif: Geist Mono, monospace;
+    --font-mono: Geist Mono, monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 1px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+    --shadow-xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+    --shadow-sm:
+      0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+    --shadow: 0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+    --shadow-md:
+      0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 2px 4px -1px hsl(0 0% 0% / 0);
+    --shadow-lg:
+      0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 4px 6px -1px hsl(0 0% 0% / 0);
+    --shadow-xl:
+      0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 8px 10px -1px hsl(0 0% 0% / 0);
+    --shadow-2xl: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 9 9 9;
+    --foreground: 252 252 252;
+    --card: 24 24 24;
+    --card-foreground: 252 252 252;
+    --popover: 38 38 38;
+    --popover-foreground: 252 252 252;
+    --primary: 116 116 116;
+    --primary-foreground: 252 252 252;
+    --secondary: 38 38 38;
+    --secondary-foreground: 252 252 252;
+    --muted: 38 38 38;
+    --muted-foreground: 161 161 161;
+    --accent: 64 64 64;
+    --accent-foreground: 252 252 252;
+    --destructive: 255 99 102;
+    --destructive-foreground: 38 38 38;
+    --border: 56 56 56;
+    --input: 82 82 82;
+    --ring: 116 116 116;
+    --chart-1: 116 116 116;
+    --chart-2: 116 116 116;
+    --chart-3: 116 116 116;
+    --chart-4: 116 116 116;
+    --chart-5: 116 116 116;
+    --radius: 0rem;
+    --sidebar: 22 22 22;
+    --sidebar-foreground: 252 252 252;
+    --sidebar-primary: 252 252 252;
+    --sidebar-primary-foreground: 22 22 22;
+    --sidebar-accent: 38 38 38;
+    --sidebar-accent-foreground: 252 252 252;
+    --sidebar-border: 255 255 255;
+    --sidebar-ring: 82 82 82;
+    --font-sans: Geist Mono, monospace;
+    --font-serif: Geist Mono, monospace;
+    --font-mono: Geist Mono, monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 1px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+    --shadow-xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+    --shadow-sm:
+      0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+    --shadow: 0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+    --shadow-md:
+      0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 2px 4px -1px hsl(0 0% 0% / 0);
+    --shadow-lg:
+      0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 4px 6px -1px hsl(0 0% 0% / 0);
+    --shadow-xl:
+      0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 8px 10px -1px hsl(0 0% 0% / 0);
+    --shadow-2xl: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  }
+
+}

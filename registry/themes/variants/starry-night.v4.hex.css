@@ -1,0 +1,126 @@
+/* Starry Night Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="starry-night-light"] {
+  --background: #f8f8f8;
+  --foreground: #1c2338;
+  --card: #e3e8ee;
+  --card-foreground: #1c2338;
+  --popover: #fffcee;
+  --popover-foreground: #1c2338;
+  --primary: #395aa1;
+  --primary-foreground: #fffcee;
+  --secondary: #f9c970;
+  --secondary-foreground: #1c2338;
+  --muted: #e5e5de;
+  --muted-foreground: #395aa1;
+  --accent: #6fa3c0;
+  --accent-foreground: #fffcee;
+  --destructive: #2d1d2f;
+  --destructive-foreground: #fffcee;
+  --border: #aeb9c4;
+  --input: #6fa3c0;
+  --ring: #f9c970;
+  --chart-1: #395aa1;
+  --chart-2: #f9c970;
+  --chart-3: #6fa3c0;
+  --chart-4: #aeb9c4;
+  --chart-5: #2d1d2f;
+  --radius: 0.5rem;
+  --sidebar: #e3e8ee;
+  --sidebar-foreground: #1c2338;
+  --sidebar-primary: #395aa1;
+  --sidebar-primary-foreground: #fffcee;
+  --sidebar-accent: #f9c970;
+  --sidebar-accent-foreground: #1c2338;
+  --sidebar-border: #aeb9c4;
+  --sidebar-ring: #f9c970;
+  --font-sans: Libre Baskerville, serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.1;
+  --shadow-blur: 3px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-sm:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+  --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="starry-night-dark"] {
+  --background: #181a24;
+  --foreground: #e8ebf2;
+  --card: #23243a;
+  --card-foreground: #e8ebf2;
+  --popover: #23243a;
+  --popover-foreground: #fee06b;
+  --primary: #395aa1;
+  --primary-foreground: #fee06b;
+  --secondary: #fee06b;
+  --secondary-foreground: #23243a;
+  --muted: #23243a;
+  --muted-foreground: #79879f;
+  --accent: #beceef;
+  --accent-foreground: #181a24;
+  --destructive: #a14b6d;
+  --destructive-foreground: #fee06b;
+  --border: #2e2f3f;
+  --input: #395aa1;
+  --ring: #fee06b;
+  --chart-1: #395aa1;
+  --chart-2: #fee06b;
+  --chart-3: #6fa3c0;
+  --chart-4: #79879f;
+  --chart-5: #a14b6d;
+  --radius: 0.5rem;
+  --sidebar: #23243a;
+  --sidebar-foreground: #e8ebf2;
+  --sidebar-primary: #395aa1;
+  --sidebar-primary-foreground: #fee06b;
+  --sidebar-accent: #fee06b;
+  --sidebar-accent-foreground: #23243a;
+  --sidebar-border: #2e2f3f;
+  --sidebar-ring: #fee06b;
+  --font-sans: Libre Baskerville, serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.1;
+  --shadow-blur: 3px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-sm:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+  --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+}

@@ -1,0 +1,134 @@
+/* Stripe Theme — Tailwind v3 (rgb) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Stripe Theme - Official Stripe brand colors */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 245 249 252;
+    --foreground: 6 28 49;
+    --card: 255 255 255;
+    --card-foreground: 6 28 49;
+    --popover: 255 255 255;
+    --popover-foreground: 6 28 49;
+    --primary: 109 69 249;
+    --primary-foreground: 255 255 255;
+    --secondary: 234 239 243;
+    --secondary-foreground: 30 47 65;
+    --muted: 238 242 245;
+    --muted-foreground: 73 87 102;
+    --accent: 0 223 232;
+    --accent-foreground: 0 32 33;
+    --destructive: 212 9 36;
+    --destructive-foreground: 255 255 255;
+    --border: 217 223 227;
+    --input: 224 229 233;
+    --ring: 109 69 249;
+    --chart-1: 109 69 249;
+    --chart-2: 0 223 232;
+    --chart-3: 190 100 210;
+    --chart-4: 76 184 106;
+    --chart-5: 222 62 45;
+    --radius: 0.5rem;
+    --sidebar: 6 28 49;
+    --sidebar-foreground: 235 239 242;
+    --sidebar-primary: 121 96 251;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 25 47 70;
+    --sidebar-accent-foreground: 235 239 242;
+    --sidebar-border: 38 60 84;
+    --sidebar-ring: 121 96 251;
+    --font-sans:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 20 41 82;
+    --shadow-opacity: 0.08;
+    --shadow-blur: 6px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(220 60% 20% / 0.04);
+    --shadow-xs: 0 1px 3px 0px hsl(220 60% 20% / 0.06);
+    --shadow-sm:
+      0 2px 4px 0px hsl(220 60% 20% / 0.08),
+      0 1px 2px -1px hsl(220 60% 20% / 0.08);
+    --shadow:
+      0 2px 4px 0px hsl(220 60% 20% / 0.08),
+      0 1px 2px -1px hsl(220 60% 20% / 0.08);
+    --shadow-md:
+      0 4px 8px 0px hsl(220 60% 20% / 0.1), 0 2px 4px -1px hsl(220 60% 20% / 0.1);
+    --shadow-lg:
+      0 8px 16px 0px hsl(220 60% 20% / 0.1), 0 4px 8px -1px hsl(220 60% 20% / 0.1);
+    --shadow-xl:
+      0 16px 24px 0px hsl(220 60% 20% / 0.12),
+      0 8px 12px -1px hsl(220 60% 20% / 0.12);
+    --shadow-2xl: 0 24px 48px 0px hsl(220 60% 20% / 0.2);
+    --tracking-normal: -0.01em;
+  }
+
+  /* Dark mode - #0A2540 is Stripe's signature navy background */
+  .dark {
+    --background: 6 28 49;
+    --foreground: 235 239 242;
+    --card: 15 37 59;
+    --card-foreground: 235 239 242;
+    --popover: 20 42 65;
+    --popover-foreground: 235 239 242;
+    --primary: 121 94 255;
+    --primary-foreground: 255 255 255;
+    --secondary: 25 47 70;
+    --secondary-foreground: 219 223 226;
+    --muted: 25 42 60;
+    --muted-foreground: 133 145 154;
+    --accent: 0 223 232;
+    --accent-foreground: 0 32 33;
+    --destructive: 222 59 61;
+    --destructive-foreground: 255 255 255;
+    --border: 38 60 84;
+    --input: 25 47 70;
+    --ring: 121 94 255;
+    --chart-1: 121 94 255;
+    --chart-2: 0 223 232;
+    --chart-3: 201 122 219;
+    --chart-4: 101 198 125;
+    --chart-5: 232 90 72;
+    --radius: 0.5rem;
+    --sidebar: 0 18 38;
+    --sidebar-foreground: 235 239 242;
+    --sidebar-primary: 121 94 255;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 25 47 70;
+    --sidebar-accent-foreground: 219 223 226;
+    --sidebar-border: 38 60 84;
+    --sidebar-ring: 121 94 255;
+    --font-sans:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-serif: ui-serif, Georgia, serif;
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.4;
+    --shadow-blur: 6px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 2px;
+    --letter-spacing: -0.01em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 2px 0px hsl(0 0% 0% / 0.2);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.3);
+    --shadow-sm:
+      0 2px 4px 0px hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+    --shadow: 0 2px 4px 0px hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+    --shadow-md:
+      0 4px 8px 0px hsl(0 0% 0% / 0.4), 0 2px 4px -1px hsl(0 0% 0% / 0.4);
+    --shadow-lg:
+      0 8px 16px 0px hsl(0 0% 0% / 0.4), 0 4px 8px -1px hsl(0 0% 0% / 0.4);
+    --shadow-xl:
+      0 16px 24px 0px hsl(0 0% 0% / 0.4), 0 8px 12px -1px hsl(0 0% 0% / 0.4);
+    --shadow-2xl: 0 24px 48px 0px hsl(0 0% 0% / 0.5);
+  }
+
+}

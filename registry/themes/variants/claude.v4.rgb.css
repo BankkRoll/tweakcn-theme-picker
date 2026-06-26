@@ -1,0 +1,132 @@
+/* Claude Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="claude-light"] {
+  --background: rgb(250, 248, 241);
+  --foreground: rgb(61, 56, 38);
+  --card: rgb(250, 248, 241);
+  --card-foreground: rgb(20, 20, 20);
+  --popover: rgb(255, 255, 255);
+  --popover-foreground: rgb(41, 39, 27);
+  --primary: rgb(203, 100, 65);
+  --primary-foreground: rgb(255, 255, 255);
+  --secondary: rgb(231, 228, 221);
+  --secondary-foreground: rgb(82, 80, 68);
+  --muted: rgb(237, 232, 217);
+  --muted-foreground: rgb(133, 131, 125);
+  --accent: rgb(231, 228, 221);
+  --accent-foreground: rgb(41, 39, 27);
+  --destructive: rgb(20, 20, 20);
+  --destructive-foreground: rgb(255, 255, 255);
+  --border: rgb(217, 216, 208);
+  --input: rgb(180, 177, 163);
+  --ring: rgb(27, 126, 222);
+  --chart-1: rgb(178, 87, 47);
+  --chart-2: rgb(156, 135, 246);
+  --chart-3: rgb(222, 215, 194);
+  --chart-4: rgb(218, 210, 239);
+  --chart-5: rgb(178, 86, 48);
+  --radius: 0.5rem;
+  --sidebar: rgb(247, 245, 238);
+  --sidebar-foreground: rgb(62, 62, 56);
+  --sidebar-primary: rgb(203, 100, 65);
+  --sidebar-primary-foreground: rgb(252, 252, 252);
+  --sidebar-accent: rgb(231, 228, 221);
+  --sidebar-accent-foreground: rgb(53, 53, 53);
+  --sidebar-border: rgb(235, 235, 235);
+  --sidebar-ring: rgb(180, 180, 180);
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  --shadow-color: rgb(0, 0, 0);
+  --shadow-opacity: 0.1;
+  --shadow-blur: 3px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-sm:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+  --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="claude-dark"] {
+  --background: rgb(38, 38, 38);
+  --foreground: rgb(195, 193, 186);
+  --card: rgb(38, 38, 38);
+  --card-foreground: rgb(250, 248, 241);
+  --popover: rgb(48, 48, 48);
+  --popover-foreground: rgb(228, 228, 228);
+  --primary: rgb(216, 119, 87);
+  --primary-foreground: rgb(255, 255, 255);
+  --secondary: rgb(250, 248, 241);
+  --secondary-foreground: rgb(48, 48, 48);
+  --muted: rgb(27, 27, 27);
+  --muted-foreground: rgb(183, 181, 166);
+  --accent: rgb(26, 24, 19);
+  --accent-foreground: rgb(247, 245, 238);
+  --destructive: rgb(241, 68, 68);
+  --destructive-foreground: rgb(255, 255, 255);
+  --border: rgb(62, 62, 56);
+  --input: rgb(81, 80, 74);
+  --ring: rgb(27, 126, 222);
+  --chart-1: rgb(178, 87, 47);
+  --chart-2: rgb(156, 135, 246);
+  --chart-3: rgb(26, 24, 19);
+  --chart-4: rgb(48, 44, 72);
+  --chart-5: rgb(178, 86, 48);
+  --radius: 0.5rem;
+  --sidebar: rgb(31, 31, 31);
+  --sidebar-foreground: rgb(195, 193, 186);
+  --sidebar-primary: rgb(53, 53, 53);
+  --sidebar-primary-foreground: rgb(252, 252, 252);
+  --sidebar-accent: rgb(15, 15, 15);
+  --sidebar-accent-foreground: rgb(195, 193, 186);
+  --sidebar-border: rgb(235, 235, 235);
+  --sidebar-ring: rgb(180, 180, 180);
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+  --shadow-color: rgb(0, 0, 0);
+  --shadow-opacity: 0.1;
+  --shadow-blur: 3px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+  --shadow-sm:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+  --shadow-md:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+  --shadow-lg:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+  --shadow-xl:
+    0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+  --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+}

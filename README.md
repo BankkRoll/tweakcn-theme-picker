@@ -1,6 +1,6 @@
 # Theme Picker for shadcn/ui
 
-Easily add 43+ themes with support for light and dark modes. Add a complete theme picker to your shadcn/ui app with a single command. OKLCH colors, custom fonts, light & dark modes for every theme.
+Easily add 43+ themes with support for light and dark modes. Add a complete theme picker to your shadcn/ui app with a single command. Custom fonts, light & dark modes for every theme, and every theme available in **OKLCH, HSL, HEX, or RGB** for **Tailwind CSS v4 (default) or v3**.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0842244a-f0cb-4110-9c6a-6835c8d11d7e" />
 
@@ -11,8 +11,30 @@ Easily add 43+ themes with support for light and dark modes. Add a complete them
 - 43+ ready-to-use themes
 - Light and dark mode support for each theme
 - Framework adapters for Next.js, Vite, Astro, and Remix
-- Built on CSS variables and Tailwind CSS v4
-- Compatible with shadcn/ui components
+- **Tailwind CSS v4 (default) and v3** — pick your version in the install dialog
+- **Every color format** — OKLCH, HSL, HEX, and RGB variants of every theme
+- Built on CSS variables; compatible with shadcn/ui components
+
+### Tailwind version & color format
+
+Themes ship in a full matrix of variants so they drop into any stack:
+
+| | OKLCH | HSL | HEX | RGB |
+| --- | :---: | :---: | :---: | :---: |
+| **Tailwind v4** (default) | ✅ | ✅ | ✅ | ✅ |
+| **Tailwind v3** | — | ✅ | ✅ | ✅ |
+
+- **v4** variants use raw color values with `data-theme` selectors and `@theme inline` (the modern shadcn architecture). The default install URL is **v4 + OKLCH**.
+- **v3** variants emit bare channel triplets under `:root` / `.dark` in `@layer base`, consumed via `hsl(var(--token))` (HSL) or `rgb(var(--token))` (HEX/RGB) in your `tailwind.config`. OKLCH is not offered for v3 because the v3 wrapper model can't carry it.
+
+In the theme picker, open a theme's **Code** dialog and use the **Tailwind** and **Color format** toggles to copy the exact variant (and its install command) you need.
+
+Variant install URLs follow the pattern:
+
+```
+https://tweakcn-picker.vercel.app/r/theme-<name>-<v4|v3>-<hsl|hex|rgb>.json
+# e.g. theme-catppuccin-v3-hsl.json   (v4 + OKLCH is the default theme-<name>.json)
+```
 
 ## Installation
 
@@ -273,13 +295,34 @@ export function CustomThemeSelector() {
 
 ```
 registry/
-  themes/           # Theme CSS files
-  nextjs/           # Next.js adapter components
-  vite/             # Vite adapter components
-  astro/            # Astro adapter components
-  remix/            # Remix adapter components
-public/r/           # Built registry JSON files
+  themes/             # Canonical theme CSS (v4 + OKLCH) — the source of truth
+    variants/         # Generated v4/v3 × hsl/hex/rgb variants (do not edit by hand)
+    index.css         # Generated import list
+  nextjs/             # Next.js adapter components
+  vite/               # Vite adapter components
+  astro/              # Astro adapter components
+  remix/              # Remix adapter components
+scripts/
+  generate-themes.ts  # Generator: canonical → all variants + registry items
+  lib/                # color conversion (culori) + lossless CSS parser
+src/styles/           # Mirror of canonical themes for the demo site (generated)
+public/r/             # Built registry JSON files
 ```
+
+The canonical `registry/themes/*.css` files (Tailwind v4, OKLCH) are the single
+source of truth. `scripts/generate-themes.ts` parses them losslessly and emits
+every other variant, the `src/styles` mirror, `index.css`, and the variant
+entries in `registry.json`. The generator guarantees the v4-OKLCH output is
+**byte-identical** to the canonical files (parity gate), so regenerating never
+drifts the originals.
+
+### About `--shadow-*` variables
+
+Each theme defines shadow tokens (`--shadow-2xs` … `--shadow-2xl`, plus the
+primitives `--shadow-color`, `--shadow-opacity`, `--shadow-blur`,
+`--shadow-spread`, `--shadow-offset-x/y`). These drive shadcn's `shadow-*`
+utilities so elevation is themeable. They're additive on top of the base shadcn
+token set — safe to keep, and harmless if your project doesn't use them.
 
 ## Development
 
@@ -288,7 +331,13 @@ pnpm install
 pnpm dev
 ```
 
-Build the registry:
+Regenerate all theme variants (after editing a canonical theme or adding a new one):
+
+```bash
+pnpm themes:generate
+```
+
+Build the registry (runs the generator first, then `shadcn build`):
 
 ```bash
 pnpm registry:build

@@ -1,0 +1,122 @@
+/* Mono Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="mono-light"] {
+  --background: rgb(255, 255, 255);
+  --foreground: rgb(9, 9, 9);
+  --card: rgb(255, 255, 255);
+  --card-foreground: rgb(9, 9, 9);
+  --popover: rgb(255, 255, 255);
+  --popover-foreground: rgb(9, 9, 9);
+  --primary: rgb(116, 116, 116);
+  --primary-foreground: rgb(252, 252, 252);
+  --secondary: rgb(245, 245, 245);
+  --secondary-foreground: rgb(22, 22, 22);
+  --muted: rgb(245, 245, 245);
+  --muted-foreground: rgb(113, 113, 113);
+  --accent: rgb(245, 245, 245);
+  --accent-foreground: rgb(22, 22, 22);
+  --destructive: rgb(229, 0, 11);
+  --destructive-foreground: rgb(245, 245, 245);
+  --border: rgb(228, 228, 228);
+  --input: rgb(228, 228, 228);
+  --ring: rgb(161, 161, 161);
+  --chart-1: rgb(116, 116, 116);
+  --chart-2: rgb(116, 116, 116);
+  --chart-3: rgb(116, 116, 116);
+  --chart-4: rgb(116, 116, 116);
+  --chart-5: rgb(116, 116, 116);
+  --radius: 0rem;
+  --sidebar: rgb(252, 252, 252);
+  --sidebar-foreground: rgb(9, 9, 9);
+  --sidebar-primary: rgb(22, 22, 22);
+  --sidebar-primary-foreground: rgb(252, 252, 252);
+  --sidebar-accent: rgb(245, 245, 245);
+  --sidebar-accent-foreground: rgb(22, 22, 22);
+  --sidebar-border: rgb(228, 228, 228);
+  --sidebar-ring: rgb(161, 161, 161);
+  --font-sans: Geist Mono, monospace;
+  --font-serif: Geist Mono, monospace;
+  --font-mono: Geist Mono, monospace;
+  --shadow-color: rgb(0, 0, 0);
+  --shadow-opacity: 0;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  --shadow-xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  --shadow-sm:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+  --shadow: 0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+  --shadow-md:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 2px 4px -1px hsl(0 0% 0% / 0);
+  --shadow-lg:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 4px 6px -1px hsl(0 0% 0% / 0);
+  --shadow-xl:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 8px 10px -1px hsl(0 0% 0% / 0);
+  --shadow-2xl: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="mono-dark"] {
+  --background: rgb(9, 9, 9);
+  --foreground: rgb(252, 252, 252);
+  --card: rgb(24, 24, 24);
+  --card-foreground: rgb(252, 252, 252);
+  --popover: rgb(38, 38, 38);
+  --popover-foreground: rgb(252, 252, 252);
+  --primary: rgb(116, 116, 116);
+  --primary-foreground: rgb(252, 252, 252);
+  --secondary: rgb(38, 38, 38);
+  --secondary-foreground: rgb(252, 252, 252);
+  --muted: rgb(38, 38, 38);
+  --muted-foreground: rgb(161, 161, 161);
+  --accent: rgb(64, 64, 64);
+  --accent-foreground: rgb(252, 252, 252);
+  --destructive: rgb(255, 99, 102);
+  --destructive-foreground: rgb(38, 38, 38);
+  --border: rgb(56, 56, 56);
+  --input: rgb(82, 82, 82);
+  --ring: rgb(116, 116, 116);
+  --chart-1: rgb(116, 116, 116);
+  --chart-2: rgb(116, 116, 116);
+  --chart-3: rgb(116, 116, 116);
+  --chart-4: rgb(116, 116, 116);
+  --chart-5: rgb(116, 116, 116);
+  --radius: 0rem;
+  --sidebar: rgb(22, 22, 22);
+  --sidebar-foreground: rgb(252, 252, 252);
+  --sidebar-primary: rgb(252, 252, 252);
+  --sidebar-primary-foreground: rgb(22, 22, 22);
+  --sidebar-accent: rgb(38, 38, 38);
+  --sidebar-accent-foreground: rgb(252, 252, 252);
+  --sidebar-border: rgb(255, 255, 255);
+  --sidebar-ring: rgb(82, 82, 82);
+  --font-sans: Geist Mono, monospace;
+  --font-serif: Geist Mono, monospace;
+  --font-mono: Geist Mono, monospace;
+  --shadow-color: rgb(0, 0, 0);
+  --shadow-opacity: 0;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  --shadow-xs: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+  --shadow-sm:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+  --shadow: 0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 1px 2px -1px hsl(0 0% 0% / 0);
+  --shadow-md:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 2px 4px -1px hsl(0 0% 0% / 0);
+  --shadow-lg:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 4px 6px -1px hsl(0 0% 0% / 0);
+  --shadow-xl:
+    0px 1px 0px 0px hsl(0 0% 0% / 0), 0px 8px 10px -1px hsl(0 0% 0% / 0);
+  --shadow-2xl: 0px 1px 0px 0px hsl(0 0% 0% / 0);
+}

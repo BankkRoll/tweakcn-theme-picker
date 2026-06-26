@@ -1,0 +1,124 @@
+/* Sunset Horizon Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="sunset-horizon-light"] {
+  --background: rgb(255, 251, 248);
+  --foreground: rgb(61, 54, 55);
+  --card: rgb(255, 255, 255);
+  --card-foreground: rgb(61, 54, 55);
+  --popover: rgb(255, 255, 255);
+  --popover-foreground: rgb(61, 54, 55);
+  --primary: rgb(255, 129, 99);
+  --primary-foreground: rgb(255, 255, 255);
+  --secondary: rgb(255, 237, 234);
+  --secondary-foreground: rgb(180, 83, 64);
+  --muted: rgb(255, 242, 238);
+  --muted-foreground: rgb(118, 112, 108);
+  --accent: rgb(253, 181, 126);
+  --accent-foreground: rgb(61, 54, 55);
+  --destructive: rgb(230, 55, 69);
+  --destructive-foreground: rgb(255, 255, 255);
+  --border: rgb(255, 224, 214);
+  --input: rgb(255, 224, 214);
+  --ring: rgb(255, 129, 99);
+  --chart-1: rgb(255, 129, 99);
+  --chart-2: rgb(253, 181, 126);
+  --chart-3: rgb(255, 203, 169);
+  --chart-4: rgb(255, 173, 143);
+  --chart-5: rgb(207, 107, 88);
+  --radius: 0.625rem;
+  --sidebar: rgb(255, 242, 238);
+  --sidebar-foreground: rgb(61, 54, 55);
+  --sidebar-primary: rgb(255, 129, 99);
+  --sidebar-primary-foreground: rgb(255, 255, 255);
+  --sidebar-accent: rgb(253, 181, 126);
+  --sidebar-accent-foreground: rgb(61, 54, 55);
+  --sidebar-border: rgb(255, 224, 214);
+  --sidebar-ring: rgb(255, 129, 99);
+  --font-sans: Montserrat, sans-serif;
+  --font-serif: Merriweather, serif;
+  --font-mono: Ubuntu Mono, monospace;
+  --shadow-color: rgb(0, 0, 0);
+  --shadow-opacity: 0.09;
+  --shadow-blur: 12px;
+  --shadow-spread: -3px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 6px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+  --shadow-xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+  --shadow-sm:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+  --shadow:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+  --shadow-md:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 2px 4px -4px hsl(0 0% 0% / 0.09);
+  --shadow-lg:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 4px 6px -4px hsl(0 0% 0% / 0.09);
+  --shadow-xl:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 8px 10px -4px hsl(0 0% 0% / 0.09);
+  --shadow-2xl: 0px 6px 12px -3px hsl(0 0% 0% / 0.22);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="sunset-horizon-dark"] {
+  --background: rgb(44, 32, 37);
+  --foreground: rgb(241, 233, 229);
+  --card: rgb(58, 47, 54);
+  --card-foreground: rgb(241, 233, 229);
+  --popover: rgb(58, 47, 54);
+  --popover-foreground: rgb(241, 233, 229);
+  --primary: rgb(255, 129, 99);
+  --primary-foreground: rgb(255, 255, 255);
+  --secondary: rgb(69, 57, 64);
+  --secondary-foreground: rgb(241, 233, 229);
+  --muted: rgb(58, 47, 54);
+  --muted-foreground: rgb(214, 199, 191);
+  --accent: rgb(253, 181, 126);
+  --accent-foreground: rgb(44, 32, 37);
+  --destructive: rgb(230, 55, 69);
+  --destructive-foreground: rgb(255, 255, 255);
+  --border: rgb(69, 57, 64);
+  --input: rgb(69, 57, 64);
+  --ring: rgb(255, 129, 99);
+  --chart-1: rgb(255, 129, 99);
+  --chart-2: rgb(253, 181, 126);
+  --chart-3: rgb(255, 203, 169);
+  --chart-4: rgb(255, 173, 143);
+  --chart-5: rgb(207, 107, 88);
+  --radius: 0.625rem;
+  --sidebar: rgb(44, 32, 37);
+  --sidebar-foreground: rgb(241, 233, 229);
+  --sidebar-primary: rgb(255, 129, 99);
+  --sidebar-primary-foreground: rgb(255, 255, 255);
+  --sidebar-accent: rgb(253, 181, 126);
+  --sidebar-accent-foreground: rgb(44, 32, 37);
+  --sidebar-border: rgb(69, 57, 64);
+  --sidebar-ring: rgb(255, 129, 99);
+  --font-sans: Montserrat, sans-serif;
+  --font-serif: Merriweather, serif;
+  --font-mono: Ubuntu Mono, monospace;
+  --shadow-color: rgb(0, 0, 0);
+  --shadow-opacity: 0.09;
+  --shadow-blur: 12px;
+  --shadow-spread: -3px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 6px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+  --shadow-xs: 0px 6px 12px -3px hsl(0 0% 0% / 0.04);
+  --shadow-sm:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+  --shadow:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 1px 2px -4px hsl(0 0% 0% / 0.09);
+  --shadow-md:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 2px 4px -4px hsl(0 0% 0% / 0.09);
+  --shadow-lg:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 4px 6px -4px hsl(0 0% 0% / 0.09);
+  --shadow-xl:
+    0px 6px 12px -3px hsl(0 0% 0% / 0.09), 0px 8px 10px -4px hsl(0 0% 0% / 0.09);
+  --shadow-2xl: 0px 6px 12px -3px hsl(0 0% 0% / 0.22);
+}

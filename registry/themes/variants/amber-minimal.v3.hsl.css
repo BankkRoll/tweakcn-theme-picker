@@ -1,0 +1,130 @@
+/* Amber Minimal Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Amber Minimal Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 300 50% 100%;
+    --foreground: 300 0% 15.03%;
+    --card: 300 50% 100%;
+    --card-foreground: 300 0% 15.03%;
+    --popover: 300 50% 100%;
+    --popover-foreground: 300 0% 15.03%;
+    --primary: 36.29 90.5% 53.69%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 300 0% 96.06%;
+    --secondary-foreground: 214.99 15.5% 34.68%;
+    --muted: 300 0% 97.37%;
+    --muted-foreground: 219.97 7.71% 45.75%;
+    --accent: 48.05 99.99% 97.01%;
+    --accent-foreground: 22.04 76.6% 31.8%;
+    --destructive: 359.91 86.11% 60.55%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 220.01 24.1% 91.61%;
+    --input: 220.01 24.1% 91.61%;
+    --ring: 36.29 90.5% 53.69%;
+    --chart-1: 36.29 90.5% 53.69%;
+    --chart-2: 32.72 99.9% 43.03%;
+    --chart-3: 27.04 99.37% 36.06%;
+    --chart-4: 22.04 76.6% 31.8%;
+    --chart-5: 22.83 88.39% 25.09%;
+    --radius: 0.375rem;
+    --sidebar: 300 0% 97.37%;
+    --sidebar-foreground: 300 0% 15.03%;
+    --sidebar-primary: 36.29 90.5% 53.69%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 48.05 99.99% 97.01%;
+    --sidebar-accent-foreground: 22.04 76.6% 31.8%;
+    --sidebar-border: 220.01 24.1% 91.61%;
+    --sidebar-ring: 36.29 90.5% 53.69%;
+    --font-sans: Inter, sans-serif;
+    --font-serif: Source Serif 4, serif;
+    --font-mono: JetBrains Mono, monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 8px;
+    --shadow-spread: -1px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 4px 6px -2px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 8px 10px -2px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.25);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 0 0% 8.61%;
+    --foreground: 0 0% 89.56%;
+    --card: 300 0% 15.03%;
+    --card-foreground: 0 0% 89.56%;
+    --popover: 300 0% 15.03%;
+    --popover-foreground: 0 0% 89.56%;
+    --primary: 36.29 90.5% 53.69%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 300 0% 15.03%;
+    --secondary-foreground: 0 0% 89.56%;
+    --muted: 300 0% 15.03%;
+    --muted-foreground: 300 0% 64.47%;
+    --accent: 22.04 76.6% 31.8%;
+    --accent-foreground: 48.03 96.12% 75.38%;
+    --destructive: 359.91 86.11% 60.55%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 0 0% 24.94%;
+    --input: 0 0% 24.94%;
+    --ring: 36.29 90.5% 53.69%;
+    --chart-1: 42.67 95.98% 58.75%;
+    --chart-2: 32.72 99.9% 43.03%;
+    --chart-3: 22.04 76.6% 31.8%;
+    --chart-4: 27.04 99.37% 36.06%;
+    --chart-5: 22.04 76.6% 31.8%;
+    --radius: 0.375rem;
+    --sidebar: 330 0% 6.02%;
+    --sidebar-foreground: 0 0% 89.56%;
+    --sidebar-primary: 36.29 90.5% 53.69%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 22.04 76.6% 31.8%;
+    --sidebar-accent-foreground: 48.03 96.12% 75.38%;
+    --sidebar-border: 0 0% 24.94%;
+    --sidebar-ring: 36.29 90.5% 53.69%;
+    --font-sans: Inter, sans-serif;
+    --font-serif: Source Serif 4, serif;
+    --font-mono: JetBrains Mono, monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 8px;
+    --shadow-spread: -1px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 1px 2px -2px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 4px 6px -2px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0px 4px 8px -1px hsl(0 0% 0% / 0.1), 0px 8px 10px -2px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.25);
+  }
+
+}

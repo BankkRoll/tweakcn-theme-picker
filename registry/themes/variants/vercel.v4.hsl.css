@@ -1,0 +1,124 @@
+/* Vercel Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="vercel-light"] {
+  --background: hsl(300 0% 98.68%);
+  --foreground: hsl(0 0% 0%);
+  --card: hsl(300 50% 100%);
+  --card-foreground: hsl(0 0% 0%);
+  --popover: hsl(300 0% 98.68%);
+  --popover-foreground: hsl(0 0% 0%);
+  --primary: hsl(0 0% 0%);
+  --primary-foreground: hsl(300 50% 100%);
+  --secondary: hsl(330 0% 92.15%);
+  --secondary-foreground: hsl(0 0% 0%);
+  --muted: hsl(300 0% 96.06%);
+  --muted-foreground: hsl(330 0% 32.31%);
+  --accent: hsl(330 0% 92.15%);
+  --accent-foreground: hsl(0 0% 0%);
+  --destructive: hsl(358.43 74.91% 59.75%);
+  --destructive-foreground: hsl(300 50% 100%);
+  --border: hsl(0 0% 89.56%);
+  --input: hsl(330 0% 92.15%);
+  --ring: hsl(0 0% 0%);
+  --chart-1: hsl(40.25 100% 52.09%);
+  --chart-2: hsl(223.75 85.99% 55.81%);
+  --chart-3: hsl(300 0% 64.47%);
+  --chart-4: hsl(0 0% 89.56%);
+  --chart-5: hsl(0 0% 45.61%);
+  --radius: 0.5rem;
+  --sidebar: hsl(300 0% 98.68%);
+  --sidebar-foreground: hsl(0 0% 0%);
+  --sidebar-primary: hsl(0 0% 0%);
+  --sidebar-primary-foreground: hsl(300 50% 100%);
+  --sidebar-accent: hsl(330 0% 92.15%);
+  --sidebar-accent-foreground: hsl(0 0% 0%);
+  --sidebar-border: hsl(330 0% 92.15%);
+  --sidebar-ring: hsl(0 0% 0%);
+  --font-sans: Geist, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Geist Mono, monospace;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-opacity: 0.18;
+  --shadow-blur: 2px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 1px 2px 0px hsl(0 0% 0% / 0.09);
+  --shadow-xs: 0px 1px 2px 0px hsl(0 0% 0% / 0.09);
+  --shadow-sm:
+    0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 1px 2px -1px hsl(0 0% 0% / 0.18);
+  --shadow:
+    0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 1px 2px -1px hsl(0 0% 0% / 0.18);
+  --shadow-md:
+    0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 2px 4px -1px hsl(0 0% 0% / 0.18);
+  --shadow-lg:
+    0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 4px 6px -1px hsl(0 0% 0% / 0.18);
+  --shadow-xl:
+    0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 8px 10px -1px hsl(0 0% 0% / 0.18);
+  --shadow-2xl: 0px 1px 2px 0px hsl(0 0% 0% / 0.45);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="vercel-dark"] {
+  --background: hsl(0 0% 0%);
+  --foreground: hsl(300 50% 100%);
+  --card: hsl(300 0% 3.55%);
+  --card-foreground: hsl(300 50% 100%);
+  --popover: hsl(0 0% 6.87%);
+  --popover-foreground: hsl(300 50% 100%);
+  --primary: hsl(300 50% 100%);
+  --primary-foreground: hsl(0 0% 0%);
+  --secondary: hsl(300 0% 13.15%);
+  --secondary-foreground: hsl(300 50% 100%);
+  --muted: hsl(0 0% 11.3%);
+  --muted-foreground: hsl(300 0% 64.47%);
+  --accent: hsl(0 0% 19.89%);
+  --accent-foreground: hsl(300 50% 100%);
+  --destructive: hsl(359.94 100% 67.89%);
+  --destructive-foreground: hsl(0 0% 0%);
+  --border: hsl(300 0% 14.09%);
+  --input: hsl(0 0% 19.89%);
+  --ring: hsl(300 0% 64.47%);
+  --chart-1: hsl(40.25 100% 52.09%);
+  --chart-2: hsl(218.16 90.04% 55.16%);
+  --chart-3: hsl(0 0% 45.61%);
+  --chart-4: hsl(330 0% 32.31%);
+  --chart-5: hsl(0 0% 89.56%);
+  --radius: 0.5rem;
+  --sidebar: hsl(0 0% 6.87%);
+  --sidebar-foreground: hsl(300 50% 100%);
+  --sidebar-primary: hsl(300 50% 100%);
+  --sidebar-primary-foreground: hsl(0 0% 0%);
+  --sidebar-accent: hsl(0 0% 19.89%);
+  --sidebar-accent-foreground: hsl(300 50% 100%);
+  --sidebar-border: hsl(0 0% 19.89%);
+  --sidebar-ring: hsl(300 0% 64.47%);
+  --font-sans: Geist, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Geist Mono, monospace;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-opacity: 0.18;
+  --shadow-blur: 2px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 1px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 1px 2px 0px hsl(0 0% 0% / 0.09);
+  --shadow-xs: 0px 1px 2px 0px hsl(0 0% 0% / 0.09);
+  --shadow-sm:
+    0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 1px 2px -1px hsl(0 0% 0% / 0.18);
+  --shadow:
+    0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 1px 2px -1px hsl(0 0% 0% / 0.18);
+  --shadow-md:
+    0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 2px 4px -1px hsl(0 0% 0% / 0.18);
+  --shadow-lg:
+    0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 4px 6px -1px hsl(0 0% 0% / 0.18);
+  --shadow-xl:
+    0px 1px 2px 0px hsl(0 0% 0% / 0.18), 0px 8px 10px -1px hsl(0 0% 0% / 0.18);
+  --shadow-2xl: 0px 1px 2px 0px hsl(0 0% 0% / 0.45);
+}

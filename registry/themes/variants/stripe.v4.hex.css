@@ -1,0 +1,128 @@
+/* Stripe Theme - Official Stripe brand colors */
+
+/* Light mode */
+[data-theme="stripe-light"] {
+  --background: #f5f9fc;
+  --foreground: #061c31;
+  --card: #ffffff;
+  --card-foreground: #061c31;
+  --popover: #ffffff;
+  --popover-foreground: #061c31;
+  --primary: #6d45f9;
+  --primary-foreground: #ffffff;
+  --secondary: #eaeff3;
+  --secondary-foreground: #1e2f41;
+  --muted: #eef2f5;
+  --muted-foreground: #495766;
+  --accent: #00dfe8;
+  --accent-foreground: #002021;
+  --destructive: #d40924;
+  --destructive-foreground: #ffffff;
+  --border: #d9dfe3;
+  --input: #e0e5e9;
+  --ring: #6d45f9;
+  --chart-1: #6d45f9;
+  --chart-2: #00dfe8;
+  --chart-3: #be64d2;
+  --chart-4: #4cb86a;
+  --chart-5: #de3e2d;
+  --radius: 0.5rem;
+  --sidebar: #061c31;
+  --sidebar-foreground: #ebeff2;
+  --sidebar-primary: #7960fb;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #192f46;
+  --sidebar-accent-foreground: #ebeff2;
+  --sidebar-border: #263c54;
+  --sidebar-ring: #7960fb;
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+  --shadow-color: #142952;
+  --shadow-opacity: 0.08;
+  --shadow-blur: 6px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0;
+  --shadow-offset-y: 2px;
+  --letter-spacing: -0.01em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0 1px 2px 0px hsl(220 60% 20% / 0.04);
+  --shadow-xs: 0 1px 3px 0px hsl(220 60% 20% / 0.06);
+  --shadow-sm:
+    0 2px 4px 0px hsl(220 60% 20% / 0.08),
+    0 1px 2px -1px hsl(220 60% 20% / 0.08);
+  --shadow:
+    0 2px 4px 0px hsl(220 60% 20% / 0.08),
+    0 1px 2px -1px hsl(220 60% 20% / 0.08);
+  --shadow-md:
+    0 4px 8px 0px hsl(220 60% 20% / 0.1), 0 2px 4px -1px hsl(220 60% 20% / 0.1);
+  --shadow-lg:
+    0 8px 16px 0px hsl(220 60% 20% / 0.1), 0 4px 8px -1px hsl(220 60% 20% / 0.1);
+  --shadow-xl:
+    0 16px 24px 0px hsl(220 60% 20% / 0.12),
+    0 8px 12px -1px hsl(220 60% 20% / 0.12);
+  --shadow-2xl: 0 24px 48px 0px hsl(220 60% 20% / 0.2);
+  --tracking-normal: -0.01em;
+}
+
+/* Dark mode - #0A2540 is Stripe's signature navy background */
+[data-theme="stripe-dark"] {
+  --background: #061c31;
+  --foreground: #ebeff2;
+  --card: #0f253b;
+  --card-foreground: #ebeff2;
+  --popover: #142a41;
+  --popover-foreground: #ebeff2;
+  --primary: #795eff;
+  --primary-foreground: #ffffff;
+  --secondary: #192f46;
+  --secondary-foreground: #dbdfe2;
+  --muted: #192a3c;
+  --muted-foreground: #85919a;
+  --accent: #00dfe8;
+  --accent-foreground: #002021;
+  --destructive: #de3b3d;
+  --destructive-foreground: #ffffff;
+  --border: #263c54;
+  --input: #192f46;
+  --ring: #795eff;
+  --chart-1: #795eff;
+  --chart-2: #00dfe8;
+  --chart-3: #c97adb;
+  --chart-4: #65c67d;
+  --chart-5: #e85a48;
+  --radius: 0.5rem;
+  --sidebar: #001226;
+  --sidebar-foreground: #ebeff2;
+  --sidebar-primary: #795eff;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #192f46;
+  --sidebar-accent-foreground: #dbdfe2;
+  --sidebar-border: #263c54;
+  --sidebar-ring: #795eff;
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.4;
+  --shadow-blur: 6px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0;
+  --shadow-offset-y: 2px;
+  --letter-spacing: -0.01em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0 1px 2px 0px hsl(0 0% 0% / 0.2);
+  --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.3);
+  --shadow-sm:
+    0 2px 4px 0px hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+  --shadow: 0 2px 4px 0px hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+  --shadow-md:
+    0 4px 8px 0px hsl(0 0% 0% / 0.4), 0 2px 4px -1px hsl(0 0% 0% / 0.4);
+  --shadow-lg:
+    0 8px 16px 0px hsl(0 0% 0% / 0.4), 0 4px 8px -1px hsl(0 0% 0% / 0.4);
+  --shadow-xl:
+    0 16px 24px 0px hsl(0 0% 0% / 0.4), 0 8px 12px -1px hsl(0 0% 0% / 0.4);
+  --shadow-2xl: 0 24px 48px 0px hsl(0 0% 0% / 0.5);
+}

@@ -1,0 +1,124 @@
+/* Doom 64 Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="doom-64-light"] {
+  --background: #cecece;
+  --foreground: #1f1f1f;
+  --card: #b1b1b1;
+  --card-foreground: #1f1f1f;
+  --popover: #b1b1b1;
+  --popover-foreground: #1f1f1f;
+  --primary: #b71a1b;
+  --primary-foreground: #ffffff;
+  --secondary: #566c30;
+  --secondary-foreground: #ffffff;
+  --muted: #b7b7b7;
+  --muted-foreground: #4a4a4a;
+  --accent: #4683b5;
+  --accent-foreground: #ffffff;
+  --destructive: #ff710b;
+  --destructive-foreground: #000000;
+  --border: #505050;
+  --input: #505050;
+  --ring: #b71a1b;
+  --chart-1: #b71a1b;
+  --chart-2: #566c30;
+  --chart-3: #4683b5;
+  --chart-4: #ff710b;
+  --chart-5: #8d7066;
+  --radius: 0px;
+  --sidebar: #b1b1b1;
+  --sidebar-foreground: #1f1f1f;
+  --sidebar-primary: #b71a1b;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #4683b5;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #505050;
+  --sidebar-ring: #b71a1b;
+  --font-sans: "Oxanium", sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "Source Code Pro", monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.4;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 2px 4px 0px hsl(0 0% 0% / 0.2);
+  --shadow-xs: 0px 2px 4px 0px hsl(0 0% 0% / 0.2);
+  --shadow-sm:
+    0px 2px 4px 0px hsl(0 0% 0% / 0.4), 0px 1px 2px -1px hsl(0 0% 0% / 0.4);
+  --shadow:
+    0px 2px 4px 0px hsl(0 0% 0% / 0.4), 0px 1px 2px -1px hsl(0 0% 0% / 0.4);
+  --shadow-md:
+    0px 2px 4px 0px hsl(0 0% 0% / 0.4), 0px 2px 4px -1px hsl(0 0% 0% / 0.4);
+  --shadow-lg:
+    0px 2px 4px 0px hsl(0 0% 0% / 0.4), 0px 4px 6px -1px hsl(0 0% 0% / 0.4);
+  --shadow-xl:
+    0px 2px 4px 0px hsl(0 0% 0% / 0.4), 0px 8px 10px -1px hsl(0 0% 0% / 0.4);
+  --shadow-2xl: 0px 2px 4px 0px hsl(0 0% 0% / 1);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="doom-64-dark"] {
+  --background: #1b1b1b;
+  --foreground: #e1e1e1;
+  --card: #2b2b2b;
+  --card-foreground: #e1e1e1;
+  --popover: #2b2b2b;
+  --popover-foreground: #e1e1e1;
+  --primary: #e63935;
+  --primary-foreground: #ffffff;
+  --secondary: #669f34;
+  --secondary-foreground: #000000;
+  --muted: #242424;
+  --muted-foreground: #a1a1a1;
+  --accent: #67b5f5;
+  --accent-foreground: #000000;
+  --destructive: #fd9f07;
+  --destructive-foreground: #000000;
+  --border: #4a4a4a;
+  --input: #4a4a4a;
+  --ring: #e63935;
+  --chart-1: #e63935;
+  --chart-2: #669f34;
+  --chart-3: #67b5f5;
+  --chart-4: #fd9f07;
+  --chart-5: #a08a81;
+  --radius: 0px;
+  --sidebar: #141414;
+  --sidebar-foreground: #e1e1e1;
+  --sidebar-primary: #e63935;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #67b5f5;
+  --sidebar-accent-foreground: #000000;
+  --sidebar-border: #4a4a4a;
+  --sidebar-ring: #e63935;
+  --font-sans: "Oxanium", sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "Source Code Pro", monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.6;
+  --shadow-blur: 5px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 2px 5px 0px hsl(0 0% 0% / 0.3);
+  --shadow-xs: 0px 2px 5px 0px hsl(0 0% 0% / 0.3);
+  --shadow-sm:
+    0px 2px 5px 0px hsl(0 0% 0% / 0.6), 0px 1px 2px -1px hsl(0 0% 0% / 0.6);
+  --shadow:
+    0px 2px 5px 0px hsl(0 0% 0% / 0.6), 0px 1px 2px -1px hsl(0 0% 0% / 0.6);
+  --shadow-md:
+    0px 2px 5px 0px hsl(0 0% 0% / 0.6), 0px 2px 4px -1px hsl(0 0% 0% / 0.6);
+  --shadow-lg:
+    0px 2px 5px 0px hsl(0 0% 0% / 0.6), 0px 4px 6px -1px hsl(0 0% 0% / 0.6);
+  --shadow-xl:
+    0px 2px 5px 0px hsl(0 0% 0% / 0.6), 0px 8px 10px -1px hsl(0 0% 0% / 0.6);
+  --shadow-2xl: 0px 2px 5px 0px hsl(0 0% 0% / 1.5);
+}

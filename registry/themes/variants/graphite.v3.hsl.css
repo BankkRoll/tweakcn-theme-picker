@@ -1,0 +1,130 @@
+/* Graphite Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Graphite Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 300 0% 94.75%;
+    --foreground: 0 0% 19.89%;
+    --card: 300 0% 96.06%;
+    --card-foreground: 0 0% 19.89%;
+    --popover: 300 0% 96.06%;
+    --popover-foreground: 0 0% 19.89%;
+    --primary: 0 0% 37.75%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 0 0% 88.27%;
+    --secondary-foreground: 0 0% 19.89%;
+    --muted: 340 0% 85.7%;
+    --muted-foreground: 300 0% 39.97%;
+    --accent: 320 0% 75.57%;
+    --accent-foreground: 0 0% 19.89%;
+    --destructive: 0.01 60.12% 50.08%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 320 0% 81.87%;
+    --input: 0 0% 88.27%;
+    --ring: 0 0% 37.75%;
+    --chart-1: 0 0% 37.75%;
+    --chart-2: 180.08 20.2% 33.86%;
+    --chart-3: 330 0% 56.07%;
+    --chart-4: 0 0% 65.69%;
+    --chart-5: 320 0% 75.57%;
+    --radius: 0.35rem;
+    --sidebar: 330 0% 92.15%;
+    --sidebar-foreground: 0 0% 19.89%;
+    --sidebar-primary: 0 0% 37.75%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 320 0% 75.57%;
+    --sidebar-accent-foreground: 0 0% 19.89%;
+    --sidebar-border: 320 0% 81.87%;
+    --sidebar-ring: 0 0% 37.75%;
+    --font-sans: Montserrat, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: Fira Code, monospace;
+    --shadow-color: 340 0% 20%;
+    --shadow-opacity: 0.15;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 2px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 2px 0px 0px hsl(0 0% 20% / 0.07);
+    --shadow-xs: 0px 2px 0px 0px hsl(0 0% 20% / 0.07);
+    --shadow-sm:
+      0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 1px 2px -1px hsl(0 0% 20% / 0.15);
+    --shadow:
+      0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 1px 2px -1px hsl(0 0% 20% / 0.15);
+    --shadow-md:
+      0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 2px 4px -1px hsl(0 0% 20% / 0.15);
+    --shadow-lg:
+      0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 4px 6px -1px hsl(0 0% 20% / 0.15);
+    --shadow-xl:
+      0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 8px 10px -1px hsl(0 0% 20% / 0.15);
+    --shadow-2xl: 0px 2px 0px 0px hsl(0 0% 20% / 0.38);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 300 0% 10.4%;
+    --foreground: 340 0% 85.7%;
+    --card: 330 0% 12.22%;
+    --card-foreground: 340 0% 85.7%;
+    --popover: 330 0% 12.22%;
+    --popover-foreground: 340 0% 85.7%;
+    --primary: 0 0% 63.26%;
+    --primary-foreground: 300 0% 10.4%;
+    --secondary: 320 0% 18.9%;
+    --secondary-foreground: 340 0% 85.7%;
+    --muted: 300 0% 16.95%;
+    --muted-foreground: 0 0% 50.21%;
+    --accent: 0 0% 24.94%;
+    --accent-foreground: 340 0% 85.7%;
+    --destructive: 0.14 65.17% 63.96%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 300 0% 20.89%;
+    --input: 320 0% 18.9%;
+    --ring: 0 0% 63.26%;
+    --chart-1: 0 0% 63.26%;
+    --chart-2: 187.06 13.39% 56.25%;
+    --chart-3: 0 0% 44.47%;
+    --chart-4: 0 0% 34.47%;
+    --chart-5: 0 0% 24.94%;
+    --radius: 0.35rem;
+    --sidebar: 330 0% 12.22%;
+    --sidebar-foreground: 340 0% 85.7%;
+    --sidebar-primary: 0 0% 63.26%;
+    --sidebar-primary-foreground: 300 0% 10.4%;
+    --sidebar-accent: 0 0% 24.94%;
+    --sidebar-accent-foreground: 340 0% 85.7%;
+    --sidebar-border: 300 0% 20.89%;
+    --sidebar-ring: 0 0% 63.26%;
+    --font-sans: Inter, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: Fira Code, monospace;
+    --shadow-color: 340 0% 20%;
+    --shadow-opacity: 0.15;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 2px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 2px 0px 0px hsl(0 0% 20% / 0.07);
+    --shadow-xs: 0px 2px 0px 0px hsl(0 0% 20% / 0.07);
+    --shadow-sm:
+      0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 1px 2px -1px hsl(0 0% 20% / 0.15);
+    --shadow:
+      0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 1px 2px -1px hsl(0 0% 20% / 0.15);
+    --shadow-md:
+      0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 2px 4px -1px hsl(0 0% 20% / 0.15);
+    --shadow-lg:
+      0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 4px 6px -1px hsl(0 0% 20% / 0.15);
+    --shadow-xl:
+      0px 2px 0px 0px hsl(0 0% 20% / 0.15), 0px 8px 10px -1px hsl(0 0% 20% / 0.15);
+    --shadow-2xl: 0px 2px 0px 0px hsl(0 0% 20% / 0.38);
+  }
+
+}

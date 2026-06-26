@@ -1,0 +1,140 @@
+/* Vintage Paper Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Vintage Paper Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 247 242 227;
+    --foreground: 74 64 55;
+    --card: 255 252 244;
+    --card-foreground: 74 64 55;
+    --popover: 255 252 244;
+    --popover-foreground: 74 64 55;
+    --primary: 168 124 81;
+    --primary-foreground: 255 255 255;
+    --secondary: 224 214 194;
+    --secondary-foreground: 92 77 63;
+    --muted: 235 228 214;
+    --muted-foreground: 126 107 85;
+    --accent: 210 199 170;
+    --accent-foreground: 74 64 55;
+    --destructive: 180 76 56;
+    --destructive-foreground: 255 255 255;
+    --border: 218 208 187;
+    --input: 218 208 187;
+    --ring: 168 124 81;
+    --chart-1: 168 124 81;
+    --chart-2: 140 110 78;
+    --chart-3: 117 91 57;
+    --chart-4: 179 145 113;
+    --chart-5: 194 161 128;
+    --radius: 0.25rem;
+    --sidebar: 235 228 214;
+    --sidebar-foreground: 74 64 55;
+    --sidebar-primary: 168 124 81;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 210 199 170;
+    --sidebar-accent-foreground: 74 64 55;
+    --sidebar-border: 218 208 187;
+    --sidebar-ring: 168 124 81;
+    --font-sans: Libre Baskerville, serif;
+    --font-serif: Lora, serif;
+    --font-mono: IBM Plex Mono, monospace;
+    --shadow-color: 58 51 44;
+    --shadow-opacity: 0.12;
+    --shadow-blur: 5px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 2px;
+    --shadow-offset-y: 3px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 2px 3px 5px 0px hsl(28 13% 20% / 0.06);
+    --shadow-xs: 2px 3px 5px 0px hsl(28 13% 20% / 0.06);
+    --shadow-sm:
+      2px 3px 5px 0px hsl(28 13% 20% / 0.12),
+      2px 1px 2px -1px hsl(28 13% 20% / 0.12);
+    --shadow:
+      2px 3px 5px 0px hsl(28 13% 20% / 0.12),
+      2px 1px 2px -1px hsl(28 13% 20% / 0.12);
+    --shadow-md:
+      2px 3px 5px 0px hsl(28 13% 20% / 0.12),
+      2px 2px 4px -1px hsl(28 13% 20% / 0.12);
+    --shadow-lg:
+      2px 3px 5px 0px hsl(28 13% 20% / 0.12),
+      2px 4px 6px -1px hsl(28 13% 20% / 0.12);
+    --shadow-xl:
+      2px 3px 5px 0px hsl(28 13% 20% / 0.12),
+      2px 8px 10px -1px hsl(28 13% 20% / 0.12);
+    --shadow-2xl: 2px 3px 5px 0px hsl(28 13% 20% / 0.3);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 42 37 34;
+    --foreground: 235 228 214;
+    --card: 59 49 41;
+    --card-foreground: 235 228 214;
+    --popover: 59 49 41;
+    --popover-foreground: 235 228 214;
+    --primary: 194 161 128;
+    --primary-foreground: 42 37 34;
+    --secondary: 75 64 56;
+    --secondary-foreground: 235 228 214;
+    --muted: 59 49 41;
+    --muted-foreground: 196 189 176;
+    --accent: 90 73 61;
+    --accent-foreground: 235 228 214;
+    --destructive: 180 76 56;
+    --destructive-foreground: 255 255 255;
+    --border: 75 64 56;
+    --input: 75 64 56;
+    --ring: 194 161 128;
+    --chart-1: 194 161 128;
+    --chart-2: 179 145 113;
+    --chart-3: 168 124 81;
+    --chart-4: 140 110 78;
+    --chart-5: 117 91 57;
+    --radius: 0.25rem;
+    --sidebar: 42 37 34;
+    --sidebar-foreground: 235 228 214;
+    --sidebar-primary: 194 161 128;
+    --sidebar-primary-foreground: 42 37 34;
+    --sidebar-accent: 90 73 61;
+    --sidebar-accent-foreground: 235 228 214;
+    --sidebar-border: 75 64 56;
+    --sidebar-ring: 194 161 128;
+    --font-sans: Libre Baskerville, serif;
+    --font-serif: Lora, serif;
+    --font-mono: IBM Plex Mono, monospace;
+    --shadow-color: 58 51 44;
+    --shadow-opacity: 0.12;
+    --shadow-blur: 5px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 2px;
+    --shadow-offset-y: 3px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 2px 3px 5px 0px hsl(28 13% 20% / 0.06);
+    --shadow-xs: 2px 3px 5px 0px hsl(28 13% 20% / 0.06);
+    --shadow-sm:
+      2px 3px 5px 0px hsl(28 13% 20% / 0.12),
+      2px 1px 2px -1px hsl(28 13% 20% / 0.12);
+    --shadow:
+      2px 3px 5px 0px hsl(28 13% 20% / 0.12),
+      2px 1px 2px -1px hsl(28 13% 20% / 0.12);
+    --shadow-md:
+      2px 3px 5px 0px hsl(28 13% 20% / 0.12),
+      2px 2px 4px -1px hsl(28 13% 20% / 0.12);
+    --shadow-lg:
+      2px 3px 5px 0px hsl(28 13% 20% / 0.12),
+      2px 4px 6px -1px hsl(28 13% 20% / 0.12);
+    --shadow-xl:
+      2px 3px 5px 0px hsl(28 13% 20% / 0.12),
+      2px 8px 10px -1px hsl(28 13% 20% / 0.12);
+    --shadow-2xl: 2px 3px 5px 0px hsl(28 13% 20% / 0.3);
+  }
+
+}

@@ -1,0 +1,140 @@
+/* Bubblegum Theme — Tailwind v3 (hex) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Bubblegum Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 246 230 238;
+    --foreground: 91 91 91;
+    --card: 253 237 201;
+    --card-foreground: 91 91 91;
+    --popover: 255 255 255;
+    --popover-foreground: 91 91 91;
+    --primary: 208 79 153;
+    --primary-foreground: 255 255 255;
+    --secondary: 138 207 209;
+    --secondary-foreground: 51 51 51;
+    --muted: 178 225 235;
+    --muted-foreground: 122 122 122;
+    --accent: 251 226 167;
+    --accent-foreground: 51 51 51;
+    --destructive: 249 111 112;
+    --destructive-foreground: 255 255 255;
+    --border: 208 79 153;
+    --input: 228 228 228;
+    --ring: 230 112 171;
+    --chart-1: 230 112 171;
+    --chart-2: 132 210 226;
+    --chart-3: 251 226 167;
+    --chart-4: 243 160 202;
+    --chart-5: 215 72 142;
+    --radius: 0.4rem;
+    --sidebar: 245 215 232;
+    --sidebar-foreground: 51 51 51;
+    --sidebar-primary: 237 75 154;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 248 167 211;
+    --sidebar-accent-foreground: 51 51 51;
+    --sidebar-border: 244 234 255;
+    --sidebar-ring: 237 75 154;
+    --font-sans: Poppins, sans-serif;
+    --font-serif: Lora, serif;
+    --font-mono: Fira Code, monospace;
+    --shadow-color: 209 81 154;
+    --shadow-opacity: 1;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 3px;
+    --shadow-offset-y: 3px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 0.5);
+    --shadow-xs: 3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 0.5);
+    --shadow-sm:
+      3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 1),
+      3px 1px 2px -1px hsl(325.78 58.18% 56.86% / 1);
+    --shadow:
+      3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 1),
+      3px 1px 2px -1px hsl(325.78 58.18% 56.86% / 1);
+    --shadow-md:
+      3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 1),
+      3px 2px 4px -1px hsl(325.78 58.18% 56.86% / 1);
+    --shadow-lg:
+      3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 1),
+      3px 4px 6px -1px hsl(325.78 58.18% 56.86% / 1);
+    --shadow-xl:
+      3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 1),
+      3px 8px 10px -1px hsl(325.78 58.18% 56.86% / 1);
+    --shadow-2xl: 3px 3px 0px 0px hsl(325.78 58.18% 56.86% / 2.5);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 18 36 46;
+    --foreground: 243 227 234;
+    --card: 28 46 56;
+    --card-foreground: 243 227 234;
+    --popover: 28 46 56;
+    --popover-foreground: 243 227 234;
+    --primary: 251 226 167;
+    --primary-foreground: 18 36 46;
+    --secondary: 228 162 177;
+    --secondary-foreground: 18 36 46;
+    --muted: 35 39 43;
+    --muted-foreground: 228 162 177;
+    --accent: 199 123 150;
+    --accent-foreground: 243 227 234;
+    --destructive: 227 94 164;
+    --destructive-foreground: 18 36 46;
+    --border: 50 72 89;
+    --input: 32 51 61;
+    --ring: 80 175 182;
+    --chart-1: 80 175 182;
+    --chart-2: 228 162 177;
+    --chart-3: 199 123 150;
+    --chart-4: 23 92 108;
+    --chart-5: 35 39 43;
+    --radius: 0.4rem;
+    --sidebar: 14 31 41;
+    --sidebar-foreground: 245 245 245;
+    --sidebar-primary: 237 75 154;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 248 167 211;
+    --sidebar-accent-foreground: 31 41 56;
+    --sidebar-border: 54 64 80;
+    --sidebar-ring: 237 75 154;
+    --font-sans: Poppins, sans-serif;
+    --font-serif: Lora, serif;
+    --font-mono: Fira Code, monospace;
+    --shadow-color: 50 72 89;
+    --shadow-opacity: 1;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 3px;
+    --shadow-offset-y: 3px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 0.5);
+    --shadow-xs: 3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 0.5);
+    --shadow-sm:
+      3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 1),
+      3px 1px 2px -1px hsl(206.15 28.06% 27.25% / 1);
+    --shadow:
+      3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 1),
+      3px 1px 2px -1px hsl(206.15 28.06% 27.25% / 1);
+    --shadow-md:
+      3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 1),
+      3px 2px 4px -1px hsl(206.15 28.06% 27.25% / 1);
+    --shadow-lg:
+      3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 1),
+      3px 4px 6px -1px hsl(206.15 28.06% 27.25% / 1);
+    --shadow-xl:
+      3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 1),
+      3px 8px 10px -1px hsl(206.15 28.06% 27.25% / 1);
+    --shadow-2xl: 3px 3px 0px 0px hsl(206.15 28.06% 27.25% / 2.5);
+  }
+
+}

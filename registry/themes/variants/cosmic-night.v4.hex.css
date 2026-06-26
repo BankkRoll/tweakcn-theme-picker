@@ -1,0 +1,134 @@
+/* Cosmic Night Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="cosmic-night-light"] {
+  --background: #f4f4fc;
+  --foreground: #2a294b;
+  --card: #ffffff;
+  --card-foreground: #2a294b;
+  --popover: #ffffff;
+  --popover-foreground: #2a294b;
+  --primary: #6e55cf;
+  --primary-foreground: #ffffff;
+  --secondary: #e5e0fe;
+  --secondary-foreground: #493f7d;
+  --muted: #f1f1f8;
+  --muted-foreground: #6b6b8b;
+  --accent: #d7e5ff;
+  --accent-foreground: #2a294b;
+  --destructive: #ff5772;
+  --destructive-foreground: #ffffff;
+  --border: #e0e0ee;
+  --input: #e0e0ee;
+  --ring: #6e55cf;
+  --chart-1: #6e55cf;
+  --chart-2: #9d8bfa;
+  --chart-3: #5e60ef;
+  --chart-4: #7d77fa;
+  --chart-5: #473fb5;
+  --radius: 0.5rem;
+  --sidebar: #f1f1f8;
+  --sidebar-foreground: #2a294b;
+  --sidebar-primary: #6e55cf;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #d7e5ff;
+  --sidebar-accent-foreground: #2a294b;
+  --sidebar-border: #e0e0ee;
+  --sidebar-ring: #6e55cf;
+  --font-sans: Inter, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: JetBrains Mono, monospace;
+  --shadow-color: #2d2d53;
+  --shadow-opacity: 0.12;
+  --shadow-blur: 10px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 4px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+  --shadow-xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+  --shadow-sm:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow-md:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+  --shadow-lg:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+  --shadow-xl:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+  --shadow-2xl: 0px 4px 10px 0px hsl(240 30% 25% / 0.3);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="cosmic-night-dark"] {
+  --background: #0e0e18;
+  --foreground: #e2e2f8;
+  --card: #1a1a2f;
+  --card-foreground: #e2e2f8;
+  --popover: #1a1a2f;
+  --popover-foreground: #e2e2f8;
+  --primary: #a591ff;
+  --primary-foreground: #0e0e18;
+  --secondary: #2c2a52;
+  --secondary-foreground: #c5c4fd;
+  --muted: #222243;
+  --muted-foreground: #a1a1c3;
+  --accent: #313260;
+  --accent-foreground: #e2e2f8;
+  --destructive: #ff5772;
+  --destructive-foreground: #ffffff;
+  --border: #313153;
+  --input: #313153;
+  --ring: #a591ff;
+  --chart-1: #a591ff;
+  --chart-2: #7a87c9;
+  --chart-3: #67b5f5;
+  --chart-4: #49b6ab;
+  --chart-5: #fc79c4;
+  --radius: 0.5rem;
+  --sidebar: #1a1a2f;
+  --sidebar-foreground: #e2e2f8;
+  --sidebar-primary: #a591ff;
+  --sidebar-primary-foreground: #0e0e18;
+  --sidebar-accent: #313260;
+  --sidebar-accent-foreground: #e2e2f8;
+  --sidebar-border: #313153;
+  --sidebar-ring: #a591ff;
+  --font-sans: Inter, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: JetBrains Mono, monospace;
+  --shadow-color: #2d2d53;
+  --shadow-opacity: 0.12;
+  --shadow-blur: 10px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0px;
+  --shadow-offset-y: 4px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+  --shadow-xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+  --shadow-sm:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow-md:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+  --shadow-lg:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+  --shadow-xl:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+  --shadow-2xl: 0px 4px 10px 0px hsl(240 30% 25% / 0.3);
+}

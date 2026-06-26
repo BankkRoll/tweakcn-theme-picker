@@ -36,6 +36,11 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "registry/nextjs",
+    "registry/vite",
+    "registry/astro",
+    "registry/remix",
+    "scripts"
   ]
 }

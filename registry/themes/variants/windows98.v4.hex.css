@@ -1,0 +1,123 @@
+/* Windows 98 Theme */
+
+/* Light mode */
+[data-theme="windows98-light"] {
+  --background: #008080;
+  --foreground: #000000;
+  --card: #c0c0c0;
+  --card-foreground: #000000;
+  --popover: #c0c0c0;
+  --popover-foreground: #000000;
+  --primary: #001372;
+  --primary-foreground: #ffffff;
+  --secondary: #808080;
+  --secondary-foreground: #000000;
+  --muted: #808080;
+  --muted-foreground: #000000;
+  --accent: #001372;
+  --accent-foreground: #ffffff;
+  --destructive: #ff0000;
+  --destructive-foreground: #ffffff;
+  --border: #808080;
+  --input: #ffffff;
+  --ring: #001372;
+  --chart-1: #001372;
+  --chart-2: #008000;
+  --chart-3: #800080;
+  --chart-4: #ff0000;
+  --chart-5: #808000;
+  --radius: 0px;
+  --sidebar: #c0c0c0;
+  --sidebar-foreground: #000000;
+  --sidebar-primary: #001372;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #001372;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #808080;
+  --sidebar-ring: #001372;
+  --font-sans: "Pixelify Sans", sans-serif;
+  --font-serif: "Pixelify Sans", serif;
+  --font-mono: "Pixelify Sans", monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 1;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0.025rem;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+  --shadow-xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+  --shadow-sm:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+  --shadow: 2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+  --shadow-md:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 2px 4px -1px hsl(0 0% 0% / 1);
+  --shadow-lg:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 4px 6px -1px hsl(0 0% 0% / 1);
+  --shadow-xl:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 8px 10px -1px hsl(0 0% 0% / 1);
+  --shadow-2xl: 2px 2px 0px 0px hsl(0 0% 0% / 2.5);
+  --tracking-normal: 0.025rem;
+}
+
+/* Dark mode */
+[data-theme="windows98-dark"] {
+  --background: #008080;
+  --foreground: #000000;
+  --card: #c0c0c0;
+  --card-foreground: #000000;
+  --popover: #c0c0c0;
+  --popover-foreground: #000000;
+  --primary: #001372;
+  --primary-foreground: #ffffff;
+  --secondary: #808080;
+  --secondary-foreground: #000000;
+  --muted: #808080;
+  --muted-foreground: #ffffff;
+  --accent: #001372;
+  --accent-foreground: #ffffff;
+  --destructive: #ff0000;
+  --destructive-foreground: #ffffff;
+  --border: #808080;
+  --input: #ffffff;
+  --ring: #001372;
+  --chart-1: #001372;
+  --chart-2: #008080;
+  --chart-3: #800080;
+  --chart-4: #ff0000;
+  --chart-5: #00ff00;
+  --radius: 0px;
+  --sidebar: #c0c0c0;
+  --sidebar-foreground: #000000;
+  --sidebar-primary: #001372;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #001372;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #808080;
+  --sidebar-ring: #001372;
+  --font-sans: "Pixelify Sans", sans-serif;
+  --font-serif: "Pixelify Sans", serif;
+  --font-mono: "Pixelify Sans", monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 1;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0.025rem;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+  --shadow-xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+  --shadow-sm:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+  --shadow: 2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+  --shadow-md:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 2px 4px -1px hsl(0 0% 0% / 1);
+  --shadow-lg:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 4px 6px -1px hsl(0 0% 0% / 1);
+  --shadow-xl:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 8px 10px -1px hsl(0 0% 0% / 1);
+  --shadow-2xl: 2px 2px 0px 0px hsl(0 0% 0% / 2.5);
+  --tracking-normal: 0.025rem;
+}

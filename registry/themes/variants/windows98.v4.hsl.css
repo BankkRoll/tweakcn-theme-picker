@@ -1,0 +1,123 @@
+/* Windows 98 Theme */
+
+/* Light mode */
+[data-theme="windows98-light"] {
+  --background: hsl(180 99.95% 25.1%);
+  --foreground: hsl(0 0% 0%);
+  --card: hsl(300 0% 75.29%);
+  --card-foreground: hsl(0 0% 0%);
+  --popover: hsl(300 0% 75.29%);
+  --popover-foreground: hsl(0 0% 0%);
+  --primary: hsl(230.01 100% 22.43%);
+  --primary-foreground: hsl(300 50% 100%);
+  --secondary: hsl(300 0% 50.2%);
+  --secondary-foreground: hsl(0 0% 0%);
+  --muted: hsl(300 0% 50.2%);
+  --muted-foreground: hsl(0 0% 0%);
+  --accent: hsl(230.01 100% 22.43%);
+  --accent-foreground: hsl(300 50% 100%);
+  --destructive: hsl(0.03 100% 50.03%);
+  --destructive-foreground: hsl(300 50% 100%);
+  --border: hsl(300 0% 50.2%);
+  --input: hsl(300 50% 100%);
+  --ring: hsl(230.01 100% 22.43%);
+  --chart-1: hsl(230.01 100% 22.43%);
+  --chart-2: hsl(120 99.95% 25.11%);
+  --chart-3: hsl(300 99.91% 25.11%);
+  --chart-4: hsl(0.03 100% 50.03%);
+  --chart-5: hsl(60 99.92% 25.11%);
+  --radius: 0px;
+  --sidebar: hsl(300 0% 75.29%);
+  --sidebar-foreground: hsl(0 0% 0%);
+  --sidebar-primary: hsl(230.01 100% 22.43%);
+  --sidebar-primary-foreground: hsl(300 50% 100%);
+  --sidebar-accent: hsl(230.01 100% 22.43%);
+  --sidebar-accent-foreground: hsl(300 50% 100%);
+  --sidebar-border: hsl(300 0% 50.2%);
+  --sidebar-ring: hsl(230.01 100% 22.43%);
+  --font-sans: "Pixelify Sans", sans-serif;
+  --font-serif: "Pixelify Sans", serif;
+  --font-mono: "Pixelify Sans", monospace;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-opacity: 1;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0.025rem;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+  --shadow-xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+  --shadow-sm:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+  --shadow: 2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+  --shadow-md:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 2px 4px -1px hsl(0 0% 0% / 1);
+  --shadow-lg:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 4px 6px -1px hsl(0 0% 0% / 1);
+  --shadow-xl:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 8px 10px -1px hsl(0 0% 0% / 1);
+  --shadow-2xl: 2px 2px 0px 0px hsl(0 0% 0% / 2.5);
+  --tracking-normal: 0.025rem;
+}
+
+/* Dark mode */
+[data-theme="windows98-dark"] {
+  --background: hsl(180 99.95% 25.1%);
+  --foreground: hsl(0 0% 0%);
+  --card: hsl(300 0% 75.29%);
+  --card-foreground: hsl(0 0% 0%);
+  --popover: hsl(300 0% 75.29%);
+  --popover-foreground: hsl(0 0% 0%);
+  --primary: hsl(230.01 100% 22.43%);
+  --primary-foreground: hsl(300 50% 100%);
+  --secondary: hsl(300 0% 50.2%);
+  --secondary-foreground: hsl(0 0% 0%);
+  --muted: hsl(300 0% 50.2%);
+  --muted-foreground: hsl(300 50% 100%);
+  --accent: hsl(230.01 100% 22.43%);
+  --accent-foreground: hsl(300 50% 100%);
+  --destructive: hsl(0.03 100% 50.03%);
+  --destructive-foreground: hsl(300 50% 100%);
+  --border: hsl(300 0% 50.2%);
+  --input: hsl(300 50% 100%);
+  --ring: hsl(230.01 100% 22.43%);
+  --chart-1: hsl(230.01 100% 22.43%);
+  --chart-2: hsl(180 99.95% 25.1%);
+  --chart-3: hsl(300 99.91% 25.11%);
+  --chart-4: hsl(0.03 100% 50.03%);
+  --chart-5: hsl(119.99 99.99% 50.01%);
+  --radius: 0px;
+  --sidebar: hsl(300 0% 75.29%);
+  --sidebar-foreground: hsl(0 0% 0%);
+  --sidebar-primary: hsl(230.01 100% 22.43%);
+  --sidebar-primary-foreground: hsl(300 50% 100%);
+  --sidebar-accent: hsl(230.01 100% 22.43%);
+  --sidebar-accent-foreground: hsl(300 50% 100%);
+  --sidebar-border: hsl(300 0% 50.2%);
+  --sidebar-ring: hsl(230.01 100% 22.43%);
+  --font-sans: "Pixelify Sans", sans-serif;
+  --font-serif: "Pixelify Sans", serif;
+  --font-mono: "Pixelify Sans", monospace;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-opacity: 1;
+  --shadow-blur: 0px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0.025rem;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+  --shadow-xs: 2px 2px 0px 0px hsl(0 0% 0% / 0.5);
+  --shadow-sm:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+  --shadow: 2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 1px 2px -1px hsl(0 0% 0% / 1);
+  --shadow-md:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 2px 4px -1px hsl(0 0% 0% / 1);
+  --shadow-lg:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 4px 6px -1px hsl(0 0% 0% / 1);
+  --shadow-xl:
+    2px 2px 0px 0px hsl(0 0% 0% / 1), 2px 8px 10px -1px hsl(0 0% 0% / 1);
+  --shadow-2xl: 2px 2px 0px 0px hsl(0 0% 0% / 2.5);
+  --tracking-normal: 0.025rem;
+}

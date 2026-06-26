@@ -1,0 +1,134 @@
+/* Retro Arcade Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="retro-arcade-light"] {
+  --background: #fdf5df;
+  --foreground: #0a3642;
+  --card: #efe8d2;
+  --card-foreground: #0a3642;
+  --popover: #efe8d2;
+  --popover-foreground: #0a3642;
+  --primary: #d13781;
+  --primary-foreground: #ffffff;
+  --secondary: #2da097;
+  --secondary-foreground: #ffffff;
+  --muted: #91a3a3;
+  --muted-foreground: #0a3642;
+  --accent: #c94c1a;
+  --accent-foreground: #ffffff;
+  --destructive: #df312e;
+  --destructive-foreground: #ffffff;
+  --border: #829395;
+  --input: #829395;
+  --ring: #d13781;
+  --chart-1: #2389d1;
+  --chart-2: #2da097;
+  --chart-3: #d13781;
+  --chart-4: #c94c1a;
+  --chart-5: #df312e;
+  --radius: 0.25rem;
+  --sidebar: #fdf5df;
+  --sidebar-foreground: #0a3642;
+  --sidebar-primary: #d13781;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #2da097;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #829395;
+  --sidebar-ring: #d13781;
+  --font-sans: Outfit, sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: Space Mono, monospace;
+  --shadow-color: #04232f;
+  --shadow-opacity: 0.15;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-sm:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow-md:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 2px 4px -1px hsl(196 83% 10% / 0.15);
+  --shadow-lg:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 4px 6px -1px hsl(196 83% 10% / 0.15);
+  --shadow-xl:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 8px 10px -1px hsl(196 83% 10% / 0.15);
+  --shadow-2xl: 2px 2px 4px 0px hsl(196 83% 10% / 0.38);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="retro-arcade-dark"] {
+  --background: #002c37;
+  --foreground: #91a3a3;
+  --card: #0a3642;
+  --card-foreground: #91a3a3;
+  --popover: #0a3642;
+  --popover-foreground: #91a3a3;
+  --primary: #d13781;
+  --primary-foreground: #ffffff;
+  --secondary: #2da097;
+  --secondary-foreground: #ffffff;
+  --muted: #566d75;
+  --muted-foreground: #91a3a3;
+  --accent: #c94c1a;
+  --accent-foreground: #ffffff;
+  --destructive: #df312e;
+  --destructive-foreground: #ffffff;
+  --border: #566d75;
+  --input: #566d75;
+  --ring: #d13781;
+  --chart-1: #2389d1;
+  --chart-2: #2da097;
+  --chart-3: #d13781;
+  --chart-4: #c94c1a;
+  --chart-5: #df312e;
+  --radius: 0.25rem;
+  --sidebar: #002c37;
+  --sidebar-foreground: #91a3a3;
+  --sidebar-primary: #d13781;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #2da097;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #566d75;
+  --sidebar-ring: #d13781;
+  --font-sans: Outfit, sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: Space Mono, monospace;
+  --shadow-color: #04232f;
+  --shadow-opacity: 0.15;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-sm:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow-md:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 2px 4px -1px hsl(196 83% 10% / 0.15);
+  --shadow-lg:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 4px 6px -1px hsl(196 83% 10% / 0.15);
+  --shadow-xl:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 8px 10px -1px hsl(196 83% 10% / 0.15);
+  --shadow-2xl: 2px 2px 4px 0px hsl(196 83% 10% / 0.38);
+}

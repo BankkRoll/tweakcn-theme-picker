@@ -1,0 +1,140 @@
+/* Retro Arcade Theme — Tailwind v3 (rgb) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Retro Arcade Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 253 245 223;
+    --foreground: 10 54 66;
+    --card: 239 232 210;
+    --card-foreground: 10 54 66;
+    --popover: 239 232 210;
+    --popover-foreground: 10 54 66;
+    --primary: 209 55 129;
+    --primary-foreground: 255 255 255;
+    --secondary: 45 160 151;
+    --secondary-foreground: 255 255 255;
+    --muted: 145 163 163;
+    --muted-foreground: 10 54 66;
+    --accent: 201 76 26;
+    --accent-foreground: 255 255 255;
+    --destructive: 223 49 46;
+    --destructive-foreground: 255 255 255;
+    --border: 130 147 149;
+    --input: 130 147 149;
+    --ring: 209 55 129;
+    --chart-1: 35 137 209;
+    --chart-2: 45 160 151;
+    --chart-3: 209 55 129;
+    --chart-4: 201 76 26;
+    --chart-5: 223 49 46;
+    --radius: 0.25rem;
+    --sidebar: 253 245 223;
+    --sidebar-foreground: 10 54 66;
+    --sidebar-primary: 209 55 129;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 45 160 151;
+    --sidebar-accent-foreground: 255 255 255;
+    --sidebar-border: 130 147 149;
+    --sidebar-ring: 209 55 129;
+    --font-sans: Outfit, sans-serif;
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono: Space Mono, monospace;
+    --shadow-color: 4 35 47;
+    --shadow-opacity: 0.15;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 2px;
+    --shadow-offset-y: 2px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+    --shadow-xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+    --shadow-sm:
+      2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+      2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+    --shadow:
+      2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+      2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+    --shadow-md:
+      2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+      2px 2px 4px -1px hsl(196 83% 10% / 0.15);
+    --shadow-lg:
+      2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+      2px 4px 6px -1px hsl(196 83% 10% / 0.15);
+    --shadow-xl:
+      2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+      2px 8px 10px -1px hsl(196 83% 10% / 0.15);
+    --shadow-2xl: 2px 2px 4px 0px hsl(196 83% 10% / 0.38);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 0 44 55;
+    --foreground: 145 163 163;
+    --card: 10 54 66;
+    --card-foreground: 145 163 163;
+    --popover: 10 54 66;
+    --popover-foreground: 145 163 163;
+    --primary: 209 55 129;
+    --primary-foreground: 255 255 255;
+    --secondary: 45 160 151;
+    --secondary-foreground: 255 255 255;
+    --muted: 86 109 117;
+    --muted-foreground: 145 163 163;
+    --accent: 201 76 26;
+    --accent-foreground: 255 255 255;
+    --destructive: 223 49 46;
+    --destructive-foreground: 255 255 255;
+    --border: 86 109 117;
+    --input: 86 109 117;
+    --ring: 209 55 129;
+    --chart-1: 35 137 209;
+    --chart-2: 45 160 151;
+    --chart-3: 209 55 129;
+    --chart-4: 201 76 26;
+    --chart-5: 223 49 46;
+    --radius: 0.25rem;
+    --sidebar: 0 44 55;
+    --sidebar-foreground: 145 163 163;
+    --sidebar-primary: 209 55 129;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 45 160 151;
+    --sidebar-accent-foreground: 255 255 255;
+    --sidebar-border: 86 109 117;
+    --sidebar-ring: 209 55 129;
+    --font-sans: Outfit, sans-serif;
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono: Space Mono, monospace;
+    --shadow-color: 4 35 47;
+    --shadow-opacity: 0.15;
+    --shadow-blur: 4px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 2px;
+    --shadow-offset-y: 2px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+    --shadow-xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+    --shadow-sm:
+      2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+      2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+    --shadow:
+      2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+      2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+    --shadow-md:
+      2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+      2px 2px 4px -1px hsl(196 83% 10% / 0.15);
+    --shadow-lg:
+      2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+      2px 4px 6px -1px hsl(196 83% 10% / 0.15);
+    --shadow-xl:
+      2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+      2px 8px 10px -1px hsl(196 83% 10% / 0.15);
+    --shadow-2xl: 2px 2px 4px 0px hsl(196 83% 10% / 0.38);
+  }
+
+}

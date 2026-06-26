@@ -85,6 +85,61 @@ claude-dark         // Claude dark mode`}
         />
       </div>
 
+      {/* Color Formats & Tailwind Versions */}
+      <div className="space-y-4">
+        <h2 className="text-2xl font-semibold">
+          Color Formats & Tailwind Versions
+        </h2>
+        <p className="text-muted-foreground">
+          OKLCH is the canonical format, but every theme is also generated in
+          HSL, HEX, and RGB, for both Tailwind v4 and v3. The shadcn CLI injects
+          variable values verbatim (it does not convert formats), so each variant
+          ships exactly the values your project expects. Use the{" "}
+          <strong>Tailwind</strong> and <strong>Color format</strong> toggles in
+          a theme&apos;s Code dialog to grab the right one.
+        </p>
+
+        <Card className="p-4 bg-muted/30">
+          <div className="text-sm space-y-2">
+            <div className="flex items-center gap-3">
+              <Badge variant="secondary" className="font-mono text-xs">
+                v4
+              </Badge>
+              <span className="text-muted-foreground">
+                OKLCH · HSL · HEX · RGB — raw color values, <code>data-theme</code>{" "}
+                selectors, <code>@theme inline</code> (the default install is v4 +
+                OKLCH)
+              </span>
+            </div>
+            <div className="flex items-center gap-3">
+              <Badge variant="secondary" className="font-mono text-xs">
+                v3
+              </Badge>
+              <span className="text-muted-foreground">
+                HSL · HEX · RGB — bare channel triplets under{" "}
+                <code>:root</code> / <code>.dark</code> in <code>@layer base</code>
+                . OKLCH is unavailable on v3.
+              </span>
+            </div>
+          </div>
+        </Card>
+
+        <CodeBlockDoc
+          filename="v4 vs v3 (HSL example)"
+          language="css"
+          code={`/* Tailwind v4 — raw value, used directly */
+[data-theme="catppuccin-light"] {
+  --primary: hsl(266 85% 58%);
+}
+
+/* Tailwind v3 — channel triplet, wrapped in tailwind.config */
+:root {
+  --primary: 266 85% 58%;
+}
+/* tailwind.config.js: colors.primary = "hsl(var(--primary))" */`}
+        />
+      </div>
+
       {/* CSS Variables */}
       <div className="space-y-4">
         <h2 className="text-2xl font-semibold">CSS Variables</h2>

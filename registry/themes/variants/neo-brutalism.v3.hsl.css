@@ -1,0 +1,128 @@
+/* Neo Brutalism Theme — Tailwind v3 (hsl) */
+/* Channel triplets — consume via hsl(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Neo Brutalism Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 300 50% 100%;
+    --foreground: 0 0% 0%;
+    --card: 300 50% 100%;
+    --card-foreground: 0 0% 0%;
+    --popover: 300 50% 100%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 0.16 99.99% 60.2%;
+    --primary-foreground: 300 50% 100%;
+    --secondary: 60.41 100% 66.62%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 300 0% 94.75%;
+    --muted-foreground: 0 0% 19.89%;
+    --accent: 216.02 99.99% 49.6%;
+    --accent-foreground: 300 50% 100%;
+    --destructive: 0 0% 0%;
+    --destructive-foreground: 300 50% 100%;
+    --border: 0 0% 0%;
+    --input: 0 0% 0%;
+    --ring: 0.16 99.99% 60.2%;
+    --chart-1: 0.16 99.99% 60.2%;
+    --chart-2: 60.41 100% 66.62%;
+    --chart-3: 216.02 99.99% 49.6%;
+    --chart-4: 120.07 99.95% 39.84%;
+    --chart-5: 300.01 96.79% 40.31%;
+    --radius: 0px;
+    --sidebar: 300 0% 94.75%;
+    --sidebar-foreground: 0 0% 0%;
+    --sidebar-primary: 0.16 99.99% 60.2%;
+    --sidebar-primary-foreground: 300 50% 100%;
+    --sidebar-accent: 216.02 99.99% 49.6%;
+    --sidebar-accent-foreground: 300 50% 100%;
+    --sidebar-border: 0 0% 0%;
+    --sidebar-ring: 0.16 99.99% 60.2%;
+    --font-sans: DM Sans, sans-serif;
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono: Space Mono, monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 1;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 4px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 4px 4px 0px 0px hsl(0 0% 0% / 0.5);
+    --shadow-xs: 4px 4px 0px 0px hsl(0 0% 0% / 0.5);
+    --shadow-sm:
+      4px 4px 0px 0px hsl(0 0% 0% / 1), 4px 1px 2px -1px hsl(0 0% 0% / 1);
+    --shadow: 4px 4px 0px 0px hsl(0 0% 0% / 1), 4px 1px 2px -1px hsl(0 0% 0% / 1);
+    --shadow-md:
+      4px 4px 0px 0px hsl(0 0% 0% / 1), 4px 2px 4px -1px hsl(0 0% 0% / 1);
+    --shadow-lg:
+      4px 4px 0px 0px hsl(0 0% 0% / 1), 4px 4px 6px -1px hsl(0 0% 0% / 1);
+    --shadow-xl:
+      4px 4px 0px 0px hsl(0 0% 0% / 1), 4px 8px 10px -1px hsl(0 0% 0% / 1);
+    --shadow-2xl: 4px 4px 0px 0px hsl(0 0% 0% / 2.5);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 300 50% 100%;
+    --card: 0 0% 19.89%;
+    --card-foreground: 300 50% 100%;
+    --popover: 0 0% 19.89%;
+    --popover-foreground: 300 50% 100%;
+    --primary: 359.8 99.48% 69.37%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 60.18 100% 65.17%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 0 0% 19.89%;
+    --muted-foreground: 340 0% 80.6%;
+    --accent: 210.2 100% 60.87%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 300 50% 100%;
+    --destructive-foreground: 0 0% 0%;
+    --border: 300 50% 100%;
+    --input: 300 50% 100%;
+    --ring: 359.8 99.48% 69.37%;
+    --chart-1: 359.8 99.48% 69.37%;
+    --chart-2: 60.18 100% 65.17%;
+    --chart-3: 210.2 100% 60.87%;
+    --chart-4: 120.26 62.56% 49.34%;
+    --chart-5: 299.94 62.94% 49.13%;
+    --radius: 0px;
+    --sidebar: 0 0% 0%;
+    --sidebar-foreground: 300 50% 100%;
+    --sidebar-primary: 359.8 99.48% 69.37%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 210.2 100% 60.87%;
+    --sidebar-accent-foreground: 0 0% 0%;
+    --sidebar-border: 300 50% 100%;
+    --sidebar-ring: 359.8 99.48% 69.37%;
+    --font-sans: DM Sans, sans-serif;
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono: Space Mono, monospace;
+    --shadow-color: 0 0% 0%;
+    --shadow-opacity: 1;
+    --shadow-blur: 0px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 4px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 4px 4px 0px 0px hsl(0 0% 0% / 0.5);
+    --shadow-xs: 4px 4px 0px 0px hsl(0 0% 0% / 0.5);
+    --shadow-sm:
+      4px 4px 0px 0px hsl(0 0% 0% / 1), 4px 1px 2px -1px hsl(0 0% 0% / 1);
+    --shadow: 4px 4px 0px 0px hsl(0 0% 0% / 1), 4px 1px 2px -1px hsl(0 0% 0% / 1);
+    --shadow-md:
+      4px 4px 0px 0px hsl(0 0% 0% / 1), 4px 2px 4px -1px hsl(0 0% 0% / 1);
+    --shadow-lg:
+      4px 4px 0px 0px hsl(0 0% 0% / 1), 4px 4px 6px -1px hsl(0 0% 0% / 1);
+    --shadow-xl:
+      4px 4px 0px 0px hsl(0 0% 0% / 1), 4px 8px 10px -1px hsl(0 0% 0% / 1);
+    --shadow-2xl: 4px 4px 0px 0px hsl(0 0% 0% / 2.5);
+  }
+
+}

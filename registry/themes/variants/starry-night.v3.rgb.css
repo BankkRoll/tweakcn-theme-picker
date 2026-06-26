@@ -1,0 +1,132 @@
+/* Starry Night Theme — Tailwind v3 (rgb) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Starry Night Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 248 248 248;
+    --foreground: 28 35 56;
+    --card: 227 232 238;
+    --card-foreground: 28 35 56;
+    --popover: 255 252 238;
+    --popover-foreground: 28 35 56;
+    --primary: 57 90 161;
+    --primary-foreground: 255 252 238;
+    --secondary: 249 201 112;
+    --secondary-foreground: 28 35 56;
+    --muted: 229 229 222;
+    --muted-foreground: 57 90 161;
+    --accent: 111 163 192;
+    --accent-foreground: 255 252 238;
+    --destructive: 45 29 47;
+    --destructive-foreground: 255 252 238;
+    --border: 174 185 196;
+    --input: 111 163 192;
+    --ring: 249 201 112;
+    --chart-1: 57 90 161;
+    --chart-2: 249 201 112;
+    --chart-3: 111 163 192;
+    --chart-4: 174 185 196;
+    --chart-5: 45 29 47;
+    --radius: 0.5rem;
+    --sidebar: 227 232 238;
+    --sidebar-foreground: 28 35 56;
+    --sidebar-primary: 57 90 161;
+    --sidebar-primary-foreground: 255 252 238;
+    --sidebar-accent: 249 201 112;
+    --sidebar-accent-foreground: 28 35 56;
+    --sidebar-border: 174 185 196;
+    --sidebar-ring: 249 201 112;
+    --font-sans: Libre Baskerville, serif;
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono:
+      ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 3px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 1px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 24 26 36;
+    --foreground: 232 235 242;
+    --card: 35 36 58;
+    --card-foreground: 232 235 242;
+    --popover: 35 36 58;
+    --popover-foreground: 254 224 107;
+    --primary: 57 90 161;
+    --primary-foreground: 254 224 107;
+    --secondary: 254 224 107;
+    --secondary-foreground: 35 36 58;
+    --muted: 35 36 58;
+    --muted-foreground: 121 135 159;
+    --accent: 190 206 239;
+    --accent-foreground: 24 26 36;
+    --destructive: 161 75 109;
+    --destructive-foreground: 254 224 107;
+    --border: 46 47 63;
+    --input: 57 90 161;
+    --ring: 254 224 107;
+    --chart-1: 57 90 161;
+    --chart-2: 254 224 107;
+    --chart-3: 111 163 192;
+    --chart-4: 121 135 159;
+    --chart-5: 161 75 109;
+    --radius: 0.5rem;
+    --sidebar: 35 36 58;
+    --sidebar-foreground: 232 235 242;
+    --sidebar-primary: 57 90 161;
+    --sidebar-primary-foreground: 254 224 107;
+    --sidebar-accent: 254 224 107;
+    --sidebar-accent-foreground: 35 36 58;
+    --sidebar-border: 46 47 63;
+    --sidebar-ring: 254 224 107;
+    --font-sans: Libre Baskerville, serif;
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono:
+      ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --shadow-color: 0 0 0;
+    --shadow-opacity: 0.1;
+    --shadow-blur: 3px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0;
+    --shadow-offset-y: 1px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-sm:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl:
+      0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+  }
+
+}

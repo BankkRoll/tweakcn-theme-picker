@@ -1,0 +1,126 @@
+/* Kick Theme - Official Kick brand colors */
+
+/* Light mode */
+[data-theme="kick-light"] {
+  --background: #ffffff;
+  --foreground: #060606;
+  --card: #f8f8f8;
+  --card-foreground: #060606;
+  --popover: #ffffff;
+  --popover-foreground: #060606;
+  --primary: #89c300;
+  --primary-foreground: #060606;
+  --secondary: #f0eeee;
+  --secondary-foreground: #161616;
+  --muted: #f2f2f2;
+  --muted-foreground: #636363;
+  --accent: #96d500;
+  --accent-foreground: #060606;
+  --destructive: #d40924;
+  --destructive-foreground: #ffffff;
+  --border: #dedede;
+  --input: #e4e4e4;
+  --ring: #89c300;
+  --chart-1: #89c300;
+  --chart-2: #00a692;
+  --chart-3: #00b0d5;
+  --chart-4: #7173d7;
+  --chart-5: #b73095;
+  --radius: 0.625rem;
+  --sidebar: #f8f8f8;
+  --sidebar-foreground: #060606;
+  --sidebar-primary: #89c300;
+  --sidebar-primary-foreground: #060606;
+  --sidebar-accent: #f0eeee;
+  --sidebar-accent-foreground: #161616;
+  --sidebar-border: #dedede;
+  --sidebar-ring: #89c300;
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-serif: ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+  --shadow-color: #084512;
+  --shadow-opacity: 0.08;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0;
+  --shadow-offset-y: 2px;
+  --letter-spacing: -0.01em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0 1px 2px 0px hsl(130 80% 15% / 0.04);
+  --shadow-xs: 0 1px 3px 0px hsl(130 80% 15% / 0.06);
+  --shadow-sm:
+    0 2px 4px 0px hsl(130 80% 15% / 0.08),
+    0 1px 2px -1px hsl(130 80% 15% / 0.08);
+  --shadow:
+    0 2px 4px 0px hsl(130 80% 15% / 0.08),
+    0 1px 2px -1px hsl(130 80% 15% / 0.08);
+  --shadow-md:
+    0 4px 6px 0px hsl(130 80% 15% / 0.1), 0 2px 4px -1px hsl(130 80% 15% / 0.1);
+  --shadow-lg:
+    0 8px 10px 0px hsl(130 80% 15% / 0.1), 0 4px 6px -1px hsl(130 80% 15% / 0.1);
+  --shadow-xl:
+    0 16px 20px 0px hsl(130 80% 15% / 0.12),
+    0 8px 10px -1px hsl(130 80% 15% / 0.12);
+  --shadow-2xl: 0 24px 48px 0px hsl(130 80% 15% / 0.2);
+  --tracking-normal: -0.01em;
+}
+
+/* Dark mode - #0D0D0D is Kick's signature black background */
+[data-theme="kick-dark"] {
+  --background: #060606;
+  --foreground: #ffffff;
+  --card: #0a0b0c;
+  --card-foreground: #ffffff;
+  --popover: #0e1012;
+  --popover-foreground: #ffffff;
+  --primary: #a3e700;
+  --primary-foreground: #060606;
+  --secondary: #151617;
+  --secondary-foreground: #dedede;
+  --muted: #111213;
+  --muted-foreground: #808080;
+  --accent: #a3e700;
+  --accent-foreground: #060606;
+  --destructive: #de3b3d;
+  --destructive-foreground: #ffffff;
+  --border: #222426;
+  --input: #151617;
+  --ring: #a3e700;
+  --chart-1: #a3e700;
+  --chart-2: #00b8a1;
+  --chart-3: #00c1e9;
+  --chart-4: #8083e2;
+  --chart-5: #c24ba1;
+  --radius: 0.625rem;
+  --sidebar: #030303;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #a3e700;
+  --sidebar-primary-foreground: #060606;
+  --sidebar-accent: #151617;
+  --sidebar-accent-foreground: #dedede;
+  --sidebar-border: #222426;
+  --sidebar-ring: #a3e700;
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-serif: ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+  --shadow-color: #000000;
+  --shadow-opacity: 0.5;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 0;
+  --shadow-offset-y: 2px;
+  --letter-spacing: -0.01em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 0 1px 2px 0px hsl(0 0% 0% / 0.25);
+  --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.35);
+  --shadow-sm:
+    0 2px 4px 0px hsl(0 0% 0% / 0.5), 0 1px 2px -1px hsl(0 0% 0% / 0.5);
+  --shadow: 0 2px 4px 0px hsl(0 0% 0% / 0.5), 0 1px 2px -1px hsl(0 0% 0% / 0.5);
+  --shadow-md:
+    0 4px 6px 0px hsl(0 0% 0% / 0.5), 0 2px 4px -1px hsl(0 0% 0% / 0.5);
+  --shadow-lg:
+    0 8px 10px 0px hsl(0 0% 0% / 0.5), 0 4px 6px -1px hsl(0 0% 0% / 0.5);
+  --shadow-xl:
+    0 16px 20px 0px hsl(0 0% 0% / 0.5), 0 8px 10px -1px hsl(0 0% 0% / 0.5);
+  --shadow-2xl: 0 24px 48px 0px hsl(0 0% 0% / 0.6);
+}

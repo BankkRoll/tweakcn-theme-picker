@@ -1,0 +1,140 @@
+/* Cosmic Night Theme — Tailwind v3 (rgb) */
+/* Channel triplets — consume via rgb(var(--token)). See tailwind.config snippet in docs. */
+
+@layer base {
+  /* Cosmic Night Theme - Auto-generated from tweakcn */
+
+  /* Light mode (:root) */
+  :root {
+    --background: 244 244 252;
+    --foreground: 42 41 75;
+    --card: 255 255 255;
+    --card-foreground: 42 41 75;
+    --popover: 255 255 255;
+    --popover-foreground: 42 41 75;
+    --primary: 110 85 207;
+    --primary-foreground: 255 255 255;
+    --secondary: 229 224 254;
+    --secondary-foreground: 73 63 125;
+    --muted: 241 241 248;
+    --muted-foreground: 107 107 139;
+    --accent: 215 229 255;
+    --accent-foreground: 42 41 75;
+    --destructive: 255 87 114;
+    --destructive-foreground: 255 255 255;
+    --border: 224 224 238;
+    --input: 224 224 238;
+    --ring: 110 85 207;
+    --chart-1: 110 85 207;
+    --chart-2: 157 139 250;
+    --chart-3: 94 96 239;
+    --chart-4: 125 119 250;
+    --chart-5: 71 63 181;
+    --radius: 0.5rem;
+    --sidebar: 241 241 248;
+    --sidebar-foreground: 42 41 75;
+    --sidebar-primary: 110 85 207;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 215 229 255;
+    --sidebar-accent-foreground: 42 41 75;
+    --sidebar-border: 224 224 238;
+    --sidebar-ring: 110 85 207;
+    --font-sans: Inter, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: JetBrains Mono, monospace;
+    --shadow-color: 45 45 83;
+    --shadow-opacity: 0.12;
+    --shadow-blur: 10px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+    --shadow-xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+    --shadow-sm:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow-md:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+    --shadow-lg:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+    --shadow-xl:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+    --shadow-2xl: 0px 4px 10px 0px hsl(240 30% 25% / 0.3);
+    --tracking-normal: 0em;
+  }
+
+  /* Dark mode (.dark) */
+  .dark {
+    --background: 14 14 24;
+    --foreground: 226 226 248;
+    --card: 26 26 47;
+    --card-foreground: 226 226 248;
+    --popover: 26 26 47;
+    --popover-foreground: 226 226 248;
+    --primary: 165 145 255;
+    --primary-foreground: 14 14 24;
+    --secondary: 44 42 82;
+    --secondary-foreground: 197 196 253;
+    --muted: 34 34 67;
+    --muted-foreground: 161 161 195;
+    --accent: 49 50 96;
+    --accent-foreground: 226 226 248;
+    --destructive: 255 87 114;
+    --destructive-foreground: 255 255 255;
+    --border: 49 49 83;
+    --input: 49 49 83;
+    --ring: 165 145 255;
+    --chart-1: 165 145 255;
+    --chart-2: 122 135 201;
+    --chart-3: 103 181 245;
+    --chart-4: 73 182 171;
+    --chart-5: 252 121 196;
+    --radius: 0.5rem;
+    --sidebar: 26 26 47;
+    --sidebar-foreground: 226 226 248;
+    --sidebar-primary: 165 145 255;
+    --sidebar-primary-foreground: 14 14 24;
+    --sidebar-accent: 49 50 96;
+    --sidebar-accent-foreground: 226 226 248;
+    --sidebar-border: 49 49 83;
+    --sidebar-ring: 165 145 255;
+    --font-sans: Inter, sans-serif;
+    --font-serif: Georgia, serif;
+    --font-mono: JetBrains Mono, monospace;
+    --shadow-color: 45 45 83;
+    --shadow-opacity: 0.12;
+    --shadow-blur: 10px;
+    --shadow-spread: 0px;
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 4px;
+    --letter-spacing: 0em;
+    --spacing: 0.25rem;
+    --shadow-2xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+    --shadow-xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+    --shadow-sm:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+    --shadow-md:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+    --shadow-lg:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+    --shadow-xl:
+      0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+      0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+    --shadow-2xl: 0px 4px 10px 0px hsl(240 30% 25% / 0.3);
+  }
+
+}

@@ -1,0 +1,134 @@
+/* Retro Arcade Theme - Auto-generated from tweakcn */
+
+/* Light mode */
+[data-theme="retro-arcade-light"] {
+  --background: rgb(253, 245, 223);
+  --foreground: rgb(10, 54, 66);
+  --card: rgb(239, 232, 210);
+  --card-foreground: rgb(10, 54, 66);
+  --popover: rgb(239, 232, 210);
+  --popover-foreground: rgb(10, 54, 66);
+  --primary: rgb(209, 55, 129);
+  --primary-foreground: rgb(255, 255, 255);
+  --secondary: rgb(45, 160, 151);
+  --secondary-foreground: rgb(255, 255, 255);
+  --muted: rgb(145, 163, 163);
+  --muted-foreground: rgb(10, 54, 66);
+  --accent: rgb(201, 76, 26);
+  --accent-foreground: rgb(255, 255, 255);
+  --destructive: rgb(223, 49, 46);
+  --destructive-foreground: rgb(255, 255, 255);
+  --border: rgb(130, 147, 149);
+  --input: rgb(130, 147, 149);
+  --ring: rgb(209, 55, 129);
+  --chart-1: rgb(35, 137, 209);
+  --chart-2: rgb(45, 160, 151);
+  --chart-3: rgb(209, 55, 129);
+  --chart-4: rgb(201, 76, 26);
+  --chart-5: rgb(223, 49, 46);
+  --radius: 0.25rem;
+  --sidebar: rgb(253, 245, 223);
+  --sidebar-foreground: rgb(10, 54, 66);
+  --sidebar-primary: rgb(209, 55, 129);
+  --sidebar-primary-foreground: rgb(255, 255, 255);
+  --sidebar-accent: rgb(45, 160, 151);
+  --sidebar-accent-foreground: rgb(255, 255, 255);
+  --sidebar-border: rgb(130, 147, 149);
+  --sidebar-ring: rgb(209, 55, 129);
+  --font-sans: Outfit, sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: Space Mono, monospace;
+  --shadow-color: rgb(4, 35, 47);
+  --shadow-opacity: 0.15;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-sm:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow-md:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 2px 4px -1px hsl(196 83% 10% / 0.15);
+  --shadow-lg:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 4px 6px -1px hsl(196 83% 10% / 0.15);
+  --shadow-xl:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 8px 10px -1px hsl(196 83% 10% / 0.15);
+  --shadow-2xl: 2px 2px 4px 0px hsl(196 83% 10% / 0.38);
+  --tracking-normal: 0em;
+}
+
+/* Dark mode */
+[data-theme="retro-arcade-dark"] {
+  --background: rgb(0, 44, 55);
+  --foreground: rgb(145, 163, 163);
+  --card: rgb(10, 54, 66);
+  --card-foreground: rgb(145, 163, 163);
+  --popover: rgb(10, 54, 66);
+  --popover-foreground: rgb(145, 163, 163);
+  --primary: rgb(209, 55, 129);
+  --primary-foreground: rgb(255, 255, 255);
+  --secondary: rgb(45, 160, 151);
+  --secondary-foreground: rgb(255, 255, 255);
+  --muted: rgb(86, 109, 117);
+  --muted-foreground: rgb(145, 163, 163);
+  --accent: rgb(201, 76, 26);
+  --accent-foreground: rgb(255, 255, 255);
+  --destructive: rgb(223, 49, 46);
+  --destructive-foreground: rgb(255, 255, 255);
+  --border: rgb(86, 109, 117);
+  --input: rgb(86, 109, 117);
+  --ring: rgb(209, 55, 129);
+  --chart-1: rgb(35, 137, 209);
+  --chart-2: rgb(45, 160, 151);
+  --chart-3: rgb(209, 55, 129);
+  --chart-4: rgb(201, 76, 26);
+  --chart-5: rgb(223, 49, 46);
+  --radius: 0.25rem;
+  --sidebar: rgb(0, 44, 55);
+  --sidebar-foreground: rgb(145, 163, 163);
+  --sidebar-primary: rgb(209, 55, 129);
+  --sidebar-primary-foreground: rgb(255, 255, 255);
+  --sidebar-accent: rgb(45, 160, 151);
+  --sidebar-accent-foreground: rgb(255, 255, 255);
+  --sidebar-border: rgb(86, 109, 117);
+  --sidebar-ring: rgb(209, 55, 129);
+  --font-sans: Outfit, sans-serif;
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: Space Mono, monospace;
+  --shadow-color: rgb(4, 35, 47);
+  --shadow-opacity: 0.15;
+  --shadow-blur: 4px;
+  --shadow-spread: 0px;
+  --shadow-offset-x: 2px;
+  --shadow-offset-y: 2px;
+  --letter-spacing: 0em;
+  --spacing: 0.25rem;
+  --shadow-2xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-xs: 2px 2px 4px 0px hsl(196 83% 10% / 0.07);
+  --shadow-sm:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 1px 2px -1px hsl(196 83% 10% / 0.15);
+  --shadow-md:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 2px 4px -1px hsl(196 83% 10% / 0.15);
+  --shadow-lg:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 4px 6px -1px hsl(196 83% 10% / 0.15);
+  --shadow-xl:
+    2px 2px 4px 0px hsl(196 83% 10% / 0.15),
+    2px 8px 10px -1px hsl(196 83% 10% / 0.15);
+  --shadow-2xl: 2px 2px 4px 0px hsl(196 83% 10% / 0.38);
+}
